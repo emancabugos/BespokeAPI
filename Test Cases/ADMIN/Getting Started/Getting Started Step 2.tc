@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Getting Started Step 2</name>
+   <tag></tag>
+   <comment>Getting Started Step 2
+Click video tutorial
+Add Category</comment>
+   <testCaseGuid>71004826-9a2f-4a75-b5d6-67b92a53acda</testCaseGuid>
+</TestCaseEntity>

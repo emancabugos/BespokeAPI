@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Preview&quot; button is displayed</description>
+   <name>C33837</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3921f75-66d2-459a-8752-6c7b38db8028</testCaseGuid>
+</TestCaseEntity>

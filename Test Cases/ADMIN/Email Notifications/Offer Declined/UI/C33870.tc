@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Edit&quot; label is displayed</description>
+   <name>C33870</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16ce7a5d-e02a-4a15-9978-92b2d2085f12</testCaseGuid>
+</TestCaseEntity>

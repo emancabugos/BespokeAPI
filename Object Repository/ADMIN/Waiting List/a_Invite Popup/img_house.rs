@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_house</name>
+   <tag></tag>
+   <elementGuidId>934a9e09-f1ad-4137-92c5-3b9042951dc1</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popoup-seller-img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SendInvitationModal_merchant&quot;)/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;popup-demo-content&quot;]/div[@class=&quot;popoup-seller-img&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

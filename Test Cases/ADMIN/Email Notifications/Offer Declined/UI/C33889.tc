@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;HTML&quot; textfield is displayed</description>
+   <name>C33889</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc2fc40d-25bb-4332-9a4b-e56e6a1efefa</testCaseGuid>
+</TestCaseEntity>

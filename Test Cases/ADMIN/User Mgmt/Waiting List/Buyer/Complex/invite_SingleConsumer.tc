@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>invite_SingleConsumer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d20acf46-46fe-468e-9821-e478684fdf20</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8c9ed06e-6a18-4d16-a7a8-7234769641c3</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Revet to Default&quot; button is displayed</description>
+   <name>C33857</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4a1c479-c9a2-4987-a4d3-ae328904ceb8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08_itemDescCategory</name>
+   <tag></tag>
+   <comment>Search Exact Item Description with Category</comment>
+   <testCaseGuid>9730f15d-3b6a-4510-8f31-d936d8bba9b0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bde3789c-4635-4339-885c-264f13a11724</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d83dd069-e30b-488f-b3aa-6cc3e53603f5</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d3318958-db58-4f04-93a9-d5af794b5b02</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Bcc&quot; Textfield is displayed</description>
+   <name>C33885</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59a4fc7c-dae3-4c28-88d8-a87a32319457</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_item</name>
+   <tag></tag>
+   <elementGuidId>78d48c47-7927-4dd4-b4b2-e38586311503</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://1112un.test.arcadier.io/images/items/dda5dc14-d02f-4ab3-ad5a-9a82c4060a52-7wtr6j2kiu1-4QTmKMhJs9aJqmBp-HAqyA.jpeg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>user-product-info</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Product Info</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;chat-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;chat-box-parent&quot;]/div[@class=&quot;left-info-bar&quot;]/div[@class=&quot;user-product-info&quot;]/div[1]/div[@class=&quot;user-product-image&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

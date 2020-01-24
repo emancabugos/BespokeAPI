@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check Item Stocks</name>
+   <tag></tag>
+   <comment>Add first an expected value</comment>
+   <testCaseGuid>c08db113-ac11-4a02-8aec-6b1a0943b219</testCaseGuid>
+</TestCaseEntity>

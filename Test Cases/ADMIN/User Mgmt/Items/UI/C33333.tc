@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Category&quot; column title is present</description>
+   <name>C33333</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf36c706-6f64-4cde-99c2-9a7c78d3b75e</testCaseGuid>
+</TestCaseEntity>

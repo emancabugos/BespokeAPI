@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_SearchInvoiceIDNoResult</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d480670b-b8dc-4145-a47d-c33be776ced0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('CONSUMER/Purchase History List/tablecontent_Invoice')</defaultValue>
+      <description></description>
+      <id>b94c2a4d-c3a4-4824-8dda-5ecea008c628</id>
+      <masked>false</masked>
+      <name>InvoiceID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>switch to 2nd tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a3a0df0-6055-4c2d-a952-8d79a007c49a</testCaseGuid>
+   <variable>
+      <defaultValue>'Untitled'</defaultValue>
+      <description></description>
+      <id>fb436d6c-4664-4569-966e-0e00461bce3a</id>
+      <masked>false</masked>
+      <name>varItemname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Scenario 1</name>
+   <tag></tag>
+   <comment>Search Item 01
+Search Item 02
+Create Offer for Item 01
+Create Offer for Item 02
+Add to Comparison Table Item 01
+Add To List 2
+Add to Comparison Table Item 02 to List 02
+Add to Comparison Table Item 02 to List 01
+Delivery Checkout Page
+Checkout Review Page
+Computation of Total Price
+Purchase History List
+Verification on Purchase History Details</comment>
+   <testCaseGuid>8a88fa7e-b5d4-4029-8fc1-cd3e4c4abeb8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7517bf7f-474f-47bb-bfc4-94c336b84af3</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>717b939a-1be3-4877-ad45-77f7a716fedb</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if the user will be redirected to Email Template Edit page after clicking &quot;Sent to the Buyer when they receive an offer from the Seller.&quot;</description>
+   <name>C33834</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1de78bf2-b68c-4c64-bb5f-7dc599aab842</testCaseGuid>
+</TestCaseEntity>

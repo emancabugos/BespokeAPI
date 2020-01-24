@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the counter for Out of Stock will be updated correctly upon item deletion</description>
+   <name>C33354</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5902237-335f-409f-9492-a59bec0628f9</testCaseGuid>
+</TestCaseEntity>

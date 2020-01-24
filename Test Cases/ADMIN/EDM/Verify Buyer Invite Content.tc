@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Buyer Invite Content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d96b6ef6-c245-4c5a-accd-e7a1e2d4cdc0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>d69d10ed-8718-4ba4-9f34-3b42b2344678</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>d4a8871f-dc9a-4a15-b355-769df6bb6a4e</id>
+      <masked>false</masked>
+      <name>cc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>6ca8cf9d-c880-453c-bf1d-8ff32062ac37</id>
+      <masked>false</masked>
+      <name>Bcc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>5dd24dcf-985e-40f9-a594-23a4e94891ff</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_to')</defaultValue>
+      <description></description>
+      <id>ec77811b-7dfb-4fe6-8df8-f38cf143e29d</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_cc')</defaultValue>
+      <description></description>
+      <id>e37c78ee-29a4-4f0a-a02f-764b2aab7f1e</id>
+      <masked>false</masked>
+      <name>Mail</name>
+   </variable>
+</TestCaseEntity>

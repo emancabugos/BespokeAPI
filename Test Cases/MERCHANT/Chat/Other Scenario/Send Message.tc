@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Message</name>
+   <tag></tag>
+   <comment>UI</comment>
+   <testCaseGuid>b6eeb437-d35f-4d1c-9209-e07d0d8c828f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>fee75b40-576f-4229-bec2-4d15f7a116d4</id>
+      <masked>false</masked>
+      <name>varItemName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_Inbox</name>
+   <tag></tag>
+   <elementGuidId>13aa4b60-6f99-4c2b-8a07-c8b70066ccec</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-text-big</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Inbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-chat&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;chat-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;sc-upper&quot;]/div[@class=&quot;sc-u sc-u-mid full-width&quot;]/div[@class=&quot;pull-left&quot;]/span[@class=&quot;sc-text-big&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

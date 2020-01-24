@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC058</name>
+   <tag></tag>
+   <comment>Enter usermane using alphanumeric</comment>
+   <testCaseGuid>23201874-02d7-46ee-858f-929b4f57f8b1</testCaseGuid>
+</TestCaseEntity>

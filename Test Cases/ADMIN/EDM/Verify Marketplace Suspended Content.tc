@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Marketplace Suspended Content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c10e5ba4-5b27-459b-b94a-3d503d07641e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>9f40249f-ca31-4211-a9e7-787180d67856</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>94f51b56-5a3d-47b2-a739-56c99fd2eafe</id>
+      <masked>false</masked>
+      <name>cc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>25e481df-c757-4ab7-86c6-1c59ae7671e7</id>
+      <masked>false</masked>
+      <name>Bcc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>2665ac5b-3e31-43e3-aa06-3bc5d3be9470</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_to')</defaultValue>
+      <description></description>
+      <id>b3d3e107-eded-4148-a9df-3b2042c5f53f</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_cc')</defaultValue>
+      <description></description>
+      <id>ae189e16-2c77-4c28-98a4-999d7bb0a38e</id>
+      <masked>false</masked>
+      <name>Mail</name>
+   </variable>
+</TestCaseEntity>

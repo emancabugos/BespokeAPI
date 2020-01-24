@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Purchase (Consumer Purchase List Page) of the deleted item will not be affected</description>
+   <name>C33362</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c461b0b6-75e4-4129-8734-14e1a420b037</testCaseGuid>
+</TestCaseEntity>

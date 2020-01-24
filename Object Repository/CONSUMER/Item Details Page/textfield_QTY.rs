@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_QTY</name>
+   <tag></tag>
+   <elementGuidId>7d816905-6a50-4fe7-b9bb-939c4f32d4d4</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>numbersOnly</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLR3SNA4HPPQ&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top pull-left w-100&quot;]/div[@class=&quot;idcrt-order-val pull-left w-100&quot;]/div[@class=&quot;idcrt-list-val&quot;]/span[@class=&quot;idcrtl-qty full-width&quot;]/span[@class=&quot;idcrtl-right&quot;]/input[@class=&quot;numbersOnly&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

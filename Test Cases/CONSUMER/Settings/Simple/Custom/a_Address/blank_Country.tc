@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>blank_Country</name>
+   <tag></tag>
+   <comment>add First Name
+add Last Name
+add Address
+add Country
+add State
+add City
+add Postal Code</comment>
+   <testCaseGuid>6238d6d8-8792-421c-9291-66005626452b</testCaseGuid>
+</TestCaseEntity>

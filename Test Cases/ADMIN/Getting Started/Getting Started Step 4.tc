@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Getting Started Step 4</name>
+   <tag></tag>
+   <comment>Step 3 Invite Merchant
+Click video tutorial
+invite merchant</comment>
+   <testCaseGuid>9491904c-c934-47dc-9cc6-22803023a050</testCaseGuid>
+</TestCaseEntity>

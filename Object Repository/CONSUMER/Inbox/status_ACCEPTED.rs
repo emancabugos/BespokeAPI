@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>status_ACCEPTED</name>
+   <tag></tag>
+   <elementGuidId>fc7cb536-2f07-4028-aabf-60e54d7921e1</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>accepted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ACCEPTED</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;inbox-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;inbox-panel-outer&quot;]/div[@class=&quot;panel-box&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;text-center&quot;]/span[@class=&quot;accepted&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

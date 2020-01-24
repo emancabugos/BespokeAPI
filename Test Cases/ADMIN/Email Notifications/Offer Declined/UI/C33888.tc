@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;HTML&quot; label is displayed</description>
+   <name>C33888</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90b5ecbc-0430-4c8e-9e30-c7bf218962cc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Sent From:&quot; label is displayed</description>
+   <name>C33841</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e40ec663-53ff-41ae-8b14-952c30c50b4b</testCaseGuid>
+</TestCaseEntity>

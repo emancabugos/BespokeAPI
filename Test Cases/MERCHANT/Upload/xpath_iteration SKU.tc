@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>xpath_iteration SKU</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d58c0708-7722-4356-aca8-efb51314ba85</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>12854260-2731-4ed8-b504-57fccff50fd0</id>
+      <masked>false</masked>
+      <name>varSKU</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_Section</name>
+   <tag></tag>
+   <elementGuidId>4b2f0bd9-7d40-4a22-b677-e7375a99b155</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Section</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;order-diary&quot;)/div[1]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl oscctbl-uploadentry full-width&quot;]/div[@class=&quot;oscct-top full-width&quot;]/div[@class=&quot;occtt-full&quot;]/div[@class=&quot;occttf&quot;]/ul[1]/li[1]/span[@class=&quot;title&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

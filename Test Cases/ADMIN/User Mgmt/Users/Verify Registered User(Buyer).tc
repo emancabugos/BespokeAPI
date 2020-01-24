@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Registered User(Buyer)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50ebcb90-8b95-4fd7-ad6d-aedb49e64856</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <description></description>
+      <id>5e4ee014-5561-4326-a629-e02e2dba70f4</id>
+      <masked>false</masked>
+      <name>varDisplayName</name>
+   </variable>
+</TestCaseEntity>

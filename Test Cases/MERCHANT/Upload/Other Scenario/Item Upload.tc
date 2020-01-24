@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Item Upload</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Item Cover Image
+Item Description
+Custom Fields
+Country
+Stock/Unlimited
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>9462a61a-22a0-43b9-afdf-6a630962f14c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>165567ce-16ec-4f2e-a65d-a0c6e7850519</id>
+      <masked>false</masked>
+      <name>varListingName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>5eb5a84c-78cf-4394-b1eb-904cd9f5b07d</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>9cb8a5fd-d572-493a-b5fa-b0c3d0d158e1</id>
+      <masked>false</masked>
+      <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>0baa928e-8ee5-4561-85f2-c501138f6128</id>
+      <masked>false</masked>
+      <name>varDeliversTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>edd7b4b7-d1ac-495c-b8c5-6a718093c3cc</id>
+      <masked>false</masked>
+      <name>varSKU</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>87620e14-5522-4815-a847-878dc450fd60</id>
+      <masked>false</masked>
+      <name>varMOQ</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>080cd258-d62d-4f63-a312-cddf77588e73</id>
+      <masked>false</masked>
+      <name>varStock</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>85608c37-e950-413c-abe5-766f6ddf7dca</id>
+      <masked>false</masked>
+      <name>varPrice</name>
+   </variable>
+</TestCaseEntity>

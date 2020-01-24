@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Listing Name</name>
+   <tag></tag>
+   <comment>Listing Name
+150 Characters
+Select all Categories
+Select none</comment>
+   <testCaseGuid>7bdf3e9a-1f37-4617-a468-aca0764000c7</testCaseGuid>
+</TestCaseEntity>

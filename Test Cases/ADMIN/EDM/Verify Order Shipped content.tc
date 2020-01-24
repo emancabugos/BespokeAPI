@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Order Shipped content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1571717-c328-4291-a5d6-9d9c097756a6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EDM/From Seller')</defaultValue>
+      <description></description>
+      <id>5f6b7c28-9a9f-4e4d-bed5-135b8b04116f</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/From Seller')</defaultValue>
+      <description></description>
+      <id>5db20767-6103-4af5-ba65-dbc70debe6b6</id>
+      <masked>false</masked>
+      <name>cc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/From Seller')</defaultValue>
+      <description></description>
+      <id>762869e0-6e56-412a-b15b-fa84dfef6a89</id>
+      <masked>false</masked>
+      <name>bcc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/From Seller')</defaultValue>
+      <description></description>
+      <id>928e9ec3-20a5-441a-84a8-5a1e5b9f1ec2</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_to')</defaultValue>
+      <description></description>
+      <id>cf43b314-51e8-4d7a-8471-5153e82cbd65</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_cc')</defaultValue>
+      <description></description>
+      <id>268c6734-7870-4905-9581-c3b05e822cf2</id>
+      <masked>false</masked>
+      <name>Mail</name>
+   </variable>
+</TestCaseEntity>

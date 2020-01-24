@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Getting Started Step 1</name>
+   <tag></tag>
+   <comment>Getting Started Step 1 UI
+Click Learn More
+Click Start Customising</comment>
+   <testCaseGuid>ab2d6416-3079-4879-bad8-02cd04ae5609</testCaseGuid>
+</TestCaseEntity>

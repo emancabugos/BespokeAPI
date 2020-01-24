@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_CF_DataDriven</name>
+   <tag></tag>
+   <comment>Choose Field Type
+Field Name
+Mandatory/NonMandatory
+Assign Category
+Category Assignment</comment>
+   <testCaseGuid>b3cf5178-52bb-4356-8b68-72576ebfdf97</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field List')</defaultValue>
+      <description></description>
+      <id>e7e2accf-8b92-48d5-b84d-1ad6cfac8272</id>
+      <masked>false</masked>
+      <name>varCustomFieldName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field List')</defaultValue>
+      <description></description>
+      <id>fbf48d2f-e8e6-4579-9a8a-f4ad1ebffac3</id>
+      <masked>false</masked>
+      <name>varCustomFieldType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field List')</defaultValue>
+      <description></description>
+      <id>9e89511a-0b8a-4c32-a128-59c0572a3a81</id>
+      <masked>false</masked>
+      <name>varAssignedCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field List')</defaultValue>
+      <description></description>
+      <id>4a439abe-56b5-41fd-bf64-92a1148ed710</id>
+      <masked>false</masked>
+      <name>varMandatoryNonMandatory</name>
+   </variable>
+</TestCaseEntity>

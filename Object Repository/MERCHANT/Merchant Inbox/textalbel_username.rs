@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textalbel_username</name>
+   <tag></tag>
+   <elementGuidId>d03dd505-7539-46bf-bf61-e3bf35ea50ff</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>user_name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drone-matics</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-inbox&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;inbox-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;inbox-panel-outer&quot;]/div[@class=&quot;panel-box recent&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;user-info&quot;]/h3[@class=&quot;user_name&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

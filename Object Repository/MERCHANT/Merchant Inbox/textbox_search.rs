@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textbox_search</name>
+   <tag></tag>
+   <elementGuidId>5bac2e99-c1b6-46ba-9ba0-38576a1ec57c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-inbox&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;inbox-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;sc-upper&quot;]/div[@class=&quot;sc-u sc-u-mid full-width&quot;]/div[@class=&quot;pull-right&quot;]/div[@class=&quot;order-search-input border-rad-null pull-right&quot;]/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if &quot;Enable this Email Notification&quot; label is displayed</description>
+   <name>C33877</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8423cc77-4db6-4546-8b11-ba40f34e5eb5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_infoFacebook</name>
+   <tag></tag>
+   <elementGuidId>1e734419-f831-45b7-bbef-c4aeb32a1393</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/Areas/Admin/Assets/core/images/info.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sort_Custom_Facebook&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8 col-sm-8&quot;]/p[1]/a[1]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

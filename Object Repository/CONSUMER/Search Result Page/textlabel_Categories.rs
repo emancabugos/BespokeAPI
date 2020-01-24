@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_Categories</name>
+   <tag></tag>
+   <elementGuidId>cbc265c2-7b18-4b05-97db-41edb278e248</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Categories</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLNKIPBQ9F8V&quot;)/div[1]/div[@class=&quot;fixed-sidebar open&quot;]/div[@class=&quot;fs-content&quot;]/div[@class=&quot;fs-scroll&quot;]/div[@class=&quot;fsc-container&quot;]/div[@class=&quot;fsc-categories&quot;]/span[@class=&quot;title&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

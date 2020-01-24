@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC126</name>
+   <tag></tag>
+   <comment>Item Cover Image
+Item Description
+Custom Fields
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>962dd3fa-0878-48ca-8269-1e6ce579f20f</testCaseGuid>
+</TestCaseEntity>

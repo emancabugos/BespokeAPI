@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_searchCustomField</name>
+   <tag></tag>
+   <comment>Search Exact Custom Field</comment>
+   <testCaseGuid>2de5d6dc-d3d0-4ec6-b657-9a4a19c2bdc7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>36210095-689d-4bb9-82fc-cf0cb68df041</id>
+      <masked>false</masked>
+      <name>itemCustomField</name>
+   </variable>
+</TestCaseEntity>

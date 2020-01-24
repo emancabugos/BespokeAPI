@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Adding Comparison List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>976cd136-d4b2-4022-8fc5-ededcbe8b93b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Evaluation List').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6204aeff-d480-4b3a-845e-27948d9e2748</id>
+      <masked>false</masked>
+      <name>evallist</name>
+   </variable>
+</TestCaseEntity>

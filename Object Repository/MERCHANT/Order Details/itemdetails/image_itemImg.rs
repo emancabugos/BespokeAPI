@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_itemImg</name>
+   <tag></tag>
+   <elementGuidId>bff195c3-7636-4f74-ba08-6e03f6c0af78</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://1104un.test.arcadier.io/images/items/0df3adc6-7579-41c2-a386-1fda504b9ea2-h9g9vkzsmsimages-23-.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-responsive</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;orderdetail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;order-box product-detail&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;thumb&quot;]/img[@class=&quot;img-responsive&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

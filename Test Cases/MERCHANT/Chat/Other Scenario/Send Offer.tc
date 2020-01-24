@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Offer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>059379b0-dbfc-431f-83d6-a02652f849e2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>691a7e78-f936-4401-8c08-244f9706b4dd</id>
+      <masked>false</masked>
+      <name>varItemName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>12_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b787559d-57e8-43d0-9afd-ab63f02c972e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Evaluation List').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f3a0d030-6e10-4a9c-87a3-0e2522d69645</id>
+      <masked>false</masked>
+      <name>itemnameSearch</name>
+   </variable>
+</TestCaseEntity>

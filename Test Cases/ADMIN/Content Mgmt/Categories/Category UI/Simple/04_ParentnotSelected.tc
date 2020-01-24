@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Main category - no parent selected</description>
+   <name>04_ParentnotSelected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e6b3582-d3e5-42f9-9b43-b724980b56e9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>fba8ccf0-e5c4-4383-9e35-ebf87ecee0c9</id>
+      <masked>false</masked>
+      <name>catname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>d2fb07e5-c39d-4329-a47f-f6dd79002ce3</id>
+      <masked>false</masked>
+      <name>parentcategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>e14f21dd-f4a6-49f2-a073-820fd345917b</id>
+      <masked>false</masked>
+      <name>imagepath</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>c8bb7b19-a556-4d1d-887c-6f48f2286266</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

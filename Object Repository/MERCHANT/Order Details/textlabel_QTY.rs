@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_QTY</name>
+   <tag></tag>
+   <elementGuidId>ec59c647-3b43-4ab0-b7e3-020eb5a00295</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QTY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;orderdetail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;order-box product-detail&quot;]/table[@class=&quot;table&quot;]/thead[1]/tr[1]/th[3]</value>
+   </webElementProperties>
+</WebElementEntity>

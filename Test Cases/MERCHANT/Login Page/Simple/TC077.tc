@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC077</name>
+   <tag></tag>
+   <comment>Username textfield can accept valid data</comment>
+   <testCaseGuid>bb0f689d-cbb3-4036-a3da-13be9c56a6d7</testCaseGuid>
+</TestCaseEntity>

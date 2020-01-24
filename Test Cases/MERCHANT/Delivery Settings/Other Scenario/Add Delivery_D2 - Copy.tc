@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Delivery_D2 - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0708e999-2cf2-411e-8d1e-0fc5c73e65cc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Category/Delivers to/Delivers to TestData')</defaultValue>
+      <description></description>
+      <id>13401dda-6218-4d8d-820b-36af89b24393</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/dropdowntxtfield_Delivers to')</defaultValue>
+      <description></description>
+      <id>004816b9-746f-4dff-b448-2edbd12b6a16</id>
+      <masked>false</masked>
+      <name>countryval</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/checkbox_country')</defaultValue>
+      <description></description>
+      <id>4679ad3c-7f9d-4a81-aad7-fb8d5e9d6d4f</id>
+      <masked>false</masked>
+      <name>countryabv</name>
+   </variable>
+</TestCaseEntity>

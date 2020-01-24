@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>blank_DisplayPhoto</name>
+   <tag></tag>
+   <comment>add Display Name
+add First Name
+add Last Name
+add Email
+Contact No</comment>
+   <testCaseGuid>44cb1d0f-4368-43e1-a1b3-cb031db9e9f5</testCaseGuid>
+</TestCaseEntity>

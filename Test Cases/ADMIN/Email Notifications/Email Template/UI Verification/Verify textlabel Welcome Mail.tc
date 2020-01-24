@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify textlabel Welcome Mail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d951b7b6-e3a3-4fde-a37b-a0720c34845c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Offer from Seller&quot; is listed in Orders</description>
+   <name>C33830</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74dc3447-6aa7-4167-be5b-7ad89d8aab5f</testCaseGuid>
+</TestCaseEntity>

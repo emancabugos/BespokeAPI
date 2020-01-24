@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Template&quot; dropdown is displayed</description>
+   <name>C33874</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ce461c1-20a4-4c37-aed0-499b75a96f67</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register Yopmail</name>
+   <tag></tag>
+   <comment>Seller Register Page</comment>
+   <testCaseGuid>162ab9d8-5c38-4d19-bf93-f3bba12b8a11</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>250c55ec-10f8-4825-8e21-1e89c9a7d7fc</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>7d487944-d34a-44a3-b6ea-f51d32fc8285</id>
+      <masked>false</masked>
+      <name>varNotif</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>07711a2b-82b6-4543-b8bc-10c546796952</id>
+      <masked>false</masked>
+      <name>varYopmail</name>
+   </variable>
+</TestCaseEntity>

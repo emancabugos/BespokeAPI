@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_Decline</name>
+   <tag></tag>
+   <elementGuidId>fcd00172-14bc-4194-b4d4-4ad5b06784e9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>offer-declined</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Offer has been declined!</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;chat-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;chat-box-parent&quot;]/div[@class=&quot;right-message-bar&quot;]/ul[@class=&quot;messanger-outer&quot;]/li[@class=&quot;recive-msg&quot;]/div[@class=&quot;msg-box&quot;]/div[1]/p[1]/span[@class=&quot;offer-declined&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

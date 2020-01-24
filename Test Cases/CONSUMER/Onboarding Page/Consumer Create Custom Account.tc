@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consumer Create Custom Account</name>
+   <tag></tag>
+   <comment>EDM search
+Buyer Register Page</comment>
+   <testCaseGuid>fc222bf2-3740-4e89-a4b2-31ef46921480</testCaseGuid>
+</TestCaseEntity>

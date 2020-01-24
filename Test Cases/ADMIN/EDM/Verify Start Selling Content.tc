@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Start Selling Content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02f4d163-04ec-4d80-94f0-e2e5d2f1c85e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>c0d5dd1d-c096-4bfb-b1aa-0924f5ace828</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>57fcf53c-e31d-4468-a687-54d40aec700a</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>e353b173-e86a-487d-a0fb-285282e0bfc3</id>
+      <masked>false</masked>
+      <name>cc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>0c392f43-dc11-4874-94b0-9a651fb5b2c5</id>
+      <masked>false</masked>
+      <name>Bcc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>b27e8b28-54d5-4551-b9d9-72154b212c02</id>
+      <masked>false</masked>
+      <name>hi</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>674f02e5-a71f-4d0f-bb47-ec61f048ed3a</id>
+      <masked>false</masked>
+      <name>We_are_excited</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>0ef4e546-bb4a-47cd-add9-82a374491270</id>
+      <masked>false</masked>
+      <name>We_look_forward</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>25b69cf6-b4ea-427c-af5d-3f80e4897804</id>
+      <masked>false</masked>
+      <name>Start_Selling</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>2d8db7d9-d092-44ac-8d5b-f8939e964b0c</id>
+      <masked>false</masked>
+      <name>Regards</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>e913b1b1-79a7-4af5-b6d2-d5b128689eae</id>
+      <masked>false</masked>
+      <name>mpname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>a63a9373-f6b5-4116-ac2e-9943fd44da42</id>
+      <masked>false</masked>
+      <name>mpURL</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_to')</defaultValue>
+      <description></description>
+      <id>417fdc23-7465-4302-a2dd-64a10302a167</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_cc')</defaultValue>
+      <description></description>
+      <id>36b28d06-28ba-4336-aca6-99d00d254ea9</id>
+      <masked>false</masked>
+      <name>Mail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Start Selling/textlabel_Hi')</defaultValue>
+      <description></description>
+      <id>4783597d-1059-4c03-b6b7-f64fdbf1298c</id>
+      <masked>false</masked>
+      <name>Hi</name>
+   </variable>
+</TestCaseEntity>

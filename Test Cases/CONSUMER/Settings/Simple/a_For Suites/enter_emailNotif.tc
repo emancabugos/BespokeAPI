@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>enter_emailNotif</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2cda0b5-dbea-45dd-a193-e2a6c8e3ead9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>377a2297-d019-4e4d-b8c9-ba0f2bc29203</id>
+      <masked>false</masked>
+      <name>emailNotif</name>
+   </variable>
+</TestCaseEntity>

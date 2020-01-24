@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>page_Instagram</name>
+   <tag></tag>
+   <elementGuidId>c59602d4-51fe-4a13-9bbd-0776cd93a2d2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Instagram</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s4Iyt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>srcset</name>
+      <type>Main</type>
+      <value>/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png 2x</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-root&quot;)/section[@class=&quot;_9eogI E3X2T&quot;]/nav[@class=&quot;NXc7H jLuN9  X6gVd&quot;]/div[@class=&quot;_8MQSO  Cx7Bp&quot;]/div[@class=&quot;_lz6s&quot;]/div[@class=&quot;MWDvN&quot;]/div[@class=&quot;oJZym&quot;]/a[1]/div[@class=&quot;Igw0E   rBNOH        eGOV_     ybXk5    _4EzTm&quot;]/div[@class=&quot;cq2ai&quot;]/img[@class=&quot;s4Iyt&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

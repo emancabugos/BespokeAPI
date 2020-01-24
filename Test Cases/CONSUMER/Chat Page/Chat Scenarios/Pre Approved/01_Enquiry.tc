@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_Enquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7aec42a-0081-4f65-8937-b6adc440d260</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9ea175eb-d7bc-4e37-9692-9163631ba3ec</id>
+      <masked>false</masked>
+      <name>itemA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c8c76c71-415d-4213-bdc2-4996255d7654</id>
+      <masked>false</masked>
+      <name>listName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>687f8710-05ed-4c01-8429-90184cf519c4</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>97b393c6-aaf9-4c34-9a7e-9ad9fd46977d</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+</TestCaseEntity>

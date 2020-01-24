@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_membersince</name>
+   <tag></tag>
+   <elementGuidId>27f57994-8ce5-4ee0-a619-ca0529f2c186</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>year-of-join</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2019</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;chat-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;chat-box-parent&quot;]/div[@class=&quot;left-info-bar&quot;]/div[1]/div[@class=&quot;user-sort-info&quot;]/ul[@class=&quot;count-detial&quot;]/li[1]/span[@class=&quot;year-of-join&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

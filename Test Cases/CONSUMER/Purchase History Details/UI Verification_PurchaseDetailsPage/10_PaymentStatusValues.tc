@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10_PaymentStatusValues</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df64f40f-e64d-44de-96c1-2e8b6e3a1395</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('CONSUMER/Purchase History Details/textlabel_PaymentStatusValue')</defaultValue>
+      <description></description>
+      <id>0bbe9f99-af3d-4f5a-953e-babc5318285b</id>
+      <masked>false</masked>
+      <name>paymentstats</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_OfferPrice</name>
+   <tag></tag>
+   <elementGuidId>a3050386-639a-417b-9f7a-15363747e382</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>priceAmount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 9,000.00</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;chat-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;chat-box-parent&quot;]/div[@class=&quot;left-info-bar&quot;]/div[@class=&quot;user-product-info&quot;]/div[1]/ul[@class=&quot;user-product-container&quot;]/li[@class=&quot;user-product-info-special-price&quot;]/span[1]/span[@class=&quot;priceAmount&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

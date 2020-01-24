@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Delivery_Data Driven</name>
+   <tag></tag>
+   <comment>Deliver Option Name
+Delivers to
+Min Lead Time
+Unit
+Add Delivery Rate</comment>
+   <testCaseGuid>1b14776d-3543-4c0c-9aca-d86e4317d259</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Delivery List')</defaultValue>
+      <description></description>
+      <id>a3c9b895-104d-4b1f-89b1-b9e47d5663e0</id>
+      <masked>false</masked>
+      <name>varDeliveryName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Delivery List')</defaultValue>
+      <description></description>
+      <id>11792653-62f5-4c86-8f2f-0156f45077b1</id>
+      <masked>false</masked>
+      <name>varDeliverysTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Delivery List')</defaultValue>
+      <description></description>
+      <id>bcdaaf65-b63f-4db4-b000-34fe61ae6413</id>
+      <masked>false</masked>
+      <name>varMinLeadTime</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Delivery List')</defaultValue>
+      <description></description>
+      <id>3ce4abff-dd12-490d-b6b3-905578f21b4d</id>
+      <masked>false</masked>
+      <name>varUnit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Delivery List')</defaultValue>
+      <description></description>
+      <id>6115eede-f0dc-40c1-9032-8e061eb2b302</id>
+      <masked>false</masked>
+      <name>varDelMethod</name>
+   </variable>
+</TestCaseEntity>

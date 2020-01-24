@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_url</name>
+   <tag></tag>
+   <elementGuidId>e1e87c7e-caf7-41e6-a64c-9cf5eb754f43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/p[1]/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/p[1]/span[2][count(. | //span[@class = 'text-black']) = count(//span[@class = 'text-black'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-black</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                    0613bpdiana.test.arcadier.io
+                                </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/p[1]/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

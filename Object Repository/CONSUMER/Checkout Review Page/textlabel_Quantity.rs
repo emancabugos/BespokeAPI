@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_Quantity</name>
+   <tag></tag>
+   <elementGuidId>211d3e76-7543-40d0-be09-80f8ab84bd32</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quantity:</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLNTOG32SSGP&quot;)/div[1]/div[@class=&quot;review-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-left pull-left&quot;]/div[@class=&quot;cart-box full-width&quot;]/div[@class=&quot;cb-content&quot;]/div[@class=&quot;cbc-left&quot;]/div[@class=&quot;item-info&quot;]/div[@class=&quot;item-field&quot;]/span[@class=&quot;if-txt&quot;]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

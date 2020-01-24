@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>togglebutton_Custom</name>
+   <tag></tag>
+   <elementGuidId>173a2af3-1106-451a-9e2b-4fe6b01d5458</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>onoffswitch-switch</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sort_Custom_Login&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-sm-4&quot;]/div[@class=&quot;custom-login-switch&quot;]/div[@class=&quot;onoffswitch&quot;]/label[@class=&quot;onoffswitch-label&quot;]/span[@class=&quot;onoffswitch-switch&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

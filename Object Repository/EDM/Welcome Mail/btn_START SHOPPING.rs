@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_START SHOPPING</name>
+   <tag></tag>
+   <elementGuidId>f0f0664f-5d12-4f83-be66-80aec6167186</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjk4YqKUFnNzckm-2BXsveA2Na_-2FlVKhLauYRHm-2FC8Ownvq0M-2FbE54I2y8XhETw2ZJvdMs4QYpAVfhKKDPct9GqblwiNw5YQTd3IePMAW8OMJf2uWpTJoucsNCpsSTcRx2lS-2FKm-2FrYYtEi873HWlEmnRSwxuzKAnMSLWSTzGURSUl5kdQg46Sg1lHjxZFvgHiwVpURX1l4b0ImiwsgPX1cWV2PsJR-2FCvfyLqNKAOnzBqh0WAfLSsyRIp9Uj1MwdJQvxsIs-3D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjk4YqKUFnNzckm-2BXsveA2Na_-2FlVKhLauYRHm-2FC8Ownvq0M-2FbE54I2y8XhETw2ZJvdMs4QYpAVfhKKDPct9GqblwiNw5YQTd3IePMAW8OMJf2uWpTJoucsNCpsSTcRx2lS-2FKm-2FrYYtEi873HWlEmnRSwxuzKAnMSLWSTzGURSUl5kdQg46Sg1lHjxZFvgHiwVpURX1l4b0ImiwsgPX1cWV2PsJR-2FCvfyLqNKAOnzBqh0WAfLSsyRIp9Uj1MwdJQvxsIs-3D&amp;source=gmail&amp;ust=1571186387079000&amp;usg=AFQjCNFUvBvY1HGg4ILJJnZQ4y2oyk3YnA</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>START SHOPPING</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:ms&quot;)/div[2]/div[2]/div[2]/div[4]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

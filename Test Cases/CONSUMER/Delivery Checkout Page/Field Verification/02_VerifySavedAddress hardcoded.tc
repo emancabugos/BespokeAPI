@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_VerifySavedAddress hardcoded</name>
+   <tag></tag>
+   <comment>1st Address
+2nd address
+3rd Address
+Verification</comment>
+   <testCaseGuid>eae293aa-1a43-437d-a6f3-652dad98aaee</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address')</defaultValue>
+      <description></description>
+      <id>144c8d57-58f1-4b2c-b30f-41004458a0fb</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address')</defaultValue>
+      <description></description>
+      <id>e8f8e343-3115-4148-9852-967c355c01ab</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address')</defaultValue>
+      <description></description>
+      <id>234e84a8-4469-4b3f-9703-194c93653a8a</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address')</defaultValue>
+      <description></description>
+      <id>532e33dc-53e7-4491-bd46-bdb015d70549</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address')</defaultValue>
+      <description></description>
+      <id>3be9d7bb-2bad-48fa-8f9e-d51e8765348e</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address')</defaultValue>
+      <description></description>
+      <id>1f907ff5-6c9a-4f57-b258-2592e26eed40</id>
+      <masked>false</masked>
+      <name>postalcode</name>
+   </variable>
+</TestCaseEntity>

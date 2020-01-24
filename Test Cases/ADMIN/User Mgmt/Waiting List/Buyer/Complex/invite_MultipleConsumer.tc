@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>invite_MultipleConsumer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a138c30f-b43d-4192-8b0f-3bdcbaa4998c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5b947379-2fb0-4a32-9b2c-3695fef384e6</id>
+      <masked>false</masked>
+      <name>mulitpleEmail</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Seller Invite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb21770d-e7ab-4f98-a42d-47a3fed86be9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>8592ffeb-8aa7-429a-8f44-79daa5363aea</id>
+      <masked>false</masked>
+      <name>varSellerInvite</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC063</name>
+   <tag></tag>
+   <comment>Empty password field
+No toaster message yet</comment>
+   <testCaseGuid>856257fe-85a0-4f38-b7f8-1e9da0cbe214</testCaseGuid>
+</TestCaseEntity>

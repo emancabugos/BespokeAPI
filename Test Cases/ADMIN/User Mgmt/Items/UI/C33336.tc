@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Last Updated&quot; column title is present</description>
+   <name>C33336</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3852613-b622-47b3-90c8-1c34cb362b8f</testCaseGuid>
+</TestCaseEntity>

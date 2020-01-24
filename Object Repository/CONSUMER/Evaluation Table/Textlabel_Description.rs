@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Textlabel_Description</name>
+   <tag></tag>
+   <elementGuidId>e829f162-c041-4550-9226-6a861ff01b35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;react_0HLQ20L6M2DPI&quot;]/div/div[1]/div/div[4]/div/div[1]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cmparpg-list-td cmparpg-list-tdname</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Description</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLQ20L6M2DPI&quot;)/div[1]/div[@class=&quot;cart-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row no-pad&quot;]/div[1]/div[@class=&quot;col-sm-2 col-xs-4 max-w&quot;]/div[@class=&quot;cmparpg-list-tr text-center th2&quot;]/div[@class=&quot;cmparpg-list-td cmparpg-list-tdname&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout_DefaultFlow</name>
+   <tag></tag>
+   <comment>Delivery Checkout Page
+Checkout Review Page
+Computation of Total Price
+Purchase History List
+Verification on Purchase History Details</comment>
+   <testCaseGuid>d6aac6b6-3f69-4c63-bb66-21bfa41eb586</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27acd25f-1886-4c6a-b12d-a9e96bcbb48c</id>
+      <masked>false</masked>
+      <name>itemname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3837321a-cfa0-4722-8409-540e33eb10c8</id>
+      <masked>false</masked>
+      <name>quantityvalue</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7427df10-8980-4389-9be7-bab7868bc0ad</id>
+      <masked>false</masked>
+      <name>listname</name>
+   </variable>
+</TestCaseEntity>

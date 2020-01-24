@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>New Message from Merchant</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-10-16T14:36:03</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ed45a405-cc9c-4299-8a8b-26e67d25db0e</testSuiteGuid>
+   <testCaseLink>
+      <guid>90858212-14dc-4e3d-841d-70a9b1c53182</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM/Login Gmail Buyer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d49c0ea2-8c9f-445f-83cd-9e2bf1120500</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM/Verify New Message from Seller content</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ac2b9d09-e474-4ba6-9f73-619ae903740c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EDM/From Seller</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ac2b9d09-e474-4ba6-9f73-619ae903740c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>recipient</value>
+         <variableId>29e42de9-db30-4def-9789-1e44d2197e51</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ac2b9d09-e474-4ba6-9f73-619ae903740c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Cc</value>
+         <variableId>ccf91451-b213-4a81-b943-1295ef828ec5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ac2b9d09-e474-4ba6-9f73-619ae903740c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bcc</value>
+         <variableId>67771da5-5c91-410f-9277-49544eb5cb6e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ac2b9d09-e474-4ba6-9f73-619ae903740c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Subject</value>
+         <variableId>c85c65d2-14f4-4ecd-a375-cc1cfc026f5a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b44116b1-ad95-48b0-be08-500ab92031a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48f232a7-8a5b-4552-9c07-fc4e6b21fbfd</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

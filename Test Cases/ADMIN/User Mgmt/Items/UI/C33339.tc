@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Trash Icon is present</description>
+   <name>C33339</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68ea9d1d-cde6-481e-a526-bf1af6df2e64</testCaseGuid>
+</TestCaseEntity>

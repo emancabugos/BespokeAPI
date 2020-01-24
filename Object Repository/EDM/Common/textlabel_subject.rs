@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_subject</name>
+   <tag></tag>
+   <elementGuidId>88f752c0-6b18-4ee7-a6f6-d72ac11ab062</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gI</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>subject:</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:o2&quot;)/div[@class=&quot;adn ads&quot;]/div[@class=&quot;gs&quot;]/div[@class=&quot;ajA SK&quot;]/div[@class=&quot;ajB gt&quot;]/table[@class=&quot;ajC&quot;]/tbody[1]/tr[@class=&quot;ajv&quot;]/td[@class=&quot;gG&quot;]/span[@class=&quot;gI&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

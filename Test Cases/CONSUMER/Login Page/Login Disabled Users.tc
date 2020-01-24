@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Disabled Users</name>
+   <tag></tag>
+   <comment>assume user is toggled on</comment>
+   <testCaseGuid>08fd0260-0901-4453-a1cb-7e03bce34ec0</testCaseGuid>
+</TestCaseEntity>

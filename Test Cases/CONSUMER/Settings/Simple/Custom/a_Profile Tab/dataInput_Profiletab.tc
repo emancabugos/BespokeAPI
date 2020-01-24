@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dataInput_Profiletab</name>
+   <tag></tag>
+   <comment>add Profile Image
+add First Name
+add Last Name
+add Email
+Contact No</comment>
+   <testCaseGuid>1c884f1a-2949-4659-9252-6f1f152fb6a4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cae81cd4-7e5c-43d1-ac98-9ebde6e20678</id>
+      <masked>false</masked>
+      <name>varImagePath</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>425c00b1-6066-4b5a-90c6-61e571310828</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 3)</defaultValue>
+      <description></description>
+      <id>783a4d0d-5835-4595-86a3-a4e70a65472d</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 4)</defaultValue>
+      <description></description>
+      <id>93de1ffc-5eb4-477e-96b4-7e2df9c06514</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 5)</defaultValue>
+      <description></description>
+      <id>e21ad7d0-369d-40c0-9b2d-571eaafa7566</id>
+      <masked>false</masked>
+      <name>contactNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 11)</defaultValue>
+      <description></description>
+      <id>9a262eda-2869-40ee-809f-731df87eacb1</id>
+      <masked>false</masked>
+      <name>displayName</name>
+   </variable>
+</TestCaseEntity>

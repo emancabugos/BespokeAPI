@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc14ddbe-dd8e-4a06-80dc-d0f619da06e6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dd1e6b9d-0d7e-4712-809c-90d1804052ac</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4f0ca9b3-412f-4f7c-a108-ae93fcce9c90</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d8b5f6c-4c95-4bf2-a695-36cff8e055b8</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>862ec44a-aa2e-4a31-8f2d-f17cbfdd75ce</id>
+      <masked>false</masked>
+      <name>confirmpassword</name>
+   </variable>
+</TestCaseEntity>

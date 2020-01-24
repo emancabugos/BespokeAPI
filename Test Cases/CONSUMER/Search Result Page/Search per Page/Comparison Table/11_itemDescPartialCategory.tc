@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11_itemDescPartialCategory</name>
+   <tag></tag>
+   <comment>Search Partial Item Description with Category</comment>
+   <testCaseGuid>28bd7060-764b-4e09-86de-b7b8cfe2c698</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a818ae85-8327-4938-a251-d3e59509da55</id>
+      <masked>false</masked>
+      <name>itemDescriptionPartial</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>469f25bd-19e7-464f-b7e9-a715446c70e8</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>701998d9-98a9-4468-a86a-ce1614677a51</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

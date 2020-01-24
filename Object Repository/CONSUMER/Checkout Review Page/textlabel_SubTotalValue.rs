@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_SubTotalValue</name>
+   <tag></tag>
+   <elementGuidId>85008bb7-3734-4f61-a817-d2fd83062c90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2][count(. | //span[@class = 'value' and @value = '${subtotal}']) = count(//span[@class = 'value' and @value = '${subtotal}'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>value</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>21,000.00</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

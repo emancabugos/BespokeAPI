@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Sent From&quot; textfield is displaye</description>
+   <name>C33842</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38077f30-7637-4044-9d40-4d6705ff0235</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>blank_FirstName</name>
+   <tag></tag>
+   <comment>add Display Name
+add First Name
+add Last Name
+add Email
+Contact No</comment>
+   <testCaseGuid>1286aba4-0565-41ea-ad6c-a47a8465e1c5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>97777bad-d59f-48de-9e5e-d1db7c8b3425</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

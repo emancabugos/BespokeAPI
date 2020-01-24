@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_Item</name>
+   <tag></tag>
+   <elementGuidId>05b4ed62-c20a-4dfd-9346-96c6d355a703</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/images/items/item-59077-636971276819650033-ylREVY.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl oscctbl-multiorder full-width&quot;]/div[@class=&quot;oscct-bot full-width&quot;]/div[@class=&quot;oscctb-full&quot;]/div[@class=&quot;oscctb-l&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

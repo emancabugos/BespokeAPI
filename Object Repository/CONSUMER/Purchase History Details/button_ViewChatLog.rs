@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ViewChatLog</name>
+   <tag></tag>
+   <elementGuidId>8f039968-3506-4ce9-bdf9-6e4b9c75c023</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/user/chat/getchannelmessages?cartItemID=57004&amp;channelID=4551&amp;channelSID=CHc535b66643654d05934da558513d0fef</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chat-log-btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Chat Log</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLQ5CTOBASVC&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl oscctbl-multiorder full-width&quot;]/div[@class=&quot;oscct-bot full-width&quot;]/div[@class=&quot;oscctb-full&quot;]/div[@class=&quot;oscctb-r&quot;]/div[@class=&quot;&quot;]/a[@class=&quot;chat-log-btn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

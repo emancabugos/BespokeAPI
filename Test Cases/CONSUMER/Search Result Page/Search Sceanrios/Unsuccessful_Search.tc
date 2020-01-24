@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Unsuccessful_Search</name>
+   <tag></tag>
+   <comment>Search from Homepage textfield only
+Verify No Match found logo
+Category search from Homepage
+Verify No Match found logo
+Textfield and Category Search on Homepage
+Verify No Match found logo</comment>
+   <testCaseGuid>7a5cf2bf-31d7-49d0-8036-467d9de4431e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_Link</name>
+   <tag></tag>
+   <elementGuidId>72a11a9d-d88c-4049-ad0e-7510a0a02358</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header-links&quot;)/form[@class=&quot;form-field-controler&quot;]/div[@class=&quot;row header-link-row&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;form-group&quot;]/label[1]/b[1]</value>
+   </webElementProperties>
+</WebElementEntity>

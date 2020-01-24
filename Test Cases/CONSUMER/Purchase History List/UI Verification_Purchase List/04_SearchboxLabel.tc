@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_SearchboxLabel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>632376ed-fe0f-41ba-90e3-bb7862a0ad88</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('CONSUMER/Purchase History List/textfield_Search')</defaultValue>
+      <description></description>
+      <id>76e90317-5e16-449e-bd2f-0d389272ab8c</id>
+      <masked>false</masked>
+      <name>placeholder</name>
+   </variable>
+</TestCaseEntity>

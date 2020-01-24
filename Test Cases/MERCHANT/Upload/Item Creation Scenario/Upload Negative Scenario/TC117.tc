@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC117</name>
+   <tag></tag>
+   <comment>Item Cover Image
+Item Description
+Country
+Stock/Unlimited
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>c171f34f-c068-4775-8899-d3318cbe38d3</testCaseGuid>
+</TestCaseEntity>

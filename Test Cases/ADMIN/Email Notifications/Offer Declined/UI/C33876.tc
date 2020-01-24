@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Save&quot; button is displayed</description>
+   <name>C33876</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcc68677-86f0-4d11-988c-3dbde0e0192c</testCaseGuid>
+</TestCaseEntity>

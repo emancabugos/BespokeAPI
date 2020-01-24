@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Welcome Mail Content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d38e5a46-de78-4163-a504-78fd60f07a18</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>e6d06d36-4a19-47a5-9cc4-d7fa8582cefc</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>7baf9536-a721-4281-baec-b6fc74af4f98</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>a2891efb-5121-443f-a972-6bddaa2a511a</id>
+      <masked>false</masked>
+      <name>cc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>f37bf5ec-30c9-4af8-9742-853edf9971fd</id>
+      <masked>false</masked>
+      <name>Bcc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Welcome Mail/textfield_to')</defaultValue>
+      <description></description>
+      <id>2a271d80-3ff0-4d9d-839d-70623983275b</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Welcome Mail/textfield_cc')</defaultValue>
+      <description></description>
+      <id>210bec8b-9282-4f32-a7fe-7c946ef08005</id>
+      <masked>false</masked>
+      <name>Mail</name>
+   </variable>
+</TestCaseEntity>

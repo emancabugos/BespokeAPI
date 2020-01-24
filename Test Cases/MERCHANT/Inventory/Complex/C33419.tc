@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Toggle button&quot; is present</description>
+   <name>C33419</name>
+   <tag></tag>
+   <comment>Listing Name
+Item Cover Image
+Item Description
+Custom Fields
+Country
+Stock/Unlimited
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>6e07e77f-8615-4c99-9a9e-040105d68b91</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33ce567a-a014-444b-ad70-035b3aecfebc</id>
+      <masked>false</masked>
+      <name>varListingName</name>
+   </variable>
+</TestCaseEntity>

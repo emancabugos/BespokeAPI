@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_Enquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8bc55fe-0aa5-42a2-b74e-d0b234c2a382</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b95994b5-cfa8-4e20-b19f-bc526d6a826d</id>
+      <masked>false</masked>
+      <name>itemA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5d1a07ca-5e91-4230-81ed-6f792364d8cd</id>
+      <masked>false</masked>
+      <name>listName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>88eb5a18-9111-49a7-b190-f679f704edc3</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>482d4506-2aec-4268-9a6a-cc52ace9d1ca</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8b7b1594-578d-47ba-8c5c-5502886b6602</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

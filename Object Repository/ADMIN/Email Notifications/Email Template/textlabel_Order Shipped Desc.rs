@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_Order Shipped Desc</name>
+   <tag></tag>
+   <elementGuidId>d0e153e8-af00-4319-bd56-24d756d2afc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[3]/div/div[3]/div[2]/ul/li[4]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div[3]/div/div[3]/div[2]/ul/li[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[3]/div/div[3]/div[2]/ul/li[4]/a</value>
+   </webElementProperties>
+</WebElementEntity>

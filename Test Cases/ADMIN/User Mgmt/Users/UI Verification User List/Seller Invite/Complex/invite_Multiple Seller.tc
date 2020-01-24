@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>invite_Multiple Seller</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9beedf6a-8cb2-4333-a935-e2af4db98144</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>11ba0362-ab52-4cc9-8058-69d3cb3cd2f9</id>
+      <masked>false</masked>
+      <name>mulitpleEmail</name>
+   </variable>
+</TestCaseEntity>

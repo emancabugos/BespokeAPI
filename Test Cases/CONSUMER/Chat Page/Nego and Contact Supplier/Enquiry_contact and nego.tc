@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enquiry_contact and nego</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17a6c248-3a3c-4a45-a920-53bb3d84fe46</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Evaluation List')</defaultValue>
+      <description></description>
+      <id>25dea3e8-ddc3-4fd7-ad3a-e5fa786160f3</id>
+      <masked>false</masked>
+      <name>ItemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Evaluation List')</defaultValue>
+      <description></description>
+      <id>0c7c49ef-71d6-4bbc-8463-3ef612d343b6</id>
+      <masked>false</masked>
+      <name>itemtype</name>
+   </variable>
+</TestCaseEntity>

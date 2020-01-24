@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk_Pricing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c719923a-8659-4dd3-abf8-d5ac7a9cec0f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>3c2c98b8-3cbb-4228-bbdd-380dfb660174</id>
+      <masked>false</masked>
+      <name>varBulkPricing</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>5728dc9f-1c44-4c9c-a44e-b030336ed3d1</id>
+      <masked>false</masked>
+      <name>varDiscount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>2ec88f02-6c7a-4307-93ef-c05a3eadf5ff</id>
+      <masked>false</masked>
+      <name>varRange</name>
+   </variable>
+</TestCaseEntity>

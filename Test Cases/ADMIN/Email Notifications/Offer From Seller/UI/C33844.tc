@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Cc:&quot; label is displayed</description>
+   <name>C33844</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5e2a3d5-3396-4ccb-9cbc-5fd5d16be8a8</testCaseGuid>
+</TestCaseEntity>

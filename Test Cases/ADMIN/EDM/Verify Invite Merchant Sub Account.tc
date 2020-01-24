@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Invite Merchant Sub Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f751c9cc-0998-4be1-a5d8-5295ee025a82</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>71116008-2c97-43f9-b917-f4ed7a130b0e</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>66f5f9c7-4536-4e40-adc5-1e1f6037cd9b</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>355b4531-21e2-4369-945b-f39f1ffe1be0</id>
+      <masked>false</masked>
+      <name>cc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EDM/Start Selling')</defaultValue>
+      <description></description>
+      <id>c41f4040-7539-4694-862b-f51e8c5910c0</id>
+      <masked>false</masked>
+      <name>bcc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Common/textfield_to')</defaultValue>
+      <description></description>
+      <id>a4fe41af-224f-4dae-87e8-366b0bf5af7b</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Invite Sub Merchant/textfield_cc')</defaultValue>
+      <description></description>
+      <id>99bc5719-902e-4719-8170-e857bf3fea80</id>
+      <masked>false</masked>
+      <name>Mail</name>
+   </variable>
+</TestCaseEntity>

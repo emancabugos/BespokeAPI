@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the changes will be saved</description>
+   <name>C33862</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cb8c20a-044d-436c-9220-a3c084728fd0</testCaseGuid>
+</TestCaseEntity>

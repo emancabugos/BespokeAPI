@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if &quot;Arcadier allows you to customise your emails with the dynamic parameters listed below&quot; label is displayed</description>
+   <name>C33854</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77247f4e-344b-4dc3-bd6e-7a4b20de0a3d</testCaseGuid>
+</TestCaseEntity>

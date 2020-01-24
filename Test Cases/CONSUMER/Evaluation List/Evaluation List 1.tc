@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Evaluation List 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98376e18-e04d-47e2-a6c0-6ddf950ce996</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c23d5138-2fff-455a-af1d-4510c561f816</id>
+      <masked>false</masked>
+      <name>varItemName</name>
+   </variable>
+</TestCaseEntity>

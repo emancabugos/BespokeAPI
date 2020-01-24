@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_CreateOffer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>755e0175-3acb-439c-b84d-495d00645727</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4a7b1e50-f80c-459d-928a-1e3c140e1f09</id>
+      <masked>false</masked>
+      <name>itemA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c3f7f671-4d68-4341-8ce7-53e47c7e719c</id>
+      <masked>false</masked>
+      <name>listName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9be56819-fadd-4e1b-a214-cf9cc68287f5</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9be4ef59-9cfb-4bb7-9bfa-58f02355ff56</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>78d5ffcc-a8b6-4bb6-ba2b-93e8f86d3402</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

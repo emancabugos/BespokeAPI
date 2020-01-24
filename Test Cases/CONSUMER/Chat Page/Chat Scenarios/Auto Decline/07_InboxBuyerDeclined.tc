@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07_InboxBuyerDeclined</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b3a6568-4abc-4234-80e4-10fc59f30607</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>603e2b7a-a4a2-4f88-a1d7-3ea65dcb8382</id>
+      <masked>false</masked>
+      <name>itemA</name>
+   </variable>
+</TestCaseEntity>

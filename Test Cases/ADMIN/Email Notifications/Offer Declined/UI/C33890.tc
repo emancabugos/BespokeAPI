@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Email Parameter&quot; label is displayed</description>
+   <name>C33890</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5b48d56-07a0-4bc0-a70d-030d0db53509</testCaseGuid>
+</TestCaseEntity>

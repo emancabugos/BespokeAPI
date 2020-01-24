@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC059</name>
+   <tag></tag>
+   <comment>Enter usermane with trailing spaces</comment>
+   <testCaseGuid>9298f382-f007-4f19-87fd-d7c8a7aa1672</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the toggle button of the item in Merchant inventory page will pull the admin settings for the item</description>
+   <name>C33422</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>604101b7-8aae-4c35-bef5-1c0ce5becab7</testCaseGuid>
+</TestCaseEntity>

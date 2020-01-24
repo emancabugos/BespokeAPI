@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC032</name>
+   <tag></tag>
+   <comment>Pick-up</comment>
+   <testCaseGuid>005f02b6-b725-4c5b-9eb5-bc2b4ab46f7f</testCaseGuid>
+   <variable>
+      <defaultValue>'1104UN1576217964PL95'</defaultValue>
+      <description></description>
+      <id>bfb2766f-c7d9-4ead-ac81-6dede989d5cc</id>
+      <masked>false</masked>
+      <name>inboysID</name>
+   </variable>
+</TestCaseEntity>

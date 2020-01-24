@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ASM: Seller edited an item Verify if the toggle button is automatically set to NO</description>
+   <name>C33421</name>
+   <tag></tag>
+   <comment>Listing Name
+Item Cover Image
+Item Description
+Custom Fields
+Country
+Stock/Unlimited
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>cbe2b3cd-4dfe-4cb0-91c7-a2ce70741a2c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d32e27f4-eeb9-49f1-9941-766febea38a8</id>
+      <masked>false</masked>
+      <name>varListingName</name>
+   </variable>
+</TestCaseEntity>

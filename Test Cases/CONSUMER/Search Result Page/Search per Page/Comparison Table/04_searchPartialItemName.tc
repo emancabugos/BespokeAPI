@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_searchPartialItemName</name>
+   <tag></tag>
+   <comment>Search Partial Item Name</comment>
+   <testCaseGuid>02ee29a7-e4a1-4908-b560-008299e216fe</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9a5772f2-beea-462b-bf14-a5f018fc0784</id>
+      <masked>false</masked>
+      <name>itemNamePartial</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5f824c90-948c-4bd2-a53b-c5d700f37579</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

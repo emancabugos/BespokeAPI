@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_opt2</name>
+   <tag></tag>
+   <elementGuidId>daa5d0a2-f7fa-4383-a370-c659f69b6f62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;dropdown-opt-draggble&quot;]/li[2]/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;dropdown-opt-draggble&quot;]/li[2]/div/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

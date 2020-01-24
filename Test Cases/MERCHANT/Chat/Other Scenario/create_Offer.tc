@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_Offer</name>
+   <tag></tag>
+   <comment>Send Offer</comment>
+   <testCaseGuid>33ab6e3f-6fee-4edb-b136-bc63b0d446e2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7ef4fe77-8563-43e2-aa95-34057866d852</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>265e06b6-e5b7-4f4d-b209-d3e0d102dfce</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e716b347-96e3-44b2-a754-b2e9f0adfb20</id>
+      <masked>false</masked>
+      <name>offerPrice</name>
+   </variable>
+</TestCaseEntity>

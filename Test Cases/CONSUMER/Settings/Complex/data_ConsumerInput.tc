@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>data_ConsumerInput</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d90be7ae-48ab-49ef-a456-92fdb516a71f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>169d2325-9cbd-4f15-a141-5192b7cc97c3</id>
+      <masked>false</masked>
+      <name>loginType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>fcd2f33b-80e8-435f-b9bb-dc5778d9d673</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>105b61d0-d5c4-4074-a93c-ddb808ce555a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8d32d62e-6879-4c22-93e2-f9fa21ff0583</id>
+      <masked>false</masked>
+      <name>varImagePath</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9da7f998-9540-4dab-8e82-5f3a25068ad2</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c5a51faf-902d-49e0-978e-bb931f0d7aef</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ce761f76-251f-4e02-ae00-d32582cad27d</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>43e3dc08-c09b-4c30-b0a1-63c139e6f5fd</id>
+      <masked>false</masked>
+      <name>contactNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b90fe70b-9b59-4f42-bea9-2d077727e688</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ec7ec794-e2e7-4902-a50e-18d569ce9c07</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a7096d7f-6bd4-4df8-8e03-cc0682d0bc76</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>729cb108-9764-4c49-9ae6-b6c52c3cb8eb</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7291cbac-ed88-42d6-8a3d-7099e1756c13</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
+</TestCaseEntity>

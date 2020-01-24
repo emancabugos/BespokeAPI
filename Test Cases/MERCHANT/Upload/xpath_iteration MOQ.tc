@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>xpath_iteration MOQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d40223a-d72b-4f93-8bf1-db75e9a22880</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>8d3d72c9-7d43-425b-8549-cf20c31d768b</id>
+      <masked>false</masked>
+      <name>varMOQ</name>
+   </variable>
+</TestCaseEntity>

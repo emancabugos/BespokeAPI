@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Main category - no parent selected</description>
+   <name>05_UploadImageMandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9e90b21-b31c-4941-b7d1-41e54d601204</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>a4d357fd-328a-4f2a-b7ab-d4df9584d9b3</id>
+      <masked>false</masked>
+      <name>catname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>185e7e4c-f107-4dcc-a343-84b5ba3105f1</id>
+      <masked>false</masked>
+      <name>parentcategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>c6792135-53c3-4a1d-a629-56a5bc31d9ab</id>
+      <masked>false</masked>
+      <name>imagepath</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Category List')</defaultValue>
+      <description></description>
+      <id>87afef01-b98f-45c5-bd37-d890d1de96a8</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

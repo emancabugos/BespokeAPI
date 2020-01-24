@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Sent to the Seller when their offer is declined by the Buyer.&quot; label is present</description>
+   <name>C33869</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1aee40f-3cda-466f-ae79-69c9de7fa0c7</testCaseGuid>
+</TestCaseEntity>

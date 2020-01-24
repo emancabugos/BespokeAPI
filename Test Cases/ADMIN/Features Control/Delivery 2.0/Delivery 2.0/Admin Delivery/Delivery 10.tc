@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delivery 10</name>
+   <tag></tag>
+   <comment>Range 1
+Range 2
+Range 3
+Range 4
+Range 5
+Range 6</comment>
+   <testCaseGuid>79a125a7-4d6e-48c9-a164-336169e71262</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_VIEW ORDERS</name>
+   <tag></tag>
+   <elementGuidId>1860357b-c84c-4813-8de1-543f652d5a8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjlISGVjJsxSi3b5GsR5iby5Wnr7NRurw3ME1Po-2FRQOVj22wLwG77YBKdubQc1py4fsJ5yIrumvR7nOYYwQ91sHpbuOFP5VixajGxGfZhAxwBg-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwl3S3XzaT1VIYOrnnv5Y6TwlHJYQTjcf-2FQRpfQ-2FY2DXEwcJDBVtWqAyhQZHSnyZH1FGga3Qo7vehZ5mIZSangiBCKOtHXUUaDThczkl-2B9C-2F-2BhLMGbyRj1W1dgsQmHxUw38ouij9bZBZf050Dbxkp3BBEZVWb4nse-2BFxQ-2BRB17CIU4wEuaYPqeOVm5WE1iWJ2vg-3D' and (text() = 'VIEW ORDERS' or . = 'VIEW ORDERS')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjlISGVjJsxSi3b5GsR5iby5Wnr7NRurw3ME1Po-2FRQOVj22wLwG77YBKdubQc1py4fsJ5yIrumvR7nOYYwQ91sHpbuOFP5VixajGxGfZhAxwBg-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwl3S3XzaT1VIYOrnnv5Y6TwlHJYQTjcf-2FQRpfQ-2FY2DXEwcJDBVtWqAyhQZHSnyZH1FGga3Qo7vehZ5mIZSangiBCKOtHXUUaDThczkl-2B9C-2F-2BhLMGbyRj1W1dgsQmHxUw38ouij9bZBZf050Dbxkp3BBEZVWb4nse-2BFxQ-2BRB17CIU4wEuaYPqeOVm5WE1iWJ2vg-3D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dW4eEWD3eOuCUNR6YW7lDvglGwdlFiZOUY-2BuhO0oennz945vwKkxTLlxbN1MhUghrO5rExYlceQdlsVfsoQ-2BU9Q7bXR3YyBlWKo87jb-2BGjBgjXsImgwOTtv3jlrAmUrWDDQ-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwlTSSvXYjRIJpU-2BFCNvZzvEP46jfZqQrWs4aH-2F3QosoPJw8WRm4-2F3HoFvw9HXfcLcHUG8R2pnsTIBdsdhJExwNGX-2BiV9KZsQpmhgnAlh1uoqIofoy9x3HiP9-2F9diUcThYKiaoTIYYnEF0O2peIwQkphvy-2BwMLcINw82x45x4nRV7vY3KL6gkVWEVjoUei4BGoI-3D&amp;source=gmail&amp;ust=1570759521673000&amp;usg=AFQjCNG7FENeH9004JdmW9KBqEhVf1clLQ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VIEW ORDERS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:13k&quot;)/div[2]/div[2]/div[2]/div[7]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

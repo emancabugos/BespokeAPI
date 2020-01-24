@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Quick Links</name>
+   <tag></tag>
+   <comment>Category Page
+Custom Field Page
+General Page
+Custom Domain Page
+External Link Page
+Private Marketplace
+Custom Code Page
+Payment Config
+Invite Merchant
+Subscription Page</comment>
+   <testCaseGuid>dcbc316d-c154-46b0-9dac-eb5eb8d22fab</testCaseGuid>
+</TestCaseEntity>

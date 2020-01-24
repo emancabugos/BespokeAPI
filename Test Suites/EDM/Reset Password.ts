@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Reset Password</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-10-14T15:14:09</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c1b8a711-eae4-4ca3-97a3-9487dbae4cbb</testSuiteGuid>
+   <testCaseLink>
+      <guid>f2f9c454-1c37-48f4-8a8e-c2d3f484cc31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM/Gmail Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de3340f2-401e-4679-8da0-c2c9f9b3da70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM/Verify Reset Password Content</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8f8d4dcf-b704-47d5-8dc1-386425e25a58</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EDM/Start Selling</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8f8d4dcf-b704-47d5-8dc1-386425e25a58</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>recipient</value>
+         <variableId>55ee0b17-0b65-4a4c-87c2-0bbe267891a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8f8d4dcf-b704-47d5-8dc1-386425e25a58</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Cc</value>
+         <variableId>b4a47002-e8bb-43b3-a160-761436460b03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8f8d4dcf-b704-47d5-8dc1-386425e25a58</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bcc</value>
+         <variableId>02f4de6b-a15f-4227-af39-2778600deb85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8f8d4dcf-b704-47d5-8dc1-386425e25a58</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Subject</value>
+         <variableId>f93b123d-f396-4ae6-8a83-5018391e02b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd3bc8c2-42d7-4a81-a92c-421b452f43a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0fbe045a-ca15-4d0b-8b6b-e06630011b08</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

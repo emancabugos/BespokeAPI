@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Date Created&quot; column title is present</description>
+   <name>C33334</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4dc312a2-9273-4752-9373-7642c441a0a6</testCaseGuid>
+</TestCaseEntity>

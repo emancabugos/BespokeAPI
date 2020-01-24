@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_searchItemDescription</name>
+   <tag></tag>
+   <comment>Searc Exact Item Description</comment>
+   <testCaseGuid>02e48556-fce6-4ef1-b6f6-bd80622be395</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e36b8a63-275c-4b09-a840-6d90a787b4f6</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Email Parameter&quot; infotext is displayed</description>
+   <name>C33853</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90baafc5-6a14-4298-a74b-5e0e7e10d136</testCaseGuid>
+</TestCaseEntity>

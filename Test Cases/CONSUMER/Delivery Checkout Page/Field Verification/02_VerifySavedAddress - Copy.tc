@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_VerifySavedAddress - Copy</name>
+   <tag></tag>
+   <comment>1st Address
+2nd address
+3rd Address
+Verification-1staddress
+Verification-2ndAddress
+Verification-3rdAddress</comment>
+   <testCaseGuid>8db1cbe3-7cba-45c7-87e1-0efe1e9e3f09</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1055b108-6b50-4473-af38-8819b5b6a064</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>45b42eb0-baae-4d7b-8f86-0061501e2d8c</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>851fd0bf-effd-47ce-b77f-19bcab8462e8</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>b3f2ad58-fb2f-43b2-80e4-cacd360b8a47</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>29ae5e33-0f3e-4bb9-af8d-5cd43eaae8af</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Saved Address').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>774096a3-68ea-4237-b865-eb1566872d7d</id>
+      <masked>false</masked>
+      <name>postalcode</name>
+   </variable>
+</TestCaseEntity>

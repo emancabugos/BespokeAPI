@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC080</name>
+   <tag></tag>
+   <comment>Toaster message is displayed upon inputting invalid username
+No toaster message yet</comment>
+   <testCaseGuid>e477909a-6956-4044-a76a-c35b0bfda37e</testCaseGuid>
+</TestCaseEntity>

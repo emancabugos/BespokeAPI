@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Field Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1481c12-fbf3-41f0-b701-bb676fc7accf</testCaseGuid>
+   <variable>
+      <defaultValue>'red'</defaultValue>
+      <description></description>
+      <id>2b4491e7-eebe-4f19-b208-9c3ef37d6347</id>
+      <masked>false</masked>
+      <name>Red</name>
+   </variable>
+</TestCaseEntity>

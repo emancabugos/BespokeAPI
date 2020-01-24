@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_SentautomaticallytoanySeller</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>338e1dc8-ada8-4996-8f4a-955a046ef24e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('ADMIN/Email Notifications/textlabel_Start Selling Desc')</defaultValue>
+      <description></description>
+      <id>ac9e860f-e036-4ae5-974a-e24136325b98</id>
+      <masked>false</masked>
+      <name>dianacustom</name>
+   </variable>
+</TestCaseEntity>

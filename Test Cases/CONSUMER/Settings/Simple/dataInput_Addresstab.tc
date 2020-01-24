@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dataInput_Addresstab</name>
+   <tag></tag>
+   <comment>add First Name
+add Last Name
+add Address
+add Country
+add State
+add City
+add Postal Code</comment>
+   <testCaseGuid>3f0c8e53-4fe0-40ea-9bcd-4c8b71d88307</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>e60ae457-cb38-4c23-9f66-7bf556d90390</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 3)</defaultValue>
+      <description></description>
+      <id>71056f42-4e94-4296-b206-a68e056e8037</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 6)</defaultValue>
+      <description></description>
+      <id>f51e58d0-922c-44bd-b44e-599e56cd5fa3</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 8)</defaultValue>
+      <description></description>
+      <id>3f6bffe5-622e-4cec-9171-d563a570d955</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 7)</defaultValue>
+      <description></description>
+      <id>2e0a941c-b48f-4ef0-8865-63810737f0be</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 9)</defaultValue>
+      <description></description>
+      <id>2e3a8e4e-c003-4d9e-8ea8-612935480e1c</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/buyerData').getValue(1, 10)</defaultValue>
+      <description></description>
+      <id>8cfd05a1-e310-4fc1-a029-a62b9721dd2f</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
+</TestCaseEntity>

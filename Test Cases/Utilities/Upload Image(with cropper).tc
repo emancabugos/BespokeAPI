@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Image(with cropper)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55d6b518-8a32-4459-8f2e-1182bef11ddf</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Katalon\\\\Image\\\\pic1.jpg'</defaultValue>
+      <description></description>
+      <id>f067eeed-1682-4f1f-84b7-bf43e06f2c99</id>
+      <masked>false</masked>
+      <name>varImagePath</name>
+   </variable>
+</TestCaseEntity>

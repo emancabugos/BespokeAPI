@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profile Input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af86fff3-e4a2-4a39-ba7a-2ae0b6648c72</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Katalon\\\\Image\\\\coverimage2.jpg'</defaultValue>
+      <description></description>
+      <id>79a448bd-145d-4c36-a4e9-76b3dd3e0098</id>
+      <masked>false</masked>
+      <name>varImagePath</name>
+   </variable>
+</TestCaseEntity>

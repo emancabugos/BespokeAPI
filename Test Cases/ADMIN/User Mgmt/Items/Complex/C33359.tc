@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the item is not present in Merchant Storefront</description>
+   <name>C33359</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37fd12b8-5ff2-4b35-987a-82d2e943904a</testCaseGuid>
+</TestCaseEntity>

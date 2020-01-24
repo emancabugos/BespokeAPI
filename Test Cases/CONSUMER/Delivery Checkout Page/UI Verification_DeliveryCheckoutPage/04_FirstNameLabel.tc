@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_FirstNameLabel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38807483-df47-4891-9497-af7f7505dea4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('CONSUMER/Delivery Checkout Page/textfield_FirstName')</defaultValue>
+      <description></description>
+      <id>81491eed-e4fc-472b-bbae-1f071d3a6f27</id>
+      <masked>false</masked>
+      <name>addFirstName</name>
+   </variable>
+</TestCaseEntity>

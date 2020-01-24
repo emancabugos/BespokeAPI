@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;YES/NO&quot; toggle button is displayed</description>
+   <name>C33878</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd47a0eb-43fa-441e-92e5-144681a65398</testCaseGuid>
+</TestCaseEntity>

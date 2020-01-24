@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FieldValidation_AddDeliveryOption</name>
+   <tag></tag>
+   <comment>Validation for empty Delivery Option Name
+Validation for empty Delivers to
+Validation for empty Minimum lead time
+Validation for empty Where are you delivering from
+Validation for Empty Delivery Rate Name
+Validation for Empty Range from
+Validation for Empty Range to
+Validation for Empty Delivery Cost
+Validation for greater value of Range from 
+Validation for same value</comment>
+   <testCaseGuid>6ab63f7f-e9f3-4b83-9980-e0863532b52f</testCaseGuid>
+</TestCaseEntity>

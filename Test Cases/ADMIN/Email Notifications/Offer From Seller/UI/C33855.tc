@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Email Parameter&quot; dropdown is displayed</description>
+   <name>C33855</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e27f2a8-bc35-4471-8f28-f1d32b816687</testCaseGuid>
+</TestCaseEntity>

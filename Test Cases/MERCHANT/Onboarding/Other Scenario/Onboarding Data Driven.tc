@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Onboarding Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1364ab8-ba32-4155-a065-a5302fbfc475</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>ac1dda0a-5393-4a0a-8318-0d62a4b06830</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>495285ff-586e-4662-85da-5091cad15c03</id>
+      <masked>false</masked>
+      <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>5e47c4b0-3355-492b-badc-f6d333e2816e</id>
+      <masked>false</masked>
+      <name>varDisplayName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>ffb78e7a-3013-4b1b-952c-38f097bccd36</id>
+      <masked>false</masked>
+      <name>varDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>77214bc7-e74d-40d1-9f7b-1c4eef04154a</id>
+      <masked>false</masked>
+      <name>varFname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>a2ba1390-f27a-43ae-bdca-24532d632227</id>
+      <masked>false</masked>
+      <name>varLname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>a49f134e-da76-4bee-836e-4f4e51852cc3</id>
+      <masked>false</masked>
+      <name>varContact</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>5e8242da-3d15-49ce-b191-dc9c259877bd</id>
+      <masked>false</masked>
+      <name>varSellerLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>c9af00e2-02b5-4f0f-ab37-bc90d80dfab8</id>
+      <masked>false</masked>
+      <name>varAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>f97d7d31-657a-4bd2-8586-bcf00b7d0a80</id>
+      <masked>false</masked>
+      <name>varCountry</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>bf0cfda9-f216-4e38-9922-8fb3835dce01</id>
+      <masked>false</masked>
+      <name>varState</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>c058de42-d786-4fec-af17-07a4fab1e048</id>
+      <masked>false</masked>
+      <name>varCity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>
+      <description></description>
+      <id>853f26c6-3417-4fa8-9181-b22bfda35b30</id>
+      <masked>false</masked>
+      <name>varPostal</name>
+   </variable>
+</TestCaseEntity>

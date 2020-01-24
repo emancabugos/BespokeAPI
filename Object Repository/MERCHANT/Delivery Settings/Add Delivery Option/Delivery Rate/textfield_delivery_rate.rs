@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_delivery_rate</name>
+   <tag></tag>
+   <elementGuidId>48acb6a8-41f6-43bc-b755-89a8b131c568</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>delivery_rate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-delivery-setting-edit&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;delivery-setting-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;dsae-content&quot;]/div[@class=&quot;dsc-table&quot;]/div[@class=&quot;delivery-rate-content&quot;]/div[@class=&quot;dsae-content-inputs un-inputs&quot;]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;row&quot;]/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

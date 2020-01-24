@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC082</name>
+   <tag></tag>
+   <comment>Toaster message is displayed upon inputting invalid username &amp; password
+No toaster message yet</comment>
+   <testCaseGuid>c407efae-b6fb-481e-aaa4-4c2ec985b9c7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Merchant Create Custom Account</name>
+   <tag></tag>
+   <comment>EDM search
+Seller Register Page</comment>
+   <testCaseGuid>18948a53-1246-41a5-8edf-4c84451f08ae</testCaseGuid>
+</TestCaseEntity>

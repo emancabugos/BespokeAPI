@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC078</name>
+   <tag></tag>
+   <comment>Password textfield can accept valid data</comment>
+   <testCaseGuid>4d90e950-085b-4b6f-9137-8fd26c375ac9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Chat UI</name>
+   <tag></tag>
+   <comment>UI
+Back</comment>
+   <testCaseGuid>411ef63b-b4b4-4312-b4d9-d50454b4efb5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Item List')</defaultValue>
+      <description></description>
+      <id>cd3a3402-568d-4749-b50f-1646bd518c3d</id>
+      <masked>false</masked>
+      <name>varItemName</name>
+   </variable>
+</TestCaseEntity>

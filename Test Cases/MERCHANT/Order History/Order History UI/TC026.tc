@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de3c8366-a4e4-48a7-9ab5-5a7581e9c08f</testCaseGuid>
+   <variable>
+      <defaultValue>'1104UN1576217964PL95'</defaultValue>
+      <description></description>
+      <id>0b635eed-4521-4303-bb64-096cb9dff5b9</id>
+      <masked>false</masked>
+      <name>inboysID</name>
+   </variable>
+</TestCaseEntity>

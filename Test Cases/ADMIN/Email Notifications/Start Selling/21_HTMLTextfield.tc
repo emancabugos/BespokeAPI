@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>21_HTMLTextfield</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7f7d362-bdc7-472b-9ed3-e904445aa8fb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('ADMIN/Email Notifications/Page_0314APRILJOY5/textarea_html2')</defaultValue>
+      <description></description>
+      <id>6ddeca28-85cf-4473-a582-a8bf366ff6f7</id>
+      <masked>false</masked>
+      <name>startselling</name>
+   </variable>
+</TestCaseEntity>

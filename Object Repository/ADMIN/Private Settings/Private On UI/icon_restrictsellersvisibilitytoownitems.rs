@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_restrictsellersvisibilitytoownitems</name>
+   <tag></tag>
+   <elementGuidId>a046861a-078c-4207-8c53-f2d95c994c85</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://bootstrap.arcadier.com/adminportal/images/i-access.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;all-guest&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;restric_seller_visibility_opt&quot;]/div[@class=&quot;sellers-vi&quot;]/a[1]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

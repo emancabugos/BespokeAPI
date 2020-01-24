@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_AdresseeFName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>922a05d2-f9ea-46af-b650-fedccace297b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeFirstName')</defaultValue>
+      <description></description>
+      <id>1622f363-ed1d-4b25-aa85-1e3baada8216</id>
+      <masked>false</masked>
+      <name>errornotif</name>
+   </variable>
+</TestCaseEntity>

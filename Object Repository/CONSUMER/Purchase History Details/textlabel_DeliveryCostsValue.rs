@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_DeliveryCostsValue</name>
+   <tag></tag>
+   <elementGuidId>7dc699cb-c01c-4b3d-a099-5993b5c563cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl full-width&quot;]/div[@class=&quot;oscct-bot full-width&quot;]/div[@class=&quot;occt-right&quot;]/div[@class=&quot;title-detail&quot;]/span[@class=&quot;detail&quot;]/div[@class=&quot;full-left&quot;]/span[@class=&quot;d-right&quot;]/span[@class=&quot;item-price&quot;]/span[@class=&quot;value&quot;][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>value</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>30.00</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[2]/div/span[2]/div[2]/span[2]/span/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

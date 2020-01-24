@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC079</name>
+   <tag></tag>
+   <comment>User is directed to Homepage</comment>
+   <testCaseGuid>7d7c7cd2-c66b-44d3-95ab-2d730792ad52</testCaseGuid>
+</TestCaseEntity>

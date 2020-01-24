@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>blank_Email</name>
+   <tag></tag>
+   <comment>add Display Name
+add First Name
+add Last Name
+add Email
+Contact No</comment>
+   <testCaseGuid>3f582876-836c-41a7-85c0-686916e57090</testCaseGuid>
+</TestCaseEntity>

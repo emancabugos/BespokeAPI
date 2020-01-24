@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the revert button will reset all the changes in the EDM Template</description>
+   <name>C33865</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2140ef3-b2fc-45e1-a25d-18ae00b5b213</testCaseGuid>
+</TestCaseEntity>

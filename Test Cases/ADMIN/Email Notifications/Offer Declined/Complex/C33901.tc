@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a toaster message will appear after clicking &quot;Save&quot; button.</description>
+   <name>C33901</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a87aeeb-c7a9-4df7-8e63-6ddbdf79b125</testCaseGuid>
+</TestCaseEntity>

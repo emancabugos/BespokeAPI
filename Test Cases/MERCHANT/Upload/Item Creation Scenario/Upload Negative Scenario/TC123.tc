@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC123</name>
+   <tag></tag>
+   <comment>Item Description
+Item Cover Image
+Country
+Stock/Unlimited
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>8b103bf0-16a1-4db5-8822-cd2d90da1bfe</testCaseGuid>
+</TestCaseEntity>

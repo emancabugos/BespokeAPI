@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Show Cc/Bcc&quot; button is displayed</description>
+   <name>C33843</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6f4f2c8-6342-449a-9498-498141ea55db</testCaseGuid>
+</TestCaseEntity>

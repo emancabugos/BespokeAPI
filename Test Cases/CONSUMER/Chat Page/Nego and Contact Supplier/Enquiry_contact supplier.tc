@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enquiry_contact supplier</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e56a4e7f-3ddb-4573-b148-6e393b909577</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Evaluation List')</defaultValue>
+      <description></description>
+      <id>6ae5f1f2-b902-4d50-bf9a-8afead0059e0</id>
+      <masked>false</masked>
+      <name>ItemName</name>
+   </variable>
+</TestCaseEntity>

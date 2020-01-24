@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Custom Field Verification</name>
+   <tag></tag>
+   <comment>Search Item
+textfield1
+textfield2
+TextEditor
+Hyperlink
+Email
+Percentage
+Number
+Number 2
+Checkbox
+Checkbox2
+Dropdown
+Dropdown2
+location
+Date and Time
+Date and Time1
+PDF
+Video
+checkbox
+checkbox
+ddown
+ddown
+checkbox
+checkbox
+Delivers To
+Pickup Locations
+verify match</comment>
+   <testCaseGuid>c66fb4dc-6376-4109-9716-8ba9beea558f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>4766af9e-1822-4893-aaa2-a1bc773be9f4</id>
+      <masked>false</masked>
+      <name>customfieldtextlabel1excel</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>43cb7fd3-2c1c-4e0d-96c0-8977ee5718a5</id>
+      <masked>false</masked>
+      <name>customfieldtextlvalue1excel</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>0e72f2df-bb0f-483e-81f5-42d5eb8a243f</id>
+      <masked>false</masked>
+      <name>customfieldtextlable2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>091cb589-111c-4126-a663-29279a283d17</id>
+      <masked>false</masked>
+      <name>customfieldtextvalue2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>6f6ec1a8-5060-435e-bd73-ea088e24751c</id>
+      <masked>false</masked>
+      <name>customfieldTexteditor</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>babfd5dc-896b-467f-b81f-6994386b9a45</id>
+      <masked>false</masked>
+      <name>customfieldTexteditorvalue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>0ce46cc7-f433-4ee5-9f85-876d4fc586f7</id>
+      <masked>false</masked>
+      <name>customfieldHyper</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>69ea3f7b-e1da-46f4-b492-15efb201b937</id>
+      <masked>false</masked>
+      <name>customfieldHypervalue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>340c6995-1df9-4df4-b262-610faf38d90c</id>
+      <masked>false</masked>
+      <name>customfieldEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>d5024603-0be7-4e80-a00c-54958434192f</id>
+      <masked>false</masked>
+      <name>customfieldEmailvalues</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>50a48107-da66-43f9-9e56-748f9f1da955</id>
+      <masked>false</masked>
+      <name>customfieldpercent</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>cef9061b-9fd5-4f27-9c3e-e57c24500043</id>
+      <masked>false</masked>
+      <name>customfieldpercentvalues</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>d2a007f5-22f9-4d2a-a024-35e90513ee9d</id>
+      <masked>false</masked>
+      <name>customfieldnumber1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>bd5247df-273e-4f46-937c-e4762c99bd4b</id>
+      <masked>false</masked>
+      <name>customfieldnumbervalues1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>5541b475-4f2b-412e-b302-f7fc38079847</id>
+      <masked>false</masked>
+      <name>customfieldnumber2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>691de651-ec19-4388-84a4-bff27970a300</id>
+      <masked>false</masked>
+      <name>customfieldnumbervalues2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>98e6c894-84b9-4746-8039-1c9c3aa16849</id>
+      <masked>false</masked>
+      <name>customfieldcheck1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>8790dec3-d59b-4900-bbbb-b7f437b93af2</id>
+      <masked>false</masked>
+      <name>customfieldcheckvalues11</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>7f39eccd-571b-4c67-9226-2b1fa5809b04</id>
+      <masked>false</masked>
+      <name>customfieldcheckvalues12</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>56ef7af3-b509-4591-afae-20a01a599898</id>
+      <masked>false</masked>
+      <name>customfieldcheckvalues13</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>4bac1f84-67b9-4522-af52-217062c40023</id>
+      <masked>false</masked>
+      <name>customfieldcheck2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails')</defaultValue>
+      <description></description>
+      <id>5a23612a-982f-4386-88c6-59f6dda85395</id>
+      <masked>false</masked>
+      <name>customfieldcheckvalues21</name>
+   </variable>
+</TestCaseEntity>

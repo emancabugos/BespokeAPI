@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>linktext_Click here to view and respo</name>
+   <tag></tag>
+   <elementGuidId>97e2137d-c46a-4832-9c5c-9e7c6a02a4df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjkabeWu8G-2BaDQ1czcPa9SmkP8L4a7OGmFq-2FN8icBlPFhobXNviHdelO2-2BPivfovnfmrDhdcmxpxFIQswXBwyybNpOuZiDVIPsS4yiej9M4enNYsX837bqdf6DoM-2FZodcDel7YC55hQyX8IcBH9ZzmJge2Lyqy1mwJQSYb9PniWxa-2Fjr0C4Z0IN0NQAr5FekxGA-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwkHmP5994mHYdApCuOQzSWdv1b9-2BdL1bkq1tMDKQ8HxcLI5PfDU70SmXIHgO5rAIqG4vqpIpZs31JVd-2B0kV5A3WaCZmnVuQ04Ro-2B1aEOfgMjVeFN1HLnAExn7NSB1sNHqzEhFc68MlVkvd4zHdX0q7AlxNsrCY6xm-2BYkqstii4x8LEznbdBf-2BuOY0CPDrp8EtQ-3D' and (text() = 'Click here to view and respond to 625Seller offer.' or . = 'Click here to view and respond to 625Seller offer.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjkabeWu8G-2BaDQ1czcPa9SmkP8L4a7OGmFq-2FN8icBlPFhobXNviHdelO2-2BPivfovnfmrDhdcmxpxFIQswXBwyybNpOuZiDVIPsS4yiej9M4enNYsX837bqdf6DoM-2FZodcDel7YC55hQyX8IcBH9ZzmJge2Lyqy1mwJQSYb9PniWxa-2Fjr0C4Z0IN0NQAr5FekxGA-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwkHmP5994mHYdApCuOQzSWdv1b9-2BdL1bkq1tMDKQ8HxcLI5PfDU70SmXIHgO5rAIqG4vqpIpZs31JVd-2B0kV5A3WaCZmnVuQ04Ro-2B1aEOfgMjVeFN1HLnAExn7NSB1sNHqzEhFc68MlVkvd4zHdX0q7AlxNsrCY6xm-2BYkqstii4x8LEznbdBf-2BuOY0CPDrp8EtQ-3D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dWwc4SMWk2f3P44yNyFB1Xd6vxx9o-2Bt7I-2Bc10RKi-2ByyeC7JAJtsGihCa8Zs6Eo4wPl-2F3B8z6Apa5TnA8EkCbd3x5iizT7Gi8WgC-2FvUyi6X5LCjuxYc0WqDAsIRzaBHoesiJ-2FMAHdqlk-2Bvdec0V-2FsxjxosBwBIGAhf7VMg-2FIlAotd9fiutx1dF9wIyoWPTXe5g7iZ-2FRQ3YpdK-2FKO-2BZeumNyww-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwn7WaHqI7MoY6rdOLWteTeKhf7iz25LcNEcVmHCZIL-2Bg0uGO2qP4bHS5IX-2BZ-2Bcan6cBaqCuZS0zes5lOYA1M9iYQBSdUBg3SOXhLnr6VPFBgB3HAGvDdIL1Vyn1XvxHfaESPZDyyNREI8jLWKWQwxTfhU6tG0LUbVAywiAcqh5T-2F-2BQwA6FJXZ-2F0pBULxrhG7nE-3D&amp;source=gmail&amp;ust=1570770013854000&amp;usg=AFQjCNGcHAyaeVdcYqwwrLKELNT7LlkhVg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click here to view and respond to 625Seller offer.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:wx&quot;)/div[2]/div[2]/div[2]/p[3]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

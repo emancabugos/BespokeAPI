@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dragbutton_Custom</name>
+   <tag></tag>
+   <elementGuidId>f924c7bd-d4fc-420e-b2f7-c0692e860408</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>order-arrange-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sort_Custom_Login&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8 col-sm-8&quot;]/div[@class=&quot;order-arrange-icon&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

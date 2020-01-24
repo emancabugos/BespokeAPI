@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_dropdownOpt2</name>
+   <tag></tag>
+   <elementGuidId>0efd093b-f86d-4bd8-9893-a394433b8fa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[9]/div/ul/li[2]/div/div[2]/input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div[1]/div[2]/div/form/div/div[9]/div/ul/li[2]/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[9]/div/ul/li[2]/div/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

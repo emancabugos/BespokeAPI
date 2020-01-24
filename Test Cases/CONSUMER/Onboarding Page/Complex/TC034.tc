@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC034</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53d26b95-6a82-4331-9090-6aeebd0f4a17</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d09271d6-955d-43d8-b3cd-0e221f381d3e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>47e419e3-19e5-4e47-b7d8-c3d07a23247b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d12a305b-c848-4803-a4b4-4a3ddc7cd262</id>
+      <masked>false</masked>
+      <name>confirmpassword</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>460ef8d0-6b79-4ef3-98f9-94274826f409</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f65cbc46-6e53-4f2f-bf09-8849ac41bc30</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category List')</defaultValue>
+      <description></description>
+      <id>55a4d2ef-8d94-4efc-9f5e-0ead421f6591</id>
+      <masked>false</masked>
+      <name>CategoryNametext</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category List')</defaultValue>
+      <description></description>
+      <id>95cdb832-0587-44ee-821f-9afb9ae49ce8</id>
+      <masked>false</masked>
+      <name>ParentName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category List')</defaultValue>
+      <description></description>
+      <id>47799acf-877b-4e5f-838f-5f40b584daa9</id>
+      <masked>false</masked>
+      <name>CategoryImageUpload</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category List')</defaultValue>
+      <description></description>
+      <id>17f850bb-d156-4919-951b-4f9aaaa05417</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

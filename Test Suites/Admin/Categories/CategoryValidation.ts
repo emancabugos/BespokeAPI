@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CategoryValidation</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-10-08T12:22:21</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>b106d825-e119-4383-9a6d-35fdfc9a80b3</testSuiteGuid>
+   <testCaseLink>
+      <guid>dcf5d17b-5d01-49a2-8ee5-5fce46dc1623</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96312cc1-67ec-44d7-8b00-fdec4bea765b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category UI/UI Verification_Categories/Precondition</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>940a2fed-260d-4eb6-a28e-d72e27b6fcc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>13763223-ec29-4723-82bc-4fcd387dff69</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Category List</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>13763223-ec29-4723-82bc-4fcd387dff69</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>categoryname</value>
+         <variableId>fba8ccf0-e5c4-4383-9e35-ebf87ecee0c9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13763223-ec29-4723-82bc-4fcd387dff69</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>parentcategory</value>
+         <variableId>d2fb07e5-c39d-4329-a47f-f6dd79002ce3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13763223-ec29-4723-82bc-4fcd387dff69</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>image</value>
+         <variableId>e14f21dd-f4a6-49f2-a073-820fd345917b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13763223-ec29-4723-82bc-4fcd387dff69</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>c8bb7b19-a556-4d1d-887c-6f48f2286266</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62eda384-e479-439b-99cf-cb3dfecb5a14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/05_UploadImageMandatory</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9689080c-ceb7-4b32-b91b-e62bbbc1e5dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Category List</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9689080c-ceb7-4b32-b91b-e62bbbc1e5dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>categoryname</value>
+         <variableId>a4d357fd-328a-4f2a-b7ab-d4df9584d9b3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9689080c-ceb7-4b32-b91b-e62bbbc1e5dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>parentcategory</value>
+         <variableId>185e7e4c-f107-4dcc-a343-84b5ba3105f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9689080c-ceb7-4b32-b91b-e62bbbc1e5dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>image</value>
+         <variableId>c6792135-53c3-4a1d-a629-56a5bc31d9ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9689080c-ceb7-4b32-b91b-e62bbbc1e5dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>87afef01-b98f-45c5-bd37-d890d1de96a8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

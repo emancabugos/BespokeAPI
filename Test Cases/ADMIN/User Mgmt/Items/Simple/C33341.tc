@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Confirmation popup will display upon clicking the Trash Icon</description>
+   <name>C33341</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c090cf40-0bf8-4bf7-a0b7-23b101406699</testCaseGuid>
+</TestCaseEntity>

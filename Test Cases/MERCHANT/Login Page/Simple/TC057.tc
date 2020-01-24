@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC057</name>
+   <tag></tag>
+   <comment>Enter usermane using email format</comment>
+   <testCaseGuid>057acd0b-4f84-46dc-9974-eaf1aa91b524</testCaseGuid>
+</TestCaseEntity>

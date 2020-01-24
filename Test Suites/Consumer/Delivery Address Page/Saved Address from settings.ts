@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Saved Address from settings</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-11-18T15:53:34</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3bef6e36-a787-40e1-b3a3-0c0e1fcad673</testSuiteGuid>
+   <testCaseLink>
+      <guid>b7c2df3a-d144-46f4-bb25-4c2e997206ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Delivery Checkout Page/Field Verification/02_VerifySavedAddress - final</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8c1a52e3-b14d-42b9-a9ec-55a74b50fc9a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/Saved Address</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8c1a52e3-b14d-42b9-a9ec-55a74b50fc9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>9d69f368-21b0-4a2a-8ee5-1a58bf238f58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c1a52e3-b14d-42b9-a9ec-55a74b50fc9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>68a603bd-eeff-4c70-a60d-1d465f4d3ace</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c1a52e3-b14d-42b9-a9ec-55a74b50fc9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Country</value>
+         <variableId>964ac8fd-6715-4a44-a470-9820ea3a70e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c1a52e3-b14d-42b9-a9ec-55a74b50fc9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>State</value>
+         <variableId>a4f470d1-ec64-405e-860b-1facedb3e7a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c1a52e3-b14d-42b9-a9ec-55a74b50fc9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>City</value>
+         <variableId>32181940-4be7-4368-94e3-0bfec8d254c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c1a52e3-b14d-42b9-a9ec-55a74b50fc9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Postal</value>
+         <variableId>67aa4361-8db9-47a2-8e0e-f6cbd8be011c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

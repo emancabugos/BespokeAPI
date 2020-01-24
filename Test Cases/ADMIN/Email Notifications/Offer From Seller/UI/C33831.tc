@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Sent to the Buyer when they receive an offer from the Seller.&quot; label is present</description>
+   <name>C33831</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0af2324e-dc7f-4263-9218-ccd6c4a7dca6</testCaseGuid>
+</TestCaseEntity>

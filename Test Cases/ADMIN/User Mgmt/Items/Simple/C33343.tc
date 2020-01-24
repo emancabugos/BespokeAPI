@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;x&quot; button is present in Popup</description>
+   <name>C33343</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2999575-3eb1-4965-917c-cebffc195417</testCaseGuid>
+</TestCaseEntity>

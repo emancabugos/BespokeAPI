@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC065</name>
+   <tag></tag>
+   <comment>Enter password with trailing spaces</comment>
+   <testCaseGuid>3f518445-1623-4a4b-904d-8253a2a05f34</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Start Selling</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-10-15T07:56:55</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>03ca8462-6fa5-4734-89c6-c179df4e5c28</testSuiteGuid>
+   <testCaseLink>
+      <guid>b9b0cd21-6fec-4f74-b7b5-c06183ffb518</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM/Gmail Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d9050b3-0340-4642-9199-cd33293191f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM/Verify Start Selling Content</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>90581287-43b0-4642-b5e3-6391a0437ca0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EDM/Start Selling</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>recipient</value>
+         <variableId>c0d5dd1d-c096-4bfb-b1aa-0924f5ace828</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Subject</value>
+         <variableId>57fcf53c-e31d-4468-a687-54d40aec700a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Cc</value>
+         <variableId>e353b173-e86a-487d-a0fb-285282e0bfc3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bcc</value>
+         <variableId>0c392f43-dc11-4874-94b0-9a651fb5b2c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Hi</value>
+         <variableId>b27e8b28-54d5-4551-b9d9-72154b212c02</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>We are excited to have you onboard!</value>
+         <variableId>674f02e5-a71f-4d0f-bb47-ec61f048ed3a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>We look forward to you filling up your store with lots and lots of items!</value>
+         <variableId>0ef4e546-bb4a-47cd-add9-82a374491270</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Start Selling Btn</value>
+         <variableId>25b69cf6-b4ea-427c-af5d-3f80e4897804</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Regards</value>
+         <variableId>2d8db7d9-d092-44ac-8d5b-f8939e964b0c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>admin Mpname</value>
+         <variableId>e913b1b1-79a7-4af5-b6d2-d5b128689eae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MP Url</value>
+         <variableId>a63a9373-f6b5-4116-ac2e-9943fd44da42</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>417fdc23-7465-4302-a2dd-64a10302a167</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36b28d06-28ba-4336-aca6-99d00d254ea9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4783597d-1059-4c03-b6b7-f64fdbf1298c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

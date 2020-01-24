@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Categories</name>
+   <tag></tag>
+   <comment>Categories</comment>
+   <testCaseGuid>9960dbd6-1012-47d6-9f5f-8287ab6efdaf</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>a60f3c4a-68af-404a-be00-4504c2acf322</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+</TestCaseEntity>

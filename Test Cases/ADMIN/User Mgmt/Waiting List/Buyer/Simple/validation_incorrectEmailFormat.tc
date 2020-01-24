@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validation_incorrectEmailFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0e5936b-2221-4b6b-aada-5a9a39b07b9e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c5fddafc-07c3-49dc-be8d-a1101d7aa75e</id>
+      <masked>false</masked>
+      <name>invalidEmail</name>
+   </variable>
+</TestCaseEntity>

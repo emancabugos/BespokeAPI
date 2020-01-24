@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC064</name>
+   <tag></tag>
+   <comment>Enter password using alphanumeric</comment>
+   <testCaseGuid>94849de4-79a4-474e-95c5-a6f273b0d0f0</testCaseGuid>
+</TestCaseEntity>

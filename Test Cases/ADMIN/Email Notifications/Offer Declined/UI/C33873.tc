@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user will be redirected to Email Template Edit page after clicking &quot;Edit&quot;.</description>
+   <name>C33873</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70368c44-f9a6-42c3-bac6-9a54c65b5b43</testCaseGuid>
+</TestCaseEntity>

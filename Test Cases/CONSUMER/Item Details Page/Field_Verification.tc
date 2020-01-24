@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Field_Verification</name>
+   <tag></tag>
+   <comment>Verfication of Item out of stock
+Go to Homepage
+Verfication of minimun order
+Go to Homepage
+Verification of empty Quantity
+Go to Homepage
+Verification of empty Quantity</comment>
+   <testCaseGuid>7d54af50-cfad-421a-a453-857e33f0cef8</testCaseGuid>
+</TestCaseEntity>

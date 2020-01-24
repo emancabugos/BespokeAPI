@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Invoice Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>734a8923-5894-43a9-8b19-b55906bb975b</testCaseGuid>
+   <variable>
+      <defaultValue>'1104UN1578016288OGV4'</defaultValue>
+      <description></description>
+      <id>b01023f0-0a50-4860-b569-45f7eb06398a</id>
+      <masked>false</masked>
+      <name>varInvoice</name>
+   </variable>
+</TestCaseEntity>

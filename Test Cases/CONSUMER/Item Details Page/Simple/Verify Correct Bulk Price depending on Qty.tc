@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Correct Bulk Price depending on Qty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>534eb3a2-24e6-47cf-bab1-1481ba47b157</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08_PaymentTypeValues</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93a9e810-6cec-4725-9b6b-04c27ca04f32</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('CONSUMER/Purchase History Details/textlabel_PaymentTypeValue')</defaultValue>
+      <description></description>
+      <id>c9557d9b-f6ff-4a40-bafa-c3e40099706d</id>
+      <masked>false</masked>
+      <name>paymenttype</name>
+   </variable>
+</TestCaseEntity>
