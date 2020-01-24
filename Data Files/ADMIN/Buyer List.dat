@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>56dfa49f-b8e4-4d2c-9591-132dbb0be0ce</dataFileGUID>
-   <dataSourceUrl>C:\Katalon\Trillia\Data Files\Test Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\BespokeAPI\Data Files\Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
