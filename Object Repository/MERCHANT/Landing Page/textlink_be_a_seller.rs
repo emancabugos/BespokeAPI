@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Accept Cookies</name>
+   <name>textlink_be_a_seller</name>
    <tag></tag>
-   <elementGuidId>9ddc9930-a88c-47de-b341-a8f0095ac492</elementGuidId>
+   <elementGuidId>69df40cb-e3c3-4370-93bf-79df0467fe7b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div/div[3]/div/div/a[count(. | //a[@class = 'cookie-btn']) = count(//a[@class = 'cookie-btn'])]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/a[count(. | //a[(text() = 'BE A SELLER' or . = 'BE A SELLER')]) = count(//a[(text() = 'BE A SELLER' or . = 'BE A SELLER')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,36 +22,29 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>fixnotification_dismiss(this,'cookies_btm_fixmsg');</value>
+      <value>hidden-xs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>cookie-btn</value>
+      <value>BE A SELLER</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:void(0);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Accept Cookies</value>
+      <value>/accounts/non-private/sign-in?isSeller=true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div/div[3]/div/div/a</value>
+      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/a</value>
    </webElementProperties>
 </WebElementEntity>

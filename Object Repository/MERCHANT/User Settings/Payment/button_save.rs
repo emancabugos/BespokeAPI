@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_dropdown</name>
+   <name>button_save</name>
    <tag></tag>
-   <elementGuidId>28c82550-e0ed-4303-b779-dd6c3b4bce2f</elementGuidId>
+   <elementGuidId>78174ea8-d239-474d-b4fe-2f376b22d282</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul[2]/li[2]/span/i[count(. | //i[@class = 'fa fa-angle-down']) = count(//i[@class = 'fa fa-angle-down'])]</value>
+         <value>//div[@class = 'btn-add pull-right' and (text() = ' Save' or . = ' Save')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,20 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-angle-down</value>
+      <value>btn-add pull-right</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul[2]/li[2]/span/i</value>
+      <value> Save</value>
    </webElementProperties>
 </WebElementEntity>

@@ -28,9 +28,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -40,19 +40,11 @@ WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), varUser
 
 WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), 'welcome8')
 
-if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
-    WebUI.waitForElementVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
-
-    WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
-} else {
-    WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-}
-
 WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/icon_dropdown'), 0)
 
-WebUI.click(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Usermenu/icon_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/textlink_settings'), 0)
 
@@ -92,7 +84,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.comment('PROFILE')
+WebUI.comment('ADDRESS')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 0)
 
@@ -116,9 +108,27 @@ WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Add'), Failure
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/address_box'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_Save'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_next address'), 0)
 
-WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Save'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_next address'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('PAYMENT')
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/button_save'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/button_save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

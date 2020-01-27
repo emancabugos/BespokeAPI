@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right full-width-xs&quot;]/ul[@class=&quot;header-menus usr&quot;]/li[@class=&quot;h-username&quot;]/span[1]/i[@class=&quot;fa fa-angle-down&quot;]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/span/i[count(. | //i[@class = 'fa fa-angle-down']) = count(//i[@class = 'fa fa-angle-down'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right full-width-xs&quot;]/ul[@class=&quot;header-menus usr&quot;]/li[@class=&quot;h-username&quot;]/span[1]/i[@class=&quot;fa fa-angle-down&quot;]</value>
+      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/span/i</value>
    </webElementProperties>
 </WebElementEntity>

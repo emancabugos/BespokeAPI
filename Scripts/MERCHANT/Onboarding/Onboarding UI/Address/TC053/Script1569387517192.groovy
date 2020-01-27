@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/User Settings/Address/button_Save'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/User Settings/Address/button_next address'), 0)
 
