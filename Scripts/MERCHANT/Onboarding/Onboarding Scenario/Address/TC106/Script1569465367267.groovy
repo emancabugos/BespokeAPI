@@ -27,7 +27,7 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/butto
 
 WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_Save'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_next address'), 0)
 
-WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Save'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_next address'), FailureHandling.CONTINUE_ON_FAILURE)
 
