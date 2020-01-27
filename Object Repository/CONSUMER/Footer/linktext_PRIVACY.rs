@@ -4,10 +4,16 @@
    <name>linktext_PRIVACY</name>
    <tag></tag>
    <elementGuidId>39ceac33-8791-4319-a4d6-c64fdb469958</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/policy/privacy-policy' and (text() = 'Privacy Policy' or . = 'Privacy Policy')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>PRIVACY</value>
+      <value>Privacy Policy</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

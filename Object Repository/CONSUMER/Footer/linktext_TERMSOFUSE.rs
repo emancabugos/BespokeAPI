@@ -4,10 +4,16 @@
    <name>linktext_TERMSOFUSE</name>
    <tag></tag>
    <elementGuidId>fb45bb61-c07a-447c-a4dd-627c8512cd55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/policy/terms-of-service' and (text() = 'Terms of Use' or . = 'Terms of Use')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>TERMS OF USE</value>
+      <value>Terms of Use</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'more-btn' and @id = 'viewMoreCat' and (text() = 'View More' or . = 'View More')]</value>
+         <value>//div[@class = 'more-btn' and (text() = 'View More' or . = 'View More') and @href = '/search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>more-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -46,5 +46,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;viewMoreCat&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/search</value>
    </webElementProperties>
 </WebElementEntity>

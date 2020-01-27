@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value = 'Philippines']</value>
+         <value>//*[@value = 'PH']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Philippines</value>
+      <value>PH</value>
    </webElementProperties>
 </WebElementEntity>

@@ -6,14 +6,18 @@
    <elementGuidId>703a1d01-f969-4ca4-9b17-c8e4f5803730</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@value = 'MY']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,6 +28,6 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Myanmar</value>
+      <value>MY</value>
    </webElementProperties>
 </WebElementEntity>

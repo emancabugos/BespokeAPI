@@ -4,13 +4,18 @@
    <name>Delivery Settings UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-08T14:24:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3d30eb9e-ca47-4502-b02c-1e4e587c44f1</testSuiteGuid>
+   <testCaseLink>
+      <guid>72b49d32-286a-4bb4-9272-0a339d603cfb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>cc249c98-80ee-4de3-9983-9a22a4f87bc7</guid>
       <isReuseDriver>false</isReuseDriver>

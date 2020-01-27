@@ -4,10 +4,16 @@
    <name>linktext_ABOUT</name>
    <tag></tag>
    <elementGuidId>4bfd7c87-d6e7-4e05-8820-dbdede043805</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/policy/about-us' and (text() = 'About Us' or . = 'About Us')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ABOUT</value>
+      <value>About Us</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
