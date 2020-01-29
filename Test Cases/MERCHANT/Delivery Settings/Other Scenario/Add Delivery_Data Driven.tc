@@ -3,11 +3,7 @@
    <description></description>
    <name>Add Delivery_Data Driven</name>
    <tag></tag>
-   <comment>Deliver Option Name
-Delivers to
-Min Lead Time
-Unit
-Add Delivery Rate</comment>
+   <comment></comment>
    <testCaseGuid>1b14776d-3543-4c0c-9aca-d86e4317d259</testCaseGuid>
    <variable>
       <defaultValue>findTestData('MERCHANT/Delivery List')</defaultValue>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>linktext_Upload</name>
+   <name>linktext_Add Item</name>
    <tag></tag>
    <elementGuidId>6b20a315-84a2-4a34-bde6-007341c8605a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

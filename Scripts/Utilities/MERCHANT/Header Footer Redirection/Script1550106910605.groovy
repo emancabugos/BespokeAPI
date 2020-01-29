@@ -41,9 +41,9 @@ WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_Your I
 
 WebUI.comment('UPLOAD')
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), 0)
 
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Upload Item/textlabel_Basic Details'), 0)
 

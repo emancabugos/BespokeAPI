@@ -99,43 +99,43 @@ if (varDelMethod == 'deliver') {
     
     WebUI.comment('Add Delivery Rate')
 
-    if (varDeliveryName == 'Delivery A') {
+    if (varDeliveryName == 'Merchant Delivery A') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_AC'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery B') {
+    } else if (varDeliveryName == 'Merchant Delivery B') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_BD'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery C') {
+    } else if (varDeliveryName == 'Merchant Delivery C') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_AC'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery D') {
+    } else if (varDeliveryName == 'Merchant Delivery D') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_BD'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery E') {
+    } else if (varDeliveryName == 'Merchant Delivery E') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_E'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery F') {
+    } else if (varDeliveryName == 'Merchant Delivery F') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_F'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery G') {
+    } else if (varDeliveryName == 'Merchant Delivery G') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_G'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery H') {
+    } else if (varDeliveryName == 'Merchant Delivery H') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_H'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery I') {
+    } else if (varDeliveryName == 'Merchant Delivery I') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_IK'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery J') {
+    } else if (varDeliveryName == 'Merchant Delivery J') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_JLMAX'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery K') {
+    } else if (varDeliveryName == 'Merchant Delivery K') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_IK'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery L') {
+    } else if (varDeliveryName == 'Merchant Delivery L') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_JLMAX'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
-    } else if (varDeliveryName == 'Delivery Maximum Ch@racters2!#') {
+    } else if (varDeliveryName == 'Merchant Delivery Maximum Ch@racters2!#') {
         WebUI.callTestCase(findTestCase('MERCHANT/Delivery Settings/Other Scenario/Delivery Rate Range/DeliveryRate_JLMAX'), 
             [(varDeliveryName) : varDeliveryName], FailureHandling.CONTINUE_ON_FAILURE)
     }
