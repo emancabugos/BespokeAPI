@@ -9,7 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>e7db9405-72dd-406e-be69-6f6ecac99e82</testSuiteGuid>
+   <testSuiteGuid>3d5ca367-c5c3-4a40-88e4-215917b0ffd2</testSuiteGuid>
    <testCaseLink>
       <guid>d85edbd9-5770-43f9-b76d-c21834143c3e</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -26,7 +26,7 @@
       <guid>0af701c9-fd5e-4213-a2c2-af6249d0c5fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/select_Item</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/select_Item</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e0018287-6b36-4a6e-94f4-673c1f151029</guid>

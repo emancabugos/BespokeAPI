@@ -9,165 +9,189 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>7c28acb9-d4c8-49ef-b4f8-b770276951b5</testSuiteGuid>
+   <testSuiteGuid>2359496b-15f3-4eb9-b400-5312bc4430c5</testSuiteGuid>
    <testCaseLink>
-      <guid>7d6848dc-6241-48ad-abb2-cee6b3f94911</guid>
+      <guid>8de7ae58-028c-4fc6-adb5-af67d194bd42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
+      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b8f6b6f-f622-42dd-ab82-ba36a8f867fe</guid>
+      <guid>7844cd4e-d8d4-4ede-a834-f2dda9eee9d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/01_language</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Homepage/14_BlankSearch</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13bf6364-e91a-49f8-8ed9-e09a21c76c79</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>aa6eb3c6-7325-4a26-b9ac-ce54958904c5</guid>
+      <guid>fba02d1f-32aa-49f0-a799-3f14593c4c8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/02_buyerdisplayName</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/01_itemNamesearchResult</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2afc3b37-e276-456a-ba3e-c9738dd1ee4f</guid>
+      <guid>379d2db7-8b46-454c-8b6d-6db8b87708e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/03_buyerdropdown</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/02_itemImagesearchResult</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>74e5d58e-3502-489a-88c7-1ef6c7eb0cfb</guid>
+      <guid>384ee09e-5a0a-4201-a9f9-2a02ca3eece5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/04_markeplaceLogo</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/03_linktextHome</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a1ec97d-1c7e-44a2-b77e-770086afb7bb</guid>
+      <guid>674492db-ff09-433a-bec1-a985ba9a0e20</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/05_textfieldSearch</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/04_textlabelCategories</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>826fb3a3-9ea8-4415-88ff-bf9b79d99b0a</guid>
+      <guid>c925983d-bcaf-4028-9eaa-5ebce8fa5d67</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/06_buttonSearch</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/05_textlabelPriceRange</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f6187809-3e30-4694-9090-5f56448205a4</guid>
+      <guid>b79e1a27-1fdc-4402-8eac-59f707dbf332</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/07_dropdownCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/06_buttonReset</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d283ebf4-a255-465f-b71c-e354ba4bc1eb</guid>
+      <guid>69b042db-d9c8-47cb-883e-35a72d122947</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/08_buttonInbox</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/07_buttonApply</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c5e3ea47-1ce4-4e65-b44c-e4fb49a6613b</guid>
+      <guid>92df20c3-d9d2-4db0-b4ee-6ef2195a04be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/09_iconCart</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/08_hamburgerMenu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>66d0480f-5e13-471b-bff6-32163504e96e</guid>
+      <guid>4f50e155-eaee-435a-95c0-9791f5811225</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/10_textlabelExternalLinks</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/09_buttonFilter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d581a902-1759-4b77-994f-3c04542fa649</guid>
+      <guid>0e318251-1c21-4a11-88ef-2bb26e7006bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/11_textlabelLatest</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/10_textlabelSortBy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7bd7937-c69d-4d4e-a61d-6e4bd55a92b7</guid>
+      <guid>707c006d-8589-4224-acd2-e601915eb575</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/12_buttonViewMoreLatest</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/11_textlabelPrice</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b400582-70cb-432d-b018-224bbe5d78c2</guid>
+      <guid>50163181-d3aa-4a35-813d-0bb12b8f6ab9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/13_textlabelCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/12_textlabelCurrency</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7975151a-58bb-4e06-bebe-19640f9fd852</guid>
+      <guid>5687ae50-d711-4503-b015-861df1046200</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/14_buttonViewMoreCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/13_dropdownSortby</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec7f8ea0-b5af-4f0d-9608-fa0bac9a93ef</guid>
+      <guid>5ed5860a-2fe6-43ef-b742-3e16bf09454f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/14_buttonGridView</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbeb20f2-6adc-4420-86c1-c899ac86192d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/15_buttonListView</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ad6d198-498a-4a8c-8b7c-dd0473fc6001</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/UI/16_linktextSellerName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>06648701-d745-42f8-a7c1-0f0d3cd780cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/15_linktextAboutUs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d8851568-2dd0-42f1-85d9-69039516fa5e</guid>
+      <guid>f1f362ea-9184-40c0-87c7-0aec2f24b185</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/16_linktextTermsofUse</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>26a93da5-11c7-478d-a9d9-a07d68fc4861</guid>
+      <guid>add69e85-5b2b-49e5-be18-edba18628f94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/17_linktextPrivacyPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>21cf0e20-b84c-42fe-830a-c6180cc924fe</guid>
+      <guid>70d41528-f78d-4688-b046-189b1572c746</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/18_linktextReturnsPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b25f62a9-66f9-479b-9faf-95bad85a8a5c</guid>
+      <guid>3805c968-b142-48ed-9c54-aa708a2e8d3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/19_ContactUs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6fcd9469-6096-4cc8-9929-764cff7ae20a</guid>
+      <guid>56c4e893-2d42-4503-b983-41e788e4bb0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/20_linktextFAQ</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>30a307d0-91b4-4c0f-8493-90434369bb5e</guid>
+      <guid>ec4577f4-0021-4474-a8f3-8d4278bf87bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/21_copyRight</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a370d665-8f0a-4eef-8812-3c0f5139807a</guid>
+      <guid>fb48cc48-049b-45a6-9ed3-966ff4dab4ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/22_imageFacebook</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>77228030-c8ef-47a2-868a-400cec5a7bc5</guid>
+      <guid>4752a1b7-23e4-4bd9-8515-6033e32fd236</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/23_imageTwitter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f933f7a1-42de-4097-822f-d1d25bbc7f62</guid>
+      <guid>e96d6edf-cf5e-4748-881f-60933347f992</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/24_imagelinkedIn</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9a1533d-f040-41f6-ab63-f3808a521d71</guid>
+      <guid>46ed14d2-4da4-4a05-ad47-fc5d02f21236</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/25_imageInstagram</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0cde9370-8e25-4047-b58e-1340136643ad</guid>
+      <guid>83a018f4-604c-407b-a4b5-0de1d42828b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
