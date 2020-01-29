@@ -1,57 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ViewMoreCategories</name>
+   <name>icon_ViewCart</name>
    <tag></tag>
-   <elementGuidId>2935988b-7005-4bb4-94d6-e608c028fff9</elementGuidId>
+   <elementGuidId>940c08d5-7217-4568-9669-76b01ce8eda7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;viewMoreCat&quot;)[count(. | //div[@class = 'more-btn' and (text() = 'View More' or . = 'View More')]) = count(//div[@class = 'more-btn' and (text() = 'View More' or . = 'View More')])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='header-section']/div[2]/div/ul/li[3]/ul/li[2]/a/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>more-btn</value>
+      <value>fa fa-shopping-cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>viewMoreCat</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>View More</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;viewMoreCat&quot;)</value>
+      <value>id(&quot;header-section&quot;)/div[@class=&quot;header-bottom&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-extramenus&quot;]/ul[1]/li[@class=&quot;h-cart&quot;]/a[1]/i[@class=&quot;fa fa-shopping-cart&quot;]</value>
    </webElementProperties>
-   <webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='header-section']/div[2]/div/ul/li[3]/ul/li[2]/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>xpath:position</name>
       <type>Main</type>
-      <value>/search</value>
-   </webElementProperties>
+      <value>//a/i</value>
+   </webElementXpaths>
 </WebElementEntity>

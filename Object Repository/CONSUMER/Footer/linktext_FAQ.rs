@@ -4,10 +4,16 @@
    <name>linktext_FAQ</name>
    <tag></tag>
    <elementGuidId>adbcd191-2825-4e51-87ec-8c98f684ab40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/policy/faq' and (text() = 'Faq' or . = 'Faq')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>FAQ</value>
+      <value>Faq</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

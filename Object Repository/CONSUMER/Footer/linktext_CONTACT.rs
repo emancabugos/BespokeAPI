@@ -4,10 +4,16 @@
    <name>linktext_CONTACT</name>
    <tag></tag>
    <elementGuidId>2aa27f0b-d44c-4f4b-be77-b7a02c7ec214</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/policy/contact-us' and (text() = 'Contact' or . = 'Contact')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/policy/ContactUs</value>
+      <value>/policy/contact-us</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CONTACT</value>
+      <value>Contact</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

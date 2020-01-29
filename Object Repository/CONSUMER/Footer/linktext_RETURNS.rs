@@ -4,10 +4,16 @@
    <name>linktext_RETURNS</name>
    <tag></tag>
    <elementGuidId>8dbc3ad8-daab-4ed1-9b6a-2fca9ebd2abc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/policy/return-policy' and (text() = 'Return Policy' or . = 'Return Policy')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>RETURNS</value>
+      <value>Return Policy</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
