@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/Chat Details Page/button_back'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/textlabel_price per item'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 

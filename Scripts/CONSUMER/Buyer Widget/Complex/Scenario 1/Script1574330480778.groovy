@@ -47,9 +47,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/textarea_chatMsg'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.waitForElementClickable(findTestObject('CONSUMER/Chat page/textarea_chatMsg'), 0)
+WebUI.waitForElementClickable(findTestObject('null'), 0)
 
 WebUI.comment('Search Item 02')
 
@@ -71,9 +71,9 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_Co
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/textarea_chatMsg'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.waitForElementClickable(findTestObject('CONSUMER/Chat page/textarea_chatMsg'), 0)
+WebUI.waitForElementClickable(findTestObject('null'), 0)
 
 WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -181,7 +181,7 @@ WebUI.verifyElementText(findTestObject('MERCHANT/Inbox/textlabel_itemname'), 'It
 
 WebUI.click(findTestObject('MERCHANT/Inbox/textlabel_itemname'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/a_Offer Action/button_AddToComparison'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
 WebUI.click(findTestObject('CONSUMER/Buyer Widget/a_Widget/button_arrowUp'))
 
@@ -199,7 +199,7 @@ WebUI.waitForElementClickable(findTestObject('CONSUMER/Buyer Widget/a_Widget/but
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Buyer Widget/a_Widget/dropdown_ListName'), 'List 01', true, 0)
 
-WebUI.click(findTestObject('CONSUMER/Chat page/a_Offer Action/button_AddToComparison'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Delete/button_DeleteComparison'), 0)
 
@@ -221,7 +221,7 @@ WebUI.waitForElementClickable(findTestObject('CONSUMER/Buyer Widget/a_Widget/but
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Buyer Widget/a_Widget/dropdown_ListName'), 'List 02', true, 0)
 
-WebUI.click(findTestObject('CONSUMER/Chat page/a_Offer Action/button_AddToComparison'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Delete/button_DeleteComparison'), 0)
 
@@ -245,7 +245,7 @@ WebUI.verifyElementText(findTestObject('MERCHANT/Inbox/textlabel_itemname'), 'It
 
 WebUI.click(findTestObject('MERCHANT/Inbox/textlabel_itemname'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/a_Offer Action/button_AddToComparison'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
 WebUI.click(findTestObject('CONSUMER/Buyer Widget/a_Widget/button_arrowUp'))
 
@@ -253,7 +253,7 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Widget/butto
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Buyer Widget/a_Widget/dropdown_ListName'), 'List 02', true, 0)
 
-WebUI.click(findTestObject('CONSUMER/Chat page/a_Offer Action/button_AddToComparison'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Delete/button_DeleteComparison'), 0)
 
@@ -265,7 +265,7 @@ WebUI.selectOptionByLabel(findTestObject('CONSUMER/Buyer Widget/a_Widget/dropdow
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Buyer Widget/a_Widget/dropdown_ListName'), 'List 01', true, 0)
 
-WebUI.click(findTestObject('CONSUMER/Chat page/a_Offer Action/button_AddToComparison'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Delete/button_DeleteComparison'), 0)
 

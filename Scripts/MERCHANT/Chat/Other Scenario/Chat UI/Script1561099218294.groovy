@@ -46,15 +46,15 @@ WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/textlabel_user location
 
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/textlabel_Member since'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/image_item'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/textlabel_item name'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/textlabel_price per item'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/textlabel_order quantity'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/textlabel_offer price'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
 WebUI.click(findTestObject('MERCHANT/Chat/a_Send Offer/button_Create Offer'), FailureHandling.CONTINUE_ON_FAILURE)
 
