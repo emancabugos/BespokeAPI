@@ -20,7 +20,7 @@
       <guid>33726d05-8a60-4b67-9ec0-88c7fc4e4d89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat UI</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat UI</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ca842e67-c22a-497a-9fa1-561d9e5e8b48</id>
@@ -41,7 +41,7 @@
       <guid>d79f9349-741e-4809-8d43-2af26664490d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Send Message</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Send Message</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>47b30098-7259-4f39-8df7-4dae14dd65ba</id>
@@ -62,7 +62,7 @@
       <guid>909501b8-7f18-4f31-b278-00f39edd3e55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Decline Offer</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Decline Offer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9ade768b-b26d-48a0-8f41-0eb78220c5d6</id>
@@ -83,7 +83,7 @@
       <guid>bdb11b31-0b8c-4182-8254-699b9322f763</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Add to Evaluation</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Add to Evaluation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9197c976-ca68-43e3-b7b3-48776ceebf67</id>

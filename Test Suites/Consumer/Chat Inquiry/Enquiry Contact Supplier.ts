@@ -29,7 +29,7 @@
       <guid>5324857d-d408-4dea-b0b8-f2ed43d55518</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Nego and Contact Supplier/Enquiry_contact and nego</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Nego and Contact Supplier/Enquiry_contact and nego</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>074d761d-68c3-45b5-86fa-d77e521ea4af</id>

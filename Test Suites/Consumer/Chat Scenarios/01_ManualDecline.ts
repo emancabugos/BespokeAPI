@@ -20,7 +20,7 @@
       <guid>6972ce23-faa3-4c2c-ab39-1b9dfd57720c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat Scenarios/Manual Decline/01_Enquiry</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat Scenarios/Manual Decline/01_Enquiry</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>00a2e591-145a-40e2-af8e-0d368405f77e</id>
@@ -77,7 +77,7 @@
       <guid>1c9fecd3-037a-4e0c-8460-fc42e2f66584</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat Scenarios/Manual Decline/02_CreateOffer</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat Scenarios/Manual Decline/02_CreateOffer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>657fce6b-dc1d-4404-b239-3b46fa0414dc</id>
@@ -134,7 +134,7 @@
       <guid>d5027551-88ce-4259-988d-dcdc87cf2124</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat Scenarios/Manual Decline/03_DeclineOffer</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat Scenarios/Manual Decline/03_DeclineOffer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dc1b13dc-03ef-4443-9d0e-3e293c80b0cd</id>
@@ -167,7 +167,7 @@
       <guid>48282ccb-d923-41f9-83c7-180163e4d744</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat Scenarios/Manual Decline/04_InboxSellerDecline</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat Scenarios/Manual Decline/04_InboxSellerDecline</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d41cec5b-bb5c-4308-a0aa-b2741154621c</id>

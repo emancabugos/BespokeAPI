@@ -41,84 +41,84 @@
       <guid>4af42eb8-da57-4ded-84f3-5663a1365284</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/00_chatHistory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/00_chatHistory</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d4f98b03-bea1-4f97-8904-3c4ac9afb34e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/00_chatTextArea</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/00_chatTextArea</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>083e0b94-89fb-4a26-a3cb-cd4b17bea0be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/00_Sendbutton</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/00_Sendbutton</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c9796815-31fd-4b2b-891b-93a2ed00aff6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/01_BackButton</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/01_BackButton</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b1a2a673-e869-4f9c-b16b-a3095e80c2c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/02_MerchantImage</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/02_MerchantImage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6ffffd1d-5429-43c9-a19c-4f9f3f676af5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/03_MerchantName</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/03_MerchantName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5614c942-6079-4a7a-991b-08e65623f0a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/04_LocationIcon</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/04_LocationIcon</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>245e0978-b345-4c29-82d0-3fb5cee983f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/05_MembershipSince</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/05_MembershipSince</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7a06fa14-6ba8-4abe-9eba-989a5ad18456</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/06_MerchantDescription</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/06_MerchantDescription</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>337355c8-03d8-4200-8bc0-004fa9fc7f94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/07_ItemImage</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/07_ItemImage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3474f19f-d243-4516-b1db-74c7b075be6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/08_itemName</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/08_itemName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>338aa86c-d208-4ae9-954a-c769cbbc1d9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/09_PriceperItem</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/09_PriceperItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>40072053-1bc6-46c6-b2a9-707f471d034d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/10_OrderQTY</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/10_OrderQTY</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9c3d8070-d767-4f72-81d7-cb56dba1b920</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/UI Chat Page/11_OfferPrice</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/UI Chat Page/11_OfferPrice</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

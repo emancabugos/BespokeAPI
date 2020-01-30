@@ -20,7 +20,7 @@
       <guid>7699aaa3-5281-4456-8d59-39bce1871e5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat Scenarios/Pre Approved/01_Enquiry</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat Scenarios/Pre Approved/01_Enquiry</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a4dc651c-5afc-449d-b126-ce9cba882cc4</id>
@@ -80,7 +80,7 @@
       <guid>67897029-ee2d-4c96-b8d5-4ef8a165489a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat Scenarios/Pre Approved/02_CreateOffer</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat Scenarios/Pre Approved/02_CreateOffer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>23e1a3dc-90d5-445b-9893-b7e7f487698e</id>
@@ -137,7 +137,7 @@
       <guid>efdb3e45-fd1f-41ad-ac87-2015a7788425</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Chat Page/Chat Scenarios/Pre Approved/03_InboxConsumerPreApproved</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Details Page/Chat Scenarios/Pre Approved/03_InboxConsumerPreApproved</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d0affbb2-0172-4f88-a181-1ab804776305</id>
