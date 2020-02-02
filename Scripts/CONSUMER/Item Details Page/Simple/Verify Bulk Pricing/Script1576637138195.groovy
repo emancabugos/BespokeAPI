@@ -29,50 +29,50 @@ WebUI.click(findTestObject('CONSUMER/Search Result Page/Item02/Item Name_Item02'
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_Description'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/textlabel_Bulk Pricing'), 
+WebUI.verifyElementPresent(findTestObject('null'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/textlabel_Quantity'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/textlabel_Discount per item'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_0 - 100'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_1'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_201 - 300'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_2'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_201 - 300'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_3'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_401 - 500'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_4'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_501 - 600'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_5'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_601 - 700'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_6'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_701 - 800'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_7'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_801 - 900'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_8'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_801 - 900'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_9'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/range_901 - 1000'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Bulk Pricing for item02/td_10'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
