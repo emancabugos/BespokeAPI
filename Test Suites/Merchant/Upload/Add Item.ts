@@ -84,5 +84,11 @@
          <value>Variant Option</value>
          <variableId>b80a187a-c46e-4012-b976-8f6c8df5bb79</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>aef6720a-480c-4ff2-ae1b-2e00d4522504</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Delivery Method</value>
+         <variableId>2a10551e-2f60-4571-a8b4-c22cc2fcb9bd</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

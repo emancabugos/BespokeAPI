@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_timestampTIME</name>
+   <name>textbox_price</name>
    <tag></tag>
-   <elementGuidId>718b1e0b-fb56-4adb-b90c-e0e5e27c39a2</elementGuidId>
+   <elementGuidId>3eb8b835-a6a6-4867-bea0-2cf78f7c8dc1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/div/div[1]/div[1]/div/div[5]/div/div/p[2][count(. | //p[@class = 'orddtl-time']) = count(//p[@class = 'orddtl-time'])]</value>
+         <value>//*[@id=&quot;pricing_tab&quot;]/div[2]/div/div/div[1]/div[1]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,27 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>orddtl-time</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>10:04</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/div/div[1]/div[1]/div/div[5]/div/div/p[2]</value>
+      <value>//*[@id=&quot;pricing_tab&quot;]/div[2]/div/div/div[1]/div[1]/input</value>
    </webElementProperties>
 </WebElementEntity>

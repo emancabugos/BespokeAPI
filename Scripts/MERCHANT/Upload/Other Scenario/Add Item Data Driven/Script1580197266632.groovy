@@ -88,7 +88,19 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0
 
 WebUI.click(findTestObject('MERCHANT/Image Cropper/div_crop'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.comment('Price')
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_price'), 0)
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_price'), varPrice)
+
+WebUI.comment('SKU')
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_SKU'), 0)
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_SKU'), varSKU)
 
 WebUI.comment('Variants')
 
@@ -105,6 +117,51 @@ if (varVariants == 'yes') {
         WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_option1'), 'Color')
 
         WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_choices1'), 'Green,Blue,Black,Pink,')
+
+        WebDriver driver = DriverFactory.getWebDriver()
+
+        'To locate table'
+        WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+
+        'To locate rows of table it will Capture all the rows available in the table'
+        List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+        'To calculate no of rows In table'
+        int rows_count = rows_table.size()
+
+        if (varStock == 'unlimited') {
+            WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_unlimited all'), FailureHandling.STOP_ON_FAILURE)
+        } else if (varStock == '1000') {
+            for (int pos = 1; pos <= rows_count; pos++) {
+                TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                    pos) + ']/td[7]/input')
+
+                WebUI.setText(element, '1000')
+            }
+        } else if (varStock == '0') {
+            for (int pos = 1; pos <= rows_count; pos++) {
+                TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                    pos) + ']/td[7]/input')
+
+                WebUI.setText(element, '0')
+            }
+        }
+        
+        for (int pos = 1; pos <= rows_count; pos++) {
+            TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                pos) + ']/td[4]/input')
+
+            WebUI.setText(element, 'VARSKU' + pos)
+        }
+        
+        for (int pos = 1; pos <= rows_count; pos++) {
+            TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                pos) + ']/td[5]/input')
+
+            WebUI.setText(element, '.75')
+        }
     } else if (varVariantOption == 'option2') {
         WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_option1'), 0)
 
@@ -115,6 +172,51 @@ if (varVariants == 'yes') {
         WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_option2'), 'Size')
 
         WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_choices2'), 'Small,Medium,Large,XXL,')
+
+        WebDriver driver = DriverFactory.getWebDriver()
+
+        'To locate table'
+        WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+
+        'To locate rows of table it will Capture all the rows available in the table'
+        List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+        'To calculate no of rows In table'
+        int rows_count = rows_table.size()
+
+        if (varStock == 'unlimited') {
+            WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_unlimited all'), FailureHandling.STOP_ON_FAILURE)
+        } else if (varStock == '1000') {
+            for (int pos = 1; pos <= rows_count; pos++) {
+                TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                    pos) + ']/td[8]/input')
+
+                WebUI.setText(element, '1000')
+            }
+        } else if (varStock == '0') {
+            for (int pos = 1; pos <= rows_count; pos++) {
+                TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                    pos) + ']/td[8]/input')
+
+                WebUI.setText(element, '0')
+            }
+        }
+        
+        for (int pos = 1; pos <= rows_count; pos++) {
+            TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                pos) + ']/td[5]/input')
+
+            WebUI.setText(element, 'VARSKU' + pos)
+        }
+        
+        for (int pos = 1; pos <= rows_count; pos++) {
+            TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                pos) + ']/td[6]/input')
+
+            WebUI.setText(element, '.75')
+        }
     } else if (varVariantOption == 'option3') {
         WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_option1'), 0)
 
@@ -129,32 +231,113 @@ if (varVariants == 'yes') {
         WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_option3'), 'Design')
 
         WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_choices3'), 'Stripes,Dotted,Plain,')
-    }
-	
-	WebUI.comment('Variant SKU')
-	WebDriver driver = DriverFactory.getWebDriver()
-	'To locate table'
-	WebElement Table = driver.findElement(By.xpath('//table/tbody'))
-	
-	'To locate rows of table it will Capture all the rows available in the table'
-	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-	
-	'To calculate no of rows In table'
-	int rows_count = rows_table.size()
-	
-	for (int pos = 1; pos <= rows_count; pos++) {
-		TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
-            pos) + ']/td[6]/input')
 
-		WebUI.setText(element, "VARSKU" + "+1")
-	}
-	
+        WebDriver driver = DriverFactory.getWebDriver()
+
+        'To locate table'
+        WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+
+        'To locate rows of table it will Capture all the rows available in the table'
+        List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+        'To calculate no of rows In table'
+        int rows_count = rows_table.size()
+
+        if (varStock == 'unlimited') {
+            WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_unlimited all'), FailureHandling.STOP_ON_FAILURE)
+        } else if (varStock == '1000') {
+            for (int pos = 1; pos <= rows_count; pos++) {
+                TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                    pos) + ']/td[9]/input')
+
+                WebUI.setText(element, '1000')
+            }
+        } else if (varStock == '0') {
+            for (int pos = 1; pos <= rows_count; pos++) {
+                TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                    pos) + ']/td[9]/input')
+
+                WebUI.setText(element, '0')
+            }
+        }
+        
+        for (int pos = 1; pos <= rows_count; pos++) {
+            TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                pos) + ']/td[6]/input')
+
+            WebUI.setText(element, 'VARSKU' + pos)
+        }
+        
+        for (int pos = 1; pos <= rows_count; pos++) {
+            TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+                pos) + ']/td[7]/input')
+
+            WebUI.setText(element, '.75')
+        }
+    }
 } else if (varVariants == 'no') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/toggle_variant'), 0)
-	
+
+    if (varStock == 'unlimited') {
+        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), 0)
+
+        WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/toggle_unlimited'), FailureHandling.STOP_ON_FAILURE)
+    } else if (varStock == '1000') {
+        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), 0)
+
+        WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), '1000')
+    } else if (varStock == '0') {
+        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), 0)
+
+        WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), '0')
+    }
 }
 
 WebUI.comment('Item Description')
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_item-description'), varDescription)
+
+WebUI.comment('Custom Fields')
+
+WebUI.delay(2)
+
+if (varCategory == 'allcategory') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_allcategory'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'multiplecategory') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_allcategory'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category1') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_Category1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category2.1') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_category2.1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category3.1') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_3.1.1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+}
+
+WebUI.comment('Delivery Method')
+
+if (varDeliveryMethod == 'deliver') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_deliver all'), 0)
+
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_deliver all'), FailureHandling.STOP_ON_FAILURE)
+} else if (varDeliveryMethod == 'pickup') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_pickup all'), 0)
+
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_pickup all'), FailureHandling.STOP_ON_FAILURE)
+} else if (varDeliveryMethod == 'both') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_deliver all'), 0)
+
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_deliver all'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_pickup all'), FailureHandling.STOP_ON_FAILURE)
+}
+
+WebUI.comment('Save')
+
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/button_Upload Now'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Inventory Page/button_ Upload Item'), 0)
 

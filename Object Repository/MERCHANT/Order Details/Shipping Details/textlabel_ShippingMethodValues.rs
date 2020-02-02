@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;orderdetail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;order-box delivery-info&quot;]/div[@class=&quot;oreder-detail-head&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;orddtl-label&quot;]/p[@class=&quot;orddtl-data&quot;]</value>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/div/div[2]/div/div/div[1]/div/p</value>
    </webElementProperties>
 </WebElementEntity>

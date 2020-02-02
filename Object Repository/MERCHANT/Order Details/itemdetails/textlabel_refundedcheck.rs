@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;orderdetail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;order-box product-detail&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[5]/div[@class=&quot;cb-checkbox&quot;][count(. | //div[@class = 'cb-checkbox']) = count(//div[@class = 'cb-checkbox'])]</value>
+         <value>//label[@for = 'selectItem1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,17 +17,17 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>for</name>
       <type>Main</type>
-      <value>cb-checkbox</value>
+      <value>selectItem1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

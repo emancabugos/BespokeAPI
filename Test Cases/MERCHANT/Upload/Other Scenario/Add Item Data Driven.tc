@@ -80,4 +80,11 @@ Click Upload Button</comment>
       <masked>false</masked>
       <name>varVariantOption</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>2a10551e-2f60-4571-a8b4-c22cc2fcb9bd</id>
+      <masked>false</masked>
+      <name>varDeliveryMethod</name>
+   </variable>
 </TestCaseEntity>

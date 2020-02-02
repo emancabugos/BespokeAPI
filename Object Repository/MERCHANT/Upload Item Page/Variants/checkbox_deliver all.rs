@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>maxcat</name>
+   <name>checkbox_deliver all</name>
    <tag></tag>
-   <elementGuidId>5b23c76a-3099-4bdc-8092-ec3a124ab7da</elementGuidId>
+   <elementGuidId>3d5beedb-26fd-477a-9ef3-3bc564102c8d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/ul/li/label</value>
+         <value>//label[@for = 'checkDeliveryAll']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/ul/li/label</value>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>checkDeliveryAll</value>
    </webElementProperties>
 </WebElementEntity>

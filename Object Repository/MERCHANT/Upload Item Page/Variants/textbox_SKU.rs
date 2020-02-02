@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[1]/td[6]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
+         <value>//*[@id=&quot;pricing_tab&quot;]/div[2]/div/div/div[1]/div[2]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[1]/td[6]/input</value>
+      <value>//*[@id=&quot;pricing_tab&quot;]/div[2]/div/div/div[1]/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

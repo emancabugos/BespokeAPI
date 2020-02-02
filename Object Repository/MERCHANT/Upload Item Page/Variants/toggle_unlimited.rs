@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_timestampTIME</name>
+   <name>toggle_unlimited</name>
    <tag></tag>
-   <elementGuidId>718b1e0b-fb56-4adb-b90c-e0e5e27c39a2</elementGuidId>
+   <elementGuidId>958fb8d9-0549-4eaf-a613-088179df9e40</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/div/div[1]/div[1]/div/div[5]/div/div/p[2][count(. | //p[@class = 'orddtl-time']) = count(//p[@class = 'orddtl-time'])]</value>
+         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div/label/span[2][count(. | //span[@class = 'onoffswitch-switch']) = count(//span[@class = 'onoffswitch-switch'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,27 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>orddtl-time</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>10:04</value>
+      <value>onoffswitch-switch</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/div/div[1]/div[1]/div/div[5]/div/div/p[2]</value>
+      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div/label/span[2]</value>
    </webElementProperties>
 </WebElementEntity>
