@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>01_linktextHome</name>
+   <name>06_itemPrice</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7c86518d-60f2-4c17-8470-d2055986f5d5</testCaseGuid>
+   <testCaseGuid>5f1bd813-372d-42a7-a2ee-617d71ae423d</testCaseGuid>
 </TestCaseEntity>
