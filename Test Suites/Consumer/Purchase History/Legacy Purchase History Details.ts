@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>8a268be3-d2fb-4a6c-83c3-3dccca7cf43d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -249,108 +249,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/23_QTY</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6e1f1ade-b23e-448e-9228-ff5cc89a3279</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/24_ViewChatLog</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f179d13e-1b8d-4747-8d07-ab3a9cd5c91e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/25_ViewEvaluation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>10f001b0-710b-45ac-8990-a2667fddf1fc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/26_Section</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>705050b0-48be-47ab-9358-c58a39f10f88</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/27_SectionDropdown</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ab9a9d39-17e8-4f6e-80db-ed1344a2afc1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/28_Event</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ecc44b1f-5156-43f2-bd9b-4625139b35f5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/29_EventTextbox</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ec7694e0-57d7-4fc1-afd3-426693e76063</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/30_UploadIcon</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>98828f2c-8b17-4f35-bfe0-7b812e5c6c80</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/31_UploadFileLinktext</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f8b78d31-bb34-42aa-bdf1-bdc0904bed63</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/32_AddNewEntry</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cc8c54bf-3ff5-4356-bd37-a39c89f30dc7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/33_OrderTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1304e52b-b6f0-4bb2-bb37-f1af96822b6d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/34_ProductionTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>16577db2-defc-4465-a466-bb9817ba35a7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/35_DeliveryTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>95a7a3fd-b933-47a6-9ba5-95192387b2bf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/36_PaymentTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>26d43171-e588-4f76-add5-7debefb07ec2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/37_TestingTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f4874e09-e10c-4561-85ed-b506a55872ee</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/38_Timestamp</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7ce6c913-2c3f-47bd-b590-c98968520210</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/39_User</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>efdcf7d3-b076-4032-8cda-60839a49d3b5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/Legacy/UI Purchase Details/40_Event</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8055a962-01fa-42bd-8836-56246caa35a0</guid>

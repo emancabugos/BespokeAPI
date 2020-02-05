@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'YOUR ITEMS' or . = 'YOUR ITEMS')]</value>
+         <value>//a[(text() = 'Your Item' or . = 'Your Item')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>YOUR ITEMS</value>
+      <value>Your Item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

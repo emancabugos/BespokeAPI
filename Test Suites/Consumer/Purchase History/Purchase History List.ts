@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>a4c5f078-7343-47ea-a37f-b1ae149c2810</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -78,24 +78,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Purchase History List/Simple_PurchaseList/04_RedirectionQuantity</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ab29a4da-3d2c-4b96-b369-2cdaa8f2edc6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History List/Simple_PurchaseList/05_RedirectionPrice</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>897a6793-1f44-4390-92a5-14649274d9b9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History List/Simple_PurchaseList/06_RedirectionPaymentType</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ab693e61-21da-4dfc-b362-210af0024782</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History List/Simple_PurchaseList/07_RedirectionPaymentStatus</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>42245c10-71ef-4349-bac3-fb5e944ead7c</guid>

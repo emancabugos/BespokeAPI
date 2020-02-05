@@ -4,7 +4,6 @@
    <name>UI Sub-account Permission</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-18T13:17:11</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +13,7 @@
    <testCaseLink>
       <guid>5b8ab197-7722-4245-8df9-b972be039761</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
    </testCaseLink>
    <testCaseLink>

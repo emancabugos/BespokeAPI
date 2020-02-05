@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[(text() = 'PO History' or . = 'PO History')]</value>
+         <value>//p[(text() = 'Order Summary' or . = 'Order Summary')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>PO History</value>
+      <value>Order Summary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

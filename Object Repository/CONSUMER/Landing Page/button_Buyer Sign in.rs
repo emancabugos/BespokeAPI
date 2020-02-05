@@ -11,16 +11,16 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/accounts/buyer/sign-in' and (text() = 'Login as a Buyer' or . = 'Login as a Buyer')]</value>
+         <value>//a[@href = '/accounts/buyer/sign-in' and (text() = 'Login as a Buyer ' or . = 'Login as a Buyer ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login as a Buyer</value>
+      <value>Login as a Buyer </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

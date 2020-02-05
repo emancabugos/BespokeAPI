@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>UI_Purchase Details_Negotiation</name>
+   <name>UI_Purchase Details</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>9e7a8f7e-97af-48f7-9914-14446c78170a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5fa056fc-78e5-4c19-a905-f44c2bc99150</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/Precondition</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -183,107 +183,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/23_QTY</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>82851b76-57bf-4d9b-a817-a3bbd3c5c118</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/24_ViewChatLog</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>427bfe86-054a-4deb-a462-d0d2fd233241</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/25_ViewEvaluation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>78dea4b8-6775-4bcc-bc70-537e59ce5dff</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/26_Section</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9be30861-0fa5-4c8e-9b38-605cc2106671</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/27_SectionDropdown</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e79e7fcf-8e3f-4793-9a9c-bf8e47ecc502</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/28_Event</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d8b49ebc-162f-450e-ba17-b2e8e4129f60</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/29_EventTextbox</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ba970254-6068-4caf-baa8-bc35a29b7dc3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/30_UploadIcon</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b41ac051-4b61-4e87-a67f-2dafb19550ac</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/31_UploadFileLinktext</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cba39bbd-3e24-4700-912d-b72e7a384dd9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/32_AddNewEntry</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b723dec6-78a1-4262-aa8c-60c2b27c9b08</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/33_OrderTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1aaa469e-5818-4881-b3e2-df9cacedd7b3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/34_ProductionTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>97e269aa-46ed-4332-9d45-75feaed1aa7d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/35_DeliveryTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6fbfe13b-8a0f-47ca-8d89-094cc3c1ff78</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/36_PaymentTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e7a05a79-9c31-4835-b3a1-3ae46c63e866</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/37_TestingTab</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d89ba69d-9bc8-4d78-a3ed-66ecc32c4b92</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/38_Timestamp</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9c0d1884-4ab2-4cc8-be59-0263aab71b5c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/39_User</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>97006a2a-710a-4080-a4f8-0dd05fd77e80</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Purchase History Details/UI Verification_PurchaseDetailsPage/40_Event</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

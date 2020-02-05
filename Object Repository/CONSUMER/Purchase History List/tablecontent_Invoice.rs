@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[4]/div/div/div/div[2]/div[2]/div/table/tbody/tr[1]/td[1][count(. | //td[@data-th = 'Invoice No']) = count(//td[@data-th = 'Invoice No'])]</value>
+         <value>/html/body/div[1]/div[2]/div/div/div[2]/div[2]/div/table/tbody/tr/td[1][count(. | //td[@data-th = 'Invoice No']) = count(//td[@data-th = 'Invoice No'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/div[2]/div[2]/div/table/tbody/tr[1]/td[1]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]</value>
    </webElementProperties>
 </WebElementEntity>

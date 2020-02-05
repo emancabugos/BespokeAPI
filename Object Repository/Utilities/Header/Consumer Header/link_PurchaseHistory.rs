@@ -4,6 +4,12 @@
    <name>link_PurchaseHistory</name>
    <tag></tag>
    <elementGuidId>2bf4c453-bc5a-460d-9609-4998ef9ea1be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/purchase/history' and (text() = 'Purchase History' or . = 'Purchase History')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/user/order/orderhistory</value>
+      <value>/purchase/history</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

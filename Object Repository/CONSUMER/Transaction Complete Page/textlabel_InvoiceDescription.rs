@@ -4,6 +4,12 @@
    <name>textlabel_InvoiceDescription</name>
    <tag></tag>
    <elementGuidId>7543430d-711c-4906-a61b-dd552163175f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'inv-desc' and (text() = 'You will receive an order confirmation email shortly. If you have any enquiry, please contact our staff.' or . = 'You will receive an order confirmation email shortly. If you have any enquiry, please contact our staff.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,8 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-						You will receive an order confirmation email shortly. If you have any enquiry, please contact our staff.</value>
+      <value>You will receive an order confirmation email shortly. If you have any enquiry, please contact our staff.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

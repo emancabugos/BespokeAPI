@@ -10,12 +10,11 @@
          <value>//div[4]/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[1]/span[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[1]/span[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl full-width&quot;]/div[@class=&quot;oscct-top full-width&quot;]/div[@class=&quot;occt-left&quot;]/span[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -39,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl full-width&quot;]/div[@class=&quot;oscct-top full-width&quot;]/div[@class=&quot;occt-left&quot;]/span[2]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[1]/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

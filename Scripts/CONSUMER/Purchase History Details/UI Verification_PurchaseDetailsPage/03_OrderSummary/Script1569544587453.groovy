@@ -23,5 +23,5 @@ WebUI.comment('To Change -  Purchase Order Details')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_OrderSummary'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_OrderSummary'))
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/textlabel_OrderSummary'), 0)
 
