@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[(text() = 'Shipping Address' or . = 'Shipping Address')]</value>
+         <value>//p[(text() = 'Delivery Address' or . = 'Delivery Address')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shipping Address</value>
+      <value>Delivery Address</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

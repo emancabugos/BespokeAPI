@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'btn-green' and @id = 'btnProceedPayment']</value>
+         <value>//*[@class = 'btn-green full-btn-procced' and @id = 'btnProceedPayment']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-green</value>
+      <value>btn-green full-btn-procced</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

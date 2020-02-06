@@ -4,7 +4,6 @@
    <name>Add Delivery</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-26T11:02:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -28,7 +27,7 @@
       <variableLink>
          <testDataLinkId>935763f8-59b1-4cd2-9d0d-952084bfea5a</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DeliveryName</value>
+         <value>Delivery Name</value>
          <variableId>a3c9b895-104d-4b1f-89b1-b9e47d5663e0</variableId>
       </variableLink>
       <variableLink>

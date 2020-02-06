@@ -38,191 +38,191 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Page_Item
 WebUI.comment('textfield1')
 
 'customfieldtextlabel1'
-customfieldtextlabel1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfield1'))
+customfieldtextlabel1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_textfield1'))
 
 WebUI.verifyMatch(customfieldtextlabel1, 'SP_Text field_M1', false)
 
 'customfieldtextlvalue1'
-customfieldtextlvalue1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfieldvalue1'))
+customfieldtextlvalue1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_textfieldvalue1'))
 
 WebUI.verifyMatch(customfieldtextlvalue1, 'Text1', false)
 
 WebUI.comment('textfield2')
 
-customfieldtextlable2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfield2'))
+customfieldtextlable2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_textfield2'))
 
 WebUI.verifyMatch(customfieldtextlable2, 'SP_Text field_M2', false)
 
-customfieldtextvalue2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfieldvalue2'))
+customfieldtextvalue2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_textfieldvalue2'))
 
 WebUI.verifyMatch(customfieldtextvalue2, 'SP_Text field_M2', false)
 
 WebUI.comment('TextEditor')
 
-customfieldTexteditor = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_texteditor'))
+customfieldTexteditor = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_texteditor'))
 
 WebUI.verifyMatch(customfieldTexteditor, 'SP_Text Editor_M', false)
 
-customfieldTexteditorvalue = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_texteditorvalues'), 
+customfieldTexteditorvalue = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_texteditorvalues'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(customfieldTexteditorvalue, 'TextEDITOR', false)
 
 WebUI.comment('Hyperlink')
 
-customfieldHyper = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_hyperlink'))
+customfieldHyper = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_hyperlink'))
 
-customfieldHypervalue = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/linktext_customfield_hyperlinkvalues'))
+customfieldHypervalue = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/linktext_customfield_hyperlinkvalues'))
 
 WebUI.comment('Email')
 
-customfieldEmail = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_email'))
+customfieldEmail = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_email'))
 
-customfieldEmailvalues = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_emailvalue'))
+customfieldEmailvalues = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_emailvalue'))
 
 WebUI.comment('Percentage')
 
-customfieldpercent = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_percentage'))
+customfieldpercent = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_percentage'))
 
-customfieldpercentvalues = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_percentage (1)'))
+customfieldpercentvalues = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_percentage (1)'))
 
 WebUI.comment('Number')
 
-customfieldnumber1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_number1'))
+customfieldnumber1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_number1'))
 
-customfieldnumbervalues1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_numbervalues1'))
+customfieldnumbervalues1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_numbervalues1'))
 
 WebUI.comment('Number 2')
 
-customfieldnumber2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_number2'))
+customfieldnumber2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_number2'))
 
-customfieldnumbervalues2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_numbervalues2'))
+customfieldnumbervalues2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_numbervalues2'))
 
 WebUI.comment('Checkbox')
 
-customfieldcheck1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkbox1'))
+customfieldcheck1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkbox1'))
 
-customfieldcheckvalues11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkboxvalue1.1'))
+customfieldcheckvalues11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkboxvalue1.1'))
 
-customfieldcheckvalues12 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkboxvalue1.2'))
+customfieldcheckvalues12 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkboxvalue1.2'))
 
-customfieldcheckvalues13 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkboxvalue1.3'))
+customfieldcheckvalues13 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkboxvalue1.3'))
 
 WebUI.comment('Checkbox2')
 
-customfieldcheck2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkbox2'))
+customfieldcheck2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkbox2'))
 
-customfieldcheckvalues21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkboxvalue2.1'))
+customfieldcheckvalues21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkboxvalue2.1'))
 
-customfieldcheckvalues22 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkboxvalue2.2'))
+customfieldcheckvalues22 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkboxvalue2.2'))
 
-customfieldcheckvalues23 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_checkboxvalue2.3'))
+customfieldcheckvalues23 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_checkboxvalue2.3'))
 
 WebUI.comment('Dropdown')
 
-customfielddrop1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_dropdown1'))
+customfielddrop1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_dropdown1'))
 
-customfielddropvalue1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_dropdownvalues1'))
+customfielddropvalue1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_dropdownvalues1'))
 
 WebUI.comment('Dropdown2')
 
-customfielddrop2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_dropdown2'))
+customfielddrop2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_dropdown2'))
 
-customfielddropvalue2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_dropdownvalues1'))
+customfielddropvalue2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_dropdownvalues1'))
 
 WebUI.comment('location')
 
-customfieldLocation = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_location'))
+customfieldLocation = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_location'))
 
 WebUI.comment('Date and Time')
 
-customfieldDatetime1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_datetime1'))
+customfieldDatetime1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_datetime1'))
 
-customfieldDatetimevalues1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_datetimevalue1'))
+customfieldDatetimevalues1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_datetimevalue1'))
 
 WebUI.comment('Date and Time1')
 
-customfieldDatetime2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_datetime2'))
+customfieldDatetime2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_datetime2'))
 
-customfieldDatetimevalues2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_datetimevalue2'))
+customfieldDatetimevalues2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_datetimevalue2'))
 
 WebUI.comment('PDF')
 
-customfieldPDF = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_pdf'))
+customfieldPDF = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_pdf'))
 
-customfieldPDFValues = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_pdfvalues'))
+customfieldPDFValues = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_pdfvalues'))
 
 WebUI.comment('Video')
 
-customfieldVideo = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_embed'))
+customfieldVideo = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_customfield_embed'))
 
 WebUI.comment('checkbox')
 
-customfieldcheckboxSPC1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkbox1'))
+customfieldcheckboxSPC1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkbox1'))
 
-customfieldcheckboxvaluesSPC11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkboxvalues1.1'))
+customfieldcheckboxvaluesSPC11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkboxvalues1.1'))
 
-customfieldcheckboxvaluesSPC12 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkboxvalues1.2'))
+customfieldcheckboxvaluesSPC12 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkboxvalues1.2'))
 
-customfieldcheckboxvaluesSPC13 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkboxvalues1.3'))
+customfieldcheckboxvaluesSPC13 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkboxvalues1.3'))
 
 WebUI.comment('checkbox')
 
-customfieldcheckboxSPC1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkbox2'))
+customfieldcheckboxSPC1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkbox2'))
 
-customfieldcheckboxvaluesSPC21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkboxvalues2.1'))
+customfieldcheckboxvaluesSPC21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkboxvalues2.1'))
 
-customfieldcheckboxvaluesSPC22 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkboxvalues2.2'))
+customfieldcheckboxvaluesSPC22 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkboxvalues2.2'))
 
-customfieldcheckboxvaluesSPC23 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_checkboxvalues2.3'))
+customfieldcheckboxvaluesSPC23 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_checkboxvalues2.3'))
 
 WebUI.comment('ddown')
 
-customfieldddSPC1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_ddown1'))
+customfieldddSPC1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_ddown1'))
 
-customfieldddSPC11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_ddownvalue1'))
+customfieldddSPC11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_ddownvalue1'))
 
 WebUI.comment('ddown')
 
-customfieldddSPC2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_ddown2'))
+customfieldddSPC2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_ddown2'))
 
-customfieldddSPC21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPC_ddownvalue2'))
-
-WebUI.comment('checkbox')
-
-customfieldcheckSPG1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPG_checkbox1'))
-
-customfieldcheckSPG11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPG_checkboxvalue1.1'))
-
-customfieldcheckSPG12 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPG_checkboxvalue1.2'))
+customfieldddSPC21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPC_ddownvalue2'))
 
 WebUI.comment('checkbox')
 
-customfieldcheckSPG2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPG_checkbox2'))
+customfieldcheckSPG1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPG_checkbox1'))
 
-customfieldcheckSPG21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPG_checkboxvalue2.1'))
+customfieldcheckSPG11 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPG_checkboxvalue1.1'))
 
-customfieldcheckSPG22 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPG_checkboxvalue2.2'))
+customfieldcheckSPG12 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPG_checkboxvalue1.2'))
 
-customfieldcheckSPG23 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_SPG_checkboxvalue2.3'))
+WebUI.comment('checkbox')
+
+customfieldcheckSPG2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPG_checkbox2'))
+
+customfieldcheckSPG21 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPG_checkboxvalue2.1'))
+
+customfieldcheckSPG22 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPG_checkboxvalue2.2'))
+
+customfieldcheckSPG23 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_SPG_checkboxvalue2.3'))
 
 WebUI.comment('Delivers To')
 
 WebUI.getText(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/Page_1112un/span_Delivers to'))
 
-WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/p_All'))
+WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/p_All'))
 
 WebUI.comment('Pickup Locations')
 
-WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_PickupLocations'))
+WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_PickupLocations'))
 
-WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_PickupLocationvalue1'))
+WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_PickupLocationvalue1'))
 
-WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_PickupLocationvalue2'))
+WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_PickupLocationvalue2'))
 
-WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_PickupLocationvalue3'))
+WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_PickupLocationvalue3'))
 
-WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_PickupLocationvalue4'))
+WebUI.getText(findTestObject('CONSUMER/Item Details Page/a_CustomFields/label_PickupLocationvalue4'))
 
 WebUI.comment('verify match')
 

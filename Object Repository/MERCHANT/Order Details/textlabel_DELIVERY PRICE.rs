@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'span_Shipping Price' or . = 'span_Shipping Price')]</value>
+         <value>//span[(text() = 'DELIVERY PRICE' or . = 'DELIVERY PRICE')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shipping Price</value>
+      <value>DELIVERY PRICE</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

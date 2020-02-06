@@ -4,6 +4,12 @@
    <name>textlabel_Admin Fees</name>
    <tag></tag>
    <elementGuidId>89baa5ea-8dc4-46d3-a73c-c4cfcad8d3b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Admin fees' or . = 'Admin fees')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin Fees - SGD $14,959.00</value>
+      <value>Admin fees</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

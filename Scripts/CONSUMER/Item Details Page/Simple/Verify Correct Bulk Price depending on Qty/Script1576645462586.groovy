@@ -29,7 +29,7 @@ WebUI.click(findTestObject('CONSUMER/Search Result Page/Item02/Item Name_Item02'
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_Description'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details/textbox_quantity'), '202')
+WebUI.setText(findTestObject('null'), '202')
 
 WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/OrigPrice_3434.00'), 0)
 

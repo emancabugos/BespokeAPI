@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@value = 'SG']</value>
+         <value>//*[@id=&quot;settings-index-container&quot;]/div[2]/div/div/div[1]/div[2]/div[2]/div/div/div/div[1]/div[3]/div/div[192]/label/input[count(. | //input[@value = 'SG']) = count(//input[@value = 'SG'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -25,5 +25,12 @@
       <name>value</name>
       <type>Main</type>
       <value>SG</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;settings-index-container&quot;]/div[2]/div/div/div[1]/div[2]/div[2]/div/div/div/div[1]/div[3]/div/div[192]/label/input</value>
    </webElementProperties>
 </WebElementEntity>

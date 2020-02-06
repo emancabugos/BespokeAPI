@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'SUB ACCOUNT' or . = 'SUB ACCOUNT')]</value>
+         <value>//a[(text() = 'Sub-Accounts' or . = 'Sub-Accounts')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SUB ACCOUNT</value>
+      <value>Sub-Accounts</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

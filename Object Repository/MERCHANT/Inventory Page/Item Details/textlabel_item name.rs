@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]/p[count(. | //p[@class = 'sort-item-description text-left']) = count(//p[@class = 'sort-item-description text-left'])]</value>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[2]/table/tbody/tr/td[1]/a/p[count(. | //p[@class = 'sort-item-description text-left']) = count(//p[@class = 'sort-item-description text-left'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]/p</value>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[2]/table/tbody/tr/td[1]/a/p</value>
    </webElementProperties>
 </WebElementEntity>

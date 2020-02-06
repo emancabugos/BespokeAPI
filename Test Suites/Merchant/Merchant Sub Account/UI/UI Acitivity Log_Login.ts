@@ -4,7 +4,6 @@
    <name>UI Acitivity Log_Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-18T13:19:13</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,37 +19,37 @@
    <testCaseLink>
       <guid>53caf4d5-0f58-48bf-ad51-fb4fb32e71ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Sub Accounts/Activity Log/Login Tab/C33721</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3a008fe2-4f0a-4ea9-89ab-47dbf51dc1f6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Sub Accounts/Activity Log/Login Tab/C33722</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1090d28e-c99b-479b-b0c6-c30bae5ecbb2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Sub Accounts/Activity Log/Login Tab/C33723</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>82619b16-17c1-491f-a2a6-bd17739985da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Sub Accounts/Activity Log/Login Tab/C33724</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4c3a99f5-31eb-497f-bbee-0d109a12adf2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Sub Accounts/Activity Log/Login Tab/C33725</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>250edacb-ea50-4d1f-a4c8-f6f5701b78b5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Sub Accounts/Activity Log/Login Tab/C33726</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -28,5 +28,5 @@ WebUI.scrollToElement(findTestObject('CONSUMER/Purchase History Details/button_V
 
 WebUI.click(findTestObject('CONSUMER/Purchase History Details/button_ViewChatLog'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/seller_description'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 

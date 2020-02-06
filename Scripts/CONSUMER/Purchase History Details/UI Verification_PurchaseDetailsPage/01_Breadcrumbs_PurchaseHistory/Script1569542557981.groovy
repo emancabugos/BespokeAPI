@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/breadcrumbs_PurchaseHistory'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Purchase History Details/breadcrumbs_PurchaseHistory'))
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/breadcrumbs_PurchaseHistory'), 0)
 
 WebUI.comment('to Add PO Details Breadcrumbs')
 

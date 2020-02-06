@@ -35,7 +35,7 @@ WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktex
 
 WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), 'INVENTORY')
 
-WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 'UPLOAD')
+WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), 'UPLOAD')
 
 WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Orders'), 'ORDERS')
 

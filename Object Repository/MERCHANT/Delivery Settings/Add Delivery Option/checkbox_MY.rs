@@ -6,18 +6,17 @@
    <elementGuidId>703a1d01-f969-4ca4-9b17-c8e4f5803730</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//input[@value = 'MM']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@value = 'MY']</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,6 +27,13 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>MY</value>
+      <value>MM</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;settings-index-container&quot;]/div[2]/div/div/div[1]/div[2]/div[2]/div/div/div/div[1]/div[3]/div/div[141]/label/input</value>
    </webElementProperties>
 </WebElementEntity>

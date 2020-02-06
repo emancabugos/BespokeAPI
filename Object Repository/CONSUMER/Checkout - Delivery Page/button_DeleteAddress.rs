@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_DeleteAddress</name>
+   <tag></tag>
+   <elementGuidId>6a637772-0764-43be-865c-126b43dfe8e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='settings-index-container']/div[2]/div/div/div[2]/div[2]/div/span[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-trash</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;settings-index-container&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;delivery-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pd-container&quot;]/div[@class=&quot;pdc-boxs&quot;]/div[@class=&quot;pdcb-address-box parent-r-b onboarder-address selected&quot;]/span[@class=&quot;icon-delete openModalRemove&quot;]/i[@class=&quot;fa fa-trash&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='settings-index-container']/div[2]/div/div/div[2]/div[2]/div/span[2]/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/i</value>
+   </webElementXpaths>
+</WebElementEntity>

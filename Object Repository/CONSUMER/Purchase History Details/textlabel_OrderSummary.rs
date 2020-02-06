@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Purchase Order Details' or . = 'Purchase Order Details')]</value>
+         <value>//span[(text() = 'Order Summary' or . = 'Order Summary')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Purchase Order Details</value>
+      <value>Order Summary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'title' and (text() = 'Invoice No.' or . = 'Invoice No.')]</value>
+         <value>//span[@class = 'title' and (text() = 'Invoice ID ' or . = 'Invoice ID ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Invoice No.</value>
+      <value>Invoice ID </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

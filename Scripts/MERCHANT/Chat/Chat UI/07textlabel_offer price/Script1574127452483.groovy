@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/Chat Details Page/button_back'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat page/textlabel_offer price'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
