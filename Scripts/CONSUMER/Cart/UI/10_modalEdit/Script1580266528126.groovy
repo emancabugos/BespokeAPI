@@ -19,3 +19,13 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_Checkout'), 0)
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Cart/button_Edit'))
 
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Cart/button_Edit'))
+
+WebUI.click(findTestObject('CONSUMER/Cart/button_Edit'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/editModal_buttonCancel'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CONSUMER/Cart/editModal_buttonCancel'))
+

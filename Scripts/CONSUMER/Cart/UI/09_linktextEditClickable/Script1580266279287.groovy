@@ -19,3 +19,5 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_Checkout'), 0)
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Cart/button_Edit'))
 
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Cart/button_Edit'))
+

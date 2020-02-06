@@ -14,7 +14,7 @@
       <guid>b5157fbb-50ef-4a31-a5d9-6b3105943942</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
+      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9b73614c-0be5-46e5-b3eb-e9a7b9f94137</guid>
