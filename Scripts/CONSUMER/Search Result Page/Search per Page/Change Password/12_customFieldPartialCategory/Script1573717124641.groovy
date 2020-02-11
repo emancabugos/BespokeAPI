@@ -25,7 +25,11 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search')
 
 WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemCustomFieldPartial)
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'), category, false)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'))
+
+WebUI.selectOptionByIndex(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'), 1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 

@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Search Partial Item Name')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/textarea_SendMessage'), 0)
 
 WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemNamePartial)
 
@@ -30,6 +30,8 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemName)
+
+WebUI.delay(1)
 
 WebUI.back()
 

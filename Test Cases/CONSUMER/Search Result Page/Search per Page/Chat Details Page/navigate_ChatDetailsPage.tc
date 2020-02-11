@@ -3,6 +3,13 @@
    <description></description>
    <name>navigate_ChatDetailsPage</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Search Item Name</comment>
    <testCaseGuid>1a8386a2-0dbd-4c69-a34b-ba730ae578ce</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c4119d21-d9c2-46f5-9bfa-25e8699db975</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
 </TestCaseEntity>

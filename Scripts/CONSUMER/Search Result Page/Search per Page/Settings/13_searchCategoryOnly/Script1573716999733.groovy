@@ -23,7 +23,7 @@ WebUI.comment('Search Category Only')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'), category, false)
+WebUI.selectOptionByLabel(findTestObject('null'), category, false)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 

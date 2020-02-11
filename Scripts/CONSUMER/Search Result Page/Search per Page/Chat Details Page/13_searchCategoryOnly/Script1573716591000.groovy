@@ -23,13 +23,19 @@ WebUI.comment('Search Category Only')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'), category, false)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'))
+
+WebUI.selectOptionByIndex(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'), 1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemName)
+
+WebUI.delay(1)
 
 WebUI.back()
 

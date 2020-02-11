@@ -19,25 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Search Item 01')
+WebUI.comment('Search Item Name')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item01')
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item01')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemName)
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'), 0)
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/textarea_SendMessage'), 0)
 
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementClickable(findTestObject('CONSUMER/Chat Details Page - Buyer/textarea_SendMessage'), 0)
 

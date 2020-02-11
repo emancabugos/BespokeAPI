@@ -23,5 +23,5 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/logo_Marketplace')
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'))
+WebUI.verifyElementVisible(findTestObject('null'))
 

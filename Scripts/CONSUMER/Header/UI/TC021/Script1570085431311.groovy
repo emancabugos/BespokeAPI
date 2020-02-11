@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_language'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
 WebUI.click(findTestObject('CONSUMER/Homepage/logo_Marketplace'))
 

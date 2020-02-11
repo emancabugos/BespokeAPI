@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>itemCustomField</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6576a7b1-ed05-4f52-96f8-b5559fd5b806</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
 </TestCaseEntity>

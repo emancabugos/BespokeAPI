@@ -25,7 +25,7 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search')
 
 WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemCustomField)
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'), category, false)
+WebUI.selectOptionByLabel(findTestObject('null'), category, false)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 

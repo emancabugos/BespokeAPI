@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Search Exact Custom Field')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Reset Password/button_Cancel'), 0)
 
 WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemCustomField)
 

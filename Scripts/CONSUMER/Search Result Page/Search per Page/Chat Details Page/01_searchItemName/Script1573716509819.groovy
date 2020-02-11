@@ -18,10 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.comment('Search Exact Item Name')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_ViewMoreCategories'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/textarea_SendMessage'), 0)
 
 WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
 
@@ -30,6 +33,8 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemName)
+
+WebUI.delay(1)
 
 WebUI.back()
 

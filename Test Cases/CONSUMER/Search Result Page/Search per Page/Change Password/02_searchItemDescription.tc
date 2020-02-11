@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>itemDescription</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>55d1d22d-87a1-40da-a55a-3799543a7a6a</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
 </TestCaseEntity>
