@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Checkout Delivery Page</name>
+   <name>Checkout Review Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,21 +9,21 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>5091ee4a-0609-44bd-8fc2-8044f2a17959</testSuiteGuid>
+   <testSuiteGuid>e3081ac8-eed4-4616-ac19-59c939a02ab0</testSuiteGuid>
    <testCaseLink>
-      <guid>d274b703-4111-4aa1-945b-ef463b1d9419</guid>
+      <guid>49a394e0-db1c-469b-a31f-e22736cbcd79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83376fb9-356f-4228-8438-ea3a9756f3a9</guid>
+      <guid>268fe0be-b6ee-4e34-a4bb-5ccd9238eb75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/navigate_CheckoutDelivery</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/navigate_CheckoutReview</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>7066771a-a379-4a0d-ab91-a9ac5d44916c</id>
+         <id>3501d0b6-6814-40c9-a993-ae024b443ca5</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -31,20 +31,20 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>7066771a-a379-4a0d-ab91-a9ac5d44916c</testDataLinkId>
+         <testDataLinkId>3501d0b6-6814-40c9-a993-ae024b443ca5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>e020bff6-2f50-4a79-836e-286af9e3e0e5</variableId>
+         <variableId>f2550754-f1cb-4777-aebe-518216e38b59</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cd7253c9-8e6a-454b-a3e6-a9bef7820dde</guid>
+      <guid>9edb5db4-c9d3-4581-8211-5cf5b342e969</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/01_searchItemName</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/01_searchItemName</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>04e73acf-31f8-44a9-be75-4aea73950b2c</id>
+         <id>f00a43b8-c12c-46ab-b4df-451c02a11e79</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -52,20 +52,20 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>04e73acf-31f8-44a9-be75-4aea73950b2c</testDataLinkId>
+         <testDataLinkId>f00a43b8-c12c-46ab-b4df-451c02a11e79</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>e76518fd-9367-40ce-9cf5-3f7dadd00bc2</variableId>
+         <variableId>70784a18-98b1-428d-9013-033b6b979c6c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b1ce8b1-8698-4370-a1b4-9f6284edd6c2</guid>
+      <guid>1b4be6d8-4381-49fa-bdcb-8114e60fbd76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/03_searchCustomField</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/03_searchCustomField</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>e17a4a3d-3db3-45af-bde6-fd6d0dd6b914</id>
+         <id>f826b2ed-dd66-4840-9c9e-7e2c77d1c81d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -73,26 +73,26 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>e17a4a3d-3db3-45af-bde6-fd6d0dd6b914</testDataLinkId>
+         <testDataLinkId>f826b2ed-dd66-4840-9c9e-7e2c77d1c81d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemCustomField</value>
-         <variableId>74d2a702-449a-4ef7-815d-d512e299e884</variableId>
+         <variableId>d75c04de-9e53-41f9-b831-56c6746661a0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e17a4a3d-3db3-45af-bde6-fd6d0dd6b914</testDataLinkId>
+         <testDataLinkId>f826b2ed-dd66-4840-9c9e-7e2c77d1c81d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>540ba429-2722-46ca-9015-8ae3fb236c60</variableId>
+         <variableId>4e5fcb3d-7065-41e0-afba-22b1b0fdcff3</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7a2cb86-9c15-423f-8d93-d23961384269</guid>
+      <guid>25d39990-5869-4f5b-be05-62993de045a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/04_searchPartialItemName</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/04_searchPartialItemName</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>fcdef1c3-e3a3-4097-8d72-9ced5d64a029</id>
+         <id>b935dfa2-a2a2-48c8-8ea2-2ff427940277</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -100,26 +100,26 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>fcdef1c3-e3a3-4097-8d72-9ced5d64a029</testDataLinkId>
+         <testDataLinkId>b935dfa2-a2a2-48c8-8ea2-2ff427940277</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemNamePartial</value>
-         <variableId>12fce35f-eb8b-4b5a-87e4-aa2dd6286ecc</variableId>
+         <variableId>ebbbeb31-25db-450d-9866-a6a974b30ed4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fcdef1c3-e3a3-4097-8d72-9ced5d64a029</testDataLinkId>
+         <testDataLinkId>b935dfa2-a2a2-48c8-8ea2-2ff427940277</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>39b99da6-4fbe-4e95-af73-69efe61e0f30</variableId>
+         <variableId>f86d36b9-1589-4da2-83c2-3aa10e14b180</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>67b6b6f2-1fea-42ef-adf7-8ed513d3931e</guid>
+      <guid>77a5ae25-8906-4b5b-a4b6-9e429c419883</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/06_searchPartialCustomFields</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/06_searchPartialCustomFields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f3edb841-14d9-40ee-8e1a-36039ed59446</id>
+         <id>0dab32d0-284e-478e-86e0-037834f1adc7</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -127,26 +127,26 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>f3edb841-14d9-40ee-8e1a-36039ed59446</testDataLinkId>
+         <testDataLinkId>0dab32d0-284e-478e-86e0-037834f1adc7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemCustomFieldPartial</value>
-         <variableId>f38943dc-a3d9-4cda-b12d-abb19f089410</variableId>
+         <variableId>f8bc583a-87c4-4878-8a34-c39c4f6df83c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f3edb841-14d9-40ee-8e1a-36039ed59446</testDataLinkId>
+         <testDataLinkId>0dab32d0-284e-478e-86e0-037834f1adc7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>8dad99d5-de1f-4286-97a0-8835dd2dd490</variableId>
+         <variableId>30ab9f6e-be77-435f-a674-3f1a46ca75c8</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>95bb3ce2-307a-4aea-858f-d24677d8dd24</guid>
+      <guid>b62c3776-b5cd-4f01-9659-1271b7483bcc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/07_itemNameCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/07_itemNameCategory</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4cf94ed1-231e-4c86-b77e-272e1d8dd86e</id>
+         <id>6b9dd08b-bfb3-4180-a6cf-20e5a63d10af</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -154,26 +154,26 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>4cf94ed1-231e-4c86-b77e-272e1d8dd86e</testDataLinkId>
+         <testDataLinkId>6b9dd08b-bfb3-4180-a6cf-20e5a63d10af</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>41b1369e-b0b7-4c42-8cac-fbc55551448e</variableId>
+         <variableId>ae8dbb9c-937e-4a01-bb74-fcdf18978fa9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4cf94ed1-231e-4c86-b77e-272e1d8dd86e</testDataLinkId>
+         <testDataLinkId>6b9dd08b-bfb3-4180-a6cf-20e5a63d10af</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>category</value>
-         <variableId>ca52eeda-257f-4751-9860-99aeb2769520</variableId>
+         <variableId>92f3e4c4-9f6a-44ef-b3f9-e6a4c4f85c4b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7b886ee7-6dd2-4044-861b-6bd770704686</guid>
+      <guid>8734e610-f06a-4197-a423-219974b64ccf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/09_customFieldCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/09_customFieldCategory</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>96eaf268-8959-497e-a528-56ae023cc9e5</id>
+         <id>9a5f46dd-7dad-4dc8-9efa-eb007431a035</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -181,32 +181,32 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>96eaf268-8959-497e-a528-56ae023cc9e5</testDataLinkId>
+         <testDataLinkId>9a5f46dd-7dad-4dc8-9efa-eb007431a035</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemCustomField</value>
-         <variableId>8334331a-19cd-4604-bb57-228f93d571dd</variableId>
+         <variableId>5bd5ef82-5eca-41fc-bf17-031a6b4d8bc4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>96eaf268-8959-497e-a528-56ae023cc9e5</testDataLinkId>
+         <testDataLinkId>9a5f46dd-7dad-4dc8-9efa-eb007431a035</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>category</value>
-         <variableId>0d157e45-78ee-455b-a5e1-eff4be361a11</variableId>
+         <variableId>fabf5d7b-94f0-427a-9f9a-2471a43e918e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>96eaf268-8959-497e-a528-56ae023cc9e5</testDataLinkId>
+         <testDataLinkId>9a5f46dd-7dad-4dc8-9efa-eb007431a035</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>73b5b632-38e7-4665-bc17-c9804a7d132a</variableId>
+         <variableId>983cc601-d4e3-450a-ab61-f84c7458b525</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4969fd9a-7939-4f4a-99b0-a57888346b17</guid>
+      <guid>b04641ff-a41a-4896-8534-0b160b553ec1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/10_itemNamePartialCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/10_itemNamePartialCategory</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>108af7fa-544d-4e39-b6d1-207555d53751</id>
+         <id>f091b13c-11ed-4020-86b2-eec2c6e7be15</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -214,32 +214,32 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>108af7fa-544d-4e39-b6d1-207555d53751</testDataLinkId>
+         <testDataLinkId>f091b13c-11ed-4020-86b2-eec2c6e7be15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemNamePartial</value>
-         <variableId>3b5d6468-1779-4b74-92a6-37f69c373fdc</variableId>
+         <variableId>e049ddae-03ad-4ca1-b26a-441f253f6e63</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>108af7fa-544d-4e39-b6d1-207555d53751</testDataLinkId>
+         <testDataLinkId>f091b13c-11ed-4020-86b2-eec2c6e7be15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>category</value>
-         <variableId>732303f2-d10e-4772-90cd-bcd7137a2228</variableId>
+         <variableId>b92fa696-8953-4200-9d9e-626325a86eba</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>108af7fa-544d-4e39-b6d1-207555d53751</testDataLinkId>
+         <testDataLinkId>f091b13c-11ed-4020-86b2-eec2c6e7be15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>bc587d01-2ecd-4fba-8b55-f7e0a9447410</variableId>
+         <variableId>4c01920b-6c56-401e-ab51-6e944560e502</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5ac8e30a-4360-490c-bf0b-fa4bccfabcf5</guid>
+      <guid>e0cfbe90-40a6-4ed2-861c-e9c115c8bdc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/12_customFieldPartialCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/12_customFieldPartialCategory</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4db8e073-fbbe-435e-828f-4bbf65ff94cf</id>
+         <id>f4d79372-f66c-426a-97f1-2010c3034990</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -247,32 +247,32 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>4db8e073-fbbe-435e-828f-4bbf65ff94cf</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>itemCustomFieldPartial</value>
-         <variableId>aec935a8-0bbc-41ab-8692-526d53d30221</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7167c08-da3d-48f0-87da-d0e1d276ec84</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4db8e073-fbbe-435e-828f-4bbf65ff94cf</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>category</value>
-         <variableId>ef327453-4990-4369-91ec-44057a9258a5</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>35e5e87d-e8af-449b-ab0e-2153d92cacec</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4db8e073-fbbe-435e-828f-4bbf65ff94cf</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>itemName</value>
-         <variableId>43f0d04c-27d0-426a-b88e-45844b701ea1</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96c77bf7-9f22-46e8-b4b9-7adead9f583d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>44e1f6a8-759c-4c10-a13b-2958c99df3ff</guid>
+      <guid>c98a4047-000c-440e-ae5d-1d1a1b0087d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Delivery/13_searchCategoryOnly</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/13_searchCategoryOnly</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>1606c8fc-6952-4d38-8a36-061ccccf3017</id>
+         <id>468a3d41-8976-4295-9483-95d669e8e831</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -280,16 +280,37 @@
          <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>1606c8fc-6952-4d38-8a36-061ccccf3017</testDataLinkId>
+         <testDataLinkId>468a3d41-8976-4295-9483-95d669e8e831</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>category</value>
-         <variableId>7096b9cb-fb71-4b6f-b667-e5a691566e16</variableId>
+         <variableId>63bd4a46-6b94-4a56-ae10-29a2a6fc0e1a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1606c8fc-6952-4d38-8a36-061ccccf3017</testDataLinkId>
+         <testDataLinkId>468a3d41-8976-4295-9483-95d669e8e831</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>6f32d9a8-2612-4fa7-ac9d-1181ec2e3af9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9abe0d7-5e0a-4f05-96eb-252050a54c0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Checkout Review/14_BlankSearch</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a9fc7a4d-9766-4448-bd0a-751d800f83f9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/SearchResult</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a9fc7a4d-9766-4448-bd0a-751d800f83f9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>itemName</value>
-         <variableId>68e4d74d-3c4f-446f-a589-60b8661759ff</variableId>
+         <variableId>b534ccfc-9805-4266-9191-1a28eb6b5292</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -4,25 +4,25 @@
    <name>11_itemDescPartialCategory</name>
    <tag></tag>
    <comment>Search Partial Item Description with Category</comment>
-   <testCaseGuid>fe9c11db-db56-4c93-9663-5d8cc7213c28</testCaseGuid>
+   <testCaseGuid>575749e1-f651-40b4-ac9c-b13ac42aed10</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>96eac212-4386-4074-9837-1ffca70148ff</id>
+      <id>04346f6a-fea1-4c26-b260-590e56b987b9</id>
       <masked>false</masked>
       <name>itemDescriptionPartial</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>e55f6630-970d-40e2-843f-3835fe8e374e</id>
+      <id>e19b0755-0f16-48e5-b3cb-86dda2c950a9</id>
       <masked>false</masked>
       <name>category</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.null</defaultValue>
       <description></description>
-      <id>cf788aed-a008-4fb8-9496-ab914ce20ab5</id>
+      <id>1c0d09c1-5036-4528-aa2b-cdd891fc4796</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

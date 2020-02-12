@@ -19,15 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Items/breadcrumbs_Home'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Items/breadcrumbs_Evaluation List'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Items/breadcrumbs_Evaluation Items'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Items/dropdown_list'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Items/textlabel_Clear all'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Items/textlabel_Continue Browsing'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 

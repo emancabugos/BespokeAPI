@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Search Exact Item Name')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout - Delivery Page/button_Next'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Page_0123bpth1/dropdown_Delivery'), 0)
 
 WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
 
@@ -34,4 +34,6 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_Sea
 WebUI.back()
 
 WebUI.refresh()
+
+WebUI.delay(2)
 

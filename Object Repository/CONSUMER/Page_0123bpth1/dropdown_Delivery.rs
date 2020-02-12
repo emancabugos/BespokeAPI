@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//select[@name='delivery_method[]']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'txt sel_del_method' and @name = 'delivery_method[]']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -41,7 +45,7 @@
       <value>45197478-7e3e-47c0-a155-818a58e1ad8e</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

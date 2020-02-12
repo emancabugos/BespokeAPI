@@ -18,10 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.comment('Search Exact Item Name')
+WebUI.comment('Search Item 01')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout - Delivery Page/button_Next'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
 
@@ -31,7 +34,41 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemName)
 
-WebUI.back()
+WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.refresh()
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
+
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '1')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddToCart'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_ViewCart'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CONSUMER/Homepage/icon_ViewCart'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_ContinueShopping'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('CONSUMER/Cart/checkbox_seller'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('CONSUMER/Cart/button_Checkout'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout - Delivery Page/button_Next'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('CONSUMER/Checkout - Delivery Page/selection_1stAddress'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('CONSUMER/Checkout - Delivery Page/button_Next'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Page_0123bpth1/dropdown_Delivery'), 0)
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>14_BlankSearch</name>
+   <name>navigate_CheckoutReview</name>
    <tag></tag>
-   <comment>Search Category Only</comment>
-   <testCaseGuid>692452c6-e5df-4f04-9024-4d9e1614c253</testCaseGuid>
+   <comment>Search Item 01</comment>
+   <testCaseGuid>e6c5d065-a975-4e11-8d25-197cbbe45469</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>b534ccfc-9805-4266-9191-1a28eb6b5292</id>
+      <id>f2550754-f1cb-4777-aebe-518216e38b59</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

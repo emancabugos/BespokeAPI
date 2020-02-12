@@ -17,18 +17,6 @@
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7844cd4e-d8d4-4ede-a834-f2dda9eee9d4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Homepage/14_BlankSearch</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>13bf6364-e91a-49f8-8ed9-e09a21c76c79</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fba02d1f-32aa-49f0-a799-3f14593c4c8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

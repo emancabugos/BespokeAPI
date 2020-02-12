@@ -19,11 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Search Exact Item Name')
+WebUI.comment('Search Exact Custom Field with Category')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout - Delivery Page/button_Next'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemCustomField)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'))
+
+WebUI.selectOptionByIndex(findTestObject('CONSUMER/Homepage/dropdown_AllCategories'), 1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
@@ -34,4 +40,6 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_Sea
 WebUI.back()
 
 WebUI.refresh()
+
+WebUI.delay(2)
 
