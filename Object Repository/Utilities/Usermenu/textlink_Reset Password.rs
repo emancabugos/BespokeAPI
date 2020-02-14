@@ -4,6 +4,12 @@
    <name>textlink_Reset Password</name>
    <tag></tag>
    <elementGuidId>42dcfe9b-a627-40af-b0eb-bf6a50afcd89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/accounts/change-password' and (text() = 'Reset Password' or . = 'Reset Password')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/user/useraccount/changepassword</value>
+      <value>/accounts/change-password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

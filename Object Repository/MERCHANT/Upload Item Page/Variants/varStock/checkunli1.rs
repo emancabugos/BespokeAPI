@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_dropdown</name>
+   <name>checkunli1</name>
    <tag></tag>
-   <elementGuidId>527c774e-b125-417c-9f1a-18d0c1fbbab6</elementGuidId>
+   <elementGuidId>6c37260a-bd40-46bd-8fbc-b274adc8ce4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div/div[1]/div[1]/div/div/ul/li[3]/span/i[count(. | //i[@class = 'fa fa-angle-down']) = count(//i[@class = 'fa fa-angle-down'])]</value>
+         <value>//*[@id=&quot;pricing_tab&quot;]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[1]/td[10]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,20 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>fa fa-angle-down</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div/div[1]/div[1]/div/div/ul/li[3]/span/i</value>
+      <value>//*[@id=&quot;pricing_tab&quot;]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[1]/td[10]/div/label</value>
    </webElementProperties>
 </WebElementEntity>

@@ -20,7 +20,7 @@
       <guid>0bb12d1b-5726-4cb1-8419-7e25e6225081</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MERCHANT/Reset Password/Reset Password UI/Forgot Password Redirection</testCaseId>
+      <testCaseId>Test Cases/MERCHANT/Reset Password/Reset Password UI/Reset Password Redirection</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>82383c94-b05f-4e54-80e0-0cb146b52c53</guid>

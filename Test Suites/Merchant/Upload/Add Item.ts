@@ -81,7 +81,7 @@
       <variableLink>
          <testDataLinkId>aef6720a-480c-4ff2-ae1b-2e00d4522504</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Variant Option</value>
+         <value>Variant Image</value>
          <variableId>b80a187a-c46e-4012-b976-8f6c8df5bb79</variableId>
       </variableLink>
       <variableLink>

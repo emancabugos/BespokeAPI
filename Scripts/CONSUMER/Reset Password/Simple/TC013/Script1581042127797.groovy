@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('MERCHANT/Reset Password/Reset Password UI/Forgot Password Redirection'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('MERCHANT/Reset Password/Reset Password UI/Reset Password Redirection'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('MERCHANT/Reset Password/textbox_NewPassword'), 'welcome8!?')
 

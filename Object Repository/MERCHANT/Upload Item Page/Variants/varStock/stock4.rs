@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_dropdown</name>
+   <name>stock4</name>
    <tag></tag>
-   <elementGuidId>527c774e-b125-417c-9f1a-18d0c1fbbab6</elementGuidId>
+   <elementGuidId>ad71def9-f4ef-4ea6-a5ec-f59af8618c25</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div/div[1]/div[1]/div/div/ul/li[3]/span/i[count(. | //i[@class = 'fa fa-angle-down']) = count(//i[@class = 'fa fa-angle-down'])]</value>
+         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[4]/td[9]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,20 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>fa fa-angle-down</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div/div[1]/div[1]/div/div/ul/li[3]/span/i</value>
+      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[4]/td[9]/input</value>
    </webElementProperties>
 </WebElementEntity>
