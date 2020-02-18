@@ -4,25 +4,25 @@
    <name>08_itemDescCategory</name>
    <tag></tag>
    <comment>Search Exact Item Description with Category</comment>
-   <testCaseGuid>ac1d380a-62c1-4413-966b-3699842ebfe2</testCaseGuid>
+   <testCaseGuid>08fc9e19-cd48-4705-a488-d8f784385399</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>deabca4a-da83-4535-b4d4-4b915bdc4d83</id>
+      <id>5be05309-85b3-4a95-890c-8b82e6eabc23</id>
       <masked>false</masked>
       <name>itemDescription</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>a877c753-abc4-43b5-9fb8-f799c9f507ee</id>
+      <id>07b2b7b9-4650-49e9-9cf4-f366a8828f3c</id>
       <masked>false</masked>
       <name>category</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>4f11072f-b524-4c86-bc54-90b55babae31</id>
+      <id>3dfb9fe9-8b5f-4830-80d3-c16994644ee0</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>
