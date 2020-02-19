@@ -19,55 +19,55 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/button_Previous'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_SellerName'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/image_ItemName'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ItemName'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_currency'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_itempriceValue'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_Quantity'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_quantityValue'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_SelectDeliveryMethod'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_MinimumLeadTime'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_MLTvalue'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_DeliveryCost1'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_OrderSummary'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_DeliveryAddress'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/linktext_Edit'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ConsumerName'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Address'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Country'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_City'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_State'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_PostalCode'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_SubTotal'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_DeliveryCost2'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_Total'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/button_ConfirmOrder'))
+WebUI.verifyElementVisible(findTestObject('null'))
 

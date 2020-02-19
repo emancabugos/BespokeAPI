@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_OrderSummary</name>
+   <name>textabel_TotalPriceValue</name>
    <tag></tag>
-   <elementGuidId>d905534f-5660-42df-9863-88508df3b82c</elementGuidId>
+   <elementGuidId>6350ebd3-6748-4c14-bbd9-e13d0f2e70b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='review-container']/div/div[2]/div[2]/div/span</value>
+         <value>//div[@id='review-container']/div/div[2]/div[2]/div/div[2]/span[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,69 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>cbcir-title</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Order Summary</value>
+      <value>item-price totalCost</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> SGD $ 215.25</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review-container&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/span[@class=&quot;cbcir-title&quot;]</value>
+      <value>//div/div[2]/div[2]/div/div[2]/span[2]/div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='review-container']/div/div[2]/div[2]/div/span</value>
+      <value>//div[@id='review-container']/div/div[2]/div[2]/div/div[2]/span[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Lead Time'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Surcharge'])[1]/following::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Order Summary']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceed to Payment'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/span</value>
+      <value>//div[2]/span[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

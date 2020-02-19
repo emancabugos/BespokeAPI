@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_City'))
+WebUI.verifyElementVisible(findTestObject('null'))
 

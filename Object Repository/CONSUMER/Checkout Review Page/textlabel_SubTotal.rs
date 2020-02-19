@@ -3,18 +3,24 @@
    <description></description>
    <name>textlabel_SubTotal</name>
    <tag></tag>
-   <elementGuidId>46332e9b-3592-4f96-a874-5b157b2b9bc0</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <elementGuidId>5a384538-a738-484f-9f83-c54f6a539caa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -32,6 +38,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNTOG32SSGP&quot;)/div[1]/div[@class=&quot;review-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text2&quot;]/span[1]/span[@class=&quot;title&quot;]</value>
+      <value>id(&quot;review-container&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text2&quot;]/span[1]/span[@class=&quot;title&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div[2]/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Philippines'])[1]/following::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pandacan'])[1]/following::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delivery Cost'])[1]/preceding::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sub-Total']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/span/span</value>
+   </webElementXpaths>
 </WebElementEntity>

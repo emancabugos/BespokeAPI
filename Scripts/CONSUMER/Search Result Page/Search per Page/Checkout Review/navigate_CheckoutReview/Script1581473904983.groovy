@@ -70,5 +70,5 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('CONSUMER/Checkout - Delivery Page/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Page_0123bpth1/dropdown_Delivery'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/dropdown_Delivery'), 0)
 

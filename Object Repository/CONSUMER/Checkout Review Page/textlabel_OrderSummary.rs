@@ -3,18 +3,24 @@
    <description></description>
    <name>textlabel_OrderSummary</name>
    <tag></tag>
-   <elementGuidId>d7630383-39db-4fa4-bbee-6fbed12c6a3f</elementGuidId>
+   <elementGuidId>d905534f-5660-42df-9863-88508df3b82c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='review-container']/div/div[2]/div[2]/div/span</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -32,6 +38,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNTOG32SSGP&quot;)/div[1]/div[@class=&quot;review-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/span[@class=&quot;cbcir-title&quot;]</value>
+      <value>id(&quot;review-container&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/span[@class=&quot;cbcir-title&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='review-container']/div/div[2]/div[2]/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Lead Time'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Surcharge'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Order Summary']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/span</value>
+   </webElementXpaths>
 </WebElementEntity>

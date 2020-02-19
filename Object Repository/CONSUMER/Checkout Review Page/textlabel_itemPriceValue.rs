@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_Country</name>
+   <name>textlabel_itemPriceValue</name>
    <tag></tag>
-   <elementGuidId>a0754229-729a-4a0d-80be-e79445326794</elementGuidId>
+   <elementGuidId>1d3f9b8f-aa89-4275-a984-9c92a6b75054</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div/span[5]</value>
+         <value>//div[@id='review-container']/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,62 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Philippines</value>
+      <value>item-price</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SGD $ 100.00</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review-container&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text1&quot;]/span[5]</value>
+      <value>//div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div/span[5]</value>
+      <value>//div[@id='review-container']/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pandacan'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seller0002'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Metro Manila'])[1]/following::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-Total'])[1]/preceding::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Philippines']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay'])[1]/following::div[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[5]</value>
+      <value>//div[2]/div/div/div/div/div[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

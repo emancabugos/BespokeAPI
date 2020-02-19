@@ -3,11 +3,17 @@
    <description></description>
    <name>textlabel_ItemName</name>
    <tag></tag>
-   <elementGuidId>1a13a6f4-a40c-4c4e-ba35-e1dce4386f70</elementGuidId>
+   <elementGuidId>acf01b37-af02-49a3-aad1-d1e1a842442a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='review-container']/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -25,13 +31,55 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Item Test Checkout</value>
+      <value>Item07</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNTOG32SSGP&quot;)/div[1]/div[@class=&quot;review-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-left pull-left&quot;]/div[@class=&quot;cart-box full-width&quot;]/div[@class=&quot;cb-content&quot;]/div[@class=&quot;cbc-left&quot;]/div[@class=&quot;item-info&quot;]/p[@class=&quot;item-name&quot;]</value>
+      <value>id(&quot;review-container&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-left pull-left&quot;]/div[@class=&quot;cart-box full-width&quot;]/div[@class=&quot;cart-box-item mearchant_box&quot;]/div[@class=&quot;cb-content&quot;]/div[@class=&quot;row flex&quot;]/div[@class=&quot;col-md-7 cbc-left&quot;]/div[@class=&quot;wrap&quot;]/div[@class=&quot;box-item__&quot;]/div[@class=&quot;item-info&quot;]/p[@class=&quot;item-name&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='review-container']/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/p</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seller0001'])[1]/following::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay'])[1]/following::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD'])[1]/preceding::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Item07']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/p</value>
+   </webElementXpaths>
 </WebElementEntity>

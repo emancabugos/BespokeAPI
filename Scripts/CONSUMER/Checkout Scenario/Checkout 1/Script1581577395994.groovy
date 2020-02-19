@@ -89,29 +89,32 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('CONSUMER/Checkout - Delivery Page/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Page_0123bpth1/dropdown_Delivery'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/dropdown_Delivery'), 0)
 
 WebUI.comment('Checkout - Review Page')
 
-WebUI.click(findTestObject('CONSUMER/Page_0123bpth1/dropdown_Delivery'))
+WebUI.click(findTestObject('CONSUMER/Checkout Review Page/dropdown_Delivery'))
 
-WebUI.selectOptionByIndex(findTestObject('CONSUMER/Page_0123bpth1/dropdown_Delivery'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('CONSUMER/Checkout Review Page/dropdown_Delivery'), 8, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
 WebUI.comment('Checkout Review Page')
 
-WebUI.getText(findTestObject('CONSUMER/Page_0123bpth1/textlabel_ItemName'))
+String itemName = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ItemName'))
+CustomKeywords.'myPack.WriteToExcel.demoKey1'(itemName)
 
-WebUI.getText(findTestObject('CONSUMER/Page_0123bpth1/textlabel_QuantityValue'))
+String itemQuantity = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_QuantityValue'))
+CustomKeywords.'myPack.WriteToExcel.demoKey2'(itemQuantity)
 
-WebUI.getText(findTestObject('CONSUMER/Page_0123bpth1/textlabel_Surcharge'))
+/*String itemPrice = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_QuantityValue'))
+CustomKeywords.'myPack.WriteToExcel.demoKey'(itemPrice)*/
 
-WebUI.getText(findTestObject('CONSUMER/Page_0123bpth1/textlabel_QuantityValue'))
 
-WebUI.getText(findTestObject('CONSUMER/Page_0123bpth1/textlabel_QuantityValue'))
 
-WebUI.getText(findTestObject('CONSUMER/Page_0123bpth1/textlabel_QuantityValue'))
+/*itemPrice = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_itemPriceValue'))
 
-WebUI.getText(findTestObject('CONSUMER/Page_0123bpth1/textlabel_QuantityValue'))
+itemSurcharge = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_SurchargeValue'))
+
+itemMLT = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_MLT'))*/
 

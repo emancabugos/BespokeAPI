@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_SubTotalValue</name>
+   <name>textlabel_deliveryCost</name>
    <tag></tag>
-   <elementGuidId>11f4e617-9fdc-40fe-b8cd-f3fc96a0bea7</elementGuidId>
+   <elementGuidId>5875da47-dfdb-4cf3-aad9-f4e828c6640b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'sub-total value']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div[2]/span/div/span[2]</value>
+         <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div[2]/span[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,62 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sub-total value</value>
+      <value>item-price deliveryCost</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>426.25</value>
+      <value> SGD $ 0.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review-container&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text2&quot;]/span[1]/div[@class=&quot;item-price subTotal&quot;]/span[@class=&quot;sub-total value&quot;]</value>
+      <value>//div/div[2]/div[2]/div/div[1]/div[2]/span[2]/div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div[2]/span/div/span[2]</value>
+      <value>//div[@id='review-container']/div/div[2]/div[2]/div/div/div[2]/span[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-Total'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delivery Cost'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delivery Cost'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='426.25']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/div/span[2]</value>
+      <value>//span[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

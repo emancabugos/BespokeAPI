@@ -309,35 +309,35 @@ WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/button_Next'))
 
 WebUI.comment('Checkout Review Page')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/button_ConfirmOrder'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ConsumerName'), name)
+WebUI.verifyElementText(findTestObject('null'), name)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Address'), address)
+WebUI.verifyElementText(findTestObject('null'), address)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Country'), country)
+WebUI.verifyElementText(findTestObject('null'), country)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_City'), city)
+WebUI.verifyElementText(findTestObject('null'), city)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_State'), state)
+WebUI.verifyElementText(findTestObject('null'), state)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_PostalCode'), postalcode)
+WebUI.verifyElementText(findTestObject('null'), postalcode)
 
-WebUI.click(findTestObject('CONSUMER/Checkout Review Page/button_radio1'))
+WebUI.click(findTestObject('null'))
 
 WebUI.comment('Computation of Total Price')
 
-actualSubtotal = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_SubTotalValue'))
+actualSubtotal = WebUI.getText(findTestObject('null'))
 
 WebUI.verifyEqual(df.format(subtotal), actualSubtotal)
 
-delivery1 = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
+delivery1 = WebUI.getText(findTestObject('null'))
 
-delivery2 = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue2'))
+delivery2 = WebUI.getText(findTestObject('null'))
 
 WebUI.verifyEqual(delivery1, delivery2, FailureHandling.CONTINUE_ON_FAILURE)
 
-def delivery = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
+def delivery = WebUI.getText(findTestObject('null'))
 
 BigDecimal intsubtotal = new BigDecimal(subtotal)
 
@@ -347,12 +347,12 @@ def total = intsubtotal + intdelivery
 
 println(df.format(new BigDecimal(total)))
 
-WebUI.verifyEqual(total, WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_TotalValue')), 
+WebUI.verifyEqual(total, WebUI.getText(findTestObject('null')), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Checkout Review Page/button_ConfirmOrder'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Transaction Complete Page/textlabel_InvoiceIDValue'), 0)
 
