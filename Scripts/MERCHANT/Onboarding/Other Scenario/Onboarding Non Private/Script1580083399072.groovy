@@ -27,9 +27,11 @@ WebUI.click(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), Failur
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), 0)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_username'), 0)
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_username'), varUsername)
 

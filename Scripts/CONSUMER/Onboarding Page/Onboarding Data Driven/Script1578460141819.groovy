@@ -21,27 +21,29 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Buyer Sign in'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Landing Page/button_Buyer Sign in'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_username'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/textlink_register signin'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), varUsername)
+WebUI.click(findTestObject('CONSUMER/Landing Page/textlink_register signin'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), 'welcome8')
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), 0)
 
-if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
-    WebUI.waitForElementVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
+WebUI.delay(2)
 
-    WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
-} else {
-    WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-}
+WebUI.click(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_username'), varUsername)
+
+WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_password'), 'welcome8')
+
+WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_cofirm_password'), 'welcome8')
+
+WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_email'), varNotifEmail)
+
+WebUI.click(findTestObject('MERCHANT/Onboarding/Non Private/button_Sign Up'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), 0)
 

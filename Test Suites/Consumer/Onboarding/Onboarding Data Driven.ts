@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Buyer List</testDataId>
+         <testDataId>Data Files/CONSUMER/Buyer List</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>4d5e95dc-d416-4930-a06e-113a5015eb0c</testDataLinkId>
@@ -89,6 +89,12 @@
          <type>DATA_COLUMN</type>
          <value>postalCode</value>
          <variableId>d984375d-da49-4b76-a805-f9ba51a93934</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4d5e95dc-d416-4930-a06e-113a5015eb0c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>emailNotif</value>
+         <variableId>30cff5ae-3c78-4748-87b2-2d67b70b8cf6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

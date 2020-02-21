@@ -4,6 +4,12 @@
    <name>button_Invite Sub-Account</name>
    <tag></tag>
    <elementGuidId>3493519d-8af5-456d-ae68-c49c36a8a0a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div[1]/div/div[2]/div/a[1][count(. | //a[@class = 'btn-action btn-red' and (text() = 'Invite Sub-Account' or . = 'Invite Sub-Account')]) = count(//a[@class = 'btn-action btn-red' and (text() = 'Invite Sub-Account' or . = 'Invite Sub-Account')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -35,7 +41,7 @@
       <value>#modal-create-account</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -49,10 +55,10 @@
       <value>Invite Sub-Account</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLOVGQCRS7LB&quot;)/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;sc-upper&quot;]/div[@class=&quot;sc-u sc-u-mid full-width&quot;]/div[@class=&quot;pull-right&quot;]/div[@class=&quot;action-btns&quot;]/a[@class=&quot;btn-action btn-red&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div[1]/div/div[2]/div/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

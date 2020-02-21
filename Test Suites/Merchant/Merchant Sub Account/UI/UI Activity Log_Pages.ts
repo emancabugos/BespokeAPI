@@ -4,7 +4,6 @@
    <name>UI Activity Log_Pages</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-18T13:20:38</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,7 +14,7 @@
       <guid>0b31bc94-6278-40dd-852c-279c4187ed26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f2458afb-4498-447c-9e00-57be84b39944</guid>

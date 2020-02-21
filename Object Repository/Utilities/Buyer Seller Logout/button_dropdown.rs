@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul[2]/li[2]/span/i[count(. | //i[@class = 'fa fa-angle-down']) = count(//i[@class = 'fa fa-angle-down'])]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul[2]/li[2]/span/i</value>
+      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/span/i</value>
    </webElementProperties>
 </WebElementEntity>

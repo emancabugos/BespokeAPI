@@ -3,83 +3,91 @@
    <description></description>
    <name>Onboarding Data Driven</name>
    <tag></tag>
-   <comment></comment>
+   <comment>PROFILE
+ADDRESS</comment>
    <testCaseGuid>3ecd3d7d-87ec-4761-8364-b4577dbddb44</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>b089d54c-7368-46d1-b17d-e9186f142a91</id>
       <masked>false</masked>
       <name>varUsername</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>5ed74b13-2d65-42ff-b359-39f091f1eab4</id>
       <masked>false</masked>
       <name>varImage</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>885ab32b-1f3e-4d56-98b4-a5ebaafa70c2</id>
       <masked>false</masked>
       <name>varDisplayName</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>0ae0b872-a4b3-41c8-bbe6-acc0d572eca0</id>
       <masked>false</masked>
       <name>varFname</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>077d4c14-28c0-4ad7-984f-bab9f5c180c9</id>
       <masked>false</masked>
       <name>varLname</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>5e7ff1a7-0c1b-4f3d-a650-b5fe6946951d</id>
       <masked>false</masked>
       <name>varContact</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>20ec3c75-6e58-4ad9-a558-3dfe4aa25bc3</id>
       <masked>false</masked>
       <name>varAddress</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>4bf00d26-7589-4b7c-a944-8431f5f8cf1e</id>
       <masked>false</masked>
       <name>varCountry</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>a029dce9-9c3c-4d12-a4f7-f7b8723c8a51</id>
       <masked>false</masked>
       <name>varState</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>7ba9d2b5-f252-4ff6-a961-35d857c574ce</id>
       <masked>false</masked>
       <name>varCity</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ADMIN/Buyer List')</defaultValue>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
       <description></description>
       <id>d984375d-da49-4b76-a805-f9ba51a93934</id>
       <masked>false</masked>
       <name>varPostal</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Buyer List')</defaultValue>
+      <description></description>
+      <id>30cff5ae-3c78-4748-87b2-2d67b70b8cf6</id>
+      <masked>false</masked>
+      <name>varNotifEmail</name>
    </variable>
 </TestCaseEntity>

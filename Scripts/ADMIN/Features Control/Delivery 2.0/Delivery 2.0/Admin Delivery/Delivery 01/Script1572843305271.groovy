@@ -54,8 +54,6 @@ WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_WhereAreYouD
 
 WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/textlabel_radioSelection'), 0)
 
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'))
-
 WebUI.comment('Range 1')
 
 WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryRateName'), 

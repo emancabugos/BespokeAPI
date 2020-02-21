@@ -42,14 +42,6 @@ WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), 'welcom
 
 WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/icon_dropdown'), 0)
-
-WebUI.click(findTestObject('Utilities/Usermenu/icon_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/textlink_settings'), 0)
-
-WebUI.click(findTestObject('Utilities/Buyer Seller Logout/textlink_settings'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.comment('PROFILE')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Profile/button_Change'), 0)
