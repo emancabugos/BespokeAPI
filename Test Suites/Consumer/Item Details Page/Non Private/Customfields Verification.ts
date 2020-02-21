@@ -26,18 +26,6 @@
       </testDataLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2a484a4-7674-4464-bbe6-da29c148ba36</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/CONSUMER/Checkout Scenario/search_Item</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6aa3d25a-1606-4fce-b279-88023c372a00</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6a4685ba-5201-468c-b7aa-3043feece99e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

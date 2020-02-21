@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-Item with Variants
+-Admin Delivery 
+-Stripe</description>
+   <name>Checkout 1</name>
+   <tag></tag>
+   <comment>Search Item with Variants
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout Review Page</comment>
+   <testCaseGuid>b42b4fdc-715b-4beb-9b5f-b6133014ca19</testCaseGuid>
+</TestCaseEntity>

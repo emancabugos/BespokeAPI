@@ -37,17 +37,17 @@ println(df.format(new BigDecimal(subtotal)))
 WebUI.verifyEqual(df.format(subtotal), WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_SubTotalPrice')),
 	FailureHandling.CONTINUE_ON_FAILURE)
 
-actualSubtotal = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_SubTotalValue'))
+actualSubtotal = WebUI.getText(findTestObject('null'))
 
 WebUI.verifyEqual(df.format(subtotal), actualSubtotal)
 
-delivery1 = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
+delivery1 = WebUI.getText(findTestObject('null'))
 
-delivery2 = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue2'))
+delivery2 = WebUI.getText(findTestObject('null'))
 
 WebUI.verifyEqual(delivery1, delivery2, FailureHandling.CONTINUE_ON_FAILURE)
 
-def delivery = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
+def delivery = WebUI.getText(findTestObject('null'))
 
 BigDecimal intsubtotal = new BigDecimal(subtotal)
 
@@ -57,5 +57,5 @@ def total = intsubtotal + intdelivery
 
 println(df.format(new BigDecimal(total)))
 
-WebUI.verifyEqual(total, WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_TotalValue')),
+WebUI.verifyEqual(total, WebUI.getText(findTestObject('null')),
 	FailureHandling.CONTINUE_ON_FAILURE)

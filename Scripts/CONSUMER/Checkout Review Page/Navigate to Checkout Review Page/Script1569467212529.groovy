@@ -29,5 +29,5 @@ WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/Deli
 
 WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/button_Next'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/button_ConfirmOrder'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 

@@ -19,9 +19,9 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Page/button_Previou
 
 WebUI.click(findTestObject('CONSUMER/Payment Page/button_Previous'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_OrderSummary'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Checkout Review Page/button_ConfirmOrder'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Page/span_Payment Method'), 0)
 

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[5]/div/div/span[2]/div/span[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div/div/div[5]/div/div[1]/span[2]/div/span[3][count(. | //*[@class = 'priceAmount']) = count(//*[@class = 'priceAmount'])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -34,11 +38,11 @@
       <value> 1,200.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;cart-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/span[@class=&quot;title&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;]</value>
+      <value>//div[2]/div/div/div[5]/div/div[1]/span[2]/div/span[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

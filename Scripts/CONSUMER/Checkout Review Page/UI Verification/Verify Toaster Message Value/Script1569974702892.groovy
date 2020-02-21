@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('CONSUMER/Checkout Review Page/button_ConfirmOrder'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/toaster_NoSelectedDelivery'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
 WebUI.verifyMatch('Please select a delivery method before continuing.\'  in red will display.', 'Please select a delivery method before continuing.\'  in red will display.', 
     false)

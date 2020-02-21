@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/Button_ShowMyComparisonTable'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Checkout Review Page/Button_ShowMyComparisonTable'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/Linktext_CompareProduct'))
 

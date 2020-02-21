@@ -19,29 +19,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/button_Previous'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_SellerName'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
 WebUI.comment('Select a delivery')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_MLTvalue'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ConsumerName'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Address'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Country'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_City'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_State'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
 WebUI.comment('Edit Delivery Details')
 
-WebUI.click(findTestObject('CONSUMER/Checkout Review Page/linktext_Edit'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/textlabel_FirstName'), 0)
 
@@ -93,23 +93,23 @@ WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/default_Delivery'))
 
 WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/button_Next'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/button_Previous'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
 WebUI.comment('Verify Updated Address')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ConsumerName'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Address'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_Country'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_City'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_State'), '')
+WebUI.verifyElementText(findTestObject('null'), '')
 
 WebUI.comment('Verify Previous functionality button')
 
-WebUI.click(findTestObject('CONSUMER/Checkout Review Page/button_Previous'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/textlabel_FirstName'), 0)
 
@@ -119,5 +119,5 @@ WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/default_Delivery'))
 
 WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/button_Next'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Checkout Review Page/button_Previous'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
