@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Simple_Item Details Page</name>
+   <name>4_Footer Verification</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,5 +9,5 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>bd7c2a1e-0ab7-4609-9bea-5638bec29462</testSuiteGuid>
+   <testSuiteGuid>258d431c-b7b6-49d1-a798-5b54dc878f3c</testSuiteGuid>
 </TestSuiteEntity>

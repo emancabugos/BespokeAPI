@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Item Details Page</name>
+   <name>User Settings Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,24 +9,24 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>4c1cec67-d9f8-4305-a968-5f64e1718db0</testSuiteGuid>
+   <testSuiteGuid>fd09d5c0-9e2d-4bdd-a77e-7b1c1b4401f7</testSuiteGuid>
    <testCaseLink>
-      <guid>bd30b586-7da8-4492-ad85-0902527634cf</guid>
+      <guid>1e5911a9-40bd-4080-82b2-feb11fc2fdfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bcdb84f9-ac98-4d63-a8bc-9995eaa8147e</guid>
+      <guid>55e910de-e252-48c7-818f-be529b253ec1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/navigate_ItemDetailsPage</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/navigate_SettingsPage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8d078fcf-a9ba-4833-a7de-aea35b9af8bc</guid>
+      <guid>3ab65a44-bfd1-4aa2-8c80-d740362969c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/01_searchItemName</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/01_searchItemName</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -35,10 +35,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>93216d16-63e2-408e-b562-3b4120313bfb</guid>
+      <guid>ecc26ba0-944f-4a12-8098-ffcc7fd0f3b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/02_searchItemDescription</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/02_searchItemDescription</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -53,10 +53,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>246ebf5b-ac28-491c-8e14-8b745aa10d69</guid>
+      <guid>01d66139-501d-4a86-ad28-b63b33e88164</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/04_searchPartialItemName</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/04_searchPartialItemName</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -71,10 +71,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0f04a53d-ff46-4eb5-a3dd-04f3ce796c2e</guid>
+      <guid>baef65a1-9cf8-478e-8f96-0aafc7605060</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/05_searchPartialItemDescription</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/05_searchPartialItemDescription</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -89,10 +89,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d7ae47a-2d7b-405b-b854-0342cfa18505</guid>
+      <guid>9ffd600a-b37d-40db-b6b9-a570f51c6bdd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/07_itemNameCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/07_itemNameCategory</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -107,10 +107,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a4b4bac1-5807-4840-91a7-707f621a0d14</guid>
+      <guid>192452b4-043b-4fcc-beb3-ae25f7feca64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/08_itemDescCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/08_itemDescCategory</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -131,10 +131,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9bf1c6db-acc9-4bd7-af81-2b90b9db5c7a</guid>
+      <guid>cf485c12-e6c7-43b3-a90d-f216c69ba707</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/10_itemNamePartialCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/10_itemNamePartialCategory</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -155,10 +155,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>45e0bffc-a4c6-40b0-a18a-6e082e4bf8c5</guid>
+      <guid>684e6eb1-f3d2-4885-8501-07ae93acbb0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/11_itemDescPartialCategory</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/11_itemDescPartialCategory</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -179,10 +179,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>19180b6e-1da0-473d-82a2-5382ec946ffb</guid>
+      <guid>5290008b-e7d0-4ff2-b4a3-4d6a8b145d22</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/13_searchCategoryOnly</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/13_searchCategoryOnly</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -197,10 +197,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0fd87ff-77f2-430b-8966-74b77966b6e1</guid>
+      <guid>fb7396e1-f32c-44ae-a3c7-a465f12af7bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Item Details Page/14_BlankSearch</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Settings/14_BlankSearch</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -209,7 +209,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7ee39aae-4eee-4993-9994-3c4dad0dfbf8</guid>
+      <guid>227a1997-9ac3-4ae6-8cf3-56724d587ef9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>

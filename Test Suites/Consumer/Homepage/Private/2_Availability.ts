@@ -29,6 +29,12 @@
       <testCaseId>Test Cases/CONSUMER/Homepage/Simple/search_UnavailableItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>500a1fef-3fd3-44af-96d8-c88443ce5e19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Homepage/Simple/search_itemsOfUnavailableSeller</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>1601286c-604e-4d12-83b1-b5e14537f134</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
