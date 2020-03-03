@@ -4,18 +4,18 @@
    <name>13_searchCategoryOnly</name>
    <tag></tag>
    <comment>Search Category Only</comment>
-   <testCaseGuid>4ac38932-851c-4ddd-b474-b81b2a80c49b</testCaseGuid>
+   <testCaseGuid>9a0027f4-04ba-4e69-b39e-52ab044eb352</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>16cdba89-4177-4006-b152-914b741c3756</id>
+      <id>bb9d33fe-d9f2-422d-8831-bffe9845bf58</id>
       <masked>false</masked>
       <name>category</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>e976f20e-5004-47b6-93b7-8d844605e116</id>
+      <id>3fdde496-f558-4ff8-b9e3-97028442bd17</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

@@ -3,6 +3,6 @@
    <description></description>
    <name>search_UnavailableItem</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Search Exact Item Name</comment>
    <testCaseGuid>839cddb6-507b-4a94-86c9-7179cbd9a861</testCaseGuid>
 </TestCaseEntity>

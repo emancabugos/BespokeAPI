@@ -69,5 +69,5 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/video'), '<iframe width="640" height="480" src="https://www.youtube.com/embed/GsbOwc_hWcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
 
-WebUI.uploadFile(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/pdf1'), 'C:\\Users\\Arcadier\\git\\Trillia\\Images\\PDF\\1mb.pdf')
+WebUI.uploadFile(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/pdf1'), 'C:\\Users\\April\\git\\Trillia\\Images\\PDF\\1mb.pdf')
 

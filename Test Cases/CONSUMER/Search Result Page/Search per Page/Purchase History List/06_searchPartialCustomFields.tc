@@ -4,18 +4,18 @@
    <name>06_searchPartialCustomFields</name>
    <tag></tag>
    <comment>Search Partial Custom field</comment>
-   <testCaseGuid>e9189583-4f91-4a70-beb5-d9726294386a</testCaseGuid>
+   <testCaseGuid>aa1c6f0e-d0e2-4b8a-94f6-d0124a719044</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>a5bf1162-4aa8-4aed-ac18-ffeb88f4d8f5</id>
+      <id>cc46ea3f-54c7-42d0-97b5-92914b9420f7</id>
       <masked>false</masked>
       <name>itemCustomFieldPartial</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>a94c67d3-2f99-4f0c-a1c4-2ed4740882a7</id>
+      <id>79f4bae6-c52d-4632-bd0d-6e8865a2de14</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

@@ -4,12 +4,19 @@
    <name>03_searchCustomField</name>
    <tag></tag>
    <comment>Search Exact Custom Field</comment>
-   <testCaseGuid>63172daa-0ed6-4b34-bd97-e2c20ad89621</testCaseGuid>
+   <testCaseGuid>265c475b-9069-4e86-b107-1ba4619b85fb</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>176b6231-ee73-4caa-81a4-11b4d8dd9115</id>
+      <id>6969beca-0b90-44e9-aa2b-d11b0f0cbb83</id>
       <masked>false</masked>
       <name>itemCustomField</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6576a7b1-ed05-4f52-96f8-b5559fd5b806</id>
+      <masked>false</masked>
+      <name>itemName</name>
    </variable>
 </TestCaseEntity>

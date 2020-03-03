@@ -4,11 +4,11 @@
    <name>02_searchItemDescription</name>
    <tag></tag>
    <comment>Searc Exact Item Description</comment>
-   <testCaseGuid>be81227f-0a43-458f-ab31-182097d2b1ef</testCaseGuid>
+   <testCaseGuid>296994f1-7b3a-4475-99b3-ced9e6426f39</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>a3d77bfc-30b9-44fe-a953-cd303deab221</id>
+      <id>2e09fbcc-a1b3-4435-b860-374a8d58ff43</id>
       <masked>false</masked>
       <name>itemDescription</name>
    </variable>

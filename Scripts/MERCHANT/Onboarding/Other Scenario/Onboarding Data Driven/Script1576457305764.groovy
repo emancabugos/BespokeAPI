@@ -122,5 +122,3 @@ WebUI.click(findTestObject('MERCHANT/User Settings/Payment/button_save'), Failur
 
 WebUI.delay(1)
 
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-

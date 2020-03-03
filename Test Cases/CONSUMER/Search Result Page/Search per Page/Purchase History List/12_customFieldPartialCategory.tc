@@ -4,25 +4,25 @@
    <name>12_customFieldPartialCategory</name>
    <tag></tag>
    <comment>Search Partial Custom Field with Category</comment>
-   <testCaseGuid>12c28ceb-cc2f-4802-a368-d9a17ecde3dc</testCaseGuid>
+   <testCaseGuid>29292416-1861-42ce-b34b-cd3aa6b2b580</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>2ee4665d-38db-4787-a452-514a7a3d5d7d</id>
+      <id>0cdff32b-ad82-4f9b-a22e-3f499bc45481</id>
       <masked>false</masked>
       <name>itemCustomFieldPartial</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>df63cd22-1094-463e-9f8b-0c84bb8731c1</id>
+      <id>dfec3cbe-3df9-44e0-969e-b5ec3ad0abda</id>
       <masked>false</masked>
       <name>category</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>aabf1a80-fd21-4821-a32e-64e24469a536</id>
+      <id>e9c134b7-b6cf-4e73-8a3a-203598695254</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

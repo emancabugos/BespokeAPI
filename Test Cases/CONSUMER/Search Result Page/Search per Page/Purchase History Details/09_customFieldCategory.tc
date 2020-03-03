@@ -4,25 +4,25 @@
    <name>09_customFieldCategory</name>
    <tag></tag>
    <comment>Search Exact Custom Field with Category</comment>
-   <testCaseGuid>921ef700-b39c-4e1b-a693-62700f07191e</testCaseGuid>
+   <testCaseGuid>f43d7d9b-50c6-4a4f-b7da-052c5e932da9</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>c555a27b-cef9-4ba9-a2bc-c772e26601c3</id>
+      <id>a56b3bf7-64a9-4566-999f-7ef6d20854ef</id>
       <masked>false</masked>
       <name>itemCustomField</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>e840a49d-2960-45e6-9001-997c5d51b087</id>
+      <id>0fc8f9e1-0d8f-4319-9ba0-ce59bf0473b9</id>
       <masked>false</masked>
       <name>category</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>d10519e2-cd5c-408e-9c10-0704b7d8d947</id>
+      <id>e8cab66d-570f-4930-8659-395771b45096</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

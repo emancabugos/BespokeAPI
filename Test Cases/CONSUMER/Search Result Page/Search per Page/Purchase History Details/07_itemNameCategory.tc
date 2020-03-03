@@ -4,18 +4,18 @@
    <name>07_itemNameCategory</name>
    <tag></tag>
    <comment>Search Exact Item Name with Category</comment>
-   <testCaseGuid>7fe06664-0477-4a77-8e90-005750335f82</testCaseGuid>
+   <testCaseGuid>1741ff20-3113-484a-9633-d08ea59d92a3</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>464e40b1-a986-4e7c-a177-03ba15a571b7</id>
+      <id>adeb4ebf-1f10-4383-bdbc-694338a4c878</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>3856b6eb-28ef-49aa-b887-3367125f0214</id>
+      <id>e99f65ea-d3c8-443a-b6ef-9ec127ed6c6f</id>
       <masked>false</masked>
       <name>category</name>
    </variable>

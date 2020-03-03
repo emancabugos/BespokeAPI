@@ -4,18 +4,18 @@
    <name>04_searchPartialItemName</name>
    <tag></tag>
    <comment>Search Partial Item Name</comment>
-   <testCaseGuid>c6720c74-34dc-489e-8ec7-285f9750e5a8</testCaseGuid>
+   <testCaseGuid>e7655560-f8d2-4202-9495-ee54524e51de</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>0f21d5a1-2f11-4a95-b037-47834ad8420f</id>
+      <id>f8b90a2e-0a17-429f-a44d-e0822261b9ac</id>
       <masked>false</masked>
       <name>itemNamePartial</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>5facbf6a-9b12-4629-a6d8-827c96952231</id>
+      <id>6b6a57a2-d094-4e26-91a5-37979903b817</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

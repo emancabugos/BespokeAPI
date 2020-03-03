@@ -4,13 +4,18 @@
    <name>Add CF</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-12-09T12:46:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>15391ae6-9efe-4715-8577-16d96f44bc3c</testSuiteGuid>
+   <testCaseLink>
+      <guid>c8f13e7b-8163-4fa4-bde1-8cd02191ea54</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>2b2f91ae-8b1b-4048-b422-bbe5e1411363</guid>
       <isReuseDriver>false</isReuseDriver>

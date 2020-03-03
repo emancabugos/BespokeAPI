@@ -102,10 +102,10 @@ WebUI.delay(1)
 WebUI.comment('Checkout Review Page')
 
 String itemName = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ItemName'))
-CustomKeywords.'myPack.WriteToExcel.demoKey1'(itemName)
+CustomKeywords.'myPack.WriteToExcel.demoKey'(itemName)
 
 String itemQuantity = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_QuantityValue'))
-CustomKeywords.'myPack.WriteToExcel.demoKey2'(itemQuantity)
+CustomKeywords.'myPack.WriteToExcel.demoKey'(itemQuantity)
 
 /*String itemPrice = WebUI.getText(findTestObject('CONSUMER/Checkout Review Page/textlabel_QuantityValue'))
 CustomKeywords.'myPack.WriteToExcel.demoKey'(itemPrice)*/
