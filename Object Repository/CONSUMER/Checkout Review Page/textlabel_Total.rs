@@ -6,11 +6,15 @@
    <elementGuidId>1d6acac0-c3b2-468b-921b-3cfc40814b13</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Total' or . = 'Total')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='review-container']/div/div[2]/div[2]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
