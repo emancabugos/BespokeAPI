@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>linktext_Register</name>
+   <name>button_Pagination</name>
    <tag></tag>
-   <elementGuidId>951479c8-0cfd-4ce8-a2bb-7e340b347080</elementGuidId>
+   <elementGuidId>fecdd493-6d75-4422-8562-5d18c8bb7e6e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[1]/div/div/ul/li[3]/a[count(. | //*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')]) = count(//*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')])]</value>
+         <value>//div[@id='root']/div[2]/div/div/div/div[2]/nav/ul/li/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,76 +24,83 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/accounts/non-private/sign-in?returnUrl=</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>REGISTER/SIGN IN</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div/div/ul/li[3]/a</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;puchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/nav[@class=&quot;text-center&quot;]/ul[@class=&quot;pagination&quot;]/li[@class=&quot;numeros active&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
+      <value>//div[@id='root']/div[2]/div/div/div/div[2]/nav/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'REGISTER/SIGN IN')]</value>
+      <value>//a[contains(text(),'1')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paid'])[4]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stripe'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='REGISTER/SIGN IN']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/accounts/non-private/sign-in')]</value>
+      <value>(//a[contains(@href, '#')])[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
+      <value>//nav/ul/li/a</value>
    </webElementXpaths>
 </WebElementEntity>

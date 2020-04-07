@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_Homepage</name>
+   <tag></tag>
+   <elementGuidId>9b7354b8-2e53-44e2-8cdd-decf572887bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//aside[@id='sidebar-section']/div/div/div[2]/ul/li/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-home fa-fw</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-section&quot;)/div[@class=&quot;sidebar-adjust&quot;]/div[@class=&quot;sidebar-wrapper&quot;]/div[2]/ul[@class=&quot;sidebar-nav&quot;]/li[1]/a[1]/i[@class=&quot;fas fa-home fa-fw&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//aside[@id='sidebar-section']/div/div/div[2]/ul/li/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

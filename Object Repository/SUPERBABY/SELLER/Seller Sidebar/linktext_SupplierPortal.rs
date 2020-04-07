@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>linktext_Register</name>
+   <name>linktext_SupplierPortal</name>
    <tag></tag>
-   <elementGuidId>951479c8-0cfd-4ce8-a2bb-7e340b347080</elementGuidId>
+   <elementGuidId>a91be296-3727-4b0f-a731-c5a2e9fa9436</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[1]/div/div/ul/li[3]/a[count(. | //*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')]) = count(//*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')])]</value>
+         <value>//aside[@id='sidebar-section']/div/div/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,76 +24,83 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/accounts/non-private/sign-in?returnUrl=</value>
+      <value>/merchants/dashboard</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>REGISTER/SIGN IN</value>
+      <value>Supplier Portal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div/div/ul/li[3]/a</value>
+      <value>id(&quot;sidebar-section&quot;)/div[@class=&quot;sidebar-adjust&quot;]/div[@class=&quot;sidebar-wrapper&quot;]/div[@class=&quot;sidebar-brand underline&quot;]/div[@class=&quot;site-tagline&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
+      <value>//aside[@id='sidebar-section']/div/div/div/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'REGISTER/SIGN IN')]</value>
+      <value>//a[contains(text(),'Supplier Portal')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[2]/following::a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='REGISTER/SIGN IN']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventory'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Supplier Portal']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/accounts/non-private/sign-in')]</value>
+      <value>(//a[contains(@href, '/merchants/dashboard')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
+      <value>//div/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

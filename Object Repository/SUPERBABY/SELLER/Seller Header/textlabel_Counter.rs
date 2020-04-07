@@ -1,103 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>linktext_Register</name>
+   <name>textlabel_Counter</name>
    <tag></tag>
-   <elementGuidId>951479c8-0cfd-4ce8-a2bb-7e340b347080</elementGuidId>
+   <elementGuidId>fa83c88b-99e8-4dab-8742-a891b34960ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[1]/div/div/ul/li[3]/a[count(. | //*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')]) = count(//*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')])]</value>
+         <value>//span[@id='latest-cart-count']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-count</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/accounts/non-private/sign-in?returnUrl=</value>
+      <value>latest-cart-count</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>REGISTER/SIGN IN</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div/div/ul/li[3]/a</value>
+      <value>id(&quot;latest-cart-count&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='latest-cart-count']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'REGISTER/SIGN IN')]</value>
+      <value>//div[@id='header-section']/div/div/div[2]/ul/li/ul/li[4]/a/span/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CART'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item has been added!'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='REGISTER/SIGN IN']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/accounts/non-private/sign-in')]</value>
+      <value>//*/text()[normalize-space(.)='0']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
+      <value>//span/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

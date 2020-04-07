@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>linktext_Register</name>
+   <name>textlabel_currencyCode</name>
    <tag></tag>
-   <elementGuidId>951479c8-0cfd-4ce8-a2bb-7e340b347080</elementGuidId>
+   <elementGuidId>86cae1b8-7368-4dd3-a2e5-bd7af7ac9ed9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[1]/div/div/ul/li[3]/a[count(. | //*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')]) = count(//*[@href = '/accounts/non-private/sign-in?returnUrl=' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')])]</value>
+         <value>//table[@id='purchase-history-table']/tbody/tr/td[4]/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,83 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/accounts/non-private/sign-in?returnUrl=</value>
+      <value>currencyCode</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>REGISTER/SIGN IN</value>
+      <value>SGD</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div/div/ul/li[3]/a</value>
+      <value>id(&quot;purchase-history-table&quot;)/tbody[1]/tr[1]/td[4]/span[@class=&quot;item-price&quot;]/span[@class=&quot;currencyCode&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='header-section']/div/div/div/ul/li[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'REGISTER/SIGN IN')]</value>
+      <value>//table[@id='purchase-history-table']/tbody/tr/td[4]/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Status'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Type'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Omise'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='REGISTER/SIGN IN']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/accounts/non-private/sign-in')]</value>
+      <value>//*/text()[normalize-space(.)='SGD']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
+      <value>//td[4]/span/span</value>
    </webElementXpaths>
 </WebElementEntity>
