@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_SubAcouunt</name>
+   <name>button_hideSidebar</name>
    <tag></tag>
-   <elementGuidId>19ce9f01-86f1-44bf-a43c-cddfffa52c1f</elementGuidId>
+   <elementGuidId>95d13d4a-ce6c-42d0-b2a5-06b375b6c188</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//aside[@id='sidebar-section']/div/div/div[2]/ul/li[3]/a/i</value>
+         <value>//aside[@id='sidebar-section']/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,34 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fas fa-key fa-fw</value>
+      <value>sidebar-action</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sidebar-section&quot;)/div[@class=&quot;sidebar-adjust&quot;]/div[@class=&quot;sidebar-wrapper&quot;]/div[2]/ul[@class=&quot;sidebar-nav&quot;]/li[@class=&quot;has-sub&quot;]/a[1]/i[@class=&quot;fas fa-key fa-fw&quot;]</value>
+      <value>id(&quot;sidebar-section&quot;)/div[@class=&quot;sidebar-adjust&quot;]/a[@class=&quot;sidebar-action&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//aside[@id='sidebar-section']/div/div/div[2]/ul/li[3]/a/i</value>
+      <value>//aside[@id='sidebar-section']/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/ul/li[3]/a/i</value>
+      <value>//aside/div/a</value>
    </webElementXpaths>
 </WebElementEntity>
