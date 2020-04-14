@@ -1,54 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>toggle</name>
+   <name>checkbox_unlitmited</name>
    <tag></tag>
-   <elementGuidId>b24f04ff-e608-44be-8b4a-3e2808f50bbc</elementGuidId>
+   <elementGuidId>0ed2b6fd-a265-40c5-bfc9-3087d03c5d82</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div/div/div/div[2]/div/div/div[2]/div/span/div/label/span[2]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div/div[2]/div/div/div[2]/div/span/div/label/span[2]</value>
+         <value>//input[@id='item-1']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>onoffswitch-switch</value>
+      <value>is-unlimited</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>item-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div/div/div/div[2]/div/div/div[2]/div/span/div/label/span[2]</value>
+      <value>id(&quot;item-1&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='item-1']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div/div/div[2]/div/div/div[2]/div/span/div/label/span[2]</value>
+      <value>//div[@id='root']/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/div/div/label/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/span[2]</value>
+      <value>//label/input</value>
    </webElementXpaths>
 </WebElementEntity>
