@@ -4,7 +4,17 @@
    <name>button_SignIn</name>
    <tag></tag>
    <elementGuidId>746f5d67-a0f2-4998-8cd8-6b450d3f93d3</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div/div[2]/div[2]/form/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

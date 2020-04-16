@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//i[@class = 'fa fa-search']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[1]/div[2]/div/ul/li[2]/div/div[1]/input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
