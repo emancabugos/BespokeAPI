@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0123bpth1.staging.arcadier.io/'</initValue>
+      <initValue>'arcstaging.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'unbuyer'</initValue>
+      <initValue>'buyer_april'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
