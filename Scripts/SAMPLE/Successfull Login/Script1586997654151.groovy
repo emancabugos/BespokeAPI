@@ -46,21 +46,3 @@ WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_Search'), 0)
 
-if (WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/button_Search') == true)
-	
-	 {
-
-            FileInputStream file = new FileInputStream(new File('C:\\Users\\Acer\\Documents\\Testcases\\Login.xls'))
-
-            XSSFWorkbook workbook = new XSSFWorkbook(file)
-
-            workbook.createSheet('Data', 0)
-
-            XSSFSheet sheet = workbook.getSheetAt(0)
-
-            String Data_fromCell = sheet.getRow(1).getCell(1).getStringCellValue()
-
-            'Write data to excel'
-            sheet.getRow(1).createCell(1).setCellValue('Passed')
-        }
-
