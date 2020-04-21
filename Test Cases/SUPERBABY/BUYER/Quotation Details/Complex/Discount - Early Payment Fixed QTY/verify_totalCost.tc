@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_totalCost</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05438a6d-6278-45f0-bf6a-f5755e7760b8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3d4e21f-4d29-4d64-ae98-bf9d614dbe8f</id>
+      <masked>false</masked>
+      <name>varTotalCost</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_reason</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6e58a4a-f0ac-46b9-9d4a-84756281748a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e3afc93-5f5b-4266-ae1a-d5d2588f8b36</id>
+      <masked>false</masked>
+      <name>varReason</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_unitPrice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bda86601-223c-496f-829b-d62dc48d0dcd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21a54dea-e87b-47d6-a3a3-967666170421</id>
+      <masked>false</masked>
+      <name>varUnitPrice</name>
+   </variable>
+</TestCaseEntity>

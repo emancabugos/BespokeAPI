@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_quantity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc606a63-8de3-4344-903c-c5e2f8cf722c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>40f1d23f-c160-41c2-8722-ffb41d8cd4a5</id>
+      <masked>false</masked>
+      <name>varQuantity</name>
+   </variable>
+</TestCaseEntity>
