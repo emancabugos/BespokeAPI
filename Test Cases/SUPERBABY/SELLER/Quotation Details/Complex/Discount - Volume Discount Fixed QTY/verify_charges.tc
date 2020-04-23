@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_charges</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcfb16db-e08c-4b11-8ad8-44e71ae1c12b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f83674cc-ab89-4ff7-b6fc-8fa4001d6cec</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+</TestCaseEntity>
