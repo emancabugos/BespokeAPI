@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_VerifyMarketplaceSetToMerchantOnly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd44d4a9-2f71-4cd8-b03a-27841bde8080</testCaseGuid>
+</TestCaseEntity>
