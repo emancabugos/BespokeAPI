@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='header-section']/div/div/div[2]/ul/li[3]/ul/li[3]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/accounts/change-password' and (text() = 'Change Password' or . = 'Change Password')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
