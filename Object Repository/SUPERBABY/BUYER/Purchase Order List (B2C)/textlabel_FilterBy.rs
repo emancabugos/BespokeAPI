@@ -6,11 +6,15 @@
    <elementGuidId>975d0023-fe0e-48e2-9820-370465a727ca</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Filter by:' or . = 'Filter by:')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//form[@id='search']/div/div/div/div/div/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

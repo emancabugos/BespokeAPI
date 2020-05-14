@@ -4,7 +4,6 @@
    <name>Add Category Popup UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-30T14:24:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

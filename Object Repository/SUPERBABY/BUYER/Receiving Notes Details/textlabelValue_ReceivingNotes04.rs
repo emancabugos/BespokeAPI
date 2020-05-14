@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabelValue_currencyCode (1)</name>
+   <name>textlabelValue_ReceivingNotes04</name>
    <tag></tag>
-   <elementGuidId>bd73d245-d2c6-456c-a82a-35438db1bb08</elementGuidId>
+   <elementGuidId>17351561-8b25-4f73-b53b-60a7f23bd170</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::td[1]</value>
+         <value>//div[@id='root']/div[2]/div/div[2]/div/section/div/div/div/table/tbody/tr[4]/td/a[4]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-th</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Order Status</value>
+      <value>highlight-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Created</value>
+      <value>GR1589259729978</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller purchase-order-list page-sidebar&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;subaccount-data-table table-responsive&quot;]/table[@class=&quot;table order-data1 sub-account tb-left clickable&quot;]/tbody[1]/tr[@class=&quot;account-row&quot;]/td[5]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container pdt-50&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box box-order-total&quot;]/div[@class=&quot;sassy-box-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;canon-table&quot;]/tbody[1]/tr[4]/td[1]/a[4]/span[@class=&quot;highlight-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::td[1]</value>
+      <value>//div[@id='root']/div[2]/div/div[2]/div/section/div/div/div/table/tbody/tr[4]/td/a[4]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[4]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=','])[3]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PO24790'])[2]/preceding::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GR1589259603272'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hospitality Agency'])[1]/preceding::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=','])[4]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GR1589259837127'])[2]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GR1589259729978']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[5]</value>
+      <value>//a[4]/span</value>
    </webElementXpaths>
 </WebElementEntity>

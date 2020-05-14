@@ -4,7 +4,6 @@
    <name>About Us UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-05T09:32:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

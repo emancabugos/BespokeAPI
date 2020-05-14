@@ -4,7 +4,6 @@
    <name>Reset Password Simple</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-09T14:04:52</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

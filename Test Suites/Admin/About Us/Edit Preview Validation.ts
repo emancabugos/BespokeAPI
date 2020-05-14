@@ -4,7 +4,6 @@
    <name>Edit Preview Validation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-05T10:00:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
