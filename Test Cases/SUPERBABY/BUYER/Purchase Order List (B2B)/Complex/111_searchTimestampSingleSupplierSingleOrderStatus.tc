@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>111_searchTimestampSingleSupplierSingleOrderStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd3f5937-d465-4972-9a9f-4ea23a0fd285</testCaseGuid>
+</TestCaseEntity>
