@@ -6,12 +6,12 @@
    <elementGuidId>b7850dfd-4517-4f63-b685-8f22a913b43b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'password']</value>
+         <key>XPATH</key>
+         <value>//div[1]/div/div/div[2]/div[2]/form/div[1]/input[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[1]/div/div[2]/div[2]/form/div[1]/input[4]</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

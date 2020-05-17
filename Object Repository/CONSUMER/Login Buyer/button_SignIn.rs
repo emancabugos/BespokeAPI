@@ -6,18 +6,18 @@
    <elementGuidId>746f5d67-a0f2-4998-8cd8-6b450d3f93d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[1]/div/div[2]/div[2]/form/div[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

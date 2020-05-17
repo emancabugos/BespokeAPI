@@ -4,7 +4,23 @@
    <name>textbox_about us</name>
    <tag></tag>
    <elementGuidId>33e8176b-a6ef-4d67-b59e-cb02d0c7a13a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@class = 'txtarea-layout about-us-text-input' and (text() = '&quot;Pabili Mighty!&quot;
+&quot;Ah sarado...&quot;
+&quot;Anoras magbubukas?&quot;
+&quot;Alas kwatro?&quot;' or . = '&quot;Pabili Mighty!&quot;
+&quot;Ah sarado...&quot;
+&quot;Anoras magbubukas?&quot;
+&quot;Alas kwatro?&quot;')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div[3]/div[2]/div[2]/div[1]/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,7 +37,7 @@
       <value>120</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,21 +51,21 @@
       <value>20</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>AboutUs</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>AboutUs</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

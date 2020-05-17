@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>95_searchKeywordAllSupplier</name>
+   <tag></tag>
+   <comment>Keyword + Multiple Supplier</comment>
+   <testCaseGuid>af693ff3-902d-45ec-9bb2-c418e28427c7</testCaseGuid>
+</TestCaseEntity>

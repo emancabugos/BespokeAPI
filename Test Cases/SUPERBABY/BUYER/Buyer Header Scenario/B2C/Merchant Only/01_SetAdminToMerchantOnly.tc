@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_SetAdminToMerchantOnly</name>
+   <tag></tag>
+   <comment>Upload an image</comment>
+   <testCaseGuid>99ed1b64-39cb-445d-ab7a-b6c0bb118156</testCaseGuid>
+</TestCaseEntity>
