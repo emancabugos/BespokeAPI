@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_OrderStatis</name>
+   <name>button_OrderStatus</name>
    <tag></tag>
    <elementGuidId>a121038f-3b98-4f56-82b2-7db9124c7d63</elementGuidId>
    <selectorCollection>

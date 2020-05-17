@@ -3,6 +3,6 @@
    <description></description>
    <name>122_searchKeywordTimestampSingleSupplierAllOrderStatus</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Keyword + Single Supplier</comment>
    <testCaseGuid>c86cc32b-85c7-474d-be93-98af646aa705</testCaseGuid>
 </TestCaseEntity>

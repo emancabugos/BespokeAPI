@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='supplier']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'supplier' and @type = 'button' and @value = 'Supplier']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +45,7 @@
       <value>Supplier</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>

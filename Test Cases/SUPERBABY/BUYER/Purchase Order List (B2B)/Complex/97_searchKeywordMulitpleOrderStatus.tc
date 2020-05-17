@@ -3,6 +3,6 @@
    <description></description>
    <name>97_searchKeywordMulitpleOrderStatus</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Keyword + Multiple Supplier</comment>
    <testCaseGuid>6d55778e-0804-4d6d-9296-fcb2c8e541b1</testCaseGuid>
 </TestCaseEntity>

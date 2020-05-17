@@ -3,6 +3,6 @@
    <description></description>
    <name>123_searchKeywordTimestampMultipleSupplierSingleOrderStatus</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Keyword + Single Supplier</comment>
    <testCaseGuid>7d3ec095-90db-4ce7-a13e-6138bc795106</testCaseGuid>
 </TestCaseEntity>

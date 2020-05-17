@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>112_searchTimestampSingleSupplierMultipleSupplier</name>
+   <name>a_NavigateToPOList</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8fe8156c-5988-405e-bdd5-45eced7b4f36</testCaseGuid>
+   <testCaseGuid>db4192de-2f15-487d-84a8-526597becbd8</testCaseGuid>
 </TestCaseEntity>

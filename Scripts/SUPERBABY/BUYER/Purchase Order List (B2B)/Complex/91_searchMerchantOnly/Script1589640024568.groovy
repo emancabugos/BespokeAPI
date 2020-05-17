@@ -15,18 +15,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_Supplier'))
+'Search Merchant Only'
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_Supplier'), 0)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_Supplier'))
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/checkbox_SelectAllSupplier'), 0)
 
-'search Supplier\r\n'
-WebUI.setText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/search_Supplier'), '')
+WebUI.setText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/search_Supplier'), 'dseller01- Edit')
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/checkbox_seller01'))
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/linktext_Apply'))
 
 WebUI.delay(0.5)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_Supplier'), '')
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabelValue_PONo'), '')
+
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabelValue_Timestamp'), '')
+
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabelValue_RN1'), '')
+
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabelValue_IN1'), '')
+
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabelValue_Total'), '')
+
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabelValue_OrderStatus'), '')
+
+WebUI.refresh()
 

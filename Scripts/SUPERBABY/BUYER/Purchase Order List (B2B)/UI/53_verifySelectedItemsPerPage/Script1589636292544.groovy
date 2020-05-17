@@ -15,6 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/dropdown_ItemPerPage'), '1', 
+WebUI.verifyOptionSelectedByLabel(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/dropdown_ItemPerPage'), '20', 
     false, 0)
 

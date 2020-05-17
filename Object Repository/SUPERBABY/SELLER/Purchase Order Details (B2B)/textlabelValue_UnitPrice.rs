@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>texlabelValue_TotalCost</name>
+   <name>textlabelValue_UnitPrice</name>
    <tag></tag>
-   <elementGuidId>8baf8f04-099f-4aac-8f73-999e7f365b5f</elementGuidId>
+   <elementGuidId>a795bf71-7167-4e58-a9d4-2a9b93b62bd7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[5]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,55 +31,55 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>3000.00</value>
+      <value>1.50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller page-sidebar page-purchase-order-details&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box no-border box-order-items&quot;]/table[@class=&quot;table order-data table-items&quot;]/tbody[1]/tr[1]/td[4]/div[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;]</value>
+      <value>/html[1]/body[@class=&quot;page-seller page-sidebar page-purchase-order-details&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box no-border box-order-items&quot;]/table[@class=&quot;table order-data table-items&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[5]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[5]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[4]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Metformin HCI 500mg'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[5]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[6]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[5]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='3000.00']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='1.50']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[4]/div/span[3]</value>
+      <value>//td[3]/div/span[3]</value>
    </webElementXpaths>
 </WebElementEntity>

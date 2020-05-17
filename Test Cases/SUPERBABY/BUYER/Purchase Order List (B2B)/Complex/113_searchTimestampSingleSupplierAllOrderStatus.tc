@@ -3,6 +3,6 @@
    <description></description>
    <name>113_searchTimestampSingleSupplierAllOrderStatus</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Keyword + Multiple Supplier</comment>
    <testCaseGuid>09320c23-7efc-4914-aa31-164d7adac8ae</testCaseGuid>
 </TestCaseEntity>

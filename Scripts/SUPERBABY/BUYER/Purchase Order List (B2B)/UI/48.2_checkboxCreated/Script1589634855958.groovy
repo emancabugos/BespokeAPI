@@ -15,9 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_OrderStatus'), 0)
-
-WebUI.click(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_OrderStatus'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/checkbox_Created'), 0)
 
