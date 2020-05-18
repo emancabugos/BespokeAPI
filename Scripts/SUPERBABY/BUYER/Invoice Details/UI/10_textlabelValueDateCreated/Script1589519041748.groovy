@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Invoice Details/icon_back'), 0)
-
 WebUI.verifyElementPresent(findTestObject('SUPERBABY/BUYER/Invoice Details/value_date created'), 0)
 
 WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Invoice Details/value_date created'), '')

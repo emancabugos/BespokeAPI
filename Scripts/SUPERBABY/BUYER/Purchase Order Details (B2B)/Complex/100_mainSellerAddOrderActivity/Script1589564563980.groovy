@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Purchase Order Details (B2B)/linktext_Back'), 0)
-
 WebUI.scrollToElement(findTestObject('SUPERBABY/BUYER/Purchase Order Details (B2B)/dropdown_Stage'), 0)
 
 WebUI.comment('Add Purchase Order')
