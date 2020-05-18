@@ -4,7 +4,6 @@
    <name>Login Config UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-05T14:35:37</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

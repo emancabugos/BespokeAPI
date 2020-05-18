@@ -4,7 +4,6 @@
    <name>UI Marketplace Analytics</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-06T14:31:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

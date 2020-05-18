@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='filter-datepicker']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'timestamp' and @id = 'filter-datepicker' and @placeholder = 'Timestamp']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

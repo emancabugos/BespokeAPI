@@ -4,7 +4,6 @@
    <name>UI_Custom Domain</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-04T15:42:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -4,7 +4,6 @@
    <name>UI_Custom Code</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-05T13:42:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

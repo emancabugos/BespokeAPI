@@ -4,7 +4,6 @@
    <name>Custom Code</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-04T10:56:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

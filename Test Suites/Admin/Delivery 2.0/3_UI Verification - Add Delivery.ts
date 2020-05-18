@@ -4,7 +4,6 @@
    <name>3_UI Verification - Add Delivery</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-04T09:22:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

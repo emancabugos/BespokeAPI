@@ -4,7 +4,6 @@
    <name>Admin Sub Merchant</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-05T08:15:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

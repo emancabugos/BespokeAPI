@@ -32,6 +32,8 @@ if (GlobalVariable.AdminAccountType == 'custom') {
 
     WebUI.setText(findTestObject('ADMIN/Admin Login Page/textbox_password'), GlobalVariable.CustomPass)
 
+    WebUI.scrollToElement(findTestObject('ADMIN/Admin Login Page/button_SignIn'), 0)
+
     WebUI.click(findTestObject('ADMIN/Admin Login Page/button_SignIn'))
 } else if (GlobalVariable.AdminAccountType == 'google') {
     WebUI.click(findTestObject('ADMIN/Admin Login Page/button_Login with Google'))

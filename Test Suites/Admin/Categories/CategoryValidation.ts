@@ -4,7 +4,6 @@
    <name>CategoryValidation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-08T12:22:21</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
