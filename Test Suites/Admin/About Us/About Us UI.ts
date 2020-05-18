@@ -4,8 +4,7 @@
    <name>About Us UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-05T09:32:19</lastRun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>eman@arcadier.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
