@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details/icon_RequisitionOrder'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details B2B/icon_RequisitionOrder'), 0)
 
-WebUI.verifyElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details/button_Back'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details B2B/button_Back'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Purchase Order Details/button_Back'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/ADMIN/Purchase Order Details B2B/button_Back'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order List Page/textlabel_PurchaseOrder'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order List B2B/textlabel_PurchaseOrder'), 0)
 
-WebUI.verifyElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details/column_PurchaseOrder'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details B2B/column_PurchaseOrder'), FailureHandling.STOP_ON_FAILURE)
 

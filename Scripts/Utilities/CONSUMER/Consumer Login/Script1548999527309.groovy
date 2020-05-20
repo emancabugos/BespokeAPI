@@ -33,7 +33,7 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Buyer S
 
 WebUI.click(findTestObject('CONSUMER/Landing Page/button_Buyer Sign in'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(1)
 
 if (GlobalVariable.ConsumerAccountType == 'custom') {
     WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_username'), 0)

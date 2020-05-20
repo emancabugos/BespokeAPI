@@ -10,9 +10,8 @@
          <value>//div[1]/div/div[2]/div[2]/form/div[1]/input[3]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @name = 'username' and @id = 'username']</value>
-      </entry>
+       <key>BASIC</key>
+     //div[1]/div/div/div[2]/div[2]/form/div[1]/input[1]</entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

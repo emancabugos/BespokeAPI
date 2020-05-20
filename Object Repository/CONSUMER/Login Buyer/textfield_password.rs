@@ -7,12 +7,12 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[1]/div/div[2]/div[2]/form/div[1]/input[4]</value>
+         <value>div[1]/div/div/div[2]/div[2]/form/div[1]/input[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'password' and @name = 'password']</value>
-      </entry>
+          <key>BASIC</key>
+         <value>//*[@name = 'password']</value>
+         </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

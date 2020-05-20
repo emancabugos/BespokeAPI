@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details/image_ItemImage'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details B2B/image_ItemImage'), 0)
 
-WebUI.verifyElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details/textlabelValue_UnitPrice'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details B2B/textlabelValue_UnitPrice'), FailureHandling.STOP_ON_FAILURE)
 

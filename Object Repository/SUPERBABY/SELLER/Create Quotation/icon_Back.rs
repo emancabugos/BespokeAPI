@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div/div/i</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[1]/i</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main footer_fixed&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;nav-breadcrumb&quot;]/i[@class=&quot;fa fa-angle-left&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div[1]/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

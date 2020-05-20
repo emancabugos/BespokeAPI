@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='header-section']/div/div/div[2]/ul/li[3]/ul/li/a</value>
+         <value>//div[1]/div[1]/div[1]/div/div/ul/li[3]/ul/li[1]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/purchase/history' and (text() = 'Buyer Docs' or . = 'Buyer Docs')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
