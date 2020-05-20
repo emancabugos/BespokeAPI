@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Quantity Ordered&quot; label is displayed</description>
+   <name>TC017_textlabelQuantityOrdered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3c304e3-e242-467a-8244-2e64620d3f6d</testCaseGuid>
+</TestCaseEntity>

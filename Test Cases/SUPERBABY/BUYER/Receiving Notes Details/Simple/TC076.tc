@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC076</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f98b969b-4254-4818-a6bf-1739f3e86f3e</testCaseGuid>
+   <variable>
+      <defaultValue>'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim enim sit. Risus viverra adipiscing at in tellus integer feugiat. Ut lectus arcu bibendum at varius vel pharetra vel. Lobortis scelerisque fermentum dui faucibus in ornare. Arcu non odio euismod lacinia at quis risus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Id diam maecenas ultricies mi. Dignissim sodales ut eu sem integer. Enim eu turpis egestas pretium. Sit amet tellus cras adipiscing enim eu. Ultricies lacus sed turpis tincidunt id. Velit scelerisque in dictum non consectetur a. Et netus et malesuada fames ac turpis egestas maecenas. Sem nulla pharetra diam sit amet. Elit at imperdiet dui accumsan sit. In dictum non consectetur a erat nam at lectus. Blandit massa enim nec dui nunc mattis. Euismod elementum nisi quis eleifend. Aenean et tortor at risus viverra adipiscing at. Venenatis tellus in metus vulputate eu scelerisque felis. Sed velit dignissim sodales ut eu sem. Diam maecenas ultricies mi eget mauris pharetra et ultrices. Varius morbi enim nunc faucibus a pellentesque sit amet. Id eu nisl nunc mi ipsum faucibus vitae. Venenatis lectus magna fringilla urna porttitor. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Senectus et netus et malesuada. Nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Egestas integer eget aliquet nibh praesent tristique magna. Etiam dignissim diam quis enim lobortis. Nec feugiat nisl pretium fusce. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. In pellentesque massa placerat duis ultricies lacus sed turpis. Proin nibh nisl condimentum id venenatis a condimentum. Mauris rhoncus aenean vel elit scelerisque. Facilisis leo vel fringilla est ullamcorper eget. Congue quisque egestas diam in arcu. Pellentesque sit amet porttitor eget dolor morbi non arcu. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Ipsum dolor sit amet consectetur.'</defaultValue>
+      <description></description>
+      <id>ce9d4f01-d740-441e-9ecd-a8f05cead17f</id>
+      <masked>false</masked>
+      <name>eventvalue</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC060_textlabelShippingCost</name>
+   <tag></tag>
+   <comment>Verify if &quot;Shipping Cost&quot; label is displayed and greyed out</comment>
+   <testCaseGuid>23a76114-7cdd-43e7-bfc2-56567b4facc1</testCaseGuid>
+</TestCaseEntity>

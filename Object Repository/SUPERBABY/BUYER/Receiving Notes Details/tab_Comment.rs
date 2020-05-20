@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div[2]/div/section[2]/section/ul/li/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#Comment' and (text() = 'Comment' or . = 'Comment')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

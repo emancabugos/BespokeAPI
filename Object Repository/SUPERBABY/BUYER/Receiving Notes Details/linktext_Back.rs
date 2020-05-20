@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div[2]/div/div/div/div/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/receiving-note/list' and (text() = 'Back' or . = 'Back')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

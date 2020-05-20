@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC075</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0b2c3f7-71b3-42d9-a2cd-cd48e3ec31f9</testCaseGuid>
+   <variable>
+      <defaultValue>'Event!@#$%^&amp;*()_+'</defaultValue>
+      <description></description>
+      <id>e5f03ef2-9678-43f3-a190-7ddcabfc91f0</id>
+      <masked>false</masked>
+      <name>eventvalue</name>
+   </variable>
+</TestCaseEntity>

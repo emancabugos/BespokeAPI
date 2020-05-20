@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC050_textlabelCharge(s)</name>
+   <tag></tag>
+   <comment>Verify if &quot;Charge(s)&quot; label is displayed and greyed out</comment>
+   <testCaseGuid>f88e4d1d-0708-49ea-89d2-eae91e563bef</testCaseGuid>
+</TestCaseEntity>

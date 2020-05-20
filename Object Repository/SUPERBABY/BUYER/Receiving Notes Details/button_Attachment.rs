@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div[2]/div/section[2]/div/div/div/div/div/div[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'upload-entry-file' and (text() = ' Attachment' or . = ' Attachment')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container pdt-50&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box po-activity-section&quot;]/div[@class=&quot;box-activity-log&quot;]/div[@class=&quot;sassy-box-content&quot;]/div[@class=&quot;order-grey-box&quot;]/div[@class=&quot;entry-form-prnt&quot;]/div[@class=&quot;flex-wrapper&quot;]/div[@class=&quot;upload-entry-file&quot;]</value>
+      <value>//div[2]/div/div/div/section[2]/div/div/div/div/div[1]/div[3]/span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

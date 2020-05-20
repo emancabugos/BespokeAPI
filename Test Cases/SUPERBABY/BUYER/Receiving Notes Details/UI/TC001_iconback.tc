@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;&lt;&quot; textlabel is displayed</description>
+   <name>TC001_iconback</name>
+   <tag></tag>
+   <comment>Verify if &quot;&lt;&quot; textlabel is displayed</comment>
+   <testCaseGuid>66deee9f-58f3-48ae-b060-f67a39a2c313</testCaseGuid>
+</TestCaseEntity>

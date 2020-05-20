@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Receiving Notes No.&quot; is displayed</description>
+   <name>TC008_textlabelReceivingNotesNo</name>
+   <tag></tag>
+   <comment>Verify if &quot;Receiving Notes No.&quot; is displayed </comment>
+   <testCaseGuid>e08c7931-df16-4d14-9152-e10f112319a8</testCaseGuid>
+</TestCaseEntity>

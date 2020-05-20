@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='header-section']/div/div/div[2]/ul/li[3]/ul/li/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/ul[@class=&quot;h-dd-menu hide-me&quot;]/li[1]/a[1][count(. | //*[@href = '/purchase/history' and (text() = 'Buyer Docs' or . = 'Buyer Docs')]) = count(//*[@href = '/purchase/history' and (text() = 'Buyer Docs' or . = 'Buyer Docs')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <value>Buyer Docs</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
