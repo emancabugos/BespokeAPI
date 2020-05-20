@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/section[3]/div/div/div[5]/div/div[2]/table/tbody/tr[2]/td</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/section[3]/div/div/div[5]/div/div[2]/table/tbody/tr[2]/td</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,18 +31,18 @@
       <value>Shipping Address :</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>mainbuyer dummyaquarius by the park,SGbedokSingapore0102</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box&quot;]/div[@class=&quot;sassy-box-content box-order-detail&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-sm-6&quot;]/table[@class=&quot;canon-table&quot;]/tbody[1]/tr[2]/td[1]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/section[3]/div/div/div[5]/div/div[2]/table/tbody/tr[2]/td</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
