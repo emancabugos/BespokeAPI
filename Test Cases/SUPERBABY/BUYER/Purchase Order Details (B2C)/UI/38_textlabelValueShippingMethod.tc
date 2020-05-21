@@ -4,11 +4,11 @@
    <name>38_textlabelValueShippingMethod</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>35a63cbb-ddd2-42f6-a2e1-4149c3bb05cd</testCaseGuid>
+   <testCaseGuid>16258522-8731-418f-81b4-7fec45e08331</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.null</defaultValue>
       <description></description>
-      <id>7017afd3-d8d3-4077-8486-b8a2387001cb</id>
+      <id>3b18f791-0b35-4bc5-8e5b-d6af50e74ea0</id>
       <masked>false</masked>
       <name>shippingMethod</name>
    </variable>

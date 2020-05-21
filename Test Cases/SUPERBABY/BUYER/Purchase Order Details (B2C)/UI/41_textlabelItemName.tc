@@ -4,11 +4,11 @@
    <name>41_textlabelItemName</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9f34b040-28b0-45b5-b426-07ef9914155d</testCaseGuid>
+   <testCaseGuid>13630aa2-b6c2-4e4a-9eac-4592e08869fe</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.null</defaultValue>
       <description></description>
-      <id>eb096a3b-a03f-4de8-80ab-ff8ac1ca4529</id>
+      <id>9e69a070-ebc2-4ca8-b54d-e17221faf058</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

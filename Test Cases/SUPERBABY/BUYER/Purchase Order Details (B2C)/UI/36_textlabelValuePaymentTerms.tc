@@ -4,11 +4,11 @@
    <name>36_textlabelValuePaymentTerms</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>422064a7-9ed8-4064-9025-5ad27ee117d9</testCaseGuid>
+   <testCaseGuid>bd55757c-5242-4ee5-8520-590d44bf84d5</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.null</defaultValue>
       <description></description>
-      <id>7bc26be7-5b2b-4752-891d-e486fa854ddd</id>
+      <id>f5b95157-3a46-45c7-a560-e76f25cd15d0</id>
       <masked>false</masked>
       <name>paymentTerms</name>
    </variable>
