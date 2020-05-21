@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41_textlabelItemName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51bd645d-ea63-45f3-8a80-c83bb08197c4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>4391e596-e3bb-486f-80f3-d24c1aa606ab</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>
