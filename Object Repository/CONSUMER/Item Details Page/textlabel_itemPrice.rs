@@ -6,12 +6,12 @@
    <elementGuidId>768891fd-966d-460d-9d1c-6bc335b39b24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div[3]/div/div[2]/span/div/span[3]</value>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[3][count(. | //*[@class = 'priceAmount']) = count(//*[@class = 'priceAmount'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'priceAmount']</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div[3]/div/div[2]/span/div/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,11 +38,11 @@
       <value> 0.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[3]/div/div[1]/div/span[1]/span[2]/div/span[3]</value>
+      <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

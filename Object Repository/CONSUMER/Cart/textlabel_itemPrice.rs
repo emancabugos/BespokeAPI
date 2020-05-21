@@ -6,6 +6,10 @@
    <elementGuidId>41a384a7-34f2-4053-a61a-918039ff51dd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[3][count(. | //*[@class = 'priceAmount']) = count(//*[@class = 'priceAmount'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value></value>
       </entry>
@@ -20,17 +24,17 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[4]/div/div[2]/div[1]/div[2]/div[1]</value>
+      <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[3]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>item-price</value>
+      <value>priceAmount</value>
    </webElementProperties>
 </WebElementEntity>

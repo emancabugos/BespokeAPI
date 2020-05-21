@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Computation</name>
+   <tag></tag>
+   <comment>Item Details Page
+Computation of Subtotal</comment>
+   <testCaseGuid>7c26c39e-0952-4fde-acbf-6925942edc20</testCaseGuid>
+</TestCaseEntity>
