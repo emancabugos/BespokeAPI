@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>111_searchTimestampSingleSupplierSingleOrderStatus</name>
+   <tag></tag>
+   <comment>Keyword + Multiple Supplier</comment>
+   <testCaseGuid>d5b3718d-3eea-44d3-af18-3d7a522a5362</testCaseGuid>
+</TestCaseEntity>

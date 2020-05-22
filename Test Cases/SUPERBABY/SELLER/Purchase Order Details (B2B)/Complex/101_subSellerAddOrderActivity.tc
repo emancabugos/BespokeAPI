@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>101_subSellerAddOrderActivity</name>
+   <tag></tag>
+   <comment>Add Purchase Order
+Add Production
+Add Shipping
+Add Finance
+Add Certification</comment>
+   <testCaseGuid>c1e2fcde-5a22-4ef2-b15c-1ba2e0f06348</testCaseGuid>
+</TestCaseEntity>

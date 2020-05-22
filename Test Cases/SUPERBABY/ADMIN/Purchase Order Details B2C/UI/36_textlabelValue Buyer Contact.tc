@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>36_textlabelValue Buyer Contact</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bae54df1-a40b-466a-903c-958525be6487</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>4e06bf46-5954-4422-9443-80a298f0412f</id>
+      <masked>false</masked>
+      <name>paymentTerms</name>
+   </variable>
+</TestCaseEntity>

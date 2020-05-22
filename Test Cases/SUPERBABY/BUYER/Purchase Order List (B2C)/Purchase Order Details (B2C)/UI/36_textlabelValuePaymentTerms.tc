@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>36_textlabelValuePaymentTerms</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65d4b634-02c9-49e5-a561-a9a9a23e7bfe</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>615d801d-7dc2-4656-b13c-06a7d0b6dd2f</id>
+      <masked>false</masked>
+      <name>paymentTerms</name>
+   </variable>
+</TestCaseEntity>
