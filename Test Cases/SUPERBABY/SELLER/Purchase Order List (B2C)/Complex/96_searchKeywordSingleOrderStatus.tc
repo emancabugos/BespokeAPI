@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>96_searchKeywordSingleOrderStatus</name>
+   <tag></tag>
+   <comment>Keyword + Multiple Supplier</comment>
+   <testCaseGuid>d9816b66-7711-4e29-a4ee-47048b441f62</testCaseGuid>
+</TestCaseEntity>

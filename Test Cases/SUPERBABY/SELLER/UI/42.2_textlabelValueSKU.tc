@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42.2_textlabelValueSKU</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40e4c229-4d1e-4e49-b111-ab22df5c7cab</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>9e4750c2-4335-4210-bc7d-444aad4d6fe7</id>
+      <masked>false</masked>
+      <name>sku</name>
+   </variable>
+</TestCaseEntity>

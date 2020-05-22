@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>97_searchKeywordMulitpleOrderStatus</name>
+   <tag></tag>
+   <comment>Keyword + Multiple Supplier</comment>
+   <testCaseGuid>a6751b3b-cb3f-4211-abe5-e676d2630e75</testCaseGuid>
+</TestCaseEntity>

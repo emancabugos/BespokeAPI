@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>93_searchKeywordSingleSupplier</name>
+   <tag></tag>
+   <comment>Keyword + Single Supplier</comment>
+   <testCaseGuid>8ea09cd9-5615-4cbe-8e35-c4bb9d978463</testCaseGuid>
+</TestCaseEntity>

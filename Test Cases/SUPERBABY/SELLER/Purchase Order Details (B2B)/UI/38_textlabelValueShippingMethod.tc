@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>38_textlabelValueShippingMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1abdb53-cf8b-4c9f-8568-84674920bd4d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>18932bdc-5f28-456c-9d29-c9c09bea6c71</id>
+      <masked>false</masked>
+      <name>shippingMethod</name>
+   </variable>
+</TestCaseEntity>
