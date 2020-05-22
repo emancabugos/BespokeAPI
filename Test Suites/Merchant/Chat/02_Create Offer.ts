@@ -14,7 +14,7 @@
       <guid>960f4e0b-6171-4405-98cf-6ea1fcc4ae82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5e44c46b-3dda-4a9a-92bd-8ca21b4828d7</guid>

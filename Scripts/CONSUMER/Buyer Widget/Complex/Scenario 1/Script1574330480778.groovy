@@ -77,7 +77,7 @@ WebUI.waitForElementClickable(findTestObject('null'), 0)
 
 WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login Private'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('MERCHANT/Inbox/Simple/goto_Inbox'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

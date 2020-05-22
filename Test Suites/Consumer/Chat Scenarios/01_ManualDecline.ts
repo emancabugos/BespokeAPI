@@ -26,7 +26,7 @@
       <guid>5326bce0-9c55-4ba7-916a-c3740c7e890a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ba92f46a-5b82-4beb-a196-1d8b4b197a57</guid>
@@ -50,7 +50,7 @@
       <guid>9e0ae7a8-9c28-4fe1-9723-2c0130d64049</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>16e17e8b-2ac0-4898-a3d0-1104843ad4b5</guid>
