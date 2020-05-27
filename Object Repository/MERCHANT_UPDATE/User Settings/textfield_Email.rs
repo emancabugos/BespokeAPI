@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@name='email']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'email' and @name = 'email' and @placeholder = 'Email']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

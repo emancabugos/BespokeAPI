@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='header-section']/div/div/div[2]/ul/li[3]/span/i</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/span[1]/i[@class=&quot;fa fa-angle-down&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

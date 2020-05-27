@@ -6,8 +6,12 @@
    <elementGuidId>b240d8e8-7e57-43bc-8e1f-98755d694515</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[17]/div/div/div[2]/form/div/div[1]/div[1]/input[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'categoryname' and @name = 'category_name' and @placeholder = 'Enter a Name for your Category']</value>
+         <value>//input[@type = 'text' and @id = 'categoryname' and @name = 'category_name' and @class = 'form-control' and @placeholder = 'Enter a Name for your Category']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,7 +52,7 @@
       <value>category_name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

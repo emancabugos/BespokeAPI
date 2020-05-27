@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/User Settings/Address/dropdown_country'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT_UPDATE/User Settings/dropdown_Select your country'), 0)
 
