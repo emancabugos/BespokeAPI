@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>header_About Us</name>
+   <name>checkbox_main</name>
    <tag></tag>
-   <elementGuidId>53d14500-c9ee-4b49-8177-706631a61c23</elementGuidId>
+   <elementGuidId>dae79325-dddb-4e9b-b78f-11778506b7e9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[(text() = 'About Us' or . = 'About Us')]</value>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr[1]/td[4]/div/input[count(. | //input[@type = 'checkbox']) = count(//input[@type = 'checkbox'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,20 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value>About Us</value>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;no-sub-title&quot;)/div[@class=&quot;pull-left&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr[1]/td[4]/div/input</value>
    </webElementProperties>
 </WebElementEntity>
