@@ -15,70 +15,70 @@ Delivery Method
 Save</comment>
    <testCaseGuid>9e0de155-8738-483a-b80a-9dea539f1a8c</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>b4469ba4-1db7-4e17-97e2-904c05b76d3a</id>
       <masked>false</masked>
       <name>varListingName</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>db848fce-cf33-4cae-af48-139cbeb2eba7</id>
       <masked>false</masked>
       <name>varCategory</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>ceabd7af-aa79-4b51-b40e-3459c002a9da</id>
       <masked>false</masked>
       <name>varImage</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>d6df1dab-6492-4490-b64a-92cc26d65f9b</id>
       <masked>false</masked>
       <name>varPrice</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>402ee794-ebba-4bc4-aa14-827951188f40</id>
       <masked>false</masked>
       <name>varSKU</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>a2856081-7fb8-4867-a645-9f9a6f855bf3</id>
       <masked>false</masked>
       <name>varStock</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>7b20f1fc-bfea-40a6-903d-2d3bf52a25f2</id>
       <masked>false</masked>
       <name>varDescription</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>d7681cab-836d-4e6b-8cec-8f5ed7b53954</id>
       <masked>false</masked>
       <name>varVariants</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>b80a187a-c46e-4012-b976-8f6c8df5bb79</id>
       <masked>false</masked>
       <name>varVariantOption</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Item List Variants')</defaultValue>
       <description></description>
       <id>2a10551e-2f60-4571-a8b4-c22cc2fcb9bd</id>
       <masked>false</masked>

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//ul[@id='settings-tab']/li/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;settings-tab&quot;)/li[@class=&quot;active&quot;]/a[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -27,7 +31,7 @@
       <value>tab</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

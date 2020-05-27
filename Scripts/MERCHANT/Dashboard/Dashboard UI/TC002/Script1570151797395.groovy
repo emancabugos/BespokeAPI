@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Dashboard Page/textlabel_Dashboard'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT_UPDATE/Dashboard/span_Dashboard'), 0)
 

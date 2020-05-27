@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Profile/image_container'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT_UPDATE/User Settings/container_display Image'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/User Settings/Profile/image_container'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT_UPDATE/User Settings/container_display Image'), 0)
 

@@ -25,9 +25,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BEASELLER'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BEASELLER'), FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.MerchantAccountType == 'custom') {
     WebUI.delay(1)

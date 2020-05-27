@@ -4,7 +4,6 @@
    <name>Merchant Settings UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-12-26T09:45:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[3]/table/thead/tr/th</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//th[(text() = 'ITEM' or . = 'ITEM')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +31,7 @@
       <value>ITEM</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

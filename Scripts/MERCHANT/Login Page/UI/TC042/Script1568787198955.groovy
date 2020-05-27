@@ -26,11 +26,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'), 0)
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BEASELLER'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'))
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BEASELLER'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Login Buyer/logo_marketplace'))
+WebUI.verifyElementVisible(findTestObject('MERCHANT_UPDATE/Login Seller/img_mplogo'))
 
 WebUI.closeBrowser()
 

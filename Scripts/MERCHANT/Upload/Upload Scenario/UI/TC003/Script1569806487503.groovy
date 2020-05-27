@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Description'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Description'), 0)
 

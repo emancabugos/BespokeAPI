@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Dashboard Page/textlabel_Last 24 Hrs'), 'Last 24 Hrs')
+WebUI.verifyElementText(findTestObject('MERCHANT_UPDATE/Dashboard/li_Last 24 Hrs'), 'Last 24 Hrs')
 

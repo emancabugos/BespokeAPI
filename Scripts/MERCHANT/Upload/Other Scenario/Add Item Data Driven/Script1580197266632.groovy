@@ -30,28 +30,28 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_CreateNewListing'), 0)
 
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_CreateNewListing'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Basic Details'), 0)
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_listing-name'), varListingName)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), varListingName)
 
 WebUI.comment('Categories')
 
 if (varCategory == 'allcategory') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), 0)
+    WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Select all'), 0)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'multiplecategory') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), 0)
+    WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Select all'), 0)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'category1') {
@@ -67,7 +67,7 @@ if (varCategory == 'allcategory') {
 
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 3.1.1'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Category(s)'), varCategory)
 
     WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/maxcat'), 0)
 
@@ -171,16 +171,18 @@ if (varVariants == 'yes') {
 
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/varStock/stock8'), '1000')
 } else if (varVariants == 'no') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/toggle_variant'), 0)
+    WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/toggle_unlimited'), 0)
 
     if (varStock == 'unlimited') {
-        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), 0)
+        WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield__item-quantity'), 
+            0)
 
-        WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/toggle_unlimited'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/toggle_unlimited'), FailureHandling.STOP_ON_FAILURE)
     } else if (varStock == '10') {
-        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), 0)
+        WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield__item-quantity'), 
+            0)
 
-        WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), '10')
+        WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield__item-quantity'), '10')
     } else if (varStock == '0') {
         WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/textbox_qty'), 0)
 
@@ -190,7 +192,7 @@ if (varVariants == 'yes') {
 
 WebUI.comment('Item Description')
 
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_item-description'), varDescription)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Item Description'), varDescription)
 
 WebUI.comment('Custom Fields')
 

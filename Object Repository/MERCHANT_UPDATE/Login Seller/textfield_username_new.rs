@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_username_new</name>
+   <tag></tag>
+   <elementGuidId>f2119974-7ca6-4bc3-bbf8-ca86b4ca96bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div/div/div/div[2]/div[2]/form/div[1]/input[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div/div/div/div[2]/div[2]/form/div[1]/input[2]</value>
+   </webElementProperties>
+</WebElementEntity>

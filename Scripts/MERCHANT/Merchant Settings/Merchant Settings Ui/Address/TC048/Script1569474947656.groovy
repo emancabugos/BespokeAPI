@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('MERCHANT/User Settings/Address/icon_trash'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/icon_delete_Address'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/Delete Address/textlabel_Are you sure want to delete'), 
     0)

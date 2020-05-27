@@ -27,15 +27,15 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Sidebar/icon_CreateNewListing'), 0)
 
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Sidebar/icon_CreateNewListing'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_listing-name'), varListingName)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/textfield_ListingName'), varListingName)
 
 WebUI.comment('Categories')
 

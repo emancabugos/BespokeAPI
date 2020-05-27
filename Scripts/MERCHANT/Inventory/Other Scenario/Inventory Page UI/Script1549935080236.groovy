@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Inventory'), 0)
 
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Inventory'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Header')
 
@@ -31,23 +31,23 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/marketplace_logo'),
 
 WebUI.verifyElementPresent(findTestObject('Utilities/Header/marketplace_logo'), 0)
 
-WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Dashboard'), 'DASHBOARD')
+WebUI.verifyElementText(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Dashboard'), 'DASHBOARD')
 
-WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), 'INVENTORY')
+WebUI.verifyElementText(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Inventory'), 'INVENTORY')
 
-WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Add Item'), 'UPLOAD')
+WebUI.verifyElementText(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_CreateNewListing'), 'UPLOAD')
 
-WebUI.verifyElementText(findTestObject('Utilities/Header/Merchant Header/linktext_Orders'), 'ORDERS')
+WebUI.verifyElementText(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_PurchaseOrder'), 'ORDERS')
 
-WebUI.verifyElementPresent(findTestObject('Utilities/Header/icon_inbox'), 0)
+WebUI.verifyElementPresent(findTestObject('SUPERBABY/SELLER/Seller Header/icon_Inbox'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Utilities/Header/icon_cart'), 0)
+WebUI.verifyElementPresent(findTestObject('SUPERBABY/SELLER/Seller Header/icon_Cart'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Utilities/Header/language'), 0)
+WebUI.verifyElementPresent(findTestObject('SUPERBABY/SELLER/Seller Header/button_flag'), 0)
 
 WebUI.comment('Body')
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_Your Item'), 'Your Item')
+WebUI.verifyElementText(findTestObject('MERCHANT_UPDATE/Inventory/textlabel_Inventory'), 'Your Item')
 
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Inventory Page/button_ Upload Item'), 0)
 
@@ -58,15 +58,15 @@ WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Inventory Page/textbo
 
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Inventory Page/icon_Search'), 0)
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_ITEM'), 'ITEM')
+WebUI.verifyElementText(findTestObject('MERCHANT_UPDATE/Inventory/textlabel_ITEM'), 'ITEM')
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_PRICE'), 'PRICE')
+WebUI.verifyElementText(findTestObject('MERCHANT_UPDATE/Inventory/textlabel_PRICE'), 'PRICE')
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_BULK PRICING'), 'BULK PRICING')
+WebUI.verifyElementText(findTestObject('MERCHANT_UPDATE/Inventory/textlabel_BULK PRICING'), 'BULK PRICING')
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_STOCK'), 'STOCK')
+WebUI.verifyElementText(findTestObject('MERCHANT_UPDATE/Inventory/textlabel_STOCK'), 'STOCK')
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_APPROVED'), 'PURCHASABLE')
+WebUI.verifyElementText(findTestObject('MERCHANT_UPDATE/Inventory/textlabel_APPROVED'), 'PURCHASABLE')
 
 WebUI.comment('Footer')
 
