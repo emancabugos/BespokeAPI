@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='itemAddCart']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'itemAddCart' and (text() = 'Add to Cart' or . = 'Add to Cart')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

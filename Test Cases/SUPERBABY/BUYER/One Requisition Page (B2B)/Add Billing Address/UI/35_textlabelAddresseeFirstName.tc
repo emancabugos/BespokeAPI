@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>35_emptyAddresseeFirstName</name>
+   <name>35_textlabelAddresseeFirstName</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fe03f2ee-198e-4e2c-8633-646e57709a93</testCaseGuid>
+   <testCaseGuid>065f3a8d-12ff-402d-950e-27fd77f74e59</testCaseGuid>
 </TestCaseEntity>

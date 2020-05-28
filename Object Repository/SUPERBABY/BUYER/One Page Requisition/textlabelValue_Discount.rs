@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='delivery-container']/div/div/div[3]/div/div/span[3]/div/span/span[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[3]/div[count(. | //*[@class = 'item-price deliveryCost']) = count(//*[@class = 'item-price deliveryCost'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,25 +24,25 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>priceAmount</value>
+      <value>item-price deliveryCost</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> 0.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delivery-container&quot;)/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box mobile_layout&quot;]/div[@class=&quot;toggler_area&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text2&quot;]/span[3]/div[@class=&quot;item-price deliveryCost&quot;]/span[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;]</value>
+      <value>//div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[3]/div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

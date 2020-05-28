@@ -15,21 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdown_menu'), 0)
+WebUI.verifyElementVisible(findTestObject('SUPERBABY/BUYER/One Page Requisition/textfield_FirstName'))
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdown_menu'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textfield_FirstName'), 'Jane')
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), 0)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textfield_LastName'), 'D03d!@#$%^&*')
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textfield_Contact'), '0912345678')
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabel_PurchaseOrderHistory'), 
-    0)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textfield_Email'), 'janeDoe@')
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textfield_Search'), '')
-
-WebUI.click(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/linktext_Apply'))
-
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order Details (B2B)/textlabel_PurchaseOrderDetails'), 
-    0)
+WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_SendRequest'), FailureHandling.STOP_ON_FAILURE)
 

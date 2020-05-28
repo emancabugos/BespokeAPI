@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='delivery-container']/div/div/div[3]/div/div/span/div/span[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'item-price subTotal']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,14 +24,14 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>priceAmount</value>
+      <value>item-price subTotal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delivery-container&quot;)/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box mobile_layout&quot;]/div[@class=&quot;toggler_area&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text2&quot;]/span[1]/div[@class=&quot;item-price subTotal&quot;]/span[@class=&quot;priceAmount&quot;]</value>
+      <value>//div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[1]/div/span[3]/text()</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

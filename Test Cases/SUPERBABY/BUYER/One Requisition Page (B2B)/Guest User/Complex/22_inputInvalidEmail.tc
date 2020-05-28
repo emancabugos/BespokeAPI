@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>23_inputCorrectValuesLastName</name>
+   <name>22_inputInvalidEmail</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4acae854-49c1-4397-8ca5-bd656dd47747</testCaseGuid>
+   <testCaseGuid>f2764172-0f42-48d4-a2cb-b2e086790440</testCaseGuid>
 </TestCaseEntity>
