@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06_historyPageSeller</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22178a15-12e5-4b57-9dec-25e3fe74ff0c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>dc15765d-f922-4da8-bd55-adccef484081</id>
+      <masked>false</masked>
+      <name>orderstatus</name>
+   </variable>
+</TestCaseEntity>

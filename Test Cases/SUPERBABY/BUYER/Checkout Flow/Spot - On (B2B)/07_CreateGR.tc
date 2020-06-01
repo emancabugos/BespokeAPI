@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07_CreateGR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84000941-d8e6-4a0f-a6ca-47dc7ea68da0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>eafa69e4-d354-4bd3-9050-80edf37fa64e</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>15d68aec-079d-4a8d-b472-7d4c427fad91</id>
+      <masked>false</masked>
+      <name>time</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8ba8825c-5410-42a8-a301-8e9caf98c0e4</id>
+      <masked>false</masked>
+      <name>quantityReceived</name>
+   </variable>
+</TestCaseEntity>

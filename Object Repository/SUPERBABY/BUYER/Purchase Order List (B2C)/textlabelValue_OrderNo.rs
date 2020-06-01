@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//a[contains(text(),'PO24790')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,25 +24,25 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>purchase-order-details.html</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>PO24790</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller purchase-order-list page-sidebar&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;subaccount-data-table table-responsive&quot;]/table[@class=&quot;table order-data1 sub-account tb-left clickable&quot;]/tbody[1]/tr[@class=&quot;account-row&quot;]/td[1]/a[1]</value>
+      <value>//div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
