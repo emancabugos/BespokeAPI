@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>04_OnePageRequisition</name>
+   <name>08_Invoice</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>49444d89-8011-46fd-8529-662695dc7c13</testCaseGuid>
+   <testCaseGuid>7af8850e-5fd7-45df-b5e8-acb0ef74c088</testCaseGuid>
 </TestCaseEntity>

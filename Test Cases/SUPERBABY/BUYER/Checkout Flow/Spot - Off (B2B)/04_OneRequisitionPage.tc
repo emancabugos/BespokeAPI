@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_OneRequisitionPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14501df8-9434-4955-bce9-bf5a4d902b33</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c647ebe7-81c5-4ffe-be9b-4ea6957be24d</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>abb98010-df72-4834-80d3-628148b5874a</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>47eb1ee8-a8c6-439e-85e5-8d5ee8e663da</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f75f2e42-4415-4b11-943d-33f9bbfe7847</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1a70ffb3-0168-40b7-8837-27bf60879102</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>831e1521-eeb0-4cec-bd60-2217f4357abd</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9782a04d-0c69-47c8-9d49-ac034ca04262</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2c4a9b25-2785-4651-a288-39a7ed457e10</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>16e910a7-1579-42ac-8d70-7b9f1fa05eeb</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>71bce126-c7b0-49af-9895-c9dd7a01e8e8</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+</TestCaseEntity>

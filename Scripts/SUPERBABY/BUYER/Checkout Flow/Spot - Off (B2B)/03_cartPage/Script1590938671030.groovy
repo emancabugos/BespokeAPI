@@ -15,3 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddToCart'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('CONSUMER/Homepage/icon_ViewCart'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_ContinueShopping'), 0)
+
+WebUI.click(findTestObject('CONSUMER/Cart/checkbox_seller'))
+
+WebUI.waitForElementClickable(findTestObject('CONSUMER/Cart/button_Checkout'), 0)
+
+WebUI.click(findTestObject('CONSUMER/Cart/button_Checkout'))
+
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_SendRequest'), 0)
+
