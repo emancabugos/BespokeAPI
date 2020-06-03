@@ -4,6 +4,12 @@
    <name>pdf1</name>
    <tag></tag>
    <elementGuidId>b9c23fa2-6466-4e0b-a805-db596087f27a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'files' and @type = 'file' and @data-name = 'SP_PDF_M']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>pdf-62936-SP_PDF_M-NAps5o5Jhc</value>
+      <value>files</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,5 +60,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pdf-62936-SP_PDF_M-NAps5o5Jhc&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>SP_PDF_M</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GlobalVariableEntities>
+   <description/>
+   <name>Item Details</name>
+   <tag/>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'For Nego'</initValue>
+      <name>itemName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'10.00'</initValue>
+      <name>itemPrice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>''</initValue>
+      <name>itemDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'1'</initValue>
+      <name>itemQuantity</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'SGD $ 10.00'</initValue>
+      <name>itemSubTotal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'SGD'</initValue>
+      <name>currencyCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'$'</initValue>
+      <name>currencySymbol</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -4,6 +4,12 @@
    <name>header_About Us</name>
    <tag></tag>
    <elementGuidId>53d14500-c9ee-4b49-8177-706631a61c23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'About Us' or . = 'About Us')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

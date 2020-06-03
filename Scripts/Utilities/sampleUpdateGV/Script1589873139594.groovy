@@ -20,3 +20,4 @@ def gv = WebUI.getAttribute(findTestObject('SUPERBABY/SELLER/Create Invoice/text
 
 CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('default', 'gvInvoiceRefNo', gv)
 
+println(GlobalVariable.itemQuantity)

@@ -27,11 +27,13 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Sidebar/icon_CreateNewListing'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Inventory'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Sidebar/icon_CreateNewListing'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Inventory'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
+WebUI.click(findTestObject('MERCHANT_UPDATE/Inventory/linktext_Create new listing'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textlabel_Listing Name'), 0)
 
 WebUI.comment('Listing Name')
 
@@ -40,35 +42,54 @@ WebUI.setText(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/textfie
 WebUI.comment('Categories')
 
 if (varCategory == 'allcategory') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), 0)
+    WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Select all'), 0)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'multiplecategory') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), 0)
-
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/linktext_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category1') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/Category 1'), 0)
+} else if (varCategory == 'Category 0%') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/category0percent'), 0)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 1'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category2.1') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/Category 2.1'), 0)
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/category0percent'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 2.1'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category3.1') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/Category 3.1.1'), 0)
+    WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category 1%') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/category1percent'), 0)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 3.1.1'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/category1percent'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category 99%') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/category99percent'), 0)
+
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/category99percent'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category 100%') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/category100percent'), 0)
+
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/category100percent'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Category(s)'), varCategory)
 
     WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/maxcat'), 0)
 
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/maxcat'), FailureHandling.CONTINUE_ON_FAILURE)
+}
+
+WebUI.comment('Item Service')
+
+if (varItemService == 'both') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), 
+        0)
+
+    WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varItemService == 'nego') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Spot Purchase_check-indicator'), 
+        0)
+
+    WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Spot Purchase_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varItemService == 'spot') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Spot Purchase_check-indicator'), 
+        0)
 }
 
 WebUI.comment('Item Cover Image')
@@ -99,14 +120,14 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 if (varCategory == 'allcategory') {
     WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_allcategory'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'multiplecategory') {
-    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_allcategory'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category1') {
-    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_Category1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category2.1') {
-    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_category2.1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category3.1') {
-    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_3.1.1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category 0%') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category 1%') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category 99%') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'Category 100%') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
     WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 }
@@ -193,31 +214,11 @@ WebUI.comment('Stock')
 
 WebUI.delay(1)
 
-if (varStock == 'unlimited') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/checkbox_unlimited'), 0)
+for (int pos = 1; pos <= rows_count; pos++) {
+    TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[1]/div[3]/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
+        pos) + ']/td[4]/input')
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/checkbox_unlimited'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varStock == 'multiplecountries') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[4]/input')
-
-        WebUI.setText(element, varStock)
-    }
-} else if (varStock == '1000') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[4]/input')
-
-        WebUI.setText(element, varStock)
-    }
-} else if (varStock == '0') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[4]/input')
-
-        WebUI.setText(element, varStock)
-    }
+    WebUI.setText(element, varStock)
 }
 
 WebUI.comment('Bulk Pricing')
@@ -400,5 +401,5 @@ WebUI.comment('Click Upload Button')
 
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/button_Upload Now'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inventory Page/button_ Upload Item'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Inventory/linktext_Create new listing'), 0)
 

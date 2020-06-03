@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout Flow - Spot</name>
+   <tag></tag>
+   <comment>Item Details Page</comment>
+   <testCaseGuid>5e0a97f1-71f3-451f-8a4a-feafd770cd10</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b67cdb29-d76a-4af5-92dc-15593b2fdef3</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9b786f6b-3a62-4d93-93ca-933c0eb24f90</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ab99ce25-e9ab-4d38-9b65-69a1242da595</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+</TestCaseEntity>

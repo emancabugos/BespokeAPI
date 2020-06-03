@@ -4,6 +4,12 @@
    <name>label_SPG_Check Box_M1CB1</name>
    <tag></tag>
    <elementGuidId>93ebab71-7104-46c5-9748-5a476133ee75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'SPG_Check Box_M1CB1' or . = 'SPG_Check Box_M1CB1')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SPG_Check Box_M1CB1 </value>
+      <value>SPG_Check Box_M1CB1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

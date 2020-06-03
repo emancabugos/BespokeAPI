@@ -6,12 +6,12 @@
    <elementGuidId>b3dbc8db-f38b-45b6-924d-49bc082d8bc0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span[4]/div/span[3][count(. | //*[@class = 'priceAmount']) = count(//*[@class = 'priceAmount'])]</value>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[5]/div/div[1]/span[2]/div/span[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div[5]/div/div/span</value>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;cart-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/span[@class=&quot;title&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;][count(. | //*[@class = 'priceAmount']) = count(//*[@class = 'priceAmount'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span[4]/div/span[3]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;cart-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/span[@class=&quot;title&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

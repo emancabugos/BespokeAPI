@@ -13,17 +13,17 @@
    <testCaseLink>
       <guid>abf1f547-cf3d-465b-8a04-cd9a217bd6ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>df274adc-d59d-4e71-abb8-acd2a7db6cd0</guid>
+      <guid>39066864-b94d-4182-af7e-85850a44a642</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Other Scenario/Item_Upload Data Driven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>38aab49a-05d4-40dc-b611-8d07c5cadbff</id>
+         <id>d11c473e-92a0-42ca-8b38-a746dd7c431e</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -31,82 +31,88 @@
          <testDataId>Data Files/MERCHANT/Item List Country</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>ItemName</value>
          <variableId>9008a644-d9e6-443c-b392-7cbccd8e5b79</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38aab49a-05d4-40dc-b611-8d07c5cadbff</testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>Category</value>
          <variableId>e6211419-3883-4a09-9760-edbb69cdc563</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38aab49a-05d4-40dc-b611-8d07c5cadbff</testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>ItemImage</value>
          <variableId>6eaecc15-99ca-48d6-a150-16590c106239</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38aab49a-05d4-40dc-b611-8d07c5cadbff</testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
-         <variableId>68bd5d31-a040-4c20-9e4c-6afd69214143</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>38aab49a-05d4-40dc-b611-8d07c5cadbff</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value></value>
-         <variableId>79b4141e-2ed4-4c15-aabb-11fa2383dcd5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>38aab49a-05d4-40dc-b611-8d07c5cadbff</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value></value>
-         <variableId>95f5f6ba-3a33-4c40-9eba-6f2dc13f54ac</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value></value>
-         <variableId>ec2e9a06-d2d6-4441-8d31-488dfb1aaf67</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value></value>
-         <variableId>35defee5-57e2-4cdd-985b-f79695e0fd98</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value></value>
+         <value>Description</value>
          <variableId>ca8ed683-d331-4f67-b9b9-c58f583d3dc2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>DeliversTo</value>
+         <variableId>68bd5d31-a040-4c20-9e4c-6afd69214143</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SKU</value>
+         <variableId>79b4141e-2ed4-4c15-aabb-11fa2383dcd5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MOQ</value>
+         <variableId>95f5f6ba-3a33-4c40-9eba-6f2dc13f54ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QTY</value>
+         <variableId>ec2e9a06-d2d6-4441-8d31-488dfb1aaf67</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Price</value>
+         <variableId>35defee5-57e2-4cdd-985b-f79695e0fd98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bulk Pricing</value>
          <variableId>bdcbb3fe-b67d-4bf7-a2bc-65d1f25f10e7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>Discount</value>
          <variableId>b47aaa6b-8a91-45a6-9df7-25f442a66ad1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>Range</value>
          <variableId>fe809858-4598-4946-8e89-984b0da6d889</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>MOQCount</value>
          <variableId>0a9a8ab7-0dec-4ace-a4a2-4ea1be88c145</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d11c473e-92a0-42ca-8b38-a746dd7c431e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Item Service</value>
+         <variableId>3c71cc76-33c6-4a75-ade6-5ffb638ac88f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

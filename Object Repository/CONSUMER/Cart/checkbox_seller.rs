@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div[4]/div/div/div/span/label</value>
+         <value>//div[1]/div[2]/div/div/div[4]/div[1]/div[1]/div/span/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;cart-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;cart-box full-width&quot;]/div[@class=&quot;cb-header&quot;]/div[@class=&quot;cb-checkbox&quot;]/span[@class=&quot;fancy-checkbox full-width&quot;]/label[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
