@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//select[@id='type-1587620142691']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr[2]/td[1]/div/select[count(. | //select[(text() = 'ChargeDiscount' or . = 'ChargeDiscount')]) = count(//select[(text() = 'ChargeDiscount' or . = 'ChargeDiscount')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -34,11 +38,11 @@
       <value>ChargeDiscount</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;type-1587620142691&quot;)</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr[2]/td[1]/div/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

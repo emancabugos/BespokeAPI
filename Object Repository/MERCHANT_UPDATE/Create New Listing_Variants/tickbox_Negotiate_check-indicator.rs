@@ -6,32 +6,29 @@
    <elementGuidId>e861d387-c0f4-4ae2-a562-b6be12ae591c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div[1]/div/div[2]/div[3]/div[1]/div/div/div[2]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='basic_tab']/div[2]/div[3]/div/div/div/div[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>check-indicator</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;basic_tab&quot;)/div[@class=&quot;tab-content un-inputs&quot;]/div[@class=&quot;item-form-group mb-20&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;classy-checkbox-group&quot;]/div[@class=&quot;classy-checkbox&quot;]/span[@class=&quot;check-indicator&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div[1]/div/div[2]/div[3]/div[1]/div/div/div[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

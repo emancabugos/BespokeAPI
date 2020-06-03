@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[2]/div[3]/div/span[2]/p/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[3]/div[1]/span[2]/p/span</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -27,11 +31,11 @@
       <value>Description01</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-bot&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/span[@class=&quot;custom-field&quot;]/p[1]/span[1]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[3]/div[1]/span[2]/p/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

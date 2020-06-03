@@ -4,6 +4,12 @@
    <name>status_Enquiry</name>
    <tag></tag>
    <elementGuidId>7918764e-5b3e-4598-8c73-52a06002a89b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div[2]/div[1]/div[3]/div/span[count(. | //span[@class = 'enquiry' and (text() = 'ENQUIRY' or . = 'ENQUIRY')]) = count(//span[@class = 'enquiry' and (text() = 'ENQUIRY' or . = 'ENQUIRY')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>ENQUIRY</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;inbox-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;inbox-panel-outer&quot;]/div[@class=&quot;panel-box&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;text-center&quot;]/span[@class=&quot;enquiry&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[2]/div[1]/div[3]/div/span</value>
    </webElementProperties>
 </WebElementEntity>

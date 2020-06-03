@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/div[3]/div/div[35]/textarea</value>
+         <value>//textarea[@data-name = 'SP_Video_M']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -55,10 +55,17 @@
       <value>62936-SP_Video_M-JXiQ40T437</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/div[3]/div/div[35]/textarea</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>SP_Video_M</value>
    </webElementProperties>
 </WebElementEntity>

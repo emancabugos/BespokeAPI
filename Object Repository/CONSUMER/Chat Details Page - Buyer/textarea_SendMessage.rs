@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[2]/div/textarea</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@placeholder = 'Enter your message...']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
