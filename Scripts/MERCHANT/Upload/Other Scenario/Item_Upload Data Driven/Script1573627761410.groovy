@@ -196,11 +196,11 @@ WebUI.delay(2)
 if (varMOQCount == 'allcountries') {
     WebUI.delay(1)
 } else if (varMOQCount == 'multiplecountries') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/PH'), '100')
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/PH'), '50')
 
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/SG'), '30')
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/SG'), '50')
 
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/MY'), '25')
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/MY'), '50')
 } else if (varMOQCount == 'SingleCountry') {
     for (int pos = 1; pos <= rows_count; pos++) {
         TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
@@ -370,7 +370,7 @@ if (varDeliversTo == 'allcountries') {
     WebUI.delay(2)
 
     for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[5]/div[2]/div/div/div/table/tbody/tr[' + 
+        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[1]/div[3]/div[5]/div[2]/div/div/div/table/tbody/tr[' + 
             pos) + ']/td[2]/input')
 
         WebUI.setText(element, varPrice)
