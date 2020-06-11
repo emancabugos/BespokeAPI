@@ -6,18 +6,18 @@
    <elementGuidId>da7eb524-25eb-4ff0-aa44-fef14d0920fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div/div/div/div[2]/table/tbody/tr/td[6]/span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[2]/table/tbody/tr/td[6]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[2]/table/tbody/tr/td[6]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

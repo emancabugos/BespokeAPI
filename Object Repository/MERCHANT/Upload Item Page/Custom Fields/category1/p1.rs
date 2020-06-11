@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MERCHANT/Upload Item Page/Custom Fields/category1/texteditor1</value>
+      <value>Object Repository/BESPOKE DEL 2/MERCHANT/Add Item Page/Custom Fields/category1/texteditor1</value>
    </webElementProperties>
 </WebElementEntity>

@@ -5,6 +5,7 @@
    <tag></tag>
    <comment>Listing Name
 Categories
+Item Service
 Item Cover Image
 Item Description
 Custom Fields
@@ -34,9 +35,23 @@ Click Upload Button</comment>
    <variable>
       <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
       <description></description>
+      <id>3c71cc76-33c6-4a75-ade6-5ffb638ac88f</id>
+      <masked>false</masked>
+      <name>varItemService</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
       <id>6eaecc15-99ca-48d6-a150-16590c106239</id>
       <masked>false</masked>
       <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>ca8ed683-d331-4f67-b9b9-c58f583d3dc2</id>
+      <masked>false</masked>
+      <name>varDescription</name>
    </variable>
    <variable>
       <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
@@ -72,13 +87,6 @@ Click Upload Button</comment>
       <id>35defee5-57e2-4cdd-985b-f79695e0fd98</id>
       <masked>false</masked>
       <name>varPrice</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
-      <description></description>
-      <id>ca8ed683-d331-4f67-b9b9-c58f583d3dc2</id>
-      <masked>false</masked>
-      <name>varDescription</name>
    </variable>
    <variable>
       <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>

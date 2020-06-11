@@ -4,6 +4,12 @@
    <name>label_SPC_Check Box_M1CB1</name>
    <tag></tag>
    <elementGuidId>ba2b6760-c22b-4d77-b723-21bb0b10f8d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'SPC_Check Box_M1CB1' or . = 'SPC_Check Box_M1CB1')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SPC_Check Box_M1CB1 </value>
+      <value>SPC_Check Box_M1CB1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

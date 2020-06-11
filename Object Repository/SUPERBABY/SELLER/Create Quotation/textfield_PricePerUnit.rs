@@ -9,36 +9,40 @@
          <key>XPATH</key>
          <value>//span[@id='total-1587620142691']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr[2]/td[4]/input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>total-1587620142691</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;total-1587620142691&quot;)</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr[2]/td[4]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

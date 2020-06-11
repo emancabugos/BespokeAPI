@@ -11,20 +11,20 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[3]</value>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/div[1]/span[3][count(. | //span[@class = 'priceAmount']) = count(//span[@class = 'priceAmount'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[3]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/div[1]/span[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

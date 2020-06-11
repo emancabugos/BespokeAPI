@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//button[@id='create-quotation-btn']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'create-quotation-btn']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>create-quotation-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

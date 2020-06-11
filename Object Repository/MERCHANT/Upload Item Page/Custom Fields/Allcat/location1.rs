@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;customfields&quot;]/div[31]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
+         <value>//input[@type = 'text' and @data-name = 'SP_Location_M']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -55,10 +55,17 @@
       <value>130</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;customfields&quot;]/div[31]/input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>SP_Location_M</value>
    </webElementProperties>
 </WebElementEntity>
