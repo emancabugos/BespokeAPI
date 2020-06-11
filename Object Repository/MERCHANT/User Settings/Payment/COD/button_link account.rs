@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[3]/div[3]/div[count(. | //div[(text() = 'Link Account' or . = 'Link Account')]) = count(//div[(text() = 'Link Account' or . = 'Link Account')])]</value>
+         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[1]/div[3]/div[count(. | //div[(text() = 'Link Account' or . = 'Link Account')]) = count(//div[(text() = 'Link Account' or . = 'Link Account')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[3]/div[3]/div</value>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[1]/div[3]/div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
