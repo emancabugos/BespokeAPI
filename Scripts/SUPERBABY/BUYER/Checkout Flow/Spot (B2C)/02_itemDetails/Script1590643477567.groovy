@@ -21,7 +21,7 @@ WebUI.comment('Item Details Page')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '2')
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), quantity)
 
 def price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_itemPrice'))
 

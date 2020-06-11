@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Checkout 06</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>fad88bcf-dfcf-466a-855b-7e9c99b2b1bc</testSuiteGuid>
+   <testCaseLink>
+      <guid>1c6dd8ae-5897-4036-b38f-e20e9aee47ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00b52a28-32f2-4a7c-9768-d9b3523a00b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/01_searchItem</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4a5ca351-33aa-4e53-b113-5a471f17a04b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/Checkout Scenario SuperBaby/B2C - Country/Checkout 06</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4a5ca351-33aa-4e53-b113-5a471f17a04b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
+         <variableId>314e0579-25cf-41f7-bf6d-1147eed10a4c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2620681d-8522-4278-aa45-2a265c1d23e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/02_itemDetails</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f7ca420a-3e55-4e37-9728-6f033cfb405c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/Checkout Scenario SuperBaby/B2C - Country/Checkout 06</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f7ca420a-3e55-4e37-9728-6f033cfb405c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>quantity</value>
+         <variableId>0421a98b-ff65-4c01-88d1-60a74a6d7eb6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3900092-1085-4997-b6d5-b5c6d5778b96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/03_cartPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6bf1718f-8b01-4b7e-9566-42d152f48106</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/04_OnePageCheckout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>13a68d63-b32b-4c1e-bc4a-e800ead96513</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/Checkout Scenario SuperBaby/B2C - Country/Checkout 06</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delivery</value>
+         <variableId>16a32727-9b94-48a5-ae9b-cc0ec2efd763</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>8a350c17-0c6a-41fd-beec-44e131e07a82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>da7acb36-4daa-4272-8ef0-2990690d161a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>06516336-4e46-4074-9b80-30f015eeccb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>country</value>
+         <variableId>77ca883c-c2fb-4424-b7a3-0cc1489ab359</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>f805c378-58d1-4075-b5b3-a5bf85f38fbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>state</value>
+         <variableId>09857087-8daf-42c7-be34-cac212b55734</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postalCode</value>
+         <variableId>6904e0dd-789b-4087-b896-97cceeb0e935</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>13a68d63-b32b-4c1e-bc4a-e800ead96513</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>payment</value>
+         <variableId>b34eee5e-7c5f-4f83-908d-2da8116339ac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>739c8469-d50d-464a-82c3-429614df1eae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/05_historyPageBuyer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d89912ee-b1e1-44ff-868a-2b6294aa7c1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08e6dcbc-911f-4e3a-a8af-56b3310459ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75eb5f16-394e-4920-af0b-c294e0f29a67</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/06_historyPageSeller</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4e845167-c70f-445f-9d0b-90d3f9ab9b47</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/Checkout Scenario SuperBaby/B2C - Country/Checkout 06</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4e845167-c70f-445f-9d0b-90d3f9ab9b47</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Order Status</value>
+         <variableId>dc15765d-f922-4da8-bd55-adccef484081</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec938f32-3654-402c-ac8b-68dd7f5a5543</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

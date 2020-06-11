@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0313st01'</initValue>
+      <initValue>'0610sb1'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -43,11 +43,6 @@
       <description></description>
       <initValue>''</initValue>
       <name>AdminEmailNotif</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0313st01.test.arcadier.io/admin'</initValue>
-      <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
@@ -108,5 +103,10 @@
       <description>CHANGE TO: custom, google, facebook</description>
       <initValue>'custom'</initValue>
       <name>MerchantAccountType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0610sb1.arcadier.io/admin'</initValue>
+      <name>AdminURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

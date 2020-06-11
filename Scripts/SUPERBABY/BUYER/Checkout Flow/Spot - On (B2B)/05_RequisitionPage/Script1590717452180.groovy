@@ -38,5 +38,8 @@ WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Requisition Order Ap
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/banner_Approve'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementNotVisible(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/banner_Approve'), 0)
+WebUI.waitForElementNotVisible(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/popup_ConfirmApproveRequisitionOrder'), 
+    0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/popup_buttonOkay'), FailureHandling.STOP_ON_FAILURE)
 
