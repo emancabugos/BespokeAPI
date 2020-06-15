@@ -3,13 +3,6 @@
    <description></description>
    <name>02_itemDetails</name>
    <tag></tag>
-   <comment>Item Details Page</comment>
+   <comment></comment>
    <testCaseGuid>af0cc1f8-e1ad-4ed4-a9ce-45338079aa3a</testCaseGuid>
-   <variable>
-      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
-      <description></description>
-      <id>0421a98b-ff65-4c01-88d1-60a74a6d7eb6</id>
-      <masked>false</masked>
-      <name>quantity</name>
-   </variable>
 </TestCaseEntity>

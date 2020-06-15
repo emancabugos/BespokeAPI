@@ -3,8 +3,7 @@
    <description></description>
    <name>06_historyPageSeller</name>
    <tag></tag>
-   <comment>Change Status
-End of Change Status Code</comment>
+   <comment></comment>
    <testCaseGuid>22178a15-12e5-4b57-9dec-25e3fe74ff0c</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

@@ -55,102 +55,21 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_co
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 0)
 
-def any = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'))
+WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), payment, false)
 
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('checkoutFlow', 'actualsub', any)
+actualsub = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'))
 
-def any = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
+discount = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
 
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('checkoutFlow', 'discount', any)
+charge = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Charge'))
 
-def any = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Charge'))
+deliverycost = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_ShippingCost'))
 
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('checkoutFlow', 'charge', any)
+total = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Total'))
 
-def any = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_ShippingCost'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('checkoutFlow', 'deliverycost', any)
-
-def any = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_ShippingCost'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('checkoutFlow', 'total', any)
-
-if (payment == 'Stripe') {
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 'Stripe', true)
-
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/textlabel_PayButton'))
-
-    WebUI.delay(1)
-
-    WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Stripe_New/textfield_Email'), 
-        0)
-
-    WebUI.setText(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Stripe_New/textfield_Email'), 'test321@gmail.com')
-
-    WebUI.sendKeys(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Stripe_New/textfield_CardNumber'), '4242 4242 4242 4242')
-
-    WebUI.sendKeys(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Stripe_New/textfield_DateExpiry'), '1123')
-
-    WebUI.sendKeys(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Stripe_New/textfield_CVC'), '123')
-
-    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/textfield_Name'), 'Jane Doe')
-
-    WebUI.delay(0.5)
-
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Stripe_New/button_Pay'))
-} else if (payment == 'Custom') {
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), Custom, true)
-
-    WebUI.scrollToElement(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/textlabel_PayButton'), 0)
-
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/textlabel_PayButton'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Custom Payment/button_Accept'), 
-        0)
-
-    WebUI.setText(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/Custom Payment/textfield_Note'), 'test')
-
-    WebUI.delay(1)
-
-    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Custom Payment/button_Accept'))
-} else if (payment == 'Offline Payment') {
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 'Offline Payment', 
-        true)
-
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/textlabel_PayButton'))
-
-    WebUI.delay(1)
-} else if (payment == 'Cash on delivery') {
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 'Cash on delivery', 
-        true)
-
-    WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/textlabel_PayButton'))
-
-    WebUI.delay(1)
-}
-
-WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 'Cash on delivery', 
-    true)
-
-WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/textlabel_PayButton'))
-
-WebUI.delay(1)
+WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_SendRequest'))
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), 0)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), 0)
-
-def any = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('checkoutFlow', 'invoice', any)
+invoice = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), FailureHandling.STOP_ON_FAILURE)
 

@@ -46,12 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'arcstaging.rachrah.com'</initValue>
+      <initValue>'0601sb1.staging.arcadier.io/admin'</initValue>
+      <name>AdminURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>change URL/ Remove &quot;https://&quot;</description>
+      <initValue>'0601sb1.staging.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'unmerchant'</initValue>
+      <initValue>'arctestseller_d1'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,12 +71,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arcadier.tester1@gmail.com'</initValue>
+      <initValue>'dianasbacct@gmail.com'</initValue>
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'a2buyer0'</initValue>
+      <initValue>'buyer_april'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -103,10 +108,5 @@
       <description>CHANGE TO: custom, google, facebook</description>
       <initValue>'custom'</initValue>
       <name>MerchantAccountType</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'0610sb1.arcadier.io/admin'</initValue>
-      <name>AdminURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
