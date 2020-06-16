@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/textlabel_PayButton'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewAddress'))
+/*WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewAddress'))
 
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeFirstName'), 
     0)
@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup
 WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_PostalCode'), postalCode)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/button_Add'), FailureHandling.STOP_ON_FAILURE)
-
+*/
 WebUI.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/checkbox_DeliveryAddressSameAsBilling'), FailureHandling.STOP_ON_FAILURE)
@@ -49,27 +49,33 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/collapse_button
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), delivery, false)
+WebUI.selectOptionByIndex(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 9)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_collasePay'))
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), payment, false)
+WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 'Offline Payments', 
+    false)
 
-actualsub = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'))
+WebUI.comment('Get Variable')
 
-discount = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
+def discount = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvDiscount', discount)
 
-charge = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Charge'))
+def charge = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Charge'))
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvCharge', charge)
 
-deliverycost = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_ShippingCost'))
+def shippingCost = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_ShippingCost'))
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvShippingCost', shippingCost)
 
-total = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Total'))
+def total = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Total'))
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvTotal', total)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_SendRequest'))
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), 0)
 
-invoice = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), FailureHandling.STOP_ON_FAILURE)
+def invoice = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvInvoiceNo', invoice)
 

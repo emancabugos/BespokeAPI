@@ -40,7 +40,8 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_V
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), varListingName+" "+GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), (varListingName + ' ') + 
+    GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
@@ -82,12 +83,18 @@ if (varItemService == 'both') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), 
         0)
 
+    WebUI.delay(1)
+
     WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varItemService == 'nego') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Spot Purchase_check-indicator'), 
         0)
 
+    WebUI.delay(1)
+
     WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Spot Purchase_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.delay(1)
 
     WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varItemService == 'spot') {

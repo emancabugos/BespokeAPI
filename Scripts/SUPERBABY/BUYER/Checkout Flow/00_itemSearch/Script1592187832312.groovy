@@ -30,33 +30,3 @@ WebUI.comment('Item Details Page')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '1')
-
-WebUI.comment('Get Variable')
-
-def itemName = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_ItemName'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'itemName', itemName)
-
-def currencyCode = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_CurrencyCode'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'currencyCode', currencyCode)
-
-def currencySymbol = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_CurrencySymbol'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'currencySymbol', currencySymbol)
-
-def itemPrice = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_itemPrice'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'itemPrice', itemPrice)
-
-def itemQuantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 'value')
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'itemQuantity', itemQuantity)
-
-def itemSubTotal = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_Subtotal'))
-
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'itemSubTotal', itemSubTotal)
-
-println(GlobalVariable.itemSubTotal)
-

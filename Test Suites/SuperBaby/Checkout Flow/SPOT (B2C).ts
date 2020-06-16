@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SPOT (B2C)</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>1f1553c7-69cc-4a5f-8e9b-a7de5ff22bf7</testSuiteGuid>
+   <testCaseLink>
+      <guid>f37c66cf-def4-4746-9385-a4632b3d3a83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/00_itemSearch</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14a24d63-80cb-4dc4-a320-b7a18aa17953</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/02_itemDetails</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>edda69ff-9901-4b96-b835-4dd490e1615c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/03_cartPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d8fdb177-dea2-456c-8706-45305c3c2ce6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/04_OnePageCheckout</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16a32727-9b94-48a5-ae9b-cc0ec2efd763</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8a350c17-0c6a-41fd-beec-44e131e07a82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da7acb36-4daa-4272-8ef0-2990690d161a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>06516336-4e46-4074-9b80-30f015eeccb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77ca883c-c2fb-4424-b7a3-0cc1489ab359</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f805c378-58d1-4075-b5b3-a5bf85f38fbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09857087-8daf-42c7-be34-cac212b55734</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6904e0dd-789b-4087-b896-97cceeb0e935</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b34eee5e-7c5f-4f83-908d-2da8116339ac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>871c0081-2306-49f4-ae1e-227f25c8989c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/05_historyPageBuyer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3be0eed-8dce-43cc-a95f-8920a117a4a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/06_historyPageSeller</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dc15765d-f922-4da8-bd55-adccef484081</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

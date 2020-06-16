@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_address</name>
+   <tag></tag>
+   <elementGuidId>ec87d97a-e58f-4b7e-bd5a-6f9d6735d985</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[4]/div[2]/div[1]/div[1]/span/p[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[4]/div[2]/div[1]/div[1]/span/p[3]</value>
+   </webElementProperties>
+</WebElementEntity>
