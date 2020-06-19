@@ -31,7 +31,7 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Footer/tab_RETURNS'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/textlabel_RETURNS'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/Page_0407bpth2/textlabel_Contact Us'))
 
 WebUI.switchToWindowIndex(0)
 

@@ -31,7 +31,7 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Footer/tab_PRIVACY'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/textlabel_PRIVACY'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/Page_0407bpth2/textlabel_PRIVACY POLICY'))
 
 WebUI.switchToWindowIndex(0)
 

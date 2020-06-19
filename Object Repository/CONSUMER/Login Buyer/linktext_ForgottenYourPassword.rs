@@ -4,6 +4,12 @@
    <name>linktext_ForgottenYourPassword</name>
    <tag></tag>
    <elementGuidId>a894af29-38a8-40d4-9941-92be681d152f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/accounts/buyer/forgot-password' and (text() = 'Forgotten your password?' or . = 'Forgotten your password?')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/User/Marketplace/ForgotPassword</value>
+      <value>/accounts/buyer/forgot-password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

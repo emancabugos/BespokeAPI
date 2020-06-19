@@ -4,6 +4,12 @@
    <name>tab_About</name>
    <tag></tag>
    <elementGuidId>4c9a9139-9138-46e4-a8ed-43a7d77f87b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/policy/about-us' and (text() = 'About Us' or . = 'About Us')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>About</value>
+      <value>About Us</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

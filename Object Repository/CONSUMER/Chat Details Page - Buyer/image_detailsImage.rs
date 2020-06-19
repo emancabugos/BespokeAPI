@@ -6,6 +6,10 @@
    <elementGuidId>95a992f7-e7b9-4e20-9834-ea7219845434</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@alt = 'recive-avatar' and @title = 'recive-avatar']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[2]/ul/li/div/img</value>
       </entry>
@@ -20,7 +24,7 @@
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>

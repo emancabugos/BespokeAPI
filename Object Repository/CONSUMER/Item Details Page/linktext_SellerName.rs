@@ -6,6 +6,10 @@
    <elementGuidId>ab382711-cb9b-4c29-a6b2-331181053d20</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'seller-name']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[2]/div[2]/div/div[2]/a</value>
       </entry>
@@ -27,14 +31,14 @@
       <value>/storefront/615391d5-61be-422e-a895-8dab28cfd66c</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>seller-name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>66d0480f-5e13-471b-bff6-32163504e96e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/10_textlabelExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -137,33 +137,33 @@
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/20_linktextFAQ</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>77228030-c8ef-47a2-868a-400cec5a7bc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CONSUMER/Homepage/UI/23_imageTwitter</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a370d665-8f0a-4eef-8812-3c0f5139807a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CONSUMER/Homepage/UI/22_imageFacebook</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>30a307d0-91b4-4c0f-8493-90434369bb5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/21_copyRight</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a370d665-8f0a-4eef-8812-3c0f5139807a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/22_imageFacebook</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>77228030-c8ef-47a2-868a-400cec5a7bc5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/UI/23_imageTwitter</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f933f7a1-42de-4097-822f-d1d25bbc7f62</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/24_imagelinkedIn</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d9a1533d-f040-41f6-ab63-f3808a521d71</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/25_imageInstagram</testCaseId>
    </testCaseLink>
    <testCaseLink>
