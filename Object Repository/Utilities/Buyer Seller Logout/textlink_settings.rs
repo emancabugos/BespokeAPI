@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Settings' or . = 'Settings')]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/ul/li[2]/a[count(. | //a[(text() = 'Settings' or . = 'Settings')]) = count(//a[(text() = 'Settings' or . = 'Settings')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,11 +20,11 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;header-section&quot;]/div[1]/div/div/ul[2]/li[2]/ul/li[2]/a</value>
+      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/ul/li[2]/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

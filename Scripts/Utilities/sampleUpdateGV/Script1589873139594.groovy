@@ -16,8 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-def gv = WebUI.getText(findTestObject('SUPERBABY/SELLER/Invoice Details/value_invoice no'))
+def gv = WebUI.getAttribute(findTestObject('SUPERBABY/SELLER/Create Invoice/textbox_invoice ref'),"value")
 
-CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('default', 'gvInvoiceNo', gv)
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('default', 'gvInvoiceRefNo', gv)
 
-println GlobalVariable.gvInvoiceNo
+println(GlobalVariable.itemQuantity)

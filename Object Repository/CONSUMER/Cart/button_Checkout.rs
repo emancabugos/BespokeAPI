@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div[5]/div/div[2]/div</value>
+         <value>//div[1]/div[2]/div/div/div[4]/div/div[2]/div[1]/table/tbody/tr/td[1]/span/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn-checkout ' and (text() = 'Create Requisition' or . = 'Create Requisition')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Checkout</value>
+      <value>Create Requisition</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

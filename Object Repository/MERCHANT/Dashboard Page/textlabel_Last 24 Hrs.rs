@@ -7,20 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[2]/div/div/div[2]/div[1]/ul/li[1][count(. | //li[@id = 'btn24Hrs' and (text() = 'Last 24 Hrs' or . = 'Last 24 Hrs')]) = count(//li[@id = 'btn24Hrs' and (text() = 'Last 24 Hrs' or . = 'Last 24 Hrs')])]</value>
+         <value>/html/body/div[2]/div/div/div[2]/div[1]/ul/li[1][count(. | //*[(text() = 'Last 24 Hrs' or . = 'Last 24 Hrs')]) = count(//*[(text() = 'Last 24 Hrs' or . = 'Last 24 Hrs')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

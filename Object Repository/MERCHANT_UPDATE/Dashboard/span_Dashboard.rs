@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;dashboard-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;sc-upper&quot;]/div[@class=&quot;sc-u title-sc-u sc-u-mid full-width&quot;]/span[@class=&quot;sc-text-big&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

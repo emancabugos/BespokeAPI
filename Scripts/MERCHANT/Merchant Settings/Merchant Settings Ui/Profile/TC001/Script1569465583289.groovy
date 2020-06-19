@@ -20,13 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/icon_dropdown'), 0)
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), 0)
 
-WebUI.click(findTestObject('Utilities/Usermenu/icon_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/textlink_Settings'), 0)
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Settings'), 0)
 
-WebUI.click(findTestObject('Utilities/Usermenu/textlink_Settings'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Settings'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Profile/breadcrumbs_User Settings'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT_UPDATE/User Settings/linktext_User Settings_breadcrumbs'), 0)
 

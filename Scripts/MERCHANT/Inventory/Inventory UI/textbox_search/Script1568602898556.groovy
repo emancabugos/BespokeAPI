@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Inventory/textfield_Filter by_keywords'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT_UPDATE/Inventory/textfield_Filter by_keywords'), 0)
 

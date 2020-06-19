@@ -28,3 +28,19 @@ WebUI.setText(findTestObject('SUPERBABY/SELLER/Create Invoice/textbox_invoice re
 WebUI.verifyElementAttributeValue(findTestObject('SUPERBABY/SELLER/Create Invoice/textbox_invoice ref'), 'value', '                                     ', 
     0)
 
+long ts = System.currentTimeMillis() / 1000
+
+String tsAsString = ts.toString()
+
+WebUI.setText(findTestObject('SUPERBABY/SELLER/Create Invoice/textbox_invoice ref'), tsAsString)
+
+WebUI.delay(1)
+
+def gv = WebUI.getAttribute(findTestObject('SUPERBABY/SELLER/Create Invoice/textbox_invoice ref'),"value")
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('default', 'gvInvoiceRefNo', gv)
+
+println(GlobalVariable.gvInvoiceRefNo)
+
+
+

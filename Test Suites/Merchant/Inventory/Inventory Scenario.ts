@@ -4,7 +4,6 @@
    <name>Inventory Scenario</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-21T14:59:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -23,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/MERCHANT/Item List</testDataId>
+         <testDataId>Data Files/MERCHANT/Item List Variants</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>880b8fd0-cbc7-4900-a5c6-8140770a12ea</testDataLinkId>

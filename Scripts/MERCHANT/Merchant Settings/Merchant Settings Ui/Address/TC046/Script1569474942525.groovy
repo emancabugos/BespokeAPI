@@ -19,25 +19,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT_UPDATE/User Settings/textfield_First Name_Address'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 'Tea')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textfield_First Name_Address'), 'Tea')
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_last name'), 'Cool')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textfield_Last Name_Address'), 'Cool')
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_address'), '29th Flr Rufino Plaza V.A. Rufino Ave.')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textfield_Address_address'), '29th Flr Rufino Plaza V.A. Rufino Ave.')
 
-WebUI.selectOptionByLabel(findTestObject('MERCHANT/User Settings/Address/dropdown_country'), 'Philippines', false)
+WebUI.selectOptionByLabel(findTestObject('MERCHANT_UPDATE/User Settings/dropdown_Select your country'), 'Philippines', false)
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_state'), 'Philippines')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textfields_State_address'), 'Philippines')
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_City'), 'Makati')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textlabel_City_address'), 'Makati')
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_postal_code'), '1200')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textfieldPostal Code'), '1200')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/button_Add_Address'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/address_box'), 0)
 

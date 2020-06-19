@@ -6,14 +6,18 @@
    <elementGuidId>5b42be8c-afa9-44e9-80e5-52ae99dd3f7a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'item-quantity']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='item-quantity']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

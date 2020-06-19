@@ -6,8 +6,8 @@
    <elementGuidId>02c9c0d2-4854-4cef-9b63-bdc9e2d10ddc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'sc-text-big' and (text() = 'Purchase Order History' or . = 'Purchase Order History')]</value>
+          <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div/span[count(. | //span[(text() = 'Purchase Order History' or . = 'Purchase Order History')]) = count(//span[(text() = 'Purchase Order History' or . = 'Purchase Order History')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>

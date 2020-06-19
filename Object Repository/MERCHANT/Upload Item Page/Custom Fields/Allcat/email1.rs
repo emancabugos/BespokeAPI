@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/div[3]/div/div[23]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
+         <value>//input[@type = 'text' and @data-name = 'SP_Email_M']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,10 +48,17 @@
       <value>130</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/div[3]/div/div[23]/input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>SP_Email_M</value>
    </webElementProperties>
 </WebElementEntity>

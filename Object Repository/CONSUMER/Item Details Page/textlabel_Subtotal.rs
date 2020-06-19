@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span[4]/div/span[3][count(. | //*[@class = 'priceAmount']) = count(//*[@class = 'priceAmount'])]</value>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span[count(. | //span[@class = 'total-price pull-right']) = count(//span[@class = 'total-price pull-right'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>priceAmount</value>
+      <value>total-price pull-right</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span[4]/div/span[3]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

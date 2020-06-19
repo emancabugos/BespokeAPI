@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>00_itemSearch</name>
+   <tag></tag>
+   <comment>Item Details Page
+Get Variable</comment>
+   <testCaseGuid>5711dbf5-c8b9-4f54-86d0-04d5b6a61659</testCaseGuid>
+</TestCaseEntity>

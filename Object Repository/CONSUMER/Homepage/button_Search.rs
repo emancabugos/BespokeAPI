@@ -6,18 +6,18 @@
    <elementGuidId>f02c407d-8d06-4654-b33b-6d23720787fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//i[@class = 'fa fa-search']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[1]/div[1]/div[2]/div/ul/li[2]/div/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'fa fa-search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

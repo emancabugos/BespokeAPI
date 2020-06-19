@@ -4,7 +4,6 @@
    <name>Address Scenario</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-07T09:22:52</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

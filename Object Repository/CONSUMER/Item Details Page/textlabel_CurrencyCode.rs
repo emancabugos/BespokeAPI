@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[3]/div/div[2]/span/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/div[1]/span[1][count(. | //span[@class = 'currencyCode']) = count(//span[@class = 'currencyCode'])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,11 +38,11 @@
       <value>SGD</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top pull-left w-100&quot;]/div[@class=&quot;idcrt-order-total pull-left w-100&quot;]/span[@class=&quot;total-price pull-right&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;currencyCode&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/div[1]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

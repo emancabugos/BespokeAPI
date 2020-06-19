@@ -29,9 +29,5 @@ WebUI.click(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), Fai
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/textlink_Logout'), 0)
 
-if (true) {
-} else if (true) {
-}
-
 WebUI.click(findTestObject('Utilities/Buyer Seller Logout/textlink_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
 

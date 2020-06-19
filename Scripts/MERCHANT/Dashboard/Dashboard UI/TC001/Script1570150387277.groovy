@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Dashboard'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Dashboard'), 0)
 
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Dashboard'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Sidebar/linktext_Dashboard'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Dashboard Page/textlabel_Dashboard'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Dashboard/textlabel_Best Product Sellers'), 0)
 

@@ -21,33 +21,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), 0)
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BEASELLER'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BEASELLER'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT_UPDATE/Login Seller/button_Create Account'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_username'), varUsername)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Login Seller/textfield_username_new'), varUsername)
 
-WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_password'), 'welcome8')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Login Seller/textfield_password_new'), 'welcome8')
 
-WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_cofirm_password'), 'welcome8')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Login Seller/textfield_reConfirmPassword_new'), 'welcome8')
 
-WebUI.setText(findTestObject('MERCHANT/Onboarding/Non Private/textbox_Register with Us_email'), varNotifEmail)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Login Seller/textfield_NotifEmail_new'), varNotifEmail)
 
-WebUI.click(findTestObject('MERCHANT/Onboarding/Non Private/button_Sign Up'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT_UPDATE/Login Seller/button_SignUp_new'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/icon_dropdown'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), 0)
 
-WebUI.click(findTestObject('Utilities/Usermenu/icon_dropdown'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/textlink_Logout'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Logout'), 0)
 
-WebUI.click(findTestObject('Utilities/Usermenu/textlink_Logout'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Logout'), FailureHandling.STOP_ON_FAILURE)
 

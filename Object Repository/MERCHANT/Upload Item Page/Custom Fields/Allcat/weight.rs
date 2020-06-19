@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;customfields&quot;]/div[1]/input</value>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div[2]/div[2]/div[3]/div/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -59,6 +59,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;customfields&quot;]/div[1]/input</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div[2]/div[2]/div[3]/div/div[1]/input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>WEIGHT(kg)</value>
    </webElementProperties>
 </WebElementEntity>

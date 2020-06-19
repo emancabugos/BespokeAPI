@@ -6,6 +6,10 @@
    <elementGuidId>a658b100-d3a4-40fd-9330-7b60d537a5a5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/span[count(. | //span[@class = 'item-name']) = count(//span[@class = 'item-name'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[2]/div/div[2]/span</value>
       </entry>
@@ -13,32 +17,32 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>item-name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>ItemWithVariants</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-top preview-image full-width&quot;]/div[@class=&quot;idctl-desc&quot;]/span[@class=&quot;item-name&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/ul[@class=&quot;h-dd-menu hide-me&quot;]/form[1]/li[1]/a[@id=&quot;signout-form&quot;][count(. | //*[(text() = 'Logout' or . = 'Logout') and @id = 'signout-form']) = count(//*[(text() = 'Logout' or . = 'Logout') and @id = 'signout-form'])]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/ul/form/li/a[count(. | //a[(text() = 'Logout' or . = 'Logout') and @id = 'signout-form']) = count(//a[(text() = 'Logout' or . = 'Logout') and @id = 'signout-form'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

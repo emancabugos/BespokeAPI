@@ -4,7 +4,6 @@
    <name>Item Vetting Toggle Yes</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-27T14:26:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -23,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/MERCHANT/Item List</testDataId>
+         <testDataId>Data Files/MERCHANT/Item List Variants</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>fbfaf46b-e34d-4d4b-99bd-69be2564e198</testDataLinkId>

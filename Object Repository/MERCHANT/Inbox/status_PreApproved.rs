@@ -7,20 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'pre-approved' and (text() = 'PRE-APPROVED' or . = 'PRE-APPROVED')]</value>
+         <value>/html/body/div[1]/div[2]/div/div/div[2]/div[1]/div[3]/div/span[count(. | //span[(text() = 'PRE-APPROVED' or . = 'PRE-APPROVED')]) = count(//span[(text() = 'PRE-APPROVED' or . = 'PRE-APPROVED')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,10 +34,10 @@
       <value>PRE-APPROVED</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;content&quot;]/div/div/div[2]/div/div[3]/div[2]/span</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[2]/div[1]/div[3]/div/span</value>
    </webElementProperties>
 </WebElementEntity>

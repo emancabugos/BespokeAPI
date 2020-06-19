@@ -70,8 +70,6 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), 
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_seller-location'), varSellerLocation)
 
-WebUI.scrollToElement(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), 0)
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), FailureHandling.STOP_ON_FAILURE)
@@ -106,19 +104,23 @@ WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_next address')
 
 WebUI.comment('PAYMENT')
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), 0)
 
-WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/User Settings/button_Next_Payment'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), 0)
-
-WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/button_Next_Payment'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/button_save'), 0)
+WebUI.comment('PAYMENT')
 
-WebUI.click(findTestObject('MERCHANT/User Settings/Payment/button_save'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), 0)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Logout'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Logout'), FailureHandling.STOP_ON_FAILURE)
 
