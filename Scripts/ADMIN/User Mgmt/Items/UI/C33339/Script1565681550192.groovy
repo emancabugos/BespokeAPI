@@ -19,8 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Verify Delete button is displayed\r\n'
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
-
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_Delete'))
 

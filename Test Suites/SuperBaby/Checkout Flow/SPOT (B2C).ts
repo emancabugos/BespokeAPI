@@ -14,7 +14,7 @@
       <guid>f37c66cf-def4-4746-9385-a4632b3d3a83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/00_itemSearch</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot (B2C)/00_itemSearch</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>14a24d63-80cb-4dc4-a320-b7a18aa17953</guid>

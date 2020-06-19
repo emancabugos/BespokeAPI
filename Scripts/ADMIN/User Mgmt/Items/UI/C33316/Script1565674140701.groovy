@@ -19,17 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Verify total items found is displayed'
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'), 0)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
-
 WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/value_itemsFound'))

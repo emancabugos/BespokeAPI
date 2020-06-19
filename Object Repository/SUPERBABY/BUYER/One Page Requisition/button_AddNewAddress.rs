@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='delivery-container']/div[2]/div[2]/div/div[5]/div[2]/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = ' Add new address' or . = ' Add new address')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

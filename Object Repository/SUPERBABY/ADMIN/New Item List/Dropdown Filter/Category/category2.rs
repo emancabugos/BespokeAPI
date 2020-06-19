@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>category2</name>
+   <tag></tag>
+   <elementGuidId>16ea2f25-8938-4ccb-9a90-6bf08d1ce9b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/form/div/div/div/div/div/div/span[3]/div/div/ul/li[4]/a[1]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/form/div/div/div/div/div/div/span[3]/div/div/ul/li[4]/a[1]/label</value>
+   </webElementProperties>
+</WebElementEntity>

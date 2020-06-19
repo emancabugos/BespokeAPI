@@ -3,7 +3,7 @@
    <description></description>
    <name>04_OnePageCheckout</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Get Variable</comment>
    <testCaseGuid>49444d89-8011-46fd-8529-662695dc7c13</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description/>
-      <initValue>''</initValue>
+      <initValue>'Description05'</initValue>
       <name>itemDescription</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
