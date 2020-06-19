@@ -13,31 +13,31 @@
    <testCaseLink>
       <guid>5538d968-a7fd-4a90-9cd3-b74e7dcad5dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>76aa1230-416f-4089-824b-b504ae9aeb25</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/Simple/redirection_Cart</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7c990217-fe0a-4a3a-85bb-d9b1eade44bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/Simple/redirection_Inbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f62e462a-9fb5-4cb6-b2f2-4727f46cbe52</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Footers/linktext_redirectionAboutUs</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aac24076-0e78-4d74-a9fa-a8c4016c29a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Footers/linktext_redirectionTermsofUse</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -67,25 +67,25 @@
    <testCaseLink>
       <guid>f2876190-2afe-4b0e-a262-a9201e54b118</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Footers/TC018</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e016a4a4-0693-475e-bc02-9d980292f1cb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Footers/TC019</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>94ea47b6-0c10-45ab-8380-df50c8ca519d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Footers/TC020</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9ae773c7-5d14-446b-b5ec-4b5432723a7f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Footers/TC021</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>e497b466-2666-4db7-8238-c04c293ad165</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

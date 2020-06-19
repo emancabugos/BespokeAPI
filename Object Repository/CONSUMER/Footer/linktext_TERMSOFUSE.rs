@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/policy/terms-of-service' and (text() = 'Terms of Use' or . = 'Terms of Use')]</value>
+         <value>//*[@href = '/policy/terms-of-service' and (text() = 'Terms of Service' or . = 'Terms of Service')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Terms of Use</value>
+      <value>Terms of Service</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

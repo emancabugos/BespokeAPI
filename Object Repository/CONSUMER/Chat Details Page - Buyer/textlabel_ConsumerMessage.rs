@@ -6,6 +6,10 @@
    <elementGuidId>59da595d-ab81-45e9-b1ec-b829a6b580bf</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Hello Merchant' or . = 'Hello Merchant')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[2]/ul/li/div[2]/div</value>
       </entry>

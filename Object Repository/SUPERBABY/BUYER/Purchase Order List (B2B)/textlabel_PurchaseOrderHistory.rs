@@ -6,7 +6,7 @@
    <elementGuidId>02c9c0d2-4854-4cef-9b63-bdc9e2d10ddc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+          <key>BASIC</key>
          <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div/span[count(. | //span[(text() = 'Purchase Order History' or . = 'Purchase Order History')]) = count(//span[(text() = 'Purchase Order History' or . = 'Purchase Order History')])]</value>
       </entry>
       <entry>
@@ -17,14 +17,14 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,11 +38,11 @@
       <value>Purchase Order History</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div/span</value>
+      <value>/html[1]/body[@class=&quot;page-seller purchase-order-history page-sidebar&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;sc-upper&quot;]/div[@class=&quot;sc-u title-sc-u sc-u-mid full-width&quot;]/span[@class=&quot;sc-text-big&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

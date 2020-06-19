@@ -19,5 +19,5 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/i
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/textlabel_Location'))
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Chat Details Page - Buyer/textlabel_Location'), '')
+WebUI.verifyElementText(findTestObject('CONSUMER/Chat Details Page - Buyer/textlabel_Location'), 'Philippines')
 

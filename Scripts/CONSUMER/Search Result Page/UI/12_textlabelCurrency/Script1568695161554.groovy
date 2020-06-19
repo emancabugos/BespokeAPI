@@ -21,5 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/linktext_Home'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/textlabel_currency1'))
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/textlabel_currencysymbol'))
 

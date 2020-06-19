@@ -6,6 +6,10 @@
    <elementGuidId>40c965eb-c893-4c12-9079-0a9fe6be2d91</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//img[@src = 'https://0123bpth1.test.arcadier.io/images/items/615391d5-61be-422e-a895-8dab28cfd66c-8k3lz62fmyitem7.jpg']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[2]/div/div/div[2]/ul/div/div/div/li/a/img</value>
       </entry>
@@ -13,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,10 +28,10 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://0123bpth1.test.arcadier.io/images/items/615391d5-61be-422e-a895-8dab28cfd66c-8k3lz62fmyitem7.jpg</value>
+      <value>https://0106un.test.arcadier.io/images/items/6ab69930-23c0-478a-8237-0820d9b2d7bf-g8j0qpcfccmaxresdefault-2-.jpg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>

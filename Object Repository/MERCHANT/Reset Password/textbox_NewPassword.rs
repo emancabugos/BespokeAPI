@@ -4,6 +4,12 @@
    <name>textbox_NewPassword</name>
    <tag></tag>
    <elementGuidId>509f15da-e69b-45d2-9a30-acc068f4517e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'password' and @name = 'new_password' and @placeholder = 'New Password']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>input-text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>NewPassword</value>
+      <value>new_password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

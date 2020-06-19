@@ -4,10 +4,16 @@
    <name>tab_TermsOfUse</name>
    <tag></tag>
    <elementGuidId>a74400b4-6d42-4c81-9b15-c6ae6c9e7584</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/policy/terms-of-service' and (text() = 'Terms of Service' or . = 'Terms of Service')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/policy/terms-of-use</value>
+      <value>/policy/terms-of-service</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Terms of Use</value>
+      <value>Terms of Service</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

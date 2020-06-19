@@ -6,6 +6,10 @@
    <elementGuidId>9cee61fb-d48d-4eae-b3c0-fa9252dbd63e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'currencySymbol']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[3]/div/div[2]/span/div/span[2]</value>
       </entry>
