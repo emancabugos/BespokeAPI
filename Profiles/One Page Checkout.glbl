@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GlobalVariableEntities>
+   <description/>
+   <name>One Page Checkout</name>
+   <tag/>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>''</initValue>
+      <name>gvTotal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>''</initValue>
+      <name>gvCharge</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'- SGD $ 0.00'</initValue>
+      <name>gvDiscount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'SGD $ 0.00'</initValue>
+      <name>gvShippingCost</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description/>
+      <initValue>'0220BP01592203458OEVZ'</initValue>
+      <name>gvInvoiceNo</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

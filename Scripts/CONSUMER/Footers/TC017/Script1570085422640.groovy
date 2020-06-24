@@ -29,9 +29,9 @@ WebUI.click(findTestObject('CONSUMER/Footer/linktext_FAQ'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Footer/tab_RETURNS'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Footer/Page_0407bpth2/textlabel_FAQ'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/textlabel_RETURNS'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/Page_0407bpth2/textlabel_FAQ'))
 
 WebUI.switchToWindowIndex(0)
 

@@ -6,27 +6,27 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description/>
-      <initValue>'For Nego'</initValue>
+      <initValue>'SPOT sellerwena'</initValue>
       <name>itemName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description/>
-      <initValue>'10.00'</initValue>
+      <initValue>'10.20'</initValue>
       <name>itemPrice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description/>
-      <initValue>''</initValue>
+      <initValue>'Description05'</initValue>
       <name>itemDescription</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description/>
-      <initValue>'1'</initValue>
+      <initValue>'3'</initValue>
       <name>itemQuantity</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description/>
-      <initValue>'SGD $ 10.00'</initValue>
+      <initValue>'SGD $ 30.60'</initValue>
       <name>itemSubTotal</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

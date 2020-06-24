@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//select[@name='country']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[4]/div/div/div[2]/div/div[4]/span[2]/select[count(. | //select[@name = 'country']) = count(//select[@name = 'country'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>get-text required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -49,11 +53,11 @@
                                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;addDeliveryAddress&quot;)/div[@class=&quot;modal-dialog add-delivery-address&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;pdc-inputs&quot;]/div[@class=&quot;input-container ic-left&quot;]/span[@class=&quot;select-option&quot;]/select[@class=&quot;get-text required&quot;]</value>
+      <value>/html/body/div[1]/div[4]/div/div/div[2]/div/div[4]/span[2]/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

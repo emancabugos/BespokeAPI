@@ -6,14 +6,18 @@
    <elementGuidId>9cf46d85-4735-45db-b966-f0f61353be4b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div[2]/div/div[2]/div/div[2]/div/div/select</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@name='delivery_method[]']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +31,7 @@
       <value>txt sel_del_method</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -41,18 +45,18 @@
       <value>72808997-b7f3-4934-97ea-29a7d09477bd</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Select your shipping method.Pickup 1 (Pick-up)Pickup 2 (Pick-up)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review-container&quot;)/div[@class=&quot;panel-box active&quot;]/div[@class=&quot;panel-box-content clearfix&quot;]/div[@class=&quot;pcc-left pull-left pdc-inputs review-tab&quot;]/div[@class=&quot;dr-content&quot;]/div[@class=&quot;delivery-review&quot;]/div[@class=&quot;select_shipping&quot;]/select[@class=&quot;txt sel_del_method&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[2]/div/div[2]/div/div[2]/div/div/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

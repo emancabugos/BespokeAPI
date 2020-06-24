@@ -6,32 +6,36 @@
    <elementGuidId>bb372e30-90c7-42d8-a59f-a35bd6c48d32</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div/div[5]/div[1]/label</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='delivery-container']/div[2]/div[2]/div/div[5]/div/label/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Delivery address same as billing</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delivery-container&quot;)/div[@class=&quot;panel-box active&quot;]/div[@class=&quot;panel-box-content clearfix&quot;]/div[@class=&quot;pcc-left pull-left pdc-inputs left-requisition&quot;]/div[@class=&quot;uncheck-listner&quot;]/div[@class=&quot;fancy-checkbox&quot;]/label[1]/span[1]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div/div[5]/div[1]/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

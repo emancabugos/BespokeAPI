@@ -6,11 +6,15 @@
    <elementGuidId>02c9c0d2-4854-4cef-9b63-bdc9e2d10ddc</elementGuidId>
    <selectorCollection>
       <entry>
+          <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[1]/div/span[count(. | //span[(text() = 'Purchase Order History' or . = 'Purchase Order History')]) = count(//span[(text() = 'Purchase Order History' or . = 'Purchase Order History')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[3]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

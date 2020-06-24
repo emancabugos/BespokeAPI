@@ -4,10 +4,16 @@
    <name>button_CompareNow</name>
    <tag></tag>
    <elementGuidId>8b0cc465-a602-4f90-b9e1-e40e8a2a625b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/comparison/detail?comparisonId=c4790f7e-2668-ea11-818b-000d3aa147ac' and (text() = 'Compare Now' or . = 'Compare Now')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/comparison/detail?comparisonId=08af91c1-6507-ea11-810f-000d3aa147ac</value>
+      <value>/comparison/detail?comparisonId=c4790f7e-2668-ea11-818b-000d3aa147ac</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

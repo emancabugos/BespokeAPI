@@ -4,6 +4,12 @@
    <name>back_button</name>
    <tag></tag>
    <elementGuidId>6be127ca-9330-47cd-b979-341242b7cb2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = '/assets/images/back.svg']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/Areas/User/Assets/core/themes/trillia/images/back.svg</value>
+      <value>/assets/images/back.svg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -22,22 +22,55 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewAd
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeFirstName'), 
     0)
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeFirstName'), firstName)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeFirstName'), 'Buyer1')
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeLastName'), lastName)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeLastName'), 'Checkout')
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_Address'), address)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_Address'), 'Rufino Pacific Tower')
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_Address'), country, 
+WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/dropdown_Country'), 'Philippines', 
     false)
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_Address'), address)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_City'), 'Makati')
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_City'), city)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_State'), 'NCR')
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_State'), state)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_PostalCode'), '1200')
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_PostalCode'), postalCode)
+WebUI.comment('Get Variable')
+
+def fname = WebUI.getAttribute(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeFirstName'), 
+    'value')
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Buyer Details', 'gvInputAddFname', fname)
+
+def lname = WebUI.getAttribute(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_AddresseeLastName'), 
+    'value')
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Buyer Details', 'gvInputAddLname', lname)
+
+def address = WebUI.getAttribute(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_Address'), 
+    'value')
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Buyer Details', 'gvInputAddress', address)
+
+def country = WebUI.getAttribute(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/dropdown_Country'), 
+   'value')
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Buyer Details', 'gvInputCountry', country)
+
+def city = WebUI.getAttribute(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_City'), 'value')
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Buyer Details', 'gvInputCity', city)
+
+def state = WebUI.getAttribute(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_State'), 'value')
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Buyer Details', 'gvInputState', state)
+
+def postal = WebUI.getAttribute(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/textfield_PostalCode'), 
+    'value')
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Buyer Details', 'gvInputPostal', postal)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/Address Popup/button_Add'), FailureHandling.STOP_ON_FAILURE)
 
@@ -49,27 +82,30 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/collapse_button
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), delivery, false)
+WebUI.selectOptionByIndex(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 9)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_collasePay'))
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), payment, false)
+WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/dropdown_Payment'), 'Offline Payments', 
+    false)
 
-actualsub = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'))
+WebUI.comment('Get Variable')
 
-discount = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
+def discount = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
 
-charge = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Charge'))
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvDiscount', discount)
 
-deliverycost = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_ShippingCost'))
+def charge = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Charge'))
 
-total = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Total'))
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvCharge', charge)
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_SendRequest'))
+def shippingCost = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_ShippingCost'))
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), 0)
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvShippingCost', shippingCost)
 
-invoice = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_InvoiceNo'), FailureHandling.STOP_ON_FAILURE)
+def total = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Total'))
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('One Page Checkout', 'gvTotal', total)
 

@@ -24,5 +24,3 @@ WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List 
 'search Supplier\r\n'
 WebUI.setText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/search_Supplier'), '!@#$%ALpha12345')
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-

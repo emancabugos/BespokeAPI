@@ -15,6 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementAttributeValue(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_OrderStatus'), 'placeholder', 
+WebUI.verifyElementAttributeValue(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_OrderStatus'), 'data-default', 
     'Order Status', 0)
 

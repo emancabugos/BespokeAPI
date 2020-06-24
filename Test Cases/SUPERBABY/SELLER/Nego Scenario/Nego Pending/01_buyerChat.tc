@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>01_buyerChat</name>
-   <tag></tag>
-   <comment>Set Quantity and Nego
-Click Nego</comment>
-   <testCaseGuid>0e547001-16c3-45bb-9907-800546ede5aa</testCaseGuid>
-</TestCaseEntity>

@@ -4,10 +4,16 @@
    <name>button_Reset</name>
    <tag></tag>
    <elementGuidId>c4a353dc-b136-425d-a7ac-315e2e406660</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn-gray' and (text() = 'Reset' or . = 'Reset')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-gray reset-filter-button</value>
+      <value>btn-gray</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
