@@ -4,6 +4,12 @@
    <name>submenu_LoginMethod</name>
    <tag></tag>
    <elementGuidId>9ef8ff50-ed13-4e68-b598-51d5fbdf6ad7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/loginconfiguration' and (text() = 'Login Configuration' or . = 'Login Configuration')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login Method</value>
+      <value>Login Configuration</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

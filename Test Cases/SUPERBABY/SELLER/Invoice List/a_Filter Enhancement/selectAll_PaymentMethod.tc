@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>selectAll_PaymentMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b67cdceb-8236-422b-b7b7-780480a8c790</testCaseGuid>
+</TestCaseEntity>
