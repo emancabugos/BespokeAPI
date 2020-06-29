@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>menulink_Content Mgmt.</name>
+   <name>sidemenu_configuration</name>
    <tag></tag>
    <elementGuidId>e6e55423-e8bb-41bc-8949-6a8a8306df10</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Content Mgmt.' or . = 'Content Mgmt.')]</value>
+         <value>//span[(text() = 'Configuration' or . = 'Configuration')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Content Mgmt.</value>
+      <value>Configuration</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

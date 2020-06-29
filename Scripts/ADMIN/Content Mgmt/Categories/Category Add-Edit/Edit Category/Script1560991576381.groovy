@@ -20,9 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/sidemenu_configuration'), 0)
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/sidemenu_configuration'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Categories'), 0)
 

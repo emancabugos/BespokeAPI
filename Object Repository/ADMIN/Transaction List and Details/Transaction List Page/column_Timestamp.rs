@@ -4,6 +4,12 @@
    <name>column_Timestamp</name>
    <tag></tag>
    <elementGuidId>82fe39e2-85b0-4416-8feb-cbd3a02b376a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;no-more-tables&quot;)/thead[1]/tr[1]/td[1][count(. | //*[(text() = 'Timestamp  ' or . = 'Timestamp  ')]) = count(//*[(text() = 'Timestamp  ' or . = 'Timestamp  ')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>Timestamp  </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

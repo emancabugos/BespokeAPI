@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/p[count(. | //p[@ref_element = 'Object Repository/BESPOKE DEL 2/MERCHANT/Add Item Page/Custom Fields/Allcat/texteditor1']) = count(//p[@ref_element = 'Object Repository/BESPOKE DEL 2/MERCHANT/Add Item Page/Custom Fields/Allcat/texteditor1'])]</value>
+         <value>/html/body[count(. | //p[@ref_element = 'Object Repository/MERCHANT/Upload Item Page/Custom Fields/Allcat/texteditor1']) = count(//p[@ref_element = 'Object Repository/MERCHANT/Upload Item Page/Custom Fields/Allcat/texteditor1'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,13 +24,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/p</value>
+      <value>/html/body</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/BESPOKE DEL 2/MERCHANT/Add Item Page/Custom Fields/Allcat/texteditor1</value>
+      <value>Object Repository/MERCHANT/Upload Item Page/Custom Fields/Allcat/texteditor1</value>
    </webElementProperties>
 </WebElementEntity>

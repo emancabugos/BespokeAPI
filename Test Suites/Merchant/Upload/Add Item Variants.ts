@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>598847ee-b3c7-4a2d-a62c-d34a8daa4194</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -96,5 +96,11 @@
          <value>Limit</value>
          <variableId>27a4543f-7470-4959-a28a-645d3e2472c6</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8479f035-c6c8-4cef-9471-6ebb02241321</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

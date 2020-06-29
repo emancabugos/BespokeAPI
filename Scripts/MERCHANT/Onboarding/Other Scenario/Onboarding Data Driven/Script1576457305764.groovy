@@ -40,6 +40,8 @@ WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), varUser
 
 WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), 'welcome8')
 
+WebUI.callTestCase(findTestCase('Utilities/Accept Cookies'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 
 WebUI.comment('PROFILE')
@@ -108,13 +110,23 @@ WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), 0)
 
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/User Settings/button_Next_Payment'), 0)
 
 WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/button_Next_Payment'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.comment('PAYMENT')
+WebUI.comment('PAYMENT TERMS')
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/User Settings/button_Save_PaymentTerm'), 0)
+
+WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/button_Save_PaymentTerm'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), 0)
 

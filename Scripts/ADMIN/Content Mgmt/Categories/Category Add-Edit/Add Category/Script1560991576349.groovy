@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('ADMIN/Categories/Category/textfield_Category Name'
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/dropdown_Parent'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/dropdown_Parent'))
 

@@ -4,10 +4,16 @@
    <name>button_prev page</name>
    <tag></tag>
    <elementGuidId>c8873f5e-a98e-4a99-8e17-92bb230aab66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pagination-log&quot;)/div[@class=&quot;paginationjs&quot;]/div[@class=&quot;paginationjs-pages&quot;]/ul[@class=&quot;pagination&quot;]/li[@class=&quot;paginationjs-prev disabled&quot;]/a[1][count(. | //a[(text() = '«' or . = '«')]) = count(//a[(text() = '«' or . = '«')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +27,7 @@
       <value>«</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
