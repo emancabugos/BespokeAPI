@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>28_verifyAcknowledgePaymentStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a41f77bc-8907-4d5d-a4a8-dab9f41d5d4e</testCaseGuid>
+</TestCaseEntity>

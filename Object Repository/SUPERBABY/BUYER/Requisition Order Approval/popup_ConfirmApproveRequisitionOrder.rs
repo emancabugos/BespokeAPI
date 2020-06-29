@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[4]/div/div/h1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Confirm Approve Requisition Order' or . = 'Confirm Approve Requisition Order')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
