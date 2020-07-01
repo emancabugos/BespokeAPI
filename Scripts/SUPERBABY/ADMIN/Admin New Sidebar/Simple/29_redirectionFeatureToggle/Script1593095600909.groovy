@@ -19,11 +19,11 @@ WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/men
 
 WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_Configuration'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_FeatureToogle'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_FeatureToogle'), 0)
 
 WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_FeatureToogle'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/New Features Control/textlabel_AdminVetting'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Features Control/textlabel_AdminVetting'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/New Features Control/textlabel_AdminVetting'), 0)
 
