@@ -6,6 +6,10 @@
    <elementGuidId>55fc86af-1cf7-4a22-91c5-cd578a01445c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div[1]/div/section[1]/div/div/div[3]/table/tbody/tr[2]/td</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice No. :'])[1]/following::td[1]</value>
       </entry>
@@ -13,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,18 +31,18 @@
       <value>Invoice No. :</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>284-292-2924</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller page-sidebar page-purchase-order-details&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box&quot;]/div[@class=&quot;sassy-box-content box-order-detail&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;canon-table&quot;]/tbody[1]/tr[2]/td[1]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[1]/div/section[1]/div/div/div[3]/table/tbody/tr[2]/td</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

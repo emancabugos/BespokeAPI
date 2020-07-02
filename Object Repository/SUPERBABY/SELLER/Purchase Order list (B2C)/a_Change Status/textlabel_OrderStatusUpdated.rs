@@ -4,10 +4,16 @@
    <name>textlabel_OrderStatusUpdated</name>
    <tag></tag>
    <elementGuidId>3bbc3129-3764-4bff-8d6b-dce6ebd62102</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[4]/div/div[2]/p[count(. | //p[(text() = 'The order status for this item has been updated.' or . = 'The order status for this item has been updated.')]) = count(//p[(text() = 'The order status for this item has been updated.' or . = 'The order status for this item has been updated.')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,11 +27,11 @@
       <value>The order status for this item has been updated.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;popup-area order-itemstatus-popup&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-area text-center&quot;]/p[1]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div[4]/div/div[2]/p</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

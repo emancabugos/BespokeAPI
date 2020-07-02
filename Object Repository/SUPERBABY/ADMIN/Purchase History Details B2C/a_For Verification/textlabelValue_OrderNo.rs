@@ -11,13 +11,13 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[1]/div[2]/div/div/div/section[1]/div/div/div[3]/table/tbody/tr[1]/td</value>
+         <value>/html/body/div[1]/div[2]/div/div/div/section[1]/div/div/div[3]/table/tbody/tr[1]/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div[2]/div/div/div/section[1]/div/div/div[3]/table/tbody/tr[1]/td</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/section[1]/div/div/div[3]/table/tbody/tr[1]/td</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

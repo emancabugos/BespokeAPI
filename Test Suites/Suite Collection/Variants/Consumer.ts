@@ -15,5 +15,14 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Consumer/Onboarding/Onboarding Data Driven</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/SuperBaby/Checkout Flow/Checkout Flow (B2C) Variants</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
