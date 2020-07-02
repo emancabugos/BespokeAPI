@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_WorkflowA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc0b4783-b065-40a7-af90-a82768c3d5e6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e0328498-29ac-46d4-88d6-f34da7d2e7f7</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>018f72b7-7b7d-4000-afc9-f5fa67d57fb9</id>
+      <masked>false</masked>
+      <name>noApprover</name>
+   </variable>
+</TestCaseEntity>

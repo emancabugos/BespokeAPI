@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;settings-index-container&quot;]/div[2]/div/div/div[1]/div[2]/div[2]/div/div/div/div[1]/div[3]/div/div[172]/label/input[count(. | //input[@value = 'PH']) = count(//input[@value = 'PH'])]</value>
+         <value>//input[@value = 'PH']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>PH</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
