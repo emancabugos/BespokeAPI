@@ -15,23 +15,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_Configuration'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_Configuration'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_Configuration'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_Configuration'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_Categories'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Categories'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_Categories'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Categories'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_CustomFields'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_CustomFields'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_Commission'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Commission'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_CustomDomain'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_CustomDomain'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_SetupPayments'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_SetupPayments'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_FeatureToogle'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_FeatureToogle'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_LoginMethod'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_LoginMethod'), 0)
 

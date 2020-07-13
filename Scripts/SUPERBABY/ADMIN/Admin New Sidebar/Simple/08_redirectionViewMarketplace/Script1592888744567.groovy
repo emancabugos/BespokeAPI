@@ -15,15 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_ViewMarketplace'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_ViewMarketplace'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_ViewMarketplace'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_ViewMarketplace'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.back()
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_ViewMarketplace'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_ViewMarketplace'), 0)
 
 WebUI.refresh()
 
