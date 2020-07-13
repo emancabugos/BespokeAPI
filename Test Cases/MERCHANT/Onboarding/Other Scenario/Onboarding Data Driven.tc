@@ -6,7 +6,8 @@
    <comment>PROFILE
 ADDRESS
 PAYMENT
-PAYMENT</comment>
+PAYMENT
+PAYMENT TERMS</comment>
    <testCaseGuid>d1364ab8-ba32-4155-a065-a5302fbfc475</testCaseGuid>
    <variable>
       <defaultValue>findTestData('ADMIN/Seller List')</defaultValue>

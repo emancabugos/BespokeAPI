@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>2e14f925-07c9-45a0-b24c-5624dbfaeffa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Redirection</testCaseId>
    </testCaseLink>
    <testCaseLink>

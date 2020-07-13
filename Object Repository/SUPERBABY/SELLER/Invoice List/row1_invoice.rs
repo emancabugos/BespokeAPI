@@ -6,12 +6,12 @@
    <elementGuidId>98dfc681-65dc-4dad-be6c-2fdba77d1254</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div/div[3]/table/tbody/tr/td</value>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr/td[1]/a</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div[3]/table/tbody/tr/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr/td[1]/a</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

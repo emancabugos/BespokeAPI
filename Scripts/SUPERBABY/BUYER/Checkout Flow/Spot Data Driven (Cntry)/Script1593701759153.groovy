@@ -34,18 +34,6 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.comment('Variants')
-
-if (itemVariants == 'yes') {
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var1'), 'Blue', false)
-
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var2'), 'Small', false)
-
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var3'), 'Glass', false)
-} else if (itemVariants == 'no') {
-    WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 0)
-}
-
 WebUI.comment('Item Details Page')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 0)

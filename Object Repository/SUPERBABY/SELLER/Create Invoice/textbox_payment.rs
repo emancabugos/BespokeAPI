@@ -6,14 +6,18 @@
    <elementGuidId>e4ce0462-27b6-467e-aa30-8daa05429ab4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/section[1]/div/div[1]/div/div[1]/div/span/input[count(. | //input[@type = 'text' and @class = 'border-input due-date required-invoice' and @id = 'payment-due-date']) = count(//input[@type = 'text' and @class = 'border-input due-date required-invoice' and @id = 'payment-due-date'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='payment-due-date']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +31,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -41,18 +45,18 @@
       <value>payment-due-date</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>DD/MM/YYYY</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;payment-due-date&quot;)</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/section[1]/div/div[1]/div/div[1]/div/span/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

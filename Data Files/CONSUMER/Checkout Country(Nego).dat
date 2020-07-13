@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>AccountList_Buyer</name>
+   <name>Checkout Country(Nego)</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>747a5c98-7755-4922-94b7-0fa3fc667e9b</dataFileGUID>
+   <dataFileGUID>b4b28ef2-ae19-4568-8882-c52c031219db</dataFileGUID>
    <dataSourceUrl>C:\Katalon\BespokeAPI\Data Files\Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sub Buyer</sheetName>
+   <sheetName>Checkout Country(Nego)</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
