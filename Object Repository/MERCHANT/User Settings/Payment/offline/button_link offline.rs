@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_link offline</name>
+   <tag></tag>
+   <elementGuidId>7d16c886-01dc-4bd2-9447-2c77db35653d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[3]/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[3]/div[3]/div</value>
+   </webElementProperties>
+</WebElementEntity>

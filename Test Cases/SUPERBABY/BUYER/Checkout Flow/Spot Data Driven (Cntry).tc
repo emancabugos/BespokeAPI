@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Spot Data Driven (Cntry)</name>
+   <tag></tag>
+   <comment>ITEM SEARCH
+Variants
+Item Details Page
+Get Variable
+CART PAGE
+ONE PAGE CHECKOUT
+Get Global Variable
+Payment
+Pay Now
+Buyer PO Details
+Verify PO Details
+Change Status
+End of Change Status Code</comment>
+   <testCaseGuid>66961fb3-192e-4766-bab0-8917ae5cba62</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>e42a0ad5-82b0-44e3-917a-e2f1c7448f93</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>25d3a6de-8fd9-43c6-9376-9f42121f0e88</id>
+      <masked>false</masked>
+      <name>itemQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>fe2918e0-e765-4249-b357-5011d0e3216c</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>1550a54d-56f2-438d-939e-0ab7eb090228</id>
+      <masked>false</masked>
+      <name>orderstatus</name>
+   </variable>
+</TestCaseEntity>

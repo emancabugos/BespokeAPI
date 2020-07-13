@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[4]/div[3]/div[count(. | //div[@class = 'btn-blue']) = count(//div[@class = 'btn-blue'])]</value>
+         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[2]/div[3]/div[count(. | //div[@class = 'btn-blue']) = count(//div[@class = 'btn-blue'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[4]/div[3]/div</value>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[2]/div[3]/div</value>
    </webElementProperties>
 </WebElementEntity>

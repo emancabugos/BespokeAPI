@@ -6,32 +6,43 @@
    <elementGuidId>1f8e1c2a-7cfa-4355-8221-d83ee11bf9b6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/section[5]/div/div/div[1]/table/tbody/tr[3]/td/a/span[count(. | //span[@class = 'highlight-text']) = count(//span[@class = 'highlight-text'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/section[5]/div/div/div/table/tbody/tr[3]/td</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>-</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box box-order-total&quot;]/div[@class=&quot;sassy-box-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;canon-table&quot;]/tbody[1]/tr[3]/td[1]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/section[5]/div/div/div[1]/table/tbody/tr[3]/td/a/span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highlight-text</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,28 +6,32 @@
    <elementGuidId>5048c663-00df-4ba8-8feb-c594c2d8442b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'sassy-btn sassy-btn-bg submit-receipt' and (text() = 'Create Receipt' or . = 'Create Receipt')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[5]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/receiving-note/create?id=27882d98-b735-40ae-901e-66c0d6f8cdbf</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container pdt-50&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;send-quotation clearfix&quot;]/div[@class=&quot;form-group clearfix&quot;]/div[@class=&quot;quick-details&quot;]/div[@class=&quot;details-row&quot;]/div[@class=&quot;save-actions flex-pull-right&quot;]/a[@class=&quot;sassy-btn sassy-btn-bg submit-receipt&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div/div[2]/div/div[2]/div[2]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

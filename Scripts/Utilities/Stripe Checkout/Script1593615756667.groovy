@@ -15,15 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Page/Stripe1/input_Email'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Page/Stripe 2/textbox_email'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe1/input_Email'), 'arcadierteam@gmail.com')
+WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe 2/textbox_email'), 'arcadierteam@gmail.com')
 
-WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe1/input_Card number'), '4242424242424242')
+WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe 2/textbobx_card number'), '4242424242424242')
 
-WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe1/input_Expiry'), '0130')
+WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe 2/textbox_expiration'), '0130')
 
-WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe1/input_CVC'), '111')
+WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe 2/textbobx_cvc'), '111')
 
-WebUI.click(findTestObject('CONSUMER/Payment Page/Stripe1/button_Pay'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('CONSUMER/Payment Page/Stripe 2/textbobx_name'), 'Arcadier')
+
+WebUI.click(findTestObject('CONSUMER/Payment Page/Stripe 2/button_pay'), FailureHandling.CONTINUE_ON_FAILURE)
 

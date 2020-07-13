@@ -34,7 +34,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/CONSUMER/AccountList_Buyer</testDataId>
+         <testDataId>Data Files/CONSUMER/Sub Buyer</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>ecad85f6-7f6f-41fa-870e-9b82fc321509</testDataLinkId>
@@ -44,9 +44,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>23707f38-836d-4047-b184-502a1480d1d7</guid>
+      <guid>f8089328-22dd-4846-83fc-2abc91333833</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+      <testCaseId>Test Cases/Utilities/CONSUMER/buyer logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

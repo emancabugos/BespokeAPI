@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Spot Data Driven</name>
+   <name>Spot Data Driven (Var)</name>
    <tag></tag>
    <comment>ITEM SEARCH
-Variants
 Item Details Page
 Get Variable
+Variants
 CART PAGE
 ONE PAGE CHECKOUT
 Get Global Variable

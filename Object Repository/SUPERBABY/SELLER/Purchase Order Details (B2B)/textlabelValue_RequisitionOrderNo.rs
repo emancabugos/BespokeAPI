@@ -6,14 +6,18 @@
    <elementGuidId>ae7ad5af-2a37-4b33-a7c3-ed13f88c9822</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div[1]/div/section[3]/div/div/div[1]/table/tbody/tr[2]/td/a/span</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Requisition Order No. :'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,18 +31,18 @@
       <value>highlight-text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>PR4920</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller page-sidebar page-purchase-order-details&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box box-order-total&quot;]/div[@class=&quot;sassy-box-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;canon-table&quot;]/tbody[1]/tr[2]/td[1]/a[1]/span[@class=&quot;highlight-text&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[1]/div/section[3]/div/div/div[1]/table/tbody/tr[2]/td/a/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
