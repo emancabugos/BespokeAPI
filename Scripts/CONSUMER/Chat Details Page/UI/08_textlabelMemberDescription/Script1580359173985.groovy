@@ -19,5 +19,5 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/i
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/textlabel_Description'))
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Chat Details Page - Buyer/textlabel_Description'), '')
+WebUI.verifyElementText(findTestObject('CONSUMER/Chat Details Page - Buyer/textlabel_Description'), 'google login')
 

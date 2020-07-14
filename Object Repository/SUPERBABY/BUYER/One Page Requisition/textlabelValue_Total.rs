@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='review-container']/div/div[2]/div/div/table/tbody/tr/td[4]/span[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div/div[4]/div[1]/span[2]/div/span[3]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,18 +31,18 @@
       <value>priceAmount</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> 43,000.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review-container&quot;)/div[@class=&quot;panel-box active&quot;]/div[@class=&quot;panel-box-content clearfix&quot;]/div[@class=&quot;pcc-left pull-left pdc-inputs review-tab&quot;]/div[@class=&quot;cb-content&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;text-right&quot;]/span[@class=&quot;priceAmount&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div/div[4]/div[1]/span[2]/div/span[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

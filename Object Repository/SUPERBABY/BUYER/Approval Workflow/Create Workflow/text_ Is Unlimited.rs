@@ -6,11 +6,15 @@
    <elementGuidId>97a38e8e-dbe3-4c76-8ca7-bddb400b8c6e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '  Is Unlimited' or . = '  Is Unlimited')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

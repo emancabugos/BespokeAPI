@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
-    WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 2, FailureHandling.OPTIONAL) == true){
+    WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'))
 } else {
     WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 }

@@ -18,6 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_AddACategory'))
 
@@ -29,7 +33,7 @@ WebUI.setText(findTestObject('ADMIN/Categories/Category/textfield_Category Name'
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/dropdown_Parent'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/dropdown_Parent'))
 

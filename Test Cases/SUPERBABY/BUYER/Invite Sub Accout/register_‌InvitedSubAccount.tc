@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>register_‌InvitedSubAccount</name>
+   <tag></tag>
+   <comment>Register Page</comment>
+   <testCaseGuid>3d8472fc-5d4f-418e-8031-02895f3ef80f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a736ba4f-6618-4d96-8950-d87caafe9912</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>72dffdb9-7ba8-4a36-9e97-db954d699765</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ba936ef6-2952-4c44-aa90-bf571f9e914a</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7e37a47d-8342-402f-8554-1063a801441a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cf623914-344f-4d98-9f42-0d542606d3b7</id>
+      <masked>false</masked>
+      <name>emailNotification</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>67552508-81cc-4b18-873a-8d867792f590</id>
+      <masked>false</masked>
+      <name>emailPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1a1e5ef8-ffd2-4eb7-b058-ffbc98f3acb9</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+</TestCaseEntity>

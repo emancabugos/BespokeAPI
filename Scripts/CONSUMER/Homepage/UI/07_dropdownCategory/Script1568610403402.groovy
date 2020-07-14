@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_language'), 0)
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/button_language'))
 

@@ -22,7 +22,5 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/filter_Sup
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/checkbox_SelectAllSupplier'), 0)
 
 'search Supplier\r\n'
-WebUI.setText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/search_Supplier'), '')
-
-WebUI.waitForElementPresent(findTestObject(null), 0)
+WebUI.setText(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/search_Supplier'), 'diana')
 

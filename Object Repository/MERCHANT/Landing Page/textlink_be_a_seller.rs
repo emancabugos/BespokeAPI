@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/a[count(. | //a[(text() = 'BE A SELLER' or . = 'BE A SELLER')]) = count(//a[(text() = 'BE A SELLER' or . = 'BE A SELLER')])]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/ul/li[1]/a[count(. | //a[(text() = 'BE A SELLER' or . = 'BE A SELLER')]) = count(//a[(text() = 'BE A SELLER' or . = 'BE A SELLER')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/a</value>
+      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/ul/li[1]/a</value>
    </webElementProperties>
 </WebElementEntity>

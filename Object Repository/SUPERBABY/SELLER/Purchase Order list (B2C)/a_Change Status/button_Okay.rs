@@ -4,10 +4,16 @@
    <name>button_Okay</name>
    <tag></tag>
    <elementGuidId>394f4b9f-86ad-4a7b-a703-69950db64161</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[4]/div/div[3]/input[count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -49,11 +55,11 @@
       <value>Okay</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;popup-area order-itemstatus-popup&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;btn-area text-center&quot;]/input[@class=&quot;my-btn btn-saffron&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div[4]/div/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

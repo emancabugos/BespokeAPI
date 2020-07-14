@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Nego Data Driven (Var)</name>
+   <tag></tag>
+   <comment>ITEM SEARCH
+Item Details Page
+Get Variable
+Click Nego</comment>
+   <testCaseGuid>728a02d9-86a4-4105-96f4-7d71f72cfc17</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Nego)')</defaultValue>
+      <description></description>
+      <id>9c080872-c080-4924-b618-8472944f486a</id>
+      <masked>false</masked>
+      <name>negoStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Nego)')</defaultValue>
+      <description></description>
+      <id>002b1c38-400f-4112-8088-e133821cc3a8</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Nego)')</defaultValue>
+      <description></description>
+      <id>4f4da3b1-b9ac-44b4-85ac-240d2eca5199</id>
+      <masked>false</masked>
+      <name>itemQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Nego)')</defaultValue>
+      <description></description>
+      <id>acacd04d-8236-45c4-989c-00aa77e960c6</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Nego)')</defaultValue>
+      <description></description>
+      <id>2e934c68-030d-4980-a9ee-417075290810</id>
+      <masked>false</masked>
+      <name>orderstatus</name>
+   </variable>
+</TestCaseEntity>

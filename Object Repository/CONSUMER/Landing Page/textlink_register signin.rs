@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/accounts/non-private/sign-in' and (text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/a[count(. | //a[(text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')]) = count(//a[(text() = 'REGISTER/SIGN IN' or . = 'REGISTER/SIGN IN')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -32,5 +32,12 @@
       <name>text</name>
       <type>Main</type>
       <value>REGISTER/SIGN IN</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/a</value>
    </webElementProperties>
 </WebElementEntity>

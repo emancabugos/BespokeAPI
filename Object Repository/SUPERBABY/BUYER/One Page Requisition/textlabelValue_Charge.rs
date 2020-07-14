@@ -11,24 +11,24 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'item-price']</value>
+         <value>/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[2]/div/span/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>item-price</value>
+      <value>item-price deliveryCost</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,11 +38,11 @@
       <value> 0.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delivery-container&quot;)/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box mobile_layout&quot;]/div[@class=&quot;toggler_area&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text2&quot;]/span[2]/div[@class=&quot;item-price deliveryCost&quot;]/span[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[2]/div/span/span[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

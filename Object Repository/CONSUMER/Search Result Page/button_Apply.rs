@@ -4,10 +4,16 @@
    <name>button_Apply</name>
    <tag></tag>
    <elementGuidId>005f1d39-61be-431c-a509-c16520484387</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn-blue' and (text() = 'Apply' or . = 'Apply')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-blue apply-filter-button</value>
+      <value>btn-blue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

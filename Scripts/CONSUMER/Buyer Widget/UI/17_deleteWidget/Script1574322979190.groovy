@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '10')
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '10')
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Page_0106UN/a_Compare'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Delete/button_DeleteComparison'), 0)
 

@@ -4,10 +4,16 @@
    <name>button_collasePay</name>
    <tag></tag>
    <elementGuidId>2551b8b9-80b3-4cae-b00c-ca4a91b5043b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div[3]/div/div[1]/div/div/span/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;requisition-container&quot;)/div[@class=&quot;panel-box&quot;]/div[@class=&quot;sc-upper panel-box-title&quot;]/div[@class=&quot;sc-u sc-u-mid full-width&quot;]/div[@class=&quot;bl_dark light&quot;]/span[@class=&quot;sc-text-big&quot;]/i[@class=&quot;tog-icon angle2&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[3]/div/div[1]/div/div/span/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

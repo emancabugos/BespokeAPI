@@ -6,11 +6,15 @@
    <elementGuidId>41f9bc71-ac7b-4931-982d-cae804bc0a6c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'startTime' and @id = 'time-received' and @placeholder = 'HH:MM']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='time-received']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

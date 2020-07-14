@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/policy/return-policy' and (text() = 'Return Policy' or . = 'Return Policy')]</value>
+         <value>//*[@href = '/policy/privacy-policy' and (text() = 'Privacy Policy' or . = 'Privacy Policy')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/policy/return-policy</value>
+      <value>/policy/privacy-policy</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Return Policy</value>
+      <value>Privacy Policy</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

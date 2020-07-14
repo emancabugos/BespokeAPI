@@ -13,19 +13,19 @@
    <testCaseLink>
       <guid>aee7701d-034a-4dc3-a631-7d7c617d1a60</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9c6abf24-e64c-405f-b098-4f5234896eb5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Payments and Transactions/Transaction List/UI Verification/goTo Transaction List</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a108a867-1cac-44bd-b68a-195e6c1d8b28</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Payments and Transactions/Transaction Details Page/UI Verification/goTo Transaction Details Page</testCaseId>
    </testCaseLink>
    <testCaseLink>

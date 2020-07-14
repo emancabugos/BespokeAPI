@@ -97,4 +97,10 @@
          <variableId>27a4543f-7470-4959-a28a-645d3e2472c6</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8479f035-c6c8-4cef-9471-6ebb02241321</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

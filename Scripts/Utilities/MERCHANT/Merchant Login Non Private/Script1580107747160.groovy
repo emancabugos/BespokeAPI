@@ -34,14 +34,8 @@ if (GlobalVariable.MerchantAccountType == 'custom') {
 
     WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), GlobalVariable.CustomPass)
 
-    if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
-        WebUI.waitForElementVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
+    WebUI.callTestCase(findTestCase('Utilities/Accept Cookies'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-        WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
-    } else {
-        WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-    }
-    
     WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 } else if (GlobalVariable.MerchantAccountType == 'google') {
     WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/button_GoogleLogin'), 0)

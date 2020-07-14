@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[3]/div[3]/div[count(. | //div[(text() = 'Link Account' or . = 'Link Account')]) = count(//div[(text() = 'Link Account' or . = 'Link Account')])]</value>
+         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[2]/div[3]/div[count(. | //div[@class = 'btn-blue']) = count(//div[@class = 'btn-blue'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,15 +22,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[3]/div[3]/div</value>
+      <value>btn-blue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>Link Account</value>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[1]/ul/li[2]/div[3]/div</value>
    </webElementProperties>
 </WebElementEntity>

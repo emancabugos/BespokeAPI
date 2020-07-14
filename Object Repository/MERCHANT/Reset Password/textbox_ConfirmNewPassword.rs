@@ -4,10 +4,16 @@
    <name>textbox_ConfirmNewPassword</name>
    <tag></tag>
    <elementGuidId>a5de6979-106c-4546-ab05-4369586e7c5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'password' and @name = 'reconfirm_password' and @placeholder = 'Confirm New Password']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,7 +34,7 @@
       <value>input-text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -39,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ConfirmNewPassword</value>
+      <value>reconfirm_password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Confirm Password</value>
+      <value>Confirm New Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

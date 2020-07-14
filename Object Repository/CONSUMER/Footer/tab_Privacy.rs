@@ -4,6 +4,12 @@
    <name>tab_Privacy</name>
    <tag></tag>
    <elementGuidId>39ef6121-db2f-47da-a761-133182b7d08a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/policy/privacy-policy' and (text() = 'Privacy Policy' or . = 'Privacy Policy')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Privacy</value>
+      <value>Privacy Policy</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

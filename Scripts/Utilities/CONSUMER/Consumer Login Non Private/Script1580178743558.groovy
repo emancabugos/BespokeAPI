@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/linktext_Register'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/linktext_Register'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('CONSUMER/Homepage/linktext_Register'))
 
 if (GlobalVariable.ConsumerAccountType == 'custom') {
     WebUI.delay(1)
@@ -34,12 +34,12 @@ if (GlobalVariable.ConsumerAccountType == 'custom') {
 
     WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), GlobalVariable.CustomPass)
 
-    if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
+    if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 2, FailureHandling.OPTIONAL) == true) {
         WebUI.waitForElementVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
 
-        WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'))
     } else {
-        WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.delay(1)
     }
     
     WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))

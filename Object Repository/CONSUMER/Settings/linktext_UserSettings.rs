@@ -4,10 +4,16 @@
    <name>linktext_UserSettings</name>
    <tag></tag>
    <elementGuidId>8a2f3c1f-eb05-43ed-9255-dcb17d69202e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div/div/div[1]/p[2][count(. | //*[@href = '/user/marketplace/user-settings' and (text() = 'User Settings' or . = 'User Settings')]) = count(//*[@href = '/user/marketplace/user-settings' and (text() = 'User Settings' or . = 'User Settings')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,10 +34,10 @@
       <value>User Settings</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNM1H22I6FG&quot;)/div[@class=&quot;settings-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;h-parent-child-txt full-width&quot;]/p[@class=&quot;active&quot;]/a[1]</value>
+      <value>//div[2]/div/div/div[1]/p[2]</value>
    </webElementProperties>
 </WebElementEntity>

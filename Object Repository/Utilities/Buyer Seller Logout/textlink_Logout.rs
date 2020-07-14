@@ -13,7 +13,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[3]/ul/form/li/a</value>
+      <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/ul[@class=&quot;h-dd-menu hide-me&quot;]/form[1]/li[1]/a[@id=&quot;signout-form&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
