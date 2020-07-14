@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_Announcements'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_Announcements'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_Announcements'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_Announcements'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('ADMIN/Announcement/header_Announcements'), 0)
 

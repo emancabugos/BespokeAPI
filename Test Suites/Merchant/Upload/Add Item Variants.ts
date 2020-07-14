@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>598847ee-b3c7-4a2d-a62c-d34a8daa4194</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -100,7 +100,7 @@
    <testCaseLink>
       <guid>8479f035-c6c8-4cef-9471-6ebb02241321</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

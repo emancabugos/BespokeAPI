@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_Configuration'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_Configuration'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_Configuration'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_Configuration'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_FeatureToogle'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/submenu_FeatureToogle'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_FeatureToogle'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_FeatureToogle'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/New Features Control/textlabel_AdminVetting'), 0)
 

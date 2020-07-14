@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_EmailNotifications'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/menu_EmailNotifications'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_EmailNotifications'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_EmailTemplate'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/ADMIN/Admin New Sidebar/submenu_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('ADMIN/Email Notifications/Welcome Mail/icon_Infotext'), 0)
 
