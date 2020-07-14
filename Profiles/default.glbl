@@ -4,6 +4,8 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+<<<<<<< HEAD
+=======
    <GlobalVariableEntity>
       <description>Change to: test, staging, live</description>
       <initValue>'https://www.test.arcadier.io'</initValue>
@@ -109,4 +111,5 @@
       <initValue>'custom'</initValue>
       <name>MerchantAccountType</name>
    </GlobalVariableEntity>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 </GlobalVariableEntities>
