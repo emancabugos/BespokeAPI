@@ -21,7 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_language'), 0)
 
-WebUI.scrollToElement(findTestObject('CONSUMER/Homepage/textlabel_Categories'), 0)
-
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/textlabel_Categories'))
 

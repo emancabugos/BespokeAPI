@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>650bd4df-da95-4b76-8874-2d51443205fd</testSuiteGuid>
    <testCaseLink>
       <guid>a43a5a7b-e6a1-4706-91e4-a4ab575b25aa</guid>
@@ -33,12 +34,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>60554bcd-0fce-499c-894b-01bce0a05db9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/Simple/search_UnavailableItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>da3abad7-7bf6-499b-afe8-62ea043a1bf9</guid>

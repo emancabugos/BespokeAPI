@@ -26,7 +26,7 @@ WebUI.comment('ITEM SEARCH')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), (itemName + ' ') + GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), '')
 
 WebUI.sendKeys(findTestObject('CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -339,7 +339,11 @@ if (negoStatus == 'AcceptedFixed') {
 
     WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE) //Adds # of days
+    //Adds # of days
+    //Adds # of days
+    //Adds # of days
+    //Adds # of days
 } else if (negoStatus == 'AcceptedPrcnt') {
     WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login Non Private'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -371,8 +375,7 @@ if (negoStatus == 'AcceptedFixed') {
 
     c.setTime(new Date())
 
-    c.add(Calendar.DATE, 2 //Adds # of days
-        )
+    c.add(Calendar.DATE, 2)
 
     String FDATE = sdf.format(c.getTime())
 
@@ -401,10 +404,7 @@ if (negoStatus == 'AcceptedFixed') {
 
     WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE //Adds # of days
-        //Adds # of days
-        //Adds # of days
-        )
+    WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login Non Private'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -700,8 +700,7 @@ if (negoStatus == 'AcceptedFixed') {
 
     c.setTime(new Date())
 
-    c.add(Calendar.DATE, 2 //Adds # of days
-        )
+    c.add(Calendar.DATE, 2)
 
     String FDATE = sdf.format(c.getTime())
 

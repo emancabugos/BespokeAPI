@@ -26,7 +26,7 @@ WebUI.comment('ITEM SEARCH')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), (itemName + ' ') + GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
 
 WebUI.sendKeys(findTestObject('CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -56,7 +56,7 @@ def itemSubTotal = WebUI.getText(findTestObject('CONSUMER/Item Details Page/text
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.comment('Variants')
+/*WebUI.comment('Variants')
 
 if (itemVariants == 'yes') {
     WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var1'), 'Blue', false)
@@ -99,12 +99,14 @@ if (itemVariants == 'yes') {
 
     def subtotal = intprice * intquantity
 }
-
+*/
 WebUI.comment('CART PAGE')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddToCart'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/icon_ViewCart'))
 

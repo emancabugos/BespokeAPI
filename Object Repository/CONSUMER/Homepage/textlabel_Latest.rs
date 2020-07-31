@@ -4,10 +4,16 @@
    <name>textlabel_Latest</name>
    <tag></tag>
    <elementGuidId>df0af3fc-d1cc-4f95-aa15-ac7817fa991a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Latest' or . = 'Latest')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -9,10 +9,27 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+
+WebUI.waitForElementPresent(findTestObject('CONSUMER/Homepage/button_Search'), 0)
+
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('CONSUMER/Footer/linktext_ABOUT'), 0)
+
+WebUI.click(findTestObject('CONSUMER/Homepage/button_ViewMoreCategories'))
+
+WebUI.waitForElementPresent(findTestObject('CONSUMER/Search Result Page/button_GridView'), 0)
+
+WebUI.verifyTextPresent('Search', false)
+
+WebUI.back()
+
+WebUI.refresh()
+
+WebUI.verifyTextPresent('View More', false)
 

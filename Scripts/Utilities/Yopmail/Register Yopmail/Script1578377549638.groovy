@@ -19,23 +19,15 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('yopmail.com')
+WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Yopmail/textbox_login'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), 0)
 
-WebUI.setText(findTestObject('Utilities/Yopmail/textbox_login'), varNotif)
+WebUI.click(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'))
 
-WebUI.click(findTestObject('Utilities/Yopmail/button_checkinbox'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Yopmail/button_create'), 0)
-
-WebUI.click(findTestObject('Utilities/Yopmail/button_create'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.comment('Register Page')
-
-WebUI.delay(2)
-
-WebUI.switchToWindowIndex(1)
+WebUI.click(findTestObject('CONSUMER/Onboarding/button_SignUp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Seller Register Page/textbox_username'), 0)
 
@@ -49,5 +41,8 @@ WebUI.setText(findTestObject('MERCHANT/Seller Register Page/textbox_notif email'
 
 WebUI.click(findTestObject('MERCHANT/Seller Register Page/button_Sign Up'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), 0)
+WebUI.delay(3)
+
+//WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Profile/button_Change'), 0)
+WebUI.closeBrowser()
 

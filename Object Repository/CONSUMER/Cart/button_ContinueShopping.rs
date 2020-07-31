@@ -6,12 +6,12 @@
    <elementGuidId>6fab6f93-8165-4cbe-9229-b03488d28dec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div[5]/div/div[2]/div[2]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Continue Shopping' or . = 'Continue Shopping')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'btn-continue' and (text() = 'Continue Shopping' or . = 'Continue Shopping')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div[5]/div/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

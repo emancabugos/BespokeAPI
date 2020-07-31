@@ -6,12 +6,12 @@
    <elementGuidId>5f2ab026-b878-4ef4-aca9-4343582d67f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/div/div[3]/div/div[2]/div/a/div[1]/img</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//img[@alt = 'NEW item 5' and @title = 'NEW item 5']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div[1]/a/div[1]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

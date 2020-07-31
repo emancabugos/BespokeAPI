@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_language'), 0)
+WebUI.waitForElementPresent(findTestObject('CONSUMER/Homepage/button_language'), 0)
 
 WebUI.scrollToElement(findTestObject('CONSUMER/Footer/linktext_ABOUT'), 0)
 

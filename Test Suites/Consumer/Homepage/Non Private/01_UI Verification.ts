@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>1_UI Verification</name>
+   <name>01_UI Verification</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>edmar@arcadier.com;eman@arcadier.com;april@arcadier.com;</mailRecipient>
@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>9bd643e6-03b2-44d4-8ffe-6237ae81d273</testSuiteGuid>
    <testCaseLink>
       <guid>7d6848dc-6241-48ad-abb2-cee6b3f94911</guid>
@@ -165,6 +166,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Homepage/UI/25_imageInstagram</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c909148-653e-4d8e-a70b-c85d268a375e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Homepage/UI/26_displayedCategory</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cde9370-8e25-4047-b58e-1340136643ad</guid>

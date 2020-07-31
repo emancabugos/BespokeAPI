@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6bb5b076-6ffe-4297-bf2a-d1494a3067b2</testSuiteGuid>
    <testCaseLink>
       <guid>5538d968-a7fd-4a90-9cd3-b74e7dcad5dc</guid>
@@ -20,13 +21,13 @@
       <guid>76aa1230-416f-4089-824b-b504ae9aeb25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/Simple/redirection_Cart</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Homepage/Simple/27_redirectionCart</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7c990217-fe0a-4a3a-85bb-d9b1eade44bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Homepage/Simple/redirection_Inbox</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Homepage/Simple/28_redirection_Inbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f62e462a-9fb5-4cb6-b2f2-4727f46cbe52</guid>
