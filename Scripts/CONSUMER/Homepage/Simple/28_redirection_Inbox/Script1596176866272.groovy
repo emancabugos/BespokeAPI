@@ -9,25 +9,24 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Search Exact Item Name')
+WebUI.waitForElementPresent(findTestObject('CONSUMER/Homepage/icon_Inbox'), 0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_ViewMoreCategories'), 0)
+WebUI.click(findTestObject('CONSUMER/Homepage/icon_Inbox'))
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
+WebUI.waitForElementPresent(findTestObject('CONSUMER/Inbox/textfield_Search'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
-
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemName)
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Inbox/textfield_Search'), 0)
 
 WebUI.back()
 
 WebUI.refresh()
+
+WebUI.verifyTextPresent('Category 01', false)
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>search_itemsOfUnavailableSeller</name>
+   <name>34_redirectionItem</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>111da275-9108-4736-a00f-99e695693758</testCaseGuid>
+   <testCaseGuid>3fee8626-f8c6-4c41-a5aa-49d630e5199c</testCaseGuid>
 </TestCaseEntity>

@@ -6,6 +6,10 @@
    <elementGuidId>940c08d5-7217-4568-9669-76b01ce8eda7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/cart']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='header-section']/div[2]/div/ul/li[3]/ul/li[2]/a/i</value>
       </entry>
@@ -20,7 +24,7 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -32,6 +36,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-section&quot;)/div[@class=&quot;header-bottom&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-extramenus&quot;]/ul[1]/li[@class=&quot;h-cart&quot;]/a[1]/i[@class=&quot;fa fa-shopping-cart&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cart</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

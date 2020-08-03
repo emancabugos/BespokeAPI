@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>search_AvailableItem</name>
+   <name>28_redirection_Inbox</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>57b582e1-dcfd-4221-bc24-1ec282c41330</testCaseGuid>
+   <testCaseGuid>8b7b08fc-42f3-45d5-9d60-a14d3401ea0c</testCaseGuid>
 </TestCaseEntity>

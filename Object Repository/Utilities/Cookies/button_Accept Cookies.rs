@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'cookie-btn' and (text() = 'Accept Cookies' or . = 'Accept Cookies')]</value>
+         <value>//a[@class = 'cookie-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -41,7 +41,7 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

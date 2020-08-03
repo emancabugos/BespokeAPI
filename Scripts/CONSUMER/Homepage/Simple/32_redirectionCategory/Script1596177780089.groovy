@@ -15,19 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Search Exact Item Name')
+WebUI.waitForElementPresent(findTestObject('CONSUMER/Homepage/button_Search'), 0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_ViewMoreCategories'), 0)
+WebUI.click(findTestObject('CONSUMER/Homepage/image_Category'))
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
+WebUI.waitForElementPresent(findTestObject('CONSUMER/Search Result Page/button_GridView'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.verifyTextPresent('Category 01', false)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/textlabel_SorryNoItemsFound'), 0)
+WebUI.back()
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/textlabel_SorryNoItemsFound'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.refresh()
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/textlabel_TrySearchNewItem'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/image_NoItemsFound'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyTextPresent('Category 01', false)
 

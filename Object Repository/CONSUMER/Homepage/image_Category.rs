@@ -4,10 +4,16 @@
    <name>image_Category</name>
    <tag></tag>
    <elementGuidId>452c5b6b-996f-48fc-8286-90cd27892ceb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/a/div/div[count(. | //*[@class = 'background-image-holder']) = count(//*[@class = 'background-image-holder'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,10 +27,10 @@
       <value>background-image-holder</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLPO3ESJE3OO&quot;)/div[1]/div[1]/div[@class=&quot;category-list-outer&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 col-sm-6 col-xs-12 xs-mb-15&quot;]/a[@class=&quot;category-box&quot;]/div[@class=&quot;img-box&quot;]/div[@class=&quot;background-image-holder&quot;]</value>
+      <value>//div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/a/div/div</value>
    </webElementProperties>
 </WebElementEntity>

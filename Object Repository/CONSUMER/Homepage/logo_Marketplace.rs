@@ -6,15 +6,15 @@
    <elementGuidId>e6d95cc0-df53-444f-bda9-59c8ef6fc6b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[3]/div[2]/div/ul/li[1]/a/img</value>
       </entry>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//div[2]/div/ul/li[1]/a/img</value>
+         <value>//div[1]/div[1]/div[2]/div/ul/li[1]/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div/ul/li[1]/a/img</value>
+      <value>//div[1]/div[1]/div[2]/div/ul/li[1]/a/img</value>
    </webElementProperties>
 </WebElementEntity>

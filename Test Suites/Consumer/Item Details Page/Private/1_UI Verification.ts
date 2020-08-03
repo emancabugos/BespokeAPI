@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>d85edbd9-5770-43f9-b76d-c21834143c3e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0af701c9-fd5e-4213-a2c2-af6249d0c5fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Search Result Page/select_Item</testCaseId>
    </testCaseLink>
    <testCaseLink>
