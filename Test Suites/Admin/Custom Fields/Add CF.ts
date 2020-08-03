@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>15391ae6-9efe-4715-8577-16d96f44bc3c</testSuiteGuid>
    <testCaseLink>
       <guid>c8f13e7b-8163-4fa4-bde1-8cd02191ea54</guid>
@@ -19,7 +20,7 @@
    <testCaseLink>
       <guid>7d13c248-a281-4895-9b8c-64519103d2b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Redirection</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_checkoutItem</name>
+   <tag></tag>
+   <comment>ITEM SEARCH
+Item Details Page
+Get Variable
+CART PAGE
+ONE PAGE CHECKOUT
+Get Global Variable
+Payment
+Pay Now</comment>
+   <testCaseGuid>141d688a-a674-49e7-929c-b40e70aeca2a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>776a08f4-6cb1-4ab5-8a4d-cc4e011ddd9e</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>b168ada2-119e-4cd8-a73d-9c939ad0fe43</id>
+      <masked>false</masked>
+      <name>itemQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>d4e630f4-c113-45ee-b31e-73435423cecb</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>db606605-78c5-4aad-9242-ac0851b7caf5</id>
+      <masked>false</masked>
+      <name>orderStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Country(Spot)')</defaultValue>
+      <description></description>
+      <id>40fd5f59-8b58-4d81-b751-0736e3488155</id>
+      <masked>false</masked>
+      <name>delMethod</name>
+   </variable>
+</TestCaseEntity>

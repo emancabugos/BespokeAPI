@@ -6,12 +6,12 @@
    <elementGuidId>f93bdfac-ee38-4f08-afdb-986bf2be1422</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[5]/div/select[count(. | //select[@class = 'order-item-status-popup']) = count(//select[@class = 'order-item-status-popup'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::select[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[5]/div/select[count(. | //select[@class = 'order-item-status-popup']) = count(//select[@class = 'order-item-status-popup'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
