@@ -4,10 +4,16 @@
    <name>textlabel_PriceRange</name>
    <tag></tag>
    <elementGuidId>67c6a047-3e1b-459b-b62a-c172d1456b8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Price Range' or . = 'Price Range')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

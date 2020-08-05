@@ -20,7 +20,7 @@ WebUI.waitForElementPresent(findTestObject('CONSUMER/Homepage/icon_ViewCart'), 0
 
 WebUI.click(findTestObject('CONSUMER/Homepage/icon_ViewCart'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_ContinueShopping'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_ContinueShoppingEmpty'), 0)
 
 WebUI.verifyElementPresent(findTestObject('CONSUMER/Cart/linktext_MyCart'), 0)
 

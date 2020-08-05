@@ -19,7 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/domainUpDown_Quantity'), 0)
-
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_Previous'))
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41_sortByNameAscending</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4db977b-baf7-41a8-afbe-eb908e0d2d28</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e9744ec3-1c62-43ae-9fbf-b624c8a8e982</id>
+      <masked>false</masked>
+      <name>itemResultAscending</name>
+   </variable>
+</TestCaseEntity>

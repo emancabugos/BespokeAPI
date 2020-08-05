@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>a_navigateToItemDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5ce5192-68a4-4f81-b0bf-b563f5c6b606</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c1c36835-3e3d-43ac-9e9e-8218ec8eb621</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

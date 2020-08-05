@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/ul[@class=&quot;h-dd-menu hide-me&quot;]/li[3]/a[1][count(. | //*[@href = '/accounts/change-password' and (text() = 'Reset Password' or . = 'Reset Password')]) = count(//*[@href = '/accounts/change-password' and (text() = 'Reset Password' or . = 'Reset Password')])]</value>
+         <value>//div[1]/div[1]/div[1]/div/div/ul/li[3]/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,24 +20,24 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/accounts/change-password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Reset Password</value>
+      <value>Change Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/ul[@class=&quot;h-dd-menu hide-me&quot;]/li[3]/a[1]</value>
+      <value>//div[1]/div[1]/div[1]/div/div/ul/li[3]/ul/li[3]/a</value>
    </webElementProperties>
 </WebElementEntity>

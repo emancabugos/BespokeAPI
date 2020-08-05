@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>47_addMulitpleListName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c8abd92-2f52-4d6b-bcf1-ad263decff92</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>796d0c49-70c5-473c-81a1-1c6018f82da1</id>
+      <masked>false</masked>
+      <name>listNameList</name>
+   </variable>
+</TestCaseEntity>

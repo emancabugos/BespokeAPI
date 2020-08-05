@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value></value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div/div/div[4]/div/div[2]/div[1]/div[2]/div[2]/span[3]/span[2]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -24,6 +28,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[4]/div/div[2]/div[1]/div[2]/div[2]/span[3]/span[2]</value>
+      <value>//div[1]/div[2]/div/div/div[4]/div/div[2]/div[1]/table/tbody/tr/td[3]</value>
    </webElementProperties>
 </WebElementEntity>

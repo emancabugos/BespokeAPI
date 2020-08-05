@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>navigate_MerchantStorefront</name>
+   <tag></tag>
+   <comment>Search Item Name</comment>
+   <testCaseGuid>9819ffce-733c-4956-b407-57fbc44618cd</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bc87475d-6bb0-4257-bd76-9404179bc9fe</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

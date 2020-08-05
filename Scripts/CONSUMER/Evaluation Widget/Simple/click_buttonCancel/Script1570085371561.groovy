@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_Cancel'), 0)
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_Cancel'), FailureHandling.CONTINUE_ON_FAILURE)
 

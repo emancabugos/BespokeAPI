@@ -25,9 +25,9 @@ WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), varItemName)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'), 0)
+WebUI.waitForElementPresent(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 

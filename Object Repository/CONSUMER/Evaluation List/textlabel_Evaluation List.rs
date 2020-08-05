@@ -4,6 +4,12 @@
    <name>textlabel_Evaluation List</name>
    <tag></tag>
    <elementGuidId>3a7ce5b3-446b-4fb7-8778-846a2843cd66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'My Comparison Table' or . = 'My Comparison Table')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Evaluation List</value>
+      <value>My Comparison Table</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
