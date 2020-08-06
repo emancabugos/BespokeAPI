@@ -10,7 +10,11 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
+<<<<<<< HEAD
    <testSuiteGuid>8239f564-db5d-4a62-8257-54f43ba4bcd7</testSuiteGuid>
+=======
+   <testSuiteGuid>44cb457c-9e4d-4572-af29-af828419d12b</testSuiteGuid>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
    <testCaseLink>
       <guid>2df1e436-1a8f-4331-807b-d4a97da68709</guid>
       <isReuseDriver>false</isReuseDriver>

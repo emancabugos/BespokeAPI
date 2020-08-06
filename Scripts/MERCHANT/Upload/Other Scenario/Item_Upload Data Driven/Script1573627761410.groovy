@@ -37,7 +37,7 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_V
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/textfield_ListingName'), varListingName)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/textfield_ListingName'), varListingName + " " + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 

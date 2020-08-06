@@ -4,8 +4,6 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-<<<<<<< HEAD
-=======
    <GlobalVariableEntity>
       <description>Change to: test, staging, live</description>
       <initValue>'https://www.test.arcadier.io'</initValue>
@@ -13,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0713bp02'</initValue>
+      <initValue>'0406bpdel2'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -48,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'superbabyb2b02.rachrah.com/admin'</initValue>
+      <initValue>'https://0406bpdel2.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'superbabyb2b02.rachrah.com'</initValue>
+      <initValue>'arcstaging.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'astagingseller02'</initValue>
+      <initValue>'unmerchant'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -73,12 +71,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'dianasbacct@gmail.com'</initValue>
+      <initValue>'arcadier.tester1@gmail.com'</initValue>
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'astagingbuyer01'</initValue>
+      <initValue>'buyer_april'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,5 +109,4 @@
       <initValue>'custom'</initValue>
       <name>MerchantAccountType</name>
    </GlobalVariableEntity>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 </GlobalVariableEntities>
