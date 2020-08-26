@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>navigate_OnePageCheckout</name>
+   <tag></tag>
+   <comment>Search Item Name</comment>
+   <testCaseGuid>bd8c85b7-ee39-4841-b416-0bbc9966d50b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9b2a517f-4d31-4bc6-8bcc-3520f7ae59cb</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//input[@value='Payment 2']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[6]/div[1]/div/div/table/tbody/tr/td[1]/input</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-terms&quot;)/tbody[1]/tr[@class=&quot;item-6842db56-0c85-ea11-81b0-000d3aa147ac&quot;]/td[1]/input[@class=&quot;form-control&quot;]</value>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[6]/div[1]/div/div/table/tbody/tr/td[1]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

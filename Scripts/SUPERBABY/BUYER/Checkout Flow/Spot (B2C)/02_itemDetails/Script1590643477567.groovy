@@ -33,6 +33,10 @@ def itemName = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabe
 
 CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'itemName', itemName)
 
+def itemDescription = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_DescriptionValue'))
+
+CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'itemDescription', itemDescription)
+
 def currencyCode = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_CurrencyCode'))
 
 CustomKeywords.'globalVariable.GlobalVariableUpdater.updatePermanently'('Item Details', 'currencyCode', currencyCode)

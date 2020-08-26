@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div/div[3]/div/div/a[count(. | //a[@class = 'cookie-btn']) = count(//a[@class = 'cookie-btn'])]</value>
+         <value>//a[@class = 'cookie-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,7 +48,7 @@
       <value>Accept Cookies</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

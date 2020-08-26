@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='Payment']/div[4]/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[4]/div[2]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Payment&quot;)/div[@class=&quot;settings-button&quot;]/div[@class=&quot;btn-add pull-right payment-next&quot;]</value>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[5]/div[4]/div[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

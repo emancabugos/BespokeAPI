@@ -4,6 +4,12 @@
    <name>breadcrumbs_Evaluation List</name>
    <tag></tag>
    <elementGuidId>f66664e2-3411-4544-9097-bb0e6034e8c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'My Comparison Table' or . = 'My Comparison Table')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Evaluation List</value>
+      <value>My Comparison Table</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_pending</name>
+   <tag></tag>
+   <comment>Seller Inbox &amp; Chat Details
+Create Quotation Page
+Sent Quotation</comment>
+   <testCaseGuid>450996c5-2254-4c00-ad74-353bf67fbd47</testCaseGuid>
+</TestCaseEntity>

@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation List/breadcrumbs_Home'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation List/Delete Popup/button_Delete'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation List/Delete Popup/delete icon'))
 

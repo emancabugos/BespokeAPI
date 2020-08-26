@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>selectAll_PaymentDue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b128dde5-3a60-49d6-98b3-9bf5298a9b5f</testCaseGuid>
+</TestCaseEntity>

@@ -3,6 +3,7 @@
    <description></description>
    <name>02_itemDetails</name>
    <tag></tag>
-   <comment>Item Details Page</comment>
+   <comment>Item Details Page
+Get Variable</comment>
    <testCaseGuid>af0cc1f8-e1ad-4ed4-a9ce-45338079aa3a</testCaseGuid>
 </TestCaseEntity>

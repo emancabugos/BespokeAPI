@@ -23,6 +23,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+WebUI.waitForElementClickable(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), 0)
+
 WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), 0)
 
 WebUI.click(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)

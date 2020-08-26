@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='modalRemove']/div/div/div/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Are you sure want to delete this item?' or . = 'Are you sure want to delete this item?')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Are you sure want to delete?</value>
+      <value>Are you sure want to delete this item?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

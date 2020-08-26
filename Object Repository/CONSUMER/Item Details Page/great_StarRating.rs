@@ -6,8 +6,11 @@
    <elementGuidId>da206236-d43a-4343-8a1c-01134c80c964</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div[1]/div/div[2]/div[4]/div/div[2]/table/tbody/tr[2]/td[1]/span[count(. | //*[@class = 'stars']) = count(//*[@class = 'stars'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +20,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div[4]/div/div[2]/table/tbody/tr[2]/td[1]/span</value>
+      <value>//div[1]/div[2]/div[1]/div/div[2]/div[4]/div/div[2]/table/tbody/tr[2]/td[1]/span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>stars</value>
    </webElementProperties>
 </WebElementEntity>

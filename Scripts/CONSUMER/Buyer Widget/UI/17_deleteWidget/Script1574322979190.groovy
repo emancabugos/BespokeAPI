@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Page_0106UN/a_Compare'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_Compare'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Delete/button_DeleteComparison'), 0)
 

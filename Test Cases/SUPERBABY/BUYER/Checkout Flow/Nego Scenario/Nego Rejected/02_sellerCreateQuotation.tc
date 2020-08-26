@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_sellerCreateQuotation</name>
+   <tag></tag>
+   <comment>Inbox &amp; Chat Details
+Create Quotation Page
+Sent Quotation</comment>
+   <testCaseGuid>0c76b64d-773d-442f-a951-cc5149636fe7</testCaseGuid>
+</TestCaseEntity>

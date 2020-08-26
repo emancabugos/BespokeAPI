@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'more-btn']</value>
+         <value>//div[1]/div[2]/div/div[2]/div/div/div[2]/div[5]/div[count(. | //*[(text() = 'View More' or . = 'View More')]) = count(//*[(text() = 'View More' or . = 'View More')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,24 +27,31 @@
       <value>/user/search/?keywords=&amp;categoryid=</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>more-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>View More</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLPO3ESJE3OO&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;latest-item-list&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;vew-more-btn text-center&quot;]/a[@class=&quot;more-btn&quot;]</value>
+      <value>//div[1]/div[2]/div/div[2]/div/div/div[2]/div[5]/div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>viewMoreCat</value>
    </webElementProperties>
 </WebElementEntity>

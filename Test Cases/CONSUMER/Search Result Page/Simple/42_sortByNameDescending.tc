@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42_sortByNameDescending</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a5202fb-dfae-4710-bd68-ca656a68b7b3</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>09a618a6-cc9f-4d31-91df-28ca456f8f96</id>
+      <masked>false</masked>
+      <name>itemResultDescending</name>
+   </variable>
+</TestCaseEntity>

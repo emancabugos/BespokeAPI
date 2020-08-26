@@ -6,6 +6,10 @@
    <elementGuidId>d9bf8987-b0b4-4f89-9205-da99ebadf428</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div[1]/div/div[2]/div[4]/div/div[1]/div[1]/div[1]/span[count(. | //*[@class = 'stars']) = count(//*[@class = 'stars'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div[2]/div/div[2]/div[2]/span</value>
       </entry>
@@ -20,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-top preview-image full-width&quot;]/div[@class=&quot;idctl-desc&quot;]/div[@class=&quot;item-rating&quot;]/span[@class=&quot;stars&quot;]</value>
+      <value>//div[1]/div[2]/div[1]/div/div[2]/div[4]/div/div[1]/div[1]/div[1]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

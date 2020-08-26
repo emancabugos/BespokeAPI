@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/sidemenu_configuration'), 0)
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/sidemenu_configuration'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Categories'), 0)
 

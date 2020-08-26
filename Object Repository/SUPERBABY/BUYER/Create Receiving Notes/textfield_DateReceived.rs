@@ -6,11 +6,15 @@
    <elementGuidId>d94de6ef-4f55-4c86-af18-bc8ca1f6f2a3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'date-received' and @id = 'date-received' and @placeholder = 'DD/MM/YYYY']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='date-received']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

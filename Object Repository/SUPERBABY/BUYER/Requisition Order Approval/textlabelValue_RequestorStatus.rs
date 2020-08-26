@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div[2]/div/section/div/div/div[2]/table/tbody/tr[2]/td</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pending' or . = 'Pending')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

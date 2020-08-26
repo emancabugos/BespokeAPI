@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='modalRemove']/div/div/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'fa fa-trash']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-gray btndeletepopup</value>
+      <value>fa fa-trash</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <value>modal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

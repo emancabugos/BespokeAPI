@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/sidemenu_configuration'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Categories'), 0)
 
@@ -79,7 +79,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/textl
 
 WebUI.comment('Translate Here icon - navigation')
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/sidemenu_configuration'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Categories'), 0)
 
@@ -93,7 +93,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/textl
 
 WebUI.comment('Need help with categories? hyperlink responsiveness')
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/sidemenu_configuration'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Categories'), 0)
 

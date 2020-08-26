@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0313st01'</initValue>
+      <initValue>'0406bpdel2'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0601sb1.staging.arcadier.io/admin'</initValue>
+      <initValue>'https://0406bpdel2.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0601sb1.staging.arcadier.io'</initValue>
+      <initValue>'arcstaging.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arctestseller_d1'</initValue>
+      <initValue>'unmerchant'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'dianasbacct@gmail.com'</initValue>
+      <initValue>'arcadier.tester1@gmail.com'</initValue>
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

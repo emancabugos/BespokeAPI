@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_checkoutItem</name>
+   <tag></tag>
+   <comment>ITEM SEARCH
+Item Details Page
+Get Variable
+Variants
+CART PAGE
+ONE PAGE CHECKOUT
+Get Global Variable
+Payment
+Pay Now</comment>
+   <testCaseGuid>3728325f-d213-46f8-9f8e-a094885f2d75</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>b3f67a20-b1f0-486c-98e5-5b9a920ce932</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>dc5143c7-0f0b-4ca2-9372-308a4d1f61aa</id>
+      <masked>false</masked>
+      <name>itemVariants</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>6b62a813-841b-44dc-a76a-a851c761a69b</id>
+      <masked>false</masked>
+      <name>itemQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>2c059da0-9840-4c75-b97c-262b4b0c42c5</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>4478ecd4-0f33-4397-be6c-d842332d6c8b</id>
+      <masked>false</masked>
+      <name>orderStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>e0d3e443-dc13-4985-80be-1a0729db9d87</id>
+      <masked>false</masked>
+      <name>delMethod</name>
+   </variable>
+</TestCaseEntity>

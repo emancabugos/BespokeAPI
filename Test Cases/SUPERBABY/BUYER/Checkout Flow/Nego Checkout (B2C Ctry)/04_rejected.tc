@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_rejected</name>
+   <tag></tag>
+   <comment>Seller Inbox &amp; Chat Details
+Create Quotation Page
+Sent Quotation</comment>
+   <testCaseGuid>e57374c1-397b-408f-9622-1464fc6712b1</testCaseGuid>
+</TestCaseEntity>

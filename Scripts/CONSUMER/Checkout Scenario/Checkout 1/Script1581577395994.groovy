@@ -65,7 +65,7 @@ WebUI.click(findTestObject('CONSUMER/Homepage/icon_ViewCart'))
 
 WebUI.comment('Cart Page')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_ContinueShopping'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_ContinueShoppingEmpty'), 0)
 
 WebUI.delay(1)
 

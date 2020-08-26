@@ -19,8 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Verify Out of Stock value is displayed'
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
-
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/value_outStock'))
 

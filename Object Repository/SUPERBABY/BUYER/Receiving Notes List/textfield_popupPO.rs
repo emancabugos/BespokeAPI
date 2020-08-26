@@ -6,11 +6,15 @@
    <elementGuidId>c46b8c88-b5b6-41d9-9e26-2096a9a97d35</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'metric_affected' and @name = 'metric_affected' and @placeholder = 'PO Number']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='metric_affected']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

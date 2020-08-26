@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='Paymentterms']/div[2]/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'btn-add pull-right save-payment-terms' and (text() = 'Save' or . = 'Save')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

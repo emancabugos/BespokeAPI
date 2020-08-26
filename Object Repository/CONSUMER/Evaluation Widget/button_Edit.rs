@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class = 'add-comp-list-btn' and @type = 'button']</value>
+         <value>//button[@class = 'add-comp-list-btn white' and @type = 'button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>add-comp-list-btn</value>
+      <value>add-comp-list-btn white</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,10 +4,16 @@
    <name>column_Payment Status</name>
    <tag></tag>
    <elementGuidId>3bacc655-bea3-4ef5-adb0-031ee3b653b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Payment Status' or . = 'Payment Status')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
