@@ -21,15 +21,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Redirection</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>12397337-8f3a-471b-9cbf-9c165ebc2293</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ADMIN/Custom Field List</testDataId>
-      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2b2f91ae-8b1b-4048-b422-bbe5e1411363</guid>
@@ -43,7 +34,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Custom Field List</testDataId>
+         <testDataId>Data Files/ADMIN/Category List</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>b69f108d-5e60-4fa7-bbcd-da7d7be423ed</testDataLinkId>

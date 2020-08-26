@@ -13,19 +13,19 @@
    <testCaseLink>
       <guid>61dbdaeb-ac30-4d41-9106-053d300b638e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1fcce9f6-4793-4dfd-a9bb-8315762cb1a3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Buyer Widget/goto_ItemDetails</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>322fbb87-0744-4420-83b6-84f474b51548</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Evaluation Widget/Simple/additem_EvaluationWidget</testCaseId>
    </testCaseLink>
    <testCaseLink>

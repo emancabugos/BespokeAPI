@@ -13,8 +13,17 @@
    <testCaseLink>
       <guid>b4f5af9b-ca0b-422e-a2e8-07b1b386d7e2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>047cade2-f2e3-473d-bf73-c05bb99d781a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/buyerData</testDataId>
+      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>26d36947-088b-449c-9c33-3255bc7c302e</guid>
