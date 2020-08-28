@@ -9,18 +9,25 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>15391ae6-9efe-4715-8577-16d96f44bc3c</testSuiteGuid>
    <testCaseLink>
       <guid>c8f13e7b-8163-4fa4-bde1-8cd02191ea54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7d13c248-a281-4895-9b8c-64519103d2b4</guid>
       <isReuseDriver>false</isReuseDriver>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Redirection</testCaseId>
+<<<<<<< HEAD
+=======
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>12397337-8f3a-471b-9cbf-9c165ebc2293</id>
@@ -30,6 +37,11 @@
          </iterationEntity>
          <testDataId>Data Files/ADMIN/Custom Field List</testDataId>
       </testDataLink>
+=======
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
    </testCaseLink>
    <testCaseLink>
       <guid>2b2f91ae-8b1b-4048-b422-bbe5e1411363</guid>
@@ -43,7 +55,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Custom Field List</testDataId>
+         <testDataId>Data Files/ADMIN/Category List</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>b69f108d-5e60-4fa7-bbcd-da7d7be423ed</testDataLinkId>

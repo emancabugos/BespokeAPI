@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>32_addMulitpleItemsOnWidget</name>
+   <tag></tag>
+   <comment>Search Item Name</comment>
+   <testCaseGuid>f8e4279d-4981-47c6-8d60-f695183c4f6c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>887dff10-c24d-4a8a-a0e8-bd681b66f484</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

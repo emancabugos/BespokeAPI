@@ -25,9 +25,9 @@ WebUI.click(findTestObject('CONSUMER/Search Result Page/button_Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'))
+WebUI.click(findTestObject('null'))
 
 MOQValue = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_MOQValue'))
 

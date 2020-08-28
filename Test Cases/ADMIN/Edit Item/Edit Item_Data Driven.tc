@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Item_Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b2aa51a-702f-4dee-8d14-49f96d747c2c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>7a5b8044-23dd-4304-80f6-74eb8fbbb8f8</id>
+      <masked>false</masked>
+      <name>Categories</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>bcf96dff-78bd-419d-ab9c-6165a2fed932</id>
+      <masked>false</masked>
+      <name>ItemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>93914b91-c218-453b-a511-2b78b651c9d4</id>
+      <masked>false</masked>
+      <name>SKU</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>7bd808d9-afd6-40b1-8a7c-d42bfdde95ac</id>
+      <masked>false</masked>
+      <name>Quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>ab2c079e-7aa5-4bc8-ba1a-b2fe28ae7779</id>
+      <masked>false</masked>
+      <name>textfield_NM1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>38d94d7a-a3cb-4b4f-9a8e-add7dbac3cd2</id>
+      <masked>false</masked>
+      <name>textfield_NM2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>58d64323-18ad-43c2-87b2-1f767475d902</id>
+      <masked>false</masked>
+      <name>textfield_HyperlinkNM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>c51178ec-e097-4ef7-a244-edb73a70b1f7</id>
+      <masked>false</masked>
+      <name>textfield_EmailNM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>046bafe3-dc68-4400-980d-e6436b1cc7a7</id>
+      <masked>false</masked>
+      <name>textfield_NumberNM1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>4e5daf53-fba6-445d-87dc-c71fa1876a6d</id>
+      <masked>false</masked>
+      <name>textfield_PercentageNM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>dd33e797-0845-4de8-99a8-9183c4e281ec</id>
+      <masked>false</masked>
+      <name>variable_5</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Edit Item')</defaultValue>
+      <description></description>
+      <id>08f73b75-afee-4325-8b81-9aa39caa8d0f</id>
+      <masked>false</masked>
+      <name>variable_6</name>
+   </variable>
+</TestCaseEntity>

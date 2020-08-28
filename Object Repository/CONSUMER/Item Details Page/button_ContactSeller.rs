@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='negotiate']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'blue-ico-link']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,25 +24,25 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-group contact-btn</value>
+      <value>blue-ico-link</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>negotiate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Contact Seller</value>
+      <value>Contact Supplier</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

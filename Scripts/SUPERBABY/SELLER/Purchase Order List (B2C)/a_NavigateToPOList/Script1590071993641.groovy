@@ -19,11 +19,11 @@ WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdow
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdown_menu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), 0)
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Seller'), 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Orders'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabel_PurchaseOrderHistory'), 
     0)

@@ -22,11 +22,9 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.comment('Search Item 01')
-
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemName)
+WebUI.delay(0)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 

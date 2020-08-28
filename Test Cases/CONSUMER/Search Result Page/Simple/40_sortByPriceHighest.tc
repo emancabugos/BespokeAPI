@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>40_sortByPriceHighest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4ced43e-bcc6-45e1-b616-df07679d9525</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>46284faf-0be9-485b-ae3c-07476c37f302</id>
+      <masked>false</masked>
+      <name>itemResultHighest</name>
+   </variable>
+</TestCaseEntity>

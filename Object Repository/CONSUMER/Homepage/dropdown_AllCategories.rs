@@ -6,12 +6,12 @@
    <elementGuidId>c650a18d-ed59-4e0c-9d8f-6ab2ed624eb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='header-section']/div[2]/div/ul/li[2]/div/div[2]/select</value>
+         <key>BASIC</key>
+         <value>//div[1]/div[1]/div[2]/div/ul/li[2]/div/div[2]/select</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[2]/div/ul/li[2]/div/div[2]/select[count(. | //select[(text() = 'All CategoriesCategory 01Category 02Category 03Category 04Category 05Category 06Category 07Category 08Category 09Category 10Category 11Category 12Category 13Category 14Category 15Category 16Category 17Category 18Category 19Category 20Category Name mAx 021!!@#$%^&amp;!Category EDITED' or . = 'All CategoriesCategory 01Category 02Category 03Category 04Category 05Category 06Category 07Category 08Category 09Category 10Category 11Category 12Category 13Category 14Category 15Category 16Category 17Category 18Category 19Category 20Category Name mAx 021!!@#$%^&amp;!Category EDITED')]) = count(//select[(text() = 'All CategoriesCategory 01Category 02Category 03Category 04Category 05Category 06Category 07Category 08Category 09Category 10Category 11Category 12Category 13Category 14Category 15Category 16Category 17Category 18Category 19Category 20Category Name mAx 021!!@#$%^&amp;!Category EDITED' or . = 'All CategoriesCategory 01Category 02Category 03Category 04Category 05Category 06Category 07Category 08Category 09Category 10Category 11Category 12Category 13Category 14Category 15Category 16Category 17Category 18Category 19Category 20Category Name mAx 021!!@#$%^&amp;!Category EDITED')])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='header-section']/div[2]/div/ul/li[2]/div/div[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div/ul/li[2]/div/div[2]/select</value>
+      <value>//div[1]/div[1]/div[2]/div/ul/li[2]/div/div[2]/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

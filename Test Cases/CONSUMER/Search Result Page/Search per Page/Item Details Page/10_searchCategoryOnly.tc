@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10_searchCategoryOnly</name>
+   <tag></tag>
+   <comment>Search Category Only</comment>
+   <testCaseGuid>9c5d09df-c0a2-46e9-95f8-28acb3424735</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ba487b3c-4444-4d47-a01f-e684e1dae1b5</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b8528ab5-d918-4ce8-bb2d-121406f38701</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

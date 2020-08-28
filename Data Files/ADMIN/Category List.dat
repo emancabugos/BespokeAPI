@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>6ccaa116-a7a1-43a6-a85e-00ed376c5fde</dataFileGUID>
-   <dataSourceUrl>C:\Katalon\BespokeAPI\Data Files\Test Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ARCADIER01\Desktop\Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Admin Category</sheetName>
+   <sheetName>AllCustomField</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

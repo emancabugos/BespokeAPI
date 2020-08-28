@@ -30,6 +30,10 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), 0)
 
+WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'))
+
+WebUI.waitForElementNotVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
+
 WebUI.click(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_searchCustomField</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc20fd80-f9f4-4784-a55b-7281e3101760</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ccd7f704-73e7-487e-8cc6-5c58ba077e07</id>
+      <masked>false</masked>
+      <name>itemCustomField</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e6cfb371-1a2a-4002-a395-e07c0d8b8515</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

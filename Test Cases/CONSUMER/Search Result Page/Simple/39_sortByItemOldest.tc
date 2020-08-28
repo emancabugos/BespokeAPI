@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39_sortByItemOldest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71eb4208-6e79-46a7-87ae-d4007770edf9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7be19ce4-0af8-4152-bf15-2862a72e0518</id>
+      <masked>false</masked>
+      <name>itemResultOldest</name>
+   </variable>
+</TestCaseEntity>

@@ -27,7 +27,7 @@ import org.openqa.selenium.WebElement as WebElement
 //WebUI.delay(5)
 //WebElement element = WebUiCommonHelper.findWebElement(findTestObject('CONSUMER/Homepage/button_Search'), 30)
 //WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
-//WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'), 0)
+//WebUI.waitForElementVisible(findTestObject('null'), 0)
 //WebUI.delay(2)
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Merchant Storefront/img_img-responsive'), 0)
 

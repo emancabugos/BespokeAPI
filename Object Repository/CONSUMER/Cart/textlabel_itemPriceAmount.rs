@@ -7,7 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div/div/div[4]/div/div[2]/div[1]/table/tbody/tr/td[5]/span[3][count(. | //span[@class = 'priceAmount']) = count(//span[@class = 'priceAmount'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +27,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[4]/div/div[2]/div[1]/div[2]/div[1]/span[3]</value>
+      <value>//div[1]/div[2]/div/div/div[4]/div/div[2]/div[1]/table/tbody/tr/td[5]/span[3]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

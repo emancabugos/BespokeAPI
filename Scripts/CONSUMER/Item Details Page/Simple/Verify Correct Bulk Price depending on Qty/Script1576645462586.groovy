@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'item02')
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/Item02/Item Name_Item02'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_Description'), 0)
 

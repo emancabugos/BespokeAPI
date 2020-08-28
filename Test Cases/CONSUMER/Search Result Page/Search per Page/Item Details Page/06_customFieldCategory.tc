@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06_customFieldCategory</name>
+   <tag></tag>
+   <comment>Search Exact Custom Field with Category</comment>
+   <testCaseGuid>cc76e8ef-17de-4946-bf37-29808497cfd4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6c7abca6-589a-411b-97e2-a4812a3d46c8</id>
+      <masked>false</masked>
+      <name>itemCustomField</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d0951c77-26b8-42a0-8aef-8bf3654aae95</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4c1d0e5d-6cb2-4542-8eea-6b3a72f69e42</id>
+      <masked>false</masked>
+      <name>itemNameCategory</name>
+   </variable>
+</TestCaseEntity>

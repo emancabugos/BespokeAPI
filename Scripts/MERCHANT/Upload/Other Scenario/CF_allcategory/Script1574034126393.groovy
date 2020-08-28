@@ -65,7 +65,7 @@ WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/Allcat/time2
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/Allcat/video1'), '<iframe width="640" height="480" src="https://www.youtube.com/embed/GsbOwc_hWcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
 
-WebUI.uploadFile(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/pdf1'), 'C:\\Users\\Arcadier\\git\\Trillia\\Images\\PDF\\1mb.pdf')
+WebUI.uploadFile(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/pdf1'), 'C:\\Katalon\\BespokeAPI\\Images\\PDF\\1mb.pdf')
 
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/Allcat/cb3.1'), FailureHandling.CONTINUE_ON_FAILURE)
 

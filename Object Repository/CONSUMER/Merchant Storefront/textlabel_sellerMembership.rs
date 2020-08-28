@@ -4,6 +4,12 @@
    <name>textlabel_sellerMembership</name>
    <tag></tag>
    <elementGuidId>56c50287-2f6a-43d3-bcda-ce20a4f78444</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[2]/div/div/div[1]/div[2]/ul/li</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLR7RMIJS0O7&quot;)/div[@class=&quot;store-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;store-detail-box&quot;]/div[@class=&quot;store-description&quot;]/ul[@class=&quot;count-detial&quot;]/li[1]</value>
+      <value>//div[1]/div[2]/div/div/div[1]/div[2]/ul/li</value>
    </webElementProperties>
 </WebElementEntity>

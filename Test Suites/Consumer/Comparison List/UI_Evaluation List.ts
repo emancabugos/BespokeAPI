@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>33fdc9b0-458c-4dbf-ab7b-47872f8644ad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>75434759-aa85-482c-8643-0160df99ec71</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Evaluation List/Simple/click_Evaluationbutton</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[1]/div/span[3]</value>
+         <value>/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[1]/div/span[3][count(. | //span[@class = 'priceAmount']) = count(//span[@class = 'priceAmount'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,11 +24,11 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>item-price subTotal</value>
+      <value>priceAmount</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
