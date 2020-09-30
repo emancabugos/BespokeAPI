@@ -15,5 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/New Item List/dd_pagination'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/New Item List/sidemenu_Items'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/ADMIN/New Item List/sidemenu_Items'), FailureHandling.CONTINUE_ON_FAILURE)
 
