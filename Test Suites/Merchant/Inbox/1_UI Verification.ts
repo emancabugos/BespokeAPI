@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>d717362d-9ce8-43a1-b937-2fe549a54d7b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Private</testCaseId>
    </testCaseLink>
    <testCaseLink>

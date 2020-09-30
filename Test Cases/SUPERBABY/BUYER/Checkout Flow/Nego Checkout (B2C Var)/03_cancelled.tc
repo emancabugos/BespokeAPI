@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_cancelled</name>
+   <tag></tag>
+   <comment>Create Quotation Page
+Sent Quotation</comment>
+   <testCaseGuid>904c3a71-2a37-4056-ad93-1d1b85f14d69</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_buyerPurchaseDetails</name>
+   <tag></tag>
+   <comment>Buyer PO Details
+Verify PO Details</comment>
+   <testCaseGuid>3d996b7d-770e-482f-a7d7-4d19be5f4c0f</testCaseGuid>
+</TestCaseEntity>

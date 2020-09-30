@@ -4,6 +4,12 @@
    <name>value_Merchants_17</name>
    <tag></tag>
    <elementGuidId>73661ab3-e799-4c6b-90c4-399e350f43c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'total_merchants_found']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>total_merchants_found</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

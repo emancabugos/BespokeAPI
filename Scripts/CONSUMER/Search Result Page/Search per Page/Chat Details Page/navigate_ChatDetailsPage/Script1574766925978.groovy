@@ -37,6 +37,8 @@ WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
 
+WebUI.click(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat Details Page - Buyer/textarea_SendMessage'), 0)

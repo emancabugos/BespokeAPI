@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC050_Stocks verification</name>
+   <tag></tag>
+   <comment>get stocks after successful checkout</comment>
+   <testCaseGuid>f0cbda20-ce81-46e2-8c6f-65b05956b4aa</testCaseGuid>
+</TestCaseEntity>

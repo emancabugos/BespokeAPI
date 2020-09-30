@@ -6,21 +6,25 @@
    <elementGuidId>61038c57-0ec1-49c4-af75-f7279ce3cc53</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[6]/div/select</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>l-p-0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -46,11 +50,11 @@
                                             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller purchase-order-history page-sidebar&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main footer_fixed&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;subaccount-data-table&quot;]/table[@class=&quot;table order-data sub-account clickable&quot;]/tbody[1]/tr[@class=&quot;account-row&quot;]/td[@class=&quot;no-click&quot;]/div[@class=&quot;select-wrapper&quot;]/select[@class=&quot;l-p-0&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[6]/div/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

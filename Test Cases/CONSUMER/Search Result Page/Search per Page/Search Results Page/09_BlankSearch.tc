@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09_BlankSearch</name>
+   <tag></tag>
+   <comment>Search Category Only</comment>
+   <testCaseGuid>9f2a402e-32f2-490e-81b1-be4b5a0c5a9b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1bf98a0e-60e6-4505-b472-378589eff22d</id>
+      <masked>false</masked>
+      <name>itemNameRecent</name>
+   </variable>
+</TestCaseEntity>

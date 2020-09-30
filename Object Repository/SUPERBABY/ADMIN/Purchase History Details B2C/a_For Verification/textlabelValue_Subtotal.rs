@@ -4,10 +4,16 @@
    <name>textlabelValue_Subtotal</name>
    <tag></tag>
    <elementGuidId>1dda585b-cc08-4aac-b3c2-bd3c13d0d8aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/section[3]/div/div/div[3]/table/tbody/tr[1]/td[2]/span/span[3]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div[2]/div/div/div/section[2]/table/tbody/tr/td[5]/span</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/section[3]/div/div/div[3]/table/tbody/tr[1]/td[2]/span/span[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -4,6 +4,12 @@
    <name>textlabel_ListName</name>
    <tag></tag>
    <elementGuidId>6727f1fa-12cd-4aff-bf15-48b3db99ef53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Comparison Table Name' or . = 'Comparison Table Name')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>List Name</value>
+      <value>Comparison Table Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

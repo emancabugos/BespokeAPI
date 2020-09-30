@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>var3</name>
+   <tag></tag>
+   <elementGuidId>29447568-f952-46be-a395-df7a38406284</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[3]/span[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[3]/span[2]/select</value>
+   </webElementProperties>
+</WebElementEntity>

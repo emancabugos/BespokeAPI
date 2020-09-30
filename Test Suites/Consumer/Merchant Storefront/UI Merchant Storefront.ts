@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>a3c4260d-faeb-47b3-af44-18df80825591</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>

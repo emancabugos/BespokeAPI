@@ -4,6 +4,14 @@
    <name>div_Invite Merchant</name>
    <tag></tag>
    <elementGuidId>97b8e314-8e55-40f7-98fe-a69b7ea58d43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'btn-demo-seller' and (text() = '
+                Invite Merchant ' or . = '
+                Invite Merchant ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +22,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -40,9 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-            Invite Merchant 
-            
-        </value>
+                Invite Merchant </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

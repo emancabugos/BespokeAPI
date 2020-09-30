@@ -4,10 +4,16 @@
    <name>button_close</name>
    <tag></tag>
    <elementGuidId>c45735ff-2b91-4730-b6be-63adfb5e111f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@aria-hidden = 'true' and (text() = '×' or . = '×')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

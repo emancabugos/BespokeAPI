@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC036_Admin Transaction List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfc0126a-3c46-4ec9-95c8-d73c51a7403d</testCaseGuid>
+</TestCaseEntity>

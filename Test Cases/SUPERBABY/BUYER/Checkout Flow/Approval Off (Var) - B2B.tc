@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Approval Off (Var) - B2B</name>
+   <tag></tag>
+   <comment>ITEM SEARCH
+Variants
+Item Details Page
+Get Variable
+CART PAGE
+ONE PAGE CHECKOUT
+Get Global Variable
+Complete Transaction
+Buyer PO Details
+Verify PO Details
+Create GR
+Change Status
+End of Change Status Code
+Invoice
+Pay Invoice</comment>
+   <testCaseGuid>a624f50d-4fc4-4d2d-905a-46364c875ccb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>7a8daea1-2877-4d39-9198-753028b03aaa</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>8aff35be-7e2b-42a4-a0b7-be12c823169e</id>
+      <masked>false</masked>
+      <name>itemVariants</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>6419ecfa-3275-45ce-bebc-4ddeb62fd9b6</id>
+      <masked>false</masked>
+      <name>itemQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>ce7b0253-fc47-4392-9117-6d31b9252ddc</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Checkout Variants(Spot)')</defaultValue>
+      <description></description>
+      <id>8e391365-71cb-4bc7-83e8-83460a912ac6</id>
+      <masked>false</masked>
+      <name>orderstatus</name>
+   </variable>
+</TestCaseEntity>

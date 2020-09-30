@@ -4,35 +4,41 @@
    <name>value_InvoiceNo</name>
    <tag></tag>
    <elementGuidId>a9be2994-835b-4110-8da8-834aa7ce2f1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/invoice/detail/0407BPT1589847860B56L</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>0407BPT1589847860B56L</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;subaccount-data-table table-responsive&quot;]/table[@class=&quot;table order-data1 sub-account tbl-department&quot;]/tbody[1]/tr[@class=&quot;account-row&quot;]/td[1]/a[1]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c532efa0-719f-4dee-b64b-51dc8e3bdfa4</testSuiteGuid>
    <testCaseLink>
       <guid>a25d5f5c-db0c-4169-b7ec-ffa25bd21c19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Private</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a764977d-99e6-495b-bcb4-93cd32672e69</guid>

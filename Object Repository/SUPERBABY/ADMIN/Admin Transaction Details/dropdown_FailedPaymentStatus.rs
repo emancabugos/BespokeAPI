@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_FailedPaymentStatus</name>
+   <tag></tag>
+   <elementGuidId>10bb1e7e-2e4f-4517-8bc9-7d8cf7d92874</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CreatedProcessingAcknowledge' or . = 'CreatedProcessingAcknowledge') and @class = 'trigger-payment-status']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CreatedProcessingAcknowledge</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>trigger-payment-status</value>
+   </webElementProperties>
+</WebElementEntity>

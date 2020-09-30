@@ -3,7 +3,7 @@
    <description></description>
    <name>navigate_SearchResultPage</name>
    <tag></tag>
-   <comment>Search Item 01</comment>
+   <comment></comment>
    <testCaseGuid>1a5ae391-cf43-4f61-9cab-7d3d3fdcc5af</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

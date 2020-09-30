@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07_itemNamePartialCategory</name>
+   <tag></tag>
+   <comment>Search Partial Item Name with Category</comment>
+   <testCaseGuid>69a89deb-76b1-4d6f-90d3-ab44dfddfaf6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>71f611a1-31db-4241-a366-9ba58dabeac2</id>
+      <masked>false</masked>
+      <name>itemNamePartial</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9d7cede7-a347-4a2f-a556-48bbf74132d6</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>874c42e8-5f0f-4fba-92cf-9e17ea0c0379</id>
+      <masked>false</masked>
+      <name>itemNameCategory</name>
+   </variable>
+</TestCaseEntity>

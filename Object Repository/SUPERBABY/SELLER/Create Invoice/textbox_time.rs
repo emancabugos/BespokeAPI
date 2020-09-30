@@ -6,11 +6,15 @@
    <elementGuidId>f1cff90e-fe07-4dad-ba32-5b0036ee5298</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'payment-due-time' and @placeholder = 'HH:MM']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='payment-due-time']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

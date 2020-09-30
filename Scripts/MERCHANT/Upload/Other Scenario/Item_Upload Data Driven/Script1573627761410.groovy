@@ -37,7 +37,7 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_V
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/textfield_ListingName'), varListingName)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/textfield_ListingName'), varListingName + " " + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
@@ -83,8 +83,6 @@ if (varItemService == 'both') {
 } else if (varItemService == 'nego') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Spot Purchase_check-indicator'), 
         0)
-
-    WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Spot Purchase_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varItemService == 'spot') {
@@ -188,6 +186,25 @@ List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
 'To calculate no of rows In table'
 int rows_count = rows_table.size()
+
+WebUI.comment('SKU')
+
+if (varSKU == 'allcountries') {
+    WebUI.delay(1)
+} else if (varSKU == 'multiplecountries') {
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/SKU/PH'), 'SKU0001')
+
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/SKU/SG'), 'SKU0002')
+
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/SKU/MY'), 'SKU0003')
+} else if (varSKU == 'SingleCountry') {
+    for (int pos = 1; pos <= rows_count; pos++) {
+        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
+            pos) + ']/td[3]/input')
+
+        WebUI.setText(element, varMOQ)
+    }
+}
 
 WebUI.comment('MOQ')
 

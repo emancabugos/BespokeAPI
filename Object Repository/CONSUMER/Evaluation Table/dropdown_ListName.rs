@@ -4,6 +4,12 @@
    <name>dropdown_ListName</name>
    <tag></tag>
    <elementGuidId>4206f558-cc95-4ebd-803c-c64ad029f6a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'comparisonList']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>comparisons</value>
+      <value>comparisonList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +34,7 @@
       <value>Test_Edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

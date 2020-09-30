@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Checkout Flow (B2C) Country</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1a5c9976-02d8-4df8-9084-481b64c400e2</testSuiteGuid>
+   <testCaseLink>
+      <guid>e5de2540-cb9d-4d80-9de0-d240f38fa7b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot Checkout (B2C Ctry)/01_checkoutItem</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>26bd4744-c900-400b-a331-890a47d76fa1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/Checkout Country(Spot)</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>26bd4744-c900-400b-a331-890a47d76fa1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
+         <variableId>776a08f4-6cb1-4ab5-8a4d-cc4e011ddd9e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26bd4744-c900-400b-a331-890a47d76fa1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>quantity</value>
+         <variableId>b168ada2-119e-4cd8-a73d-9c939ad0fe43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26bd4744-c900-400b-a331-890a47d76fa1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>payment</value>
+         <variableId>d4e630f4-c113-45ee-b31e-73435423cecb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26bd4744-c900-400b-a331-890a47d76fa1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Order Status</value>
+         <variableId>db606605-78c5-4aad-9242-ac0851b7caf5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26bd4744-c900-400b-a331-890a47d76fa1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delivery</value>
+         <variableId>40fd5f59-8b58-4d81-b751-0736e3488155</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

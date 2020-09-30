@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Back</name>
+   <tag></tag>
+   <elementGuidId>1dca21d6-c170-4c86-9bc4-2f08756e4627</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div/div/ul/li[2]/div/ul/li/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-angle-left</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-angle-left</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;fixed-sidebar open&quot;]/div[@class=&quot;fs-content&quot;]/div[@class=&quot;fs-scroll&quot;]/div[@class=&quot;fsc-container&quot;]/div[@class=&quot;fsc-categories&quot;]/div[@class=&quot;fsc-ul-cat&quot;]/ul[@class=&quot;st-parent&quot;]/li[@class=&quot;selected&quot;]/div[1]/ul[@class=&quot;st-subcat hide-me&quot;]/li[@class=&quot;back&quot;]/div[1]/i[@class=&quot;fa fa-angle-left&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/ul/li[2]/div/ul/li/div/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/i</value>
+   </webElementXpaths>
+</WebElementEntity>

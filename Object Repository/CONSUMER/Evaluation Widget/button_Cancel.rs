@@ -4,10 +4,16 @@
    <name>button_Cancel</name>
    <tag></tag>
    <elementGuidId>d253fb71-248f-45c7-8e8b-47d865e70512</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Cancel' or . = 'Cancel')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>close-list-btn</value>
+      <value>close-list-btn </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +41,7 @@
       <value>Close</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

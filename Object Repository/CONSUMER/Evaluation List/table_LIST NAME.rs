@@ -4,10 +4,16 @@
    <name>table_LIST NAME</name>
    <tag></tag>
    <elementGuidId>a61388ea-ca2d-4254-9c09-ea89c61cdc18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'list-name']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +27,7 @@
       <value>30%</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -33,5 +39,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-comparison-list&quot;)/thead[1]/tr[1]/th[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-name</value>
    </webElementProperties>
 </WebElementEntity>

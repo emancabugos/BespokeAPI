@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_Checkout'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/checkbox_seller'), 0)
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Cart/checkbox_seller'))
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>38_sortByItemNewest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f229932-d9ee-4745-be32-391e273511e4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ea3ee9bc-4480-4e8e-a74f-c3a97ffafc86</id>
+      <masked>false</masked>
+      <name>itemResultNewest</name>
+   </variable>
+</TestCaseEntity>

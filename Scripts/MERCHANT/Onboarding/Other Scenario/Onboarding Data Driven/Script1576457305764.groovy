@@ -30,6 +30,10 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), 0)
 
+WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'))
+
+WebUI.waitForElementNotVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
+
 WebUI.click(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
@@ -39,6 +43,8 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_usern
 WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), varUsername)
 
 WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), 'welcome8')
+
+WebUI.callTestCase(findTestCase('Utilities/Accept Cookies'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 
@@ -106,19 +112,75 @@ WebUI.comment('PAYMENT')
 
 WebUI.delay(1)
 
+WebUI.comment('Stripe')
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/stripe/button_link stripe'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/stripe/button_link stripe'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/stripe/skip'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/stripe/skip'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/stripe/button_link stripe'), 0)
+
+WebUI.comment('COD')
+
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/COD/button_okay'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/COD/button_link account'), 0)
+
+WebUI.comment('Offline')
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/offline/button_link offline'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/offline/button_link offline'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/offline/button_save'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/offline/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/offline/button_link offline'), 0)
+
+WebUI.comment('Custom')
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/custom/button_link custom'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/custom/button_link custom'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/custom/button_okay custom'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Payment/custom/button_okay custom'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Payment/custom/button_link custom'), 0)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/User Settings/button_Next_Payment'), 0)
 
-WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/button_Next_Payment'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/button_Next_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.comment('PAYMENT')
+WebUI.comment('PAYMENT TERMS')
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/User Settings/linktext_Add Payment Term'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/button_dropdownMenu'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/linktext_Add Payment Term'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textfield_Name_Payment Term'), 'Payment Term Name')
+
+WebUI.setText(findTestObject('MERCHANT_UPDATE/User Settings/textfield_TermAndCondition'), 'Terms and Condition')
+
+WebUI.click(findTestObject('MERCHANT_UPDATE/User Settings/button_Save_PaymentTerm'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), 0)
+
+WebUI.click(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/SELLER/Seller Header/linktext_Logout'), 0)
 

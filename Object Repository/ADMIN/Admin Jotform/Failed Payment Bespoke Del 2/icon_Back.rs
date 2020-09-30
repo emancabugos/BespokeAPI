@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_Back</name>
+   <tag></tag>
+   <elementGuidId>001717bb-bd7d-456b-a5ce-25a2aedd5179</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-arrowleft</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HM0JRDPNHKER&quot;)/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;page-topnav&quot;]/a[@class=&quot;btn-back pull-left&quot;]/i[@class=&quot;icon icon-arrowleft&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM0JRDPNHKER']/div/div[2]/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

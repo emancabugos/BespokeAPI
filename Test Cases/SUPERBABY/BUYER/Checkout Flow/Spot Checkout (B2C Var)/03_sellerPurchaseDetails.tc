@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_sellerPurchaseDetails</name>
+   <tag></tag>
+   <comment>Change Status
+End of Change Status Code</comment>
+   <testCaseGuid>cf67579e-1124-4dee-9f08-28759ca2e989</testCaseGuid>
+</TestCaseEntity>

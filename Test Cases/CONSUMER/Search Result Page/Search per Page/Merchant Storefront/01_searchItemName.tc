@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_searchItemName</name>
+   <tag></tag>
+   <comment>Search Exact Item Name</comment>
+   <testCaseGuid>47278570-cbcf-4ab7-b820-b57a752c1cf6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2a60887a-84db-4881-b62a-0e056402c88a</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

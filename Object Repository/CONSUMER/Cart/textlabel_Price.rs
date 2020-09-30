@@ -6,12 +6,12 @@
    <elementGuidId>d3b3cadc-6428-441d-8840-e9fcc5cc2f72</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[1]/div[2]/div/div/div[4]/div/div[2]/div[1]/table/tbody/tr/td[5]/span[3]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[2]/div/div/div[5]/div/div[1]/span[2]/div/span[3][count(. | //*[@class = 'priceAmount']) = count(//*[@class = 'priceAmount'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[4]/div/div[2]/div[1]/table/tbody/tr/td[4]/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

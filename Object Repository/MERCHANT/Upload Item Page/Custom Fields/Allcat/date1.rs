@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@data-name = 'SP_Date / Time_Off_M1' and @class = 'datepicker-txt datepick datepicker']</value>
+         <value>//input[@data-name = 'SP_Date / Time_Off_M1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -62,7 +62,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

@@ -22,7 +22,7 @@ WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'item02')
 
 WebUI.sendKeys(findTestObject('CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/Item02/Item Name_Item02'))
+WebUI.click(findTestObject('null'))
 
 stockvaluesafter = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_TotalStocksValue'))
 

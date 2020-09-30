@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>a_navigateToCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e364ba39-e854-47a0-a2c6-49c4c18d3a60</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cc229d0a-6d00-472b-be91-a93c57495ac4</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ea785779-f0bd-40c8-ab59-ada2a8353b14</id>
+      <masked>false</masked>
+      <name>itemQty</name>
+   </variable>
+</TestCaseEntity>

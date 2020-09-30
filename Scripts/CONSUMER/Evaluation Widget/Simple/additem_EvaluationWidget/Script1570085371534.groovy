@@ -18,14 +18,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), 15)
+
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '5')
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '50')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
+WebUI.click(findTestObject('CONSUMER/Item Details Page/button_Compare'))
 
 WebUI.delay(2)
 

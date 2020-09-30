@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by Keyword with UserType</name>
+   <tag></tag>
+   <comment>Positive</comment>
+   <testCaseGuid>ffc0aebd-61ce-499f-833b-c16cac2e796a</testCaseGuid>
+</TestCaseEntity>

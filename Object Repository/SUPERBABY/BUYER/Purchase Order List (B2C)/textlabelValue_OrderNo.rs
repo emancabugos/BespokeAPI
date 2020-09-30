@@ -6,18 +6,18 @@
    <elementGuidId>fb5ffea1-0c59-485e-8a73-a6953348d0de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'PO24790')]</value>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'PO24790')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
+      <value>/html/body/div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[1]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

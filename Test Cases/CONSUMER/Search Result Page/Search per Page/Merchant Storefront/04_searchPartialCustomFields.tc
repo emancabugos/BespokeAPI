@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_searchPartialCustomFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca5b9a74-36ad-4857-aa38-8e86cdf9ee1f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f1e5f944-cd94-4533-84af-721720497539</id>
+      <masked>false</masked>
+      <name>itemCustomFieldPartial</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>58bfe2f7-2149-487d-8974-15f0b94a1c2d</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

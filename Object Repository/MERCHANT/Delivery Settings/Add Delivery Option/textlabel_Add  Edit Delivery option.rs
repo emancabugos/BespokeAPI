@@ -7,31 +7,31 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'h-title' and (text() = 'Add / Edit Delivery option' or . = 'Add / Edit Delivery option')]</value>
+         <value>//*[(text() = 'Add / Edit Shipping option' or . = 'Add / Edit Shipping option')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>h-title</value>
+      <value>sc-text-big</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add / Edit Delivery option</value>
+      <value>Add / Edit Shipping option</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

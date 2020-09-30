@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//img[@src = 'https://0123bpth1.test.arcadier.io/images/items/615391d5-61be-422e-a895-8dab28cfd66c-8k3lz62fmyitem7.jpg']</value>
+         <value>//*[@alt = 'thumbnail' and @classname = 'img-responsive']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,28 +17,28 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>https://0106un.test.arcadier.io/images/items/6ab69930-23c0-478a-8237-0820d9b2d7bf-g8j0qpcfccmaxresdefault-2-.jpg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>thumbnail</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>classname</name>
       <type>Main</type>
