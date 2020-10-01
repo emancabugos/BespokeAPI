@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>2c0dad5f-c607-4ec8-87da-28f47e02ae2c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot Checkout (B2C Var)/01_checkoutItem</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

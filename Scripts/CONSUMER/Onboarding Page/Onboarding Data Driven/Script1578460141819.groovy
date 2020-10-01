@@ -27,10 +27,6 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/textlink_regis
 
 WebUI.click(findTestObject('CONSUMER/Landing Page/textlink_register signin'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'))
-
-WebUI.waitForElementNotVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
-
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), 0)
 
 WebUI.delay(2)
