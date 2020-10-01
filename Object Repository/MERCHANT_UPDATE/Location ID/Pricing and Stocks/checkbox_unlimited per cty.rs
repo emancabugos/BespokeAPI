@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_unlimited per cty</name>
+   <tag></tag>
+   <elementGuidId>29e04076-2377-43c6-99bc-f175a2cd3acd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>temp-30617eed-9e06-4b6f-882b-7051e19cfb0b-ecf20dc2-d733-42c2-8825-b9eea3b94169-unlimited</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblPricing&quot;)/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/div[@class=&quot;variation_resultTable&quot;]/div[@class=&quot;resultTable&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;table-cell cell-stock-limit&quot;]/div[@class=&quot;fancy-checkbox checkbox-sm black-checkbox&quot;]/label[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblPricing']/tbody/tr/td/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[6]/div/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody/tr/td[6]/div/label</value>
+   </webElementXpaths>
+</WebElementEntity>

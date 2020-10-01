@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Location_ID cty</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Item Service
+Item Cover Image
+Item Description
+Custom Fields
+Country
+SKU
+MOQ
+Stock
+Bulk Pricing
+Price
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>f25276f0-b76a-4db4-9060-c1db73b9e652</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>5ba6878c-b750-40b2-b75e-e2dadb45cf92</id>
+      <masked>false</masked>
+      <name>varListingName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>0ceebd23-6e2a-4775-8559-82b00e405a53</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>2fde7fb0-cf2e-4b33-85fc-9035de647ae9</id>
+      <masked>false</masked>
+      <name>varItemService</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>895c8146-8f65-4ff1-b4dc-ec92a9c82073</id>
+      <masked>false</masked>
+      <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>df4157d3-77c5-4998-88af-42c67fac4c9f</id>
+      <masked>false</masked>
+      <name>varDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>af6b3e9a-3056-4c35-8c71-df6c376b011b</id>
+      <masked>false</masked>
+      <name>varDeliversTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>fe0e8900-d321-40de-9495-350a9cc29d01</id>
+      <masked>false</masked>
+      <name>varSKU</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>8d4b6e48-50d6-4350-a277-43bad2527497</id>
+      <masked>false</masked>
+      <name>varMOQ</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>8a0d19aa-b5d7-40a3-8a6a-853a58ca7576</id>
+      <masked>false</masked>
+      <name>varStock</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>e3bc3bcd-5335-4b4c-a683-9fbfba72738c</id>
+      <masked>false</masked>
+      <name>varPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>dc57d680-38d4-42a5-a6d9-7438a506a259</id>
+      <masked>false</masked>
+      <name>varBulkPricing</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>e6061553-3849-4f93-b4c6-6e4560b7616a</id>
+      <masked>false</masked>
+      <name>varDiscount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>45689143-b5cb-41b4-b742-184d836454ad</id>
+      <masked>false</masked>
+      <name>varRange</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List Country')</defaultValue>
+      <description></description>
+      <id>5889a0ab-1da3-4036-a07a-92034503a4bc</id>
+      <masked>false</masked>
+      <name>varMOQCount</name>
+   </variable>
+</TestCaseEntity>

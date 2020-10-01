@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'sol-checkbox' and @name = 'country' and @value = 'PH']</value>
+         <value>//div[@class = 'sol-label-text' and (text() = 'Philippines' or . = 'Philippines')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,20 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sol-checkbox</value>
+      <value>sol-label-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>country</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>text</name>
       <type>Main</type>
-      <value>PH</value>
+      <value>Philippines</value>
    </webElementProperties>
 </WebElementEntity>
