@@ -82,9 +82,11 @@ if (varCustomFieldType == 'Checkbox') {
     
     WebUI.comment('Add Option')
 
-    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option1'), varCustomFieldName + 'DD1')
+    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1'), varCustomFieldName + 
+        'DD1')
 
-    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option2'), varCustomFieldName + 'DD2')
+    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt2'), varCustomFieldName + 
+        'DD2')
 
     WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option3'), varCustomFieldName + 'DD3')
 
