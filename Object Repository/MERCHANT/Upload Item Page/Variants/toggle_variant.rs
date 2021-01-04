@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div[3]/div[2]/div/div/div[2]/div[2]/div[1]/div[2]/div/label/span[2][count(. | //span[@class = 'onoffswitch-switch']) = count(//span[@class = 'onoffswitch-switch'])]</value>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[5]/div[2]/div/div/div[2]/div[2]/div[1]/div[2]/div/label/span[2][count(. | //span[@class = 'onoffswitch-switch']) = count(//span[@class = 'onoffswitch-switch'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div[3]/div[2]/div/div/div[2]/div[2]/div[1]/div[2]/div/label/span[2]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[5]/div[2]/div/div/div[2]/div[2]/div[1]/div[2]/div/label/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

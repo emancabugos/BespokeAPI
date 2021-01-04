@@ -189,7 +189,7 @@ if (varVariants == 'yes') {
     int rows_count = rows_table.size()
 
     for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[1]/div[3]/div[3]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
+        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[1]/div[3]/div/div[5]/div[2]/div/div/div[2]/div[3]/div[4]/table/tbody/tr[' + 
             pos) + ']/td[6]/input')
 
         WebUI.setText(element, 'VARSKU' + pos)

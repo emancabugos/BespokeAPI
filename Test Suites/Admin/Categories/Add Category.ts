@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>210497a9-e104-4ea0-b316-3545bb80cadf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>

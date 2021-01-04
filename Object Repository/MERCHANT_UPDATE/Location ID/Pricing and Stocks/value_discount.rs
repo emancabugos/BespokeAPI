@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>value_discount</name>
+   <tag></tag>
+   <elementGuidId>db6643dc-a7be-4894-b96e-8dd764c6a003</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[11]/div[2]/div[1]/div[2]/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td[4]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[11]/div[2]/div[1]/div[2]/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td[4]/span</value>
+   </webElementProperties>
+</WebElementEntity>

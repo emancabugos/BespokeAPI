@@ -4,17 +4,23 @@
    <name>button_delete per cty</name>
    <tag></tag>
    <elementGuidId>532c18fb-c5e5-427e-8813-30a67ef638bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[11]/div[2]/div[1]/div[2]/div/div/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td[5]/span[1][count(. | //span[@class = 'delete-con-row']) = count(//span[@class = 'delete-con-row'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rowPric-AF&quot;)/td[@class=&quot;btn-table&quot;]/span[@class=&quot;delete-con-row&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[11]/div[2]/div[1]/div[2]/div/div/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td[5]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Item New</name>
+   <tag></tag>
+   <comment>Basic Details
+Categories
+Item Service
+Item Cover Image
+Description
+Shipping Method
+Variants
+Variant Options
+Variant Options
+Surcharge
+Stock</comment>
+   <testCaseGuid>4de49655-3aad-4954-8356-6451f3311fd8</testCaseGuid>
+</TestCaseEntity>
