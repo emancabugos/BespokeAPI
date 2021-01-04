@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>443326de-bc81-4d7b-8716-b27777b85cf5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category List')</defaultValue>
+      <description></description>
+      <id>e38bf46b-d263-4d04-8901-345b460c5d69</id>
+      <masked>false</masked>
+      <name>categorypo</name>
+   </variable>
+</TestCaseEntity>

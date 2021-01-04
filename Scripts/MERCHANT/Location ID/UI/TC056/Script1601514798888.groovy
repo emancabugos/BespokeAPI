@@ -16,9 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Location ID/Basic Details/Page_0928b2bcty/icon_Upload Image_my-range'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Location ID/Basic Details/upload popup/icon_Upload Image_my-range'), 
     0)
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT_UPDATE/Location ID/Basic Details/Page_0928b2bcty/icon_Upload Image_my-range'), 
+WebUI.waitForElementPresent(findTestObject('MERCHANT_UPDATE/Location ID/Basic Details/upload popup/icon_Upload Image_my-range'), 
     0)
 

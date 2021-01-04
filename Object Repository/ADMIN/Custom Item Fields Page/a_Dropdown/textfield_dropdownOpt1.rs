@@ -6,15 +6,15 @@
    <elementGuidId>6a8b0350-723f-4ad0-8d9a-d68f5a3f7025</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div[1]/div[2]/div/form/div/div[8]/div/ul/li[1]/div/div[2]/input</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//div[9]/div/ul/li/div/div[2]/input</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div[2]/div[4]/div/div[1]/div[2]/div/form/div/div[9]/div/ul/li[1]/div/div[2]/input</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

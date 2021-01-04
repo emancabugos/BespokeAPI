@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>d8494544-a068-4e59-bf34-a965791a089c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/23_redirectionCategories</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -71,7 +71,7 @@
    <testCaseLink>
       <guid>34c62c4d-1b08-4626-b479-781729d27733</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
