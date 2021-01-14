@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cart_viewCart</name>
+   <tag></tag>
+   <elementGuidId>2aea3eea-7185-4b65-a98b-f51bb594333e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'cart-spacetime.html' and (text() = ' View Cart ' or . = ' View Cart ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>cart-spacetime.html</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-view-cart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> View Cart </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-cart cart-variant&quot;]/div[@class=&quot;header mod&quot;]/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-extramenus hide-mobile&quot;]/ul[1]/li[@class=&quot;h-cart&quot;]/div[@class=&quot;h-dd-menu h-cart-menu hide-me&quot;]/div[@class=&quot;h-cart-bot&quot;]/a[@class=&quot;btn-view-cart&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
