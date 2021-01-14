@@ -27,10 +27,6 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/textlink_regis
 
 WebUI.click(findTestObject('CONSUMER/Landing Page/textlink_register signin'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'))
-
-WebUI.waitForElementNotVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
-
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Onboarding/Non Private/button_create account'), 0)
 
 WebUI.delay(2)
@@ -80,6 +76,8 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_first_name'
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_last_name'), varLname)
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), varContact)
+
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Settings/dropdown_Country'), varCountry, false)
 
 WebUI.scrollToElement(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), 0)
 

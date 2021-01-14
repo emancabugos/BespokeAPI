@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[@name = 'country' and @class = 'get-text required']</value>
+         <value>//select[@name = 'country']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>country</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Address&quot;)/div[@class=&quot;address-tab full-width&quot;]/div[@class=&quot;set-content&quot;]/div[@class=&quot;pdc-inputs&quot;]/div[@class=&quot;set-inputs&quot;]/div[@class=&quot;input-container&quot;]/span[@class=&quot;select-option&quot;]/select[@class=&quot;input-text get-text required&quot;]</value>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div/div[4]/div[1]/div[1]/div/div[3]/div[1]/span[2]/select</value>
    </webElementProperties>
 </WebElementEntity>

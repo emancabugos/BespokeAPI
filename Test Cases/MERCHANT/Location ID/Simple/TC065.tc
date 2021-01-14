@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC065</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d4c9e85-79e3-46bd-b775-992ee9a78001</testCaseGuid>
+   <variable>
+      <defaultValue>'alphanumeric!@#$%^&amp;*()_+{}:&quot;|>?&lt;[];\'\\,./'</defaultValue>
+      <description></description>
+      <id>96889e97-efe4-43ed-90c5-235afba9ada7</id>
+      <masked>false</masked>
+      <name>description5kmax</name>
+   </variable>
+</TestCaseEntity>

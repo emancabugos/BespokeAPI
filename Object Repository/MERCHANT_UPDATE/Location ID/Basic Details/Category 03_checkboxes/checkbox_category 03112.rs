@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_category 03112</name>
+   <tag></tag>
+   <elementGuidId>99d7ec70-4612-4433-8d51-34f62c3b2381</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>checkboxCategory1f1fd587-02cf-46ef-988e-0561cbb5f8f6</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic_tab&quot;)/div[@class=&quot;tab-content un-inputs&quot;]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;item-upload-category-container required&quot;]/div[@class=&quot;checkbox-container&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;checkbox-content&quot;]/ul[1]/li[@class=&quot;check-category parent-cat has-child-sub&quot;]/ul[@class=&quot;sub-cat&quot;]/li[@class=&quot;check-category parent-cat has-child-sub&quot;]/ul[@class=&quot;sub-cat&quot;]/li[@class=&quot;check-category parent-cat&quot;]/label[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='basic_tab']/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/ul/li/ul/li/ul/li/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li/ul/li/label</value>
+   </webElementXpaths>
+</WebElementEntity>

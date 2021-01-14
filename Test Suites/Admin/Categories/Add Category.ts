@@ -9,17 +9,18 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ce49cd14-95fa-44ff-b676-6a31b26e13fb</testSuiteGuid>
    <testCaseLink>
       <guid>210497a9-e104-4ea0-b316-3545bb80cadf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d8494544-a068-4e59-bf34-a965791a089c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/23_redirectionCategories</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -31,7 +32,7 @@
    <testCaseLink>
       <guid>ed9708fc-989c-4a28-830e-87f67c7bbc9c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Add Category</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -70,7 +71,7 @@
    <testCaseLink>
       <guid>34c62c4d-1b08-4626-b479-781729d27733</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
