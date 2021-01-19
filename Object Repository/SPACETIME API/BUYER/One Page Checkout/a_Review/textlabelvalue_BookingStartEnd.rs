@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabelvalue_BookingStartEnd</name>
+   <tag></tag>
+   <elementGuidId>d79acba0-c488-4ef3-9d81-8c6994d35cc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[1]/div/div[2]/span/div/span[1]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -9,6 +9,12 @@
    <dataSourceUrl>C:\Katalon\BespokeAPI\Data Files\Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Item List Variants</sheetName>
