@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>nightMonth</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Location
+Shipping</comment>
+   <testCaseGuid>7345fc2b-6ba0-4788-a6af-ce5d5c7b5d6e</testCaseGuid>
+</TestCaseEntity>
