@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-        <initValue>'0406bpdel2'</initValue>
+      <initValue>'0406bpdel2'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,12 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'welcome8'</initValue>
+      <initValue>'welcome9'</initValue>
       <name>CustomPass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Welcome08!'</initValue>
+      <initValue>'welcome8!@#'</initValue>
       <name>GooglePass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,12 +46,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0928b2bcty.test.arcadier.io/admin'</initValue>
+      <initValue>'0106stapi.rachrah.com/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-   <initValue>'arcstaging.rachrah.com'</initValue>
+      <initValue>'0106stapi.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,17 +66,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arcadierteam@gmail.com'</initValue>
+      <initValue>'GoldenRetridog01@gmail.com'</initValue>
       <name>GoogleMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-     <initValue>'arcadier.tester1@gmail.com'</initValue>
+      <initValue>'arcadier.tester1@gmail.com'</initValue>
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyer_april'</initValue>
+      <initValue>'adianabuyer_01'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
