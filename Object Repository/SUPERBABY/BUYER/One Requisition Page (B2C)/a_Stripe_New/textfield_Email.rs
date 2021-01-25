@@ -6,11 +6,15 @@
    <elementGuidId>359e9434-f850-4985-879c-a3b87678c117</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'email' and @name = 'email' and @type = 'email']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <value>//div/div/div/div[2]/div/form/div[1]/div/div/div[2]/div/div[1]/div/span/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
