@@ -4,6 +4,12 @@
    <name>button_Back</name>
    <tag></tag>
    <elementGuidId>55cc0efd-e380-4648-b935-c92501973287</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'purchase-order-history.html' and (text() = ' Back' or . = ' Back')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
+      <value>purchase-order-history.html</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
