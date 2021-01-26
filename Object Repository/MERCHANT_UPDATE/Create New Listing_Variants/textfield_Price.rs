@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id = 'itemNewPrice' and @type = 'text']</value>
+         <value>//input[@id = 'itemNewPrice' and @type = 'number']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -56,7 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>number</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Price</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
