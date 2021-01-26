@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('SPACETIME API/BUYER/Homepage/textfield_search'), 'April Hour Duration')
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Homepage/textfield_search'), 'per Hour 24/7 D')
 
 WebUI.delay(2)
 
