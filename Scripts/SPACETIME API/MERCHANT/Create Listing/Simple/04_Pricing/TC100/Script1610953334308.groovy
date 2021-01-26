@@ -15,3 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_bookingType'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_bookingType'), 'Default Overnight', false)
+
+WebUI.verifyElementClickable(findTestObject('SPACETIME API/MERCHANT/Create Listing/sd_Custom'))
+

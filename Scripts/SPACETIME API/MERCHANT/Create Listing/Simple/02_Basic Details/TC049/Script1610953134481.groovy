@@ -15,3 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/browse_img'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/browse_img'))
+
+WebUI.delay(1)
+
+WebUI.uploadFile(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/img_container'), 'C:\\\\Katalon\\\\BespokeAPI\\\\Images\\\\UN Items\\\\item14.jpg')
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/btn_OK'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/btn_OK'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.waitForElementPresent(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/added_image1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/added_image1'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/icon_deleteIMG'))
+
+WebUI.verifyElementNotPresent(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/added_image1'), 0)
+

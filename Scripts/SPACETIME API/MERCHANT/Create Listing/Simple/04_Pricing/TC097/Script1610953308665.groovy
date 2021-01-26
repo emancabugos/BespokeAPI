@@ -15,3 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_bookingType'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_bookingType'), 'Default', false)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sd_Custom'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_specifyServiceDuration'), 0)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByLabel(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_specifyServiceDuration'), 'Hour(s)', 
+    false)
+
+WebUI.delay(1)
+
+for (int click = 0; click < 24; click++) {
+    WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/increase_duration'))
+}
+
+WebUI.verifyElementAttributeValue(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_specifyServiceDuration'), 
+    'value', '23', 0)
+

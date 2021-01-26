@@ -15,3 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/tab_Location'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/tab_Location'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('SPACETIME API/MERCHANT/Create Listing/text_Location'), 0)
+

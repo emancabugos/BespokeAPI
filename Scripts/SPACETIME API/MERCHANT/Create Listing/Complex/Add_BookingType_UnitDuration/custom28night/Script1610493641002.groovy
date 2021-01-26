@@ -23,7 +23,7 @@ WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_creat
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_listingName'), 0)
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_listingName'), 'per Custom 28night')
+WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_listingName'), 'per Custom 28night UD')
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/01_Category/Category 01'), FailureHandling.CONTINUE_ON_FAILURE)
 

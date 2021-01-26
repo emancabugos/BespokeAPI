@@ -15,3 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sd_Custom'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sd_Custom'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_specifyServiceDuration'), 'Minute(s)', 
+    false)
+
+WebUI.verifyElementAttributeValue(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_specifyServiceDuration'), 
+    'value', '15', 0)
+

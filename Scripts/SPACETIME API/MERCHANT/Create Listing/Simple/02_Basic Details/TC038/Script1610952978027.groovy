@@ -15,3 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/searchbox_category'), 0)
+
+WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/searchbox_category'), 'Category Name mAx 021!!@#$%^&!')
+
+WebUI.verifyElementAttributeValue(findTestObject('SPACETIME API/MERCHANT/Create Listing/searchbox_category'), 'value', 'Category Name mAx 021!!@#$%^&!', 
+    0)
+
