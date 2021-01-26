@@ -4,24 +4,34 @@
    <name>dropdown_Pay</name>
    <tag></tag>
    <elementGuidId>969bb605-4307-494d-b081-49d83e3aa17f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'pccl-payment-method max-w']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[3]/div/div[2]/div/div[1]/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>department-select</value>
+      <value>pccl-payment-method max-w</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

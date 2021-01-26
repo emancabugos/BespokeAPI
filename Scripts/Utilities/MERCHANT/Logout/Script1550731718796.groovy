@@ -33,3 +33,5 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Buyer Seller Logout/textli
 
 WebUI.click(findTestObject('Utilities/Buyer Seller Logout/textlink_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(1)
+

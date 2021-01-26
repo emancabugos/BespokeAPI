@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>stars_Unsatisfied</name>
+   <tag></tag>
+   <elementGuidId>86ed8fba-8717-4d27-8d3e-b0b8442777d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div[1]/div/div[2]/div[6]/div/div[2]/table/tbody/tr[5]/td[1]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
