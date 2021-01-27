@@ -15,3 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/toggle_247'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_blockoutForFull'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Choose start time'), 0)
+
+WebUI.verifyElementHasAttribute(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Choose start time'), 'disabled', 
+    0)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/toggle_247'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_blockoutForFull'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Choose end time'), 0)
+
+WebUI.verifyElementHasAttribute(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Choose end time'), 'disabled', 
+    0)
+
