@@ -15,5 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Edit Modal/value_ItemName'), 0)
+
 WebUI.verifyElementPresent(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Edit Modal/value_ItemName'), 0)
 

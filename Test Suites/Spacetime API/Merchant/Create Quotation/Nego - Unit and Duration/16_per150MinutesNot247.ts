@@ -41,16 +41,22 @@
       <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/select_Time</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>228108d9-10e9-4981-b73d-d1aa638b57ed</guid>
+      <guid>80ea63b1-bc78-4ce6-b0c9-31907ff80b5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/a_Duration/input_DurationTime</testCaseId>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/a_Unit and Duration/input_DurationWithTime</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>baf226d1-934d-469a-bea2-667ecae0340d</guid>
+      <guid>69ba59da-5ae2-4181-8a48-1f05bdf6dcf5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Quotation/Pre Requisite/a_Duration/computation_DurationTimeNoAddons</testCaseId>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/a_Unit and Duration/input_UnitWithTime</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>233ee7bd-96dd-4425-9644-5cf75f46bb4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/a_Unit and Duration/computation_UnitDurationTimeNoAddons</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9623c9ee-75ed-412b-ab8a-36a825e30a7a</guid>
