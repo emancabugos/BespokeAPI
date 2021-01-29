@@ -16,8 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
-WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
+//WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
+//WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
 
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
 WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element))

@@ -4,6 +4,12 @@
    <name>datepicker_SelectDate</name>
    <tag></tag>
    <elementGuidId>8257f7cc-9b94-4807-9f19-b7b93332ab2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'selectedDate']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -33,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;page-item-detail&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top&quot;]/div[@class=&quot;idcrt-order-val&quot;]/div[@class=&quot;idcrt-list-val&quot;]/div[@class=&quot;full-width mb-15&quot;]/div[@class=&quot;idcrtl-right full-width relation&quot;]/input[@class=&quot;form-control text-left theme-input date-picker required&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>selectedDate</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

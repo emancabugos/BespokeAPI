@@ -4,6 +4,12 @@
    <name>timepicker_SelectTime</name>
    <tag></tag>
    <elementGuidId>2f6702e7-e221-4ae0-bc9e-2e1231d5d5b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'selectedTime']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -40,6 +46,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;page-item-detail&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top&quot;]/div[@class=&quot;idcrt-order-val&quot;]/div[@class=&quot;idcrt-list-val&quot;]/div[@class=&quot;full-width mb-15&quot;]/div[@class=&quot;idcrtl-right full-width relation&quot;]/input[@class=&quot;form-control text-left theme-input time-picker required ui-timepicker-input&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>selectedTime</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

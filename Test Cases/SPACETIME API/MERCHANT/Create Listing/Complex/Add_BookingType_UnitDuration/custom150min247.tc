@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>custom150min247</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Location
+Shipping</comment>
+   <testCaseGuid>3536b0be-f55c-49bd-a84a-d08f5c50f2da</testCaseGuid>
+   <variable>
+      <defaultValue>'Duration'</defaultValue>
+      <description></description>
+      <id>d9c04107-9257-40ee-bf1e-65ba387bcb28</id>
+      <masked>false</masked>
+      <name>varBookingType</name>
+   </variable>
+</TestCaseEntity>
