@@ -15,3 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_Block this date'), 0)
+
+WebUI.executeJavaScript('$("#st_date").val("01/01/2100")', [])
+
+WebUI.executeJavaScript('$("#st_time").val("12:00 AM")', [])
+
+WebUI.executeJavaScript('$("#end_date").val("01/01/2200")', [])
+
+WebUI.executeJavaScript('$("#end_time").val("12:00 AM")', [])
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_Block this date'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/04_Sched/text_blockedDates'), 0)
+

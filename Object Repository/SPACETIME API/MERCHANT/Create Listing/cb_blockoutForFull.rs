@@ -13,18 +13,22 @@
          <key>XPATH</key>
          <value>//div[@id='schedule_tab']/div[2]/div/div/div[3]/div[2]/div/div[2]/div[3]/div/div/div/span/label</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for = 'block-end-day' and (text() = 'Block out for full day(s)' or . = 'Block out for full day(s)')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;schedule_tab&quot;)/div[@class=&quot;tab-content un-inputs&quot;]/div[@class=&quot;seller-common-box itmuplodpg-schedule-sec&quot;]/div[1]/div[@class=&quot;flex-itmuplodpg&quot;]/div[@class=&quot;itmuplodpg-schperiod-area&quot;]/div[@class=&quot;itmuplodpg-schperiod-lstsec&quot;]/div[@class=&quot;itmuplodpg-schperiod-entersec&quot;]/div[@class=&quot;item-form-group-&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[1]/span[@class=&quot;fancy-checkbox chkbx-rmbg&quot;]/label[1]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[7]/div[2]/div/div/div[3]/div[2]/div/div[2]/div[3]/div/div/div/span/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
