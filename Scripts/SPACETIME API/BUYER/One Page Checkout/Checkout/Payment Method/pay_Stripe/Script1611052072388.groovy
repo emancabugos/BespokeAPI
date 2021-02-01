@@ -49,3 +49,5 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/a_Stripe_
 
 WebUI.delay(0.5)
 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Transaction Complete Page/textlabel_InvoiceIDValue'), 0)
+
