@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3c66e419-d504-49cb-98c7-07ebbf71046a</testSuiteGuid>
    <testCaseLink>
       <guid>8259b782-6beb-428c-bfee-aa4e4e220128</guid>
@@ -17,10 +18,10 @@
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>208297b9-7c06-4f7f-97d2-6a70cd651399</guid>
+      <guid>de485305-901b-4dc2-a729-4c842e9b45e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Homepage/Unit/01_searchPerHour247</testCaseId>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Homepage/Unit/06_searchPer150minutes247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>441bd6f3-1824-4c9d-821f-25fadc2d2d19</guid>

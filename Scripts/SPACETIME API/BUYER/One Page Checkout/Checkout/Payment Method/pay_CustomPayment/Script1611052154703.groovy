@@ -41,3 +41,5 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/a_Custom Payment/button_Accept'))
 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Transaction Complete Page/textlabel_InvoiceIDValue'), 0)
+

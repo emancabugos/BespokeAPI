@@ -45,3 +45,5 @@ WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Order Total/
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Transaction Complete Page/textlabel_InvoiceIDValue'), 0)
+

@@ -31,3 +31,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Order Total/button_PayNow'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Transaction Complete Page/textlabel_InvoiceIDValue'), 0)
+
