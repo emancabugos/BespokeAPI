@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>01_searchItem</name>
+   <name>search_CategoryZeroBulkP</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>923be20e-519b-4443-b28d-40905c05c39a</testCaseGuid>

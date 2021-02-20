@@ -14,18 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import java.text.DecimalFormat as DecimalFormat
-import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SellerName'), '')
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), a)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Quantity'), '')
 
-WebUI.sendKeys(findTestObject('CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_PricePerItem'), '')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 0)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Total'), '')
 
