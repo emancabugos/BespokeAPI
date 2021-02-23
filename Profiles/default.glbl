@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'superb2bcty'</initValue>
+      <initValue>'1214stlivesmoke'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arcadierteam'</initValue>
+      <initValue>'b2bsinglecty'</initValue>
       <name>AdminGoogle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'welcome8!@#'</initValue>
+      <initValue>'Welcome08!'</initValue>
       <name>GooglePass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'superb2bcty.arcadier.io/admin'</initValue>
+      <initValue>'b2bsinglecty.rachrah.com/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0106stapi.rachrah.com'</initValue>
+      <initValue>'0128b2bc.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arctestseller_d1'</initValue>
+      <initValue>'sellerapril01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'GoldenRetridog01@gmail.com'</initValue>
+      <initValue>'arcadierteam@gmail.com'</initValue>
       <name>GoogleMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'adianabuyer_01'</initValue>
+      <initValue>'buyerapril01'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -108,5 +108,35 @@
       <description>CHANGE TO: custom, google, facebook</description>
       <initValue>'custom'</initValue>
       <name>MerchantAccountType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'b2bsinglecty.rachrah.com/merchants/invoice/list'</initValue>
+      <name>invoiceURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'subapril01'</initValue>
+      <name>subbuyer01</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'subapril02'</initValue>
+      <name>subbuyer02</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'subapril03'</initValue>
+      <name>subbuyer03</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'welcome8'</initValue>
+      <name>subpass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'b2bsinglecty.rachrah.com/merchants/order/history'</initValue>
+      <name>poURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -4,7 +4,17 @@
    <name>value_Supplier</name>
    <tag></tag>
    <elementGuidId>936bbea0-32c7-422a-8ee2-78d4066df14f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div/div[3]/table/tbody/tr[1]/td[3]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/invoice/detail/0407BPT1589847860B56L' and (text() = 'wenaseller' or . = 'wenaseller')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

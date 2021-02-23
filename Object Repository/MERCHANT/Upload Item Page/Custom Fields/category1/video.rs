@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/div[3]/div/div[35]/textarea</value>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/div[35]/textarea[count(. | //textarea[@name = 'video-link' and @id = 'video-link']) = count(//textarea[@name = 'video-link' and @id = 'video-link'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,14 +20,14 @@
       <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>video-link</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -59,6 +59,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/div[3]/div/div[35]/textarea</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/div[35]/textarea</value>
    </webElementProperties>
 </WebElementEntity>

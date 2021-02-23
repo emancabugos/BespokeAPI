@@ -4,7 +4,17 @@
    <name>togglebutton_Review</name>
    <tag></tag>
    <elementGuidId>66881689-c415-4fc5-85c3-012478e5aa87</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[2]/div/div[1]/div/div/span/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;review-container&quot;)/div[@class=&quot;panel-box active&quot;]/div[@class=&quot;sc-upper panel-box-title&quot;]/div[@class=&quot;sc-u sc-u-mid full-width&quot;]/div[@class=&quot;bl_dark&quot;]/span[@class=&quot;sc-text-big&quot;]/i[@class=&quot;tog-icon angle1&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

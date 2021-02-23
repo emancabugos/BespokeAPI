@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>custom23hrNOT247</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Schedule
+Location
+Shipping</comment>
+   <testCaseGuid>2bcff4be-2c74-4450-97b8-f371135ce287</testCaseGuid>
+</TestCaseEntity>

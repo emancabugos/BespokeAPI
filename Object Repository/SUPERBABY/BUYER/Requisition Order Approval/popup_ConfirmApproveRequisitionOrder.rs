@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Confirm Approve Requisition Order' or . = 'Confirm Approve Requisition Order')]</value>
+         <value>//*[@class = 'snack-slide slide-approved']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,9 +26,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Confirm Approve Requisition Order</value>
+      <value>snack-slide slide-approved</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
