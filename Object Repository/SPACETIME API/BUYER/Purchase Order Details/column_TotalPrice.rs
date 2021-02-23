@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Total Cost' or . = 'Total Cost')]</value>
+         <value>//*[(text() = 'Total Price' or . = 'Total Price')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

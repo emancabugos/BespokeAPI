@@ -4,6 +4,12 @@
    <name>textlabel_Items per page</name>
    <tag></tag>
    <elementGuidId>64f1ec21-c94d-4efb-8cb2-f862bd474d73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div/div/div[2]/div/div[2]/div/label</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,18 +27,18 @@
       <value>sassy-label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Items per page</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller page-sidebar page-item-list&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;sassy-filter lg-filter&quot;]/form[1]/div[@class=&quot;sassy-flex&quot;]/div[@class=&quot;sassy-r desktop-only&quot;]/label[@class=&quot;sassy-label&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div/div/div[2]/div/div[2]/div/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

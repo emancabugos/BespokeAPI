@@ -9,29 +9,33 @@
          <key>XPATH</key>
          <value>//div[@id='pricing_tab']/div[2]/div/div/div[2]/div[2]/div/div[2]/div/label/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[7]/div[1]/div/div/label/span[2][count(. | //span[@class = 'onoffswitch-switch']) = count(//span[@class = 'onoffswitch-switch'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>onoffswitch-inner</value>
+      <value>onoffswitch-switch</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pricing_tab&quot;)/div[@class=&quot;tab-content un-inputs&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;variant-option-top&quot;]/div[1]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;onoffswitch&quot;]/label[@class=&quot;onoffswitch-label&quot;]/span[@class=&quot;onoffswitch-inner&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[7]/div[1]/div/div/label/span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
