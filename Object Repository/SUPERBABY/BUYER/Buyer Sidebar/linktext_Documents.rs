@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//aside[@id='sidebar-section']/div/div/div[2]/ul/li[2]/a/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Documents' or . = 'Documents')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

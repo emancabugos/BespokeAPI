@@ -4,7 +4,17 @@
    <name>textlabevalue_SubTotalPrice</name>
    <tag></tag>
    <elementGuidId>d4eb61ec-cb9a-42f1-b879-f0df74aeb3b6</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div[1]/div/div[3]/div/div[2]/span[2]/div/span[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '270,000.00' or . = '270,000.00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

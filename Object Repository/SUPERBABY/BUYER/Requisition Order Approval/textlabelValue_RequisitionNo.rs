@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div[2]/div/section/div/div/div[2]/table/tbody/tr/td</value>
+         <value>//div[1]/div[2]/div/div/div/section[1]/div/div/div[2]/table/tbody/tr[1]/td</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'PR1587012967214' or . = 'PR1587012967214')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

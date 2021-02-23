@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>custom28dayNOT247</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Schedule
+Location
+Shipping</comment>
+   <testCaseGuid>6dccb127-a042-4c14-b191-af4ecd7abf66</testCaseGuid>
+</TestCaseEntity>

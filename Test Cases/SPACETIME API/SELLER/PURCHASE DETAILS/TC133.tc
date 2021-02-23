@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC133</name>
+   <tag></tag>
+   <comment>main buyer should be logged in</comment>
+   <testCaseGuid>ec43e8a5-b55c-4c7f-a674-285703536ba2</testCaseGuid>
+</TestCaseEntity>

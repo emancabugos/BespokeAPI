@@ -4,7 +4,17 @@
    <name>value_PONo</name>
    <tag></tag>
    <elementGuidId>44792516-889c-4c41-a105-f9c2e7f2052a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/purchase/detail/orderid/7dde7c2d-43d5-4d25-b70b-5af4bbad6f91' and (text() = 'PO50362' or . = 'PO50362')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div[1]/div/div/div[3]/table/tbody/tr[1]/td[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

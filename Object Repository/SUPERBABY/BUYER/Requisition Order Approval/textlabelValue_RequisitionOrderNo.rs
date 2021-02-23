@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div/section[3]/div/div/div/table/tbody/tr[2]/td/span/a</value>
+         <value>//div[1]/div[2]/div/div/div/section[3]/div/div/div[1]/table/tbody/tr[2]/td/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/requisition/detail?requisitionId=33089994-9e7f-ea11-81a9-000d3aa147ac' and (text() = 'PR1587012967214' or . = 'PR1587012967214')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
