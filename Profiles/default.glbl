@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-        <initValue>'0406bpdel2'</initValue>
+      <initValue>'0128b2bv'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0928b2bcty.test.arcadier.io/admin'</initValue>
+      <initValue>'0128b2bv.staging.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-   <initValue>'arcstaging.rachrah.com'</initValue>
+      <initValue>'0128b2bv.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arctestseller_d1'</initValue>
+      <initValue>'b2bvar_seller01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,12 +71,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-     <initValue>'arcadier.tester1@gmail.com'</initValue>
+      <initValue>'arcadier.tester1@gmail.com'</initValue>
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyer_april'</initValue>
+      <initValue>'b2bvar_buyer01'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
