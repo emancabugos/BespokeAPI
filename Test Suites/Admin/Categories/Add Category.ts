@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>210497a9-e104-4ea0-b316-3545bb80cadf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -41,7 +41,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Category List</testDataId>
+         <testDataId>Data Files/ADMIN/Category 2</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>a3b8efc9-9297-4c09-bfaf-2db894e9d4df</testDataLinkId>
