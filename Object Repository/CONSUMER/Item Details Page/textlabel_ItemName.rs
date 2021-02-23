@@ -6,15 +6,15 @@
    <elementGuidId>a658b100-d3a4-40fd-9330-7b60d537a5a5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/span</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/span[count(. | //span[@class = 'item-name']) = count(//span[@class = 'item-name'])]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div/div[2]/div/div[2]/span</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

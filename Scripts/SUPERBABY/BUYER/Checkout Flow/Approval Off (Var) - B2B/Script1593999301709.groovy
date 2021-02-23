@@ -336,9 +336,9 @@ WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Receiving Notes List/tex
 
 WebUI.comment('Pay Invoice')
 
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_Invoice'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_InvoiceBuyer'), 0)
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_Invoice'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_InvoiceBuyer'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Invoice List/value_InvoiceNo'), 0)
 

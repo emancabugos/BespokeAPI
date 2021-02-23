@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::span[1]</value>
+         <value>//div[1]/div[2]/div/div/div/section[2]/table/tbody/tr/td[4]/span/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

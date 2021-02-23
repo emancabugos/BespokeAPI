@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div[2]/div/section/div/div/div/div/div/table/tbody/tr/th</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Billing Address :' or . = 'Billing Address :')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
