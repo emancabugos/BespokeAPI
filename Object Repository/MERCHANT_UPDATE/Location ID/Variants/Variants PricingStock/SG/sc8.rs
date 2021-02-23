@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sc8</name>
+   <tag></tag>
+   <elementGuidId>04b0d4b5-f283-445d-a1ab-6f691f5951d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[11]/div[2]/div[1]/div[2]/div/div/div/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/div/table/tbody/tr[8]/td[7]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[11]/div[2]/div[1]/div[2]/div/div/div/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/div/table/tbody/tr[8]/td[7]/input</value>
+   </webElementProperties>
+</WebElementEntity>

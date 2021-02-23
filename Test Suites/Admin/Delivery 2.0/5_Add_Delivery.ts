@@ -44,25 +44,25 @@
    <testCaseLink>
       <guid>22b3b110-d693-4ac7-8e6b-bd194e4732b7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 06</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>268d86ff-ec83-45e7-9ad0-47d283f7817a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 07</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ad4d2887-18db-4573-9c01-43235d5812d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 08</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3901ec3d-f782-4454-8387-5c2dcf0482f9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 09</testCaseId>
    </testCaseLink>
    <testCaseLink>

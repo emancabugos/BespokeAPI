@@ -51,18 +51,26 @@
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
 <<<<<<< HEAD
+      <initValue>'http://0128b2cvs.rachrah.com/admin'</initValue>
+=======
+<<<<<<< HEAD
       <initValue>'0128b2bv.staging.arcadier.io/admin'</initValue>
 =======
       <initValue>'b2bsinglecty.rachrah.com/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
 <<<<<<< HEAD
+      <initValue>'http://0128b2cvs.rachrah.com/'</initValue>
+=======
+<<<<<<< HEAD
       <initValue>'0128b2bv.rachrah.com'</initValue>
 =======
       <initValue>'0128b2bc.rachrah.com'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
