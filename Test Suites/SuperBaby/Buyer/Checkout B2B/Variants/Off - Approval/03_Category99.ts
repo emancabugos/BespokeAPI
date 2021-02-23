@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>54724021-2e9d-4d7b-8adf-5714400d4d0d</testSuiteGuid>
    <testCaseLink>
       <guid>80b4a1f8-a410-4475-8b1d-6a6452a00a44</guid>
@@ -207,5 +208,83 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_CustomPayment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>556f633b-eddd-4460-aa05-4008fcdf358c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Purchase Order List (B2B)/a_NavigateToPOList</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3aab823-739e-4cbc-81b7-47b3a0f4d704</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/navigate_PODetailsBuyer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a30dced4-12df-404a-8aaa-d92d8312708c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsBuyer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e229cf7b-7397-40fa-8076-0c02e187c380</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c510e2e1-e954-435d-b77a-71736948e15b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>601df09d-1402-4b4b-a6fd-7adc7197c2ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/navigate_PODetailsSeller</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56af5fa5-1cd7-4bd3-be11-1029e674ac39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsSeller</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2bcde3f-1cc4-4c34-8b9e-9c0eceff08a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a7c0ab0b-4543-47a0-9090-e2eb2e0835f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f1e69be-66dc-40d5-beb2-a6abd37b52a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/17_clickTransactionsMenuB2B</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c22727ba-dde1-425c-9af7-cd691eab2551</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/navigate_PODetailsAdmin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b57691c-23b5-4a79-a64d-e9556eabfa5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsAdmin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1db12586-7b74-4733-b928-ea35321a150f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
