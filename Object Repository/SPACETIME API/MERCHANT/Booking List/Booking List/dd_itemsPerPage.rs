@@ -4,6 +4,32 @@
    <name>dd_itemsPerPage</name>
    <tag></tag>
    <elementGuidId>8a51217c-8e23-447b-8d10-7893c319c2db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'per-page' and @id = 'per-page' and @class = 'sassy-select' and (text() = '
+
+                                            10
+
+                                            20
+
+                                            50
+
+                                            100
+
+                                        ' or . = '
+
+                                            10
+
+                                            20
+
+                                            50
+
+                                            100
+
+                                        ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +54,7 @@
       <value>per-page</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -56,7 +82,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-seller page-sidebar page-item-list&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;sassy-filter lg-filter&quot;]/form[1]/div[@class=&quot;sassy-flex&quot;]/div[@class=&quot;sassy-r desktop-only&quot;]/span[@class=&quot;select-sassy-wrapper sassy-arrow&quot;]/select[@id=&quot;per-page&quot;]</value>
+      <value>//*[@id=&quot;per-page&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
