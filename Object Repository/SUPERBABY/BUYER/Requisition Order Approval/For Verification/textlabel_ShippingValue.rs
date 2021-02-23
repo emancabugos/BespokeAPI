@@ -4,7 +4,17 @@
    <name>textlabel_ShippingValue</name>
    <tag></tag>
    <elementGuidId>7940b9a7-8b8f-4d1c-9023-d0fb2c45de21</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div/section[1]/div/div/div[3]/table/tbody/tr[4]/td[2]/div/span[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' SGD $ 5.00' or . = ' SGD $ 5.00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

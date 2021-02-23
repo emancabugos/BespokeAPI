@@ -4,7 +4,17 @@
    <name>textlabel_PONumber</name>
    <tag></tag>
    <elementGuidId>03703111-fc18-4e01-a6ee-428928981a13</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div/section[1]/div/div/div[1]/table/tbody/tr[3]/td/a/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'PO50727' or . = 'PO50727')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

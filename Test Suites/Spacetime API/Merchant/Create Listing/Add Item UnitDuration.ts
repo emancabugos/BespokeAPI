@@ -12,6 +12,12 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f073562f-52e6-43b1-ba9d-7ddc4fea1b2e</testSuiteGuid>
    <testCaseLink>
+      <guid>a8ec6986-3352-4a8f-b665-b83932f299e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>41e197e6-49ff-4969-b8a4-61309de9e91f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

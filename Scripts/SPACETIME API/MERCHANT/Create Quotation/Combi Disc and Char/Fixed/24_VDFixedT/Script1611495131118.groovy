@@ -26,7 +26,7 @@ WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Discount/d
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Discount/dropdown_Reason1'), 'Taxes', 
+WebUI.selectOptionByValue(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Discount/dropdown_Reason1'), 'Volume Discount', 
     false)
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Discount/dropdown_DiscountType1'), FailureHandling.CONTINUE_ON_FAILURE)
