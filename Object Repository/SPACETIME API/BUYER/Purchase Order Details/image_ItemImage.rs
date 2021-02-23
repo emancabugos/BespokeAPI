@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//img[@alt='Item']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'images/thumb-64x64.png' and @alt = 'Item']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>43fed0ac-9fea-480f-ae5a-5c9113f7c7e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div/div/div/section[3]/div/div/div[3]/table/tbody/tr[3]/td[2]/span[2]/span[3]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[13]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div/div/section[3]/div/div/div[3]/table/tbody/tr[3]/td[2]/span[2]/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
