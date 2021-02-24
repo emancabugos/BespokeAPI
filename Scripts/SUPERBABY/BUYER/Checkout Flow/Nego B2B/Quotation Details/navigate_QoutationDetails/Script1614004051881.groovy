@@ -15,3 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Quotation/first_message'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Quotation/first_message'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/Chat Details Page/textarea_chatDetailsPage'), 0)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/Chat Details Page/textarea_chatDetailsPage'), 0)
+

@@ -107,8 +107,8 @@ if (itemVariants == 'yes') {
     def itemQuantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/Variants/textbox_quantity'), 'value')
 
     def price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/Variants/textlabel_itemPrice'))
-	
-	itemPriceTmp.text = price
+
+    itemPriceTmp.text = price
 
     def quantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/Variants/textbox_quantity'), 'value')
 
@@ -125,8 +125,8 @@ if (itemVariants == 'yes') {
     def itemQuantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 'value')
 
     def price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_itemPrice'))
-	
-	itemPriceTmp.text = price
+
+    itemPriceTmp.text = price
 
     def quantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 'value')
 
@@ -169,7 +169,8 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/collapse_button
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), delMethod, false)
+WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 'Merchant Delivery 1(SGD $10.01)', 
+    false)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_collasePay'))
 

@@ -60,7 +60,7 @@ WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/icon_browse'),
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\Core\\\\Images\\\\UN Items\\\\item1.jpg')
+WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\BespokeAPI\\\\Images\\\\UN Items\\\\item1.jpg')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0)
 
