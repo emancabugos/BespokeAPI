@@ -60,13 +60,26 @@ discountTmp.text = discount
 
 def atotal = WebUI.getText(findTestObject('SUPERBABY/SELLER/Quotation Details/value_total'))
 
+//Computation SubTotal
+
+BigDecimal intitemprice = new BigDecimal(itempriceTmp.text)
+
+BigDecimal intqty = new BigDecimal(qtyTmp.text)
+
+def fsubtotal = intitemprice * intqty
+
+
 BigDecimal intcharge = new BigDecimal(charge)
 
 BigDecimal intdiscount = new BigDecimal(discount)
 
-BigDecimal intfsubtotal = new BigDecimal(fsubtotalTmp.text)
+BigDecimal intfsubtotal = new BigDecimal(fsubtotal)
 
-def etotal = (intfsubtotal + intcharge) - intdiscount
+def total1 = intfsubtotal + intcharge
+
+BigDecimal inttotal1 = new BigDecimal(total1)
+
+def etotal = inttotal1 - intdiscount
 
 println(df.format(new BigDecimal(etotal)))
 
