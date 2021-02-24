@@ -6,16 +6,16 @@
    <elementGuidId>7759b6e4-4b11-4e3a-8b7d-bef6311369a8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Price'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.po-content > span</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div/div/div[4]/div[1]/div[2]/div/table/tbody/tr/td[2]/div/div[2]/span</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Price'])[1]/following::span[2]</value>
+         <value>/html/body/div[1]/div[2]/div/div/div[4]/div/div[2]/div/table/tbody/tr/td[2]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div/div/div[4]/div[1]/div[2]/div/table/tbody/tr/td[2]/div/div[2]/span</value>
+      <value>/html/body/div[1]/div[2]/div/div/div[4]/div/div[2]/div/table/tbody/tr/td[2]/div/div[2]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
