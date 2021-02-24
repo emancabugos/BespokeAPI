@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_HandshakeConnectionURLReminder</name>
+   <tag></tag>
+   <elementGuidId>94369202-6db3-4578-b9bc-ffb38a50102d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.handshake-info-icon > a > i.icon.icon-reminder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='custom-payment-method2']/div/div/div/span/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-reminder</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;custom-payment-method2&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;custom-field-form&quot;]/div[1]/span[@class=&quot;handshake-info-icon&quot;]/a[1]/i[@class=&quot;icon icon-reminder&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='custom-payment-method2']/div/div/div/span/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>
