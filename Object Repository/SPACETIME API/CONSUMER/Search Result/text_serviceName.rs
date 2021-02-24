@@ -13,25 +13,29 @@
          <key>CSS</key>
          <value>p.item-name</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div/div[2]/div/div/a/div[2]/div/p[1][count(. | //p[@class = 'item-name']) = count(//p[@class = 'item-name'])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>item-name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -40,11 +44,11 @@
                                         </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;items-list&quot;)/div[@class=&quot;item-box&quot;]/a[1]/div[@class=&quot;item-info&quot;]/div[@class=&quot;item-desc&quot;]/p[@class=&quot;item-name&quot;]</value>
+      <value>/html/body/div[1]/div[2]/div[2]/div/div[2]/div/div/a/div[2]/div/p[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
