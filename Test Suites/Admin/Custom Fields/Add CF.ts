@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>7d13c248-a281-4895-9b8c-64519103d2b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -34,7 +34,7 @@
    <testCaseLink>
       <guid>c7c49545-81d0-4382-8a0a-46c3122b3a19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_CF_DataDriven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
