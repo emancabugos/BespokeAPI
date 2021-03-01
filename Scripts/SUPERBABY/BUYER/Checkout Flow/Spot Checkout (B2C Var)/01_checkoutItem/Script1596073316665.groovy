@@ -153,7 +153,7 @@ WebUI.click(findTestObject('CONSUMER/Cart/checkbox_seller'))
 
 String subtotalTmp = itemSubtotalTmp.text.trim()
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Cart/textlabel_subtotalValue'), subtotalTmp, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('CONSUMER/Cart/textlabel_subtotalValue'), subtotalTmp)
 
 WebUI.waitForElementClickable(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_CartPayNow'), 0)
 
@@ -169,14 +169,13 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/collapse_button
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 'Merchant Delivery 1(SGD $10.01)', 
-    false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_collasePay'))
 
 WebUI.comment('Get Global Variable')
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'), subtotalTmp, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'), subtotalTmp)
 
 def discount = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
 
