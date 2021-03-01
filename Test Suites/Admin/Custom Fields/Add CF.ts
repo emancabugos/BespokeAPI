@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>15391ae6-9efe-4715-8577-16d96f44bc3c</testSuiteGuid>
    <testCaseLink>
       <guid>c8f13e7b-8163-4fa4-bde1-8cd02191ea54</guid>
@@ -19,7 +20,7 @@
    <testCaseLink>
       <guid>7d13c248-a281-4895-9b8c-64519103d2b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -34,7 +35,7 @@
    <testCaseLink>
       <guid>c7c49545-81d0-4382-8a0a-46c3122b3a19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_CF_DataDriven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -69,5 +70,11 @@
          <value>MandatoryNonMandatory</value>
          <variableId>4a439abe-56b5-41fd-bf64-92a1148ed710</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>04dea9d1-45a5-421b-b346-a78f56f66887</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

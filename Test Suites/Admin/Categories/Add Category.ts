@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>d8494544-a068-4e59-bf34-a965791a089c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/23_redirectionCategories</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -41,7 +41,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Category 2</testDataId>
+         <testDataId>Data Files/ADMIN/Category List</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>a3b8efc9-9297-4c09-bfaf-2db894e9d4df</testDataLinkId>
@@ -71,7 +71,7 @@
    <testCaseLink>
       <guid>34c62c4d-1b08-4626-b479-781729d27733</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
