@@ -3,6 +3,15 @@
    <description></description>
    <name>DeliveryRate_AC</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Range01
+Range02
+Range03
+Range04
+Range05
+Range06
+Range07
+Range08
+Range09
+Range10</comment>
    <testCaseGuid>1ca665d0-6f51-402b-86ba-c933978c6e52</testCaseGuid>
 </TestCaseEntity>
