@@ -27,7 +27,8 @@ WebUI.comment('Basic Details')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textlabel_Listing Name'), 0)
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), 'SPOT')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), 'SPOT' + ' ' + 
+    GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
