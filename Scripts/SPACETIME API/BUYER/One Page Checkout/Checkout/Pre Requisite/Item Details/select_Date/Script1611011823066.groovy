@@ -15,9 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), '11/02/2021')
+WebUI.waitForPageLoad(1)
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/textlabel_SubTotal'))
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), '03/29/2021')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/textlabel_BookListing'))
 

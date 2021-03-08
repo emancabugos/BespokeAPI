@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f957730c-9777-4130-bd80-c8e4d91348bc</testSuiteGuid>
    <testCaseLink>
       <guid>80b4a1f8-a410-4475-8b1d-6a6452a00a44</guid>
@@ -207,7 +206,7 @@
       <guid>6e7b5544-c9f2-485e-a0b2-73929db07fe1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_COD</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_Offline</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7ab3861b-0b93-4e6d-a7fb-8c48079675ac</guid>

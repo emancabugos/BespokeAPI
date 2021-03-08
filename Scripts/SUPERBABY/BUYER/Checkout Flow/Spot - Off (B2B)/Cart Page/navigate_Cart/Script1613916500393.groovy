@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/Buyer Header/icon_Cart'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Buyer Header/button_ViewCart'), 0)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/icon_Cart'))

@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>916a2828-90ce-4e3d-84ae-1cb61a84c9e3</testSuiteGuid>
    <testCaseLink>
       <guid>8259b782-6beb-428c-bfee-aa4e4e220128</guid>
@@ -34,12 +33,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/select_Date</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b1e4a1b0-d73b-4df3-bab0-d762f0b77b63</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/select_Time</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>228108d9-10e9-4981-b73d-d1aa638b57ed</guid>

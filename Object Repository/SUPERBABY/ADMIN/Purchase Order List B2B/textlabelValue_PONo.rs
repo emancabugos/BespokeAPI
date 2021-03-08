@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='no-more-tables']/tbody/tr/td[5]/a</value>
+         <value>//div[3]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr[1]/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

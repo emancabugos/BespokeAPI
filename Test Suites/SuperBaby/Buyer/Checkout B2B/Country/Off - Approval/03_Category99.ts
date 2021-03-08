@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6e530916-e6a9-4590-b4cb-b4a5cd73ee67</testSuiteGuid>
    <testCaseLink>
       <guid>80b4a1f8-a410-4475-8b1d-6a6452a00a44</guid>
@@ -21,7 +20,7 @@
       <guid>3410f512-adb3-4f49-ace5-f0befdd9184a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Homepage/search_Category100</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Homepage/search_Category99</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e186a5db-e0d6-441c-b774-afe378f948d7</guid>
@@ -250,6 +249,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsSeller</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a44020f0-d62c-415c-895f-b6891df7da22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/change_OrderStatusDelivered</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>25bb61fd-40b8-4e1a-ad1d-7fd581e98f77</guid>
