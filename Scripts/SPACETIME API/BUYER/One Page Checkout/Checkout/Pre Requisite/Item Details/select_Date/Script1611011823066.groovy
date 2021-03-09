@@ -14,8 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), '11/02/2021')
+WebUI.delay(1)
+
+WebUI.clearText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), '03/02/2021')
 
 WebUI.delay(1)
 
