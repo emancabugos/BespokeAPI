@@ -19,19 +19,13 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_Ad
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/Variants/var1'))
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var1'), '', false)
-
-WebUI.click(findTestObject('CONSUMER/Item Details Page/Variants/textlabel_SubTotal'))
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var1'), 'Red', false)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/Variants/var2'))
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var2'), '', false)
-
-WebUI.click(findTestObject('CONSUMER/Item Details Page/Variants/textlabel_SubTotal'))
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var2'), 'Medium', false)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/Variants/var3'))
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var3'), '', false)
-
-WebUI.click(findTestObject('CONSUMER/Item Details Page/Variants/textlabel_SubTotal'))
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Item Details Page/Variants/var3'), 'Plastic', false)
 

@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5994e352-c7d6-4749-9a96-4fd7988d2c0d</testSuiteGuid>
    <testCaseLink>
       <guid>80b4a1f8-a410-4475-8b1d-6a6452a00a44</guid>
@@ -21,13 +20,7 @@
       <guid>3410f512-adb3-4f49-ace5-f0befdd9184a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Homepage/search_CategoryZeroBulkP</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>269d9b58-fb61-44f9-933c-23dadd22cb75</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Homepage/search_CategoryOneBSurVar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e186a5db-e0d6-441c-b774-afe378f948d7</guid>
@@ -36,10 +29,16 @@
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Search Result Page/click_SearchedItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>4a3231e1-beef-4377-8d69-c09a93fd33af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Item Details/select_varopt1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>52282228-0d84-4566-8916-6ba27f49e10d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Item Details/computation_SubTotalBulkPrice</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Item Details/computation_withVariants</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b954b06f-7d6d-46ff-861e-919d497954d1</guid>
@@ -256,6 +255,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsSeller</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>11e9afa3-d653-4f92-913f-c8da0462d0e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/change_OrderStatusAck</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b3055c6d-53ce-4f6f-9c60-f380bea13e3f</guid>

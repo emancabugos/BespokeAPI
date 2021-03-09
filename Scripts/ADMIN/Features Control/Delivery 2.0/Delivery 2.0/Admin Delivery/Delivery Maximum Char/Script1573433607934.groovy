@@ -216,6 +216,8 @@ WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliv
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
 
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option/a_Save'))
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/button_Add Delivery Option'), 0)
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)

@@ -4,6 +4,16 @@
    <name>textfield_DeliveryRateName</name>
    <tag></tag>
    <elementGuidId>e2f2857b-c767-4e65-a627-5e6cb9a715c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'rate_name' and @id = 'rate_name' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

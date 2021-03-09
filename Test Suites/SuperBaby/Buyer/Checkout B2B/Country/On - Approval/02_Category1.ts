@@ -365,6 +365,12 @@
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsSeller</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>64e1f771-b870-4dbe-85ab-d97a22c276cd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/change_OrderStatusAck</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>951719b7-af81-4274-8ef6-ffe409044fcb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
