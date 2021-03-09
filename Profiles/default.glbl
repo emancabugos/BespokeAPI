@@ -11,7 +11,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'0308bespoke3'</initValue>
+=======
+      <initValue>'1214stlivesmoke'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +50,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
+<<<<<<< HEAD
       <initValue>'0308bespoke3.staging.arcadier.io/admin'</initValue>
+=======
+      <initValue>'1214stlivesmoke.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +84,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'buyerapril05'</initValue>
+=======
+      <initValue>'buyerapril01'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

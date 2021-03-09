@@ -99,7 +99,7 @@
       <guid>28117468-4d44-40dc-ac0c-f7ca13beafed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2B/Var/Variants</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2B/Var/Variants Ctry Level</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c0c9ff4e-cafb-4be2-a3f2-1efb3cc23f3a</guid>

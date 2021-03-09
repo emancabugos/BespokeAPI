@@ -6,7 +6,7 @@
    <UUID>45d15aa1-a557-4bae-a05b-b2c7f6bdc702</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Katalon\BespokeAPI\BespokeAPI.prj</projectFileLocation>
+   <projectFileLocation>C:\katalon\BespokeAPI\BespokeAPI.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

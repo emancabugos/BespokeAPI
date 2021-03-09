@@ -24,7 +24,7 @@
       <testCaseId>Test Cases/CONSUMER/Cart/a_navigateToCart</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>7d792e41-2cac-4d0e-8a25-30dca6ba3e66</id>
+         <id>b42bf5a2-e1b1-4465-8a6e-adc54d0e3471</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -32,15 +32,15 @@
          <testDataId>Data Files/CONSUMER/Cart</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>7d792e41-2cac-4d0e-8a25-30dca6ba3e66</testDataLinkId>
+         <testDataLinkId>b42bf5a2-e1b1-4465-8a6e-adc54d0e3471</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>itemName</value>
+         <value>ItemName</value>
          <variableId>cc229d0a-6d00-472b-be91-a93c57495ac4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7d792e41-2cac-4d0e-8a25-30dca6ba3e66</testDataLinkId>
+         <testDataLinkId>b42bf5a2-e1b1-4465-8a6e-adc54d0e3471</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>itemQty</value>
+         <value>Limit</value>
          <variableId>ea785779-f0bd-40c8-ab59-ada2a8353b14</variableId>
       </variableLink>
    </testCaseLink>

@@ -40,7 +40,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Category 2</testDataId>
+         <testDataId>Data Files/ADMIN/Category List</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>a3b8efc9-9297-4c09-bfaf-2db894e9d4df</testDataLinkId>

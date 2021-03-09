@@ -28,7 +28,7 @@ WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPag
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), itemQty)
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '1')
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddToCart'))
 

@@ -27,7 +27,7 @@ WebUI.comment('Basic Details')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textlabel_Listing Name'), 0)
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), 'SPOT Variants')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), ('SPOT' + ' ') + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/icon_browse'),
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\BespokeAPI\\\\Images\\\\UN Items\\\\item5.jpg')
+WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\BespokeAPI\\\\Images\\\\UN Items\\\\item12.jpg')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0)
 
@@ -70,10 +70,6 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Variants/c
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_deliver all'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_pickup all'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.comment('Variants')
-
-WebUI.callTestCase(findTestCase('SUPERBABY/SELLER/Add Item/B2B/Var/Variants'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT_UPDATE/Location ID/a_Next'))
 
@@ -105,9 +101,21 @@ WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/SG
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/MY'), '1')
 
-WebUI.comment('Variants StocksPrice')
+WebUI.comment('Price')
 
-WebUI.callTestCase(findTestCase('SUPERBABY/SELLER/Add Item/B2B/Var/Variants PricingStock'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/PH'), '10')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/SG'), '10')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/MY'), '10')
+
+WebUI.comment('Stocks')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/Stocks/PH'), '50')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/Stocks/SG'), '50')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/Stocks/MY'), '50')
 
 WebUI.click(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/button_Add Item_bottom'), FailureHandling.CONTINUE_ON_FAILURE)
 
