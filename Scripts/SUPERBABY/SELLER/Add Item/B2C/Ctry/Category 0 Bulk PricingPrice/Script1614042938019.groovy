@@ -27,7 +27,8 @@ WebUI.comment('Basic Details')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textlabel_Listing Name'), 0)
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), 'Category 0% - Bulk Pricing (price) (3Variant options)')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), ('Category 0% - Bulk Pricing (price) (3Variant options)' + 
+    ' ') + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
@@ -78,7 +79,7 @@ WebUI.click(findTestObject('MERCHANT/Upload Item Page/Variants/checkbox_pickup a
 
 WebUI.comment('Variants')
 
-WebUI.callTestCase(findTestCase('SUPERBABY/SELLER/Add Item/B2B/Var/Variants'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SUPERBABY/SELLER/Add Item/B2B/Var/Variants Ctry Level'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT_UPDATE/Location ID/a_Next'))
 
@@ -110,17 +111,23 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk 
 
 WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editPH'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 0)
 
 WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editSG'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 0)
 
 WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.comment('MOQ')
 
@@ -132,7 +139,7 @@ WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/MY
 
 WebUI.comment('Variants StocksPrice')
 
-WebUI.callTestCase(findTestCase('SUPERBABY/SELLER/Add Item/B2B/Var/Variants PricingStock'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SUPERBABY/SELLER/Add Item/B2B/Ctry/Variants Pricing Stock'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT_UPDATE/Create new Listing_Country/button_Add Item_bottom'), FailureHandling.CONTINUE_ON_FAILURE)
 
