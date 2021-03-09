@@ -7,38 +7,38 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'pull-right my-btn btn-black' and (text() = 'Save' or . = 'Save')]</value>
+         <value>//*[@onclick = 'delivery2.saveRate()' and @class = 'pull-right my-btn btn-black' and (text() = 'Save' or . = 'Save')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>delivery2.saveDeliveryMethod()</value>
+      <value>delivery2.saveRate()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pull-right my-btn btn-black</value>
+      <value>my-btn btn-black</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -169,8 +169,7 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/collapse_button
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 'Merchant Delivery 1(SGD $10.01)', 
-    false)
+WebUI.selectOptionByIndex(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_collasePay'))
 

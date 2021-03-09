@@ -27,7 +27,8 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_V
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), 'NEGO - Disc % & Charges')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), 'NEGO - Disc % & Charges' + ' ' + 
+    GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 

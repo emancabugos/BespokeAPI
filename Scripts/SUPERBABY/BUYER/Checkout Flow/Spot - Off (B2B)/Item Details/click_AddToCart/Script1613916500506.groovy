@@ -17,3 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddToCart'))
 
+WebUI.delay(2)
+

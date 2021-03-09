@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6c41d3c6-5cca-4404-b9fc-56c48b8f2b07</testSuiteGuid>
    <testCaseLink>
       <guid>80b4a1f8-a410-4475-8b1d-6a6452a00a44</guid>
@@ -87,7 +86,7 @@
       <guid>58110407-6895-457c-be8b-7f182285d835</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/One Page Requisition/select_Pickup</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/One Page Requisition/select_Delivery</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b8b7a40f-9c3b-4e95-bac5-e4ff173f1b4f</guid>
@@ -321,7 +320,7 @@
       <guid>84036c85-3d6f-4270-871d-b4d035e7116b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_Offline</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_Stripe</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>57de37de-dee7-4180-abff-13feccb34eea</guid>
@@ -364,6 +363,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsSeller</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>172574fc-0e64-4fd0-815a-b113ca4c644e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/change_OrderStatusAck</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>84f5fe95-2d11-4f80-a685-2a0af2ea6646</guid>

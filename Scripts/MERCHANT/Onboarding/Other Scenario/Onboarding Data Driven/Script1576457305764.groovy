@@ -68,6 +68,8 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_last_name')
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), varContact)
 
+WebUI.selectOptionByLabel(findTestObject('MERCHANT/User Settings/Profile/dd_country'), varCountry, false)
+
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_seller-location'), varSellerLocation)
 
 WebUI.delay(1)

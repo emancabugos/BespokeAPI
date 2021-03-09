@@ -278,7 +278,7 @@
       <guid>84036c85-3d6f-4270-871d-b4d035e7116b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_Stripe</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_COD</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cc06646-b30f-4641-8c47-002160726108</guid>

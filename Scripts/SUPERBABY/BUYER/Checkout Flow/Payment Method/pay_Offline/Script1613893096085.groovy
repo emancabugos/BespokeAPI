@@ -15,21 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.scrollToElement(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/togglebutton_Pay'), 0)
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Payment Page/dd_payment'), 0)
 
-WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/togglebutton_Pay'))
+WebUI.click(findTestObject('SUPERBABY/BUYER/Payment Page/dd_payment'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), 0)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/Payment Page/dd_payment'), 'Offline Payments', false)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.selectOptionByLabel(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), 'Offline', false)
+WebUI.click(findTestObject('SUPERBABY/BUYER/Payment Page/button_pay now'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Order Total/button_PayNow'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Transaction Complete Page/textlabel_InvoiceIDValue'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Transaction Complete Page/textlabel_TransactionComplete'), 0)
 

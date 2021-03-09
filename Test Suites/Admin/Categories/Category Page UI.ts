@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>57cc3804-107e-46ef-90e4-ac996a97d0dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ff590abc-2d5e-4d06-984a-a5994f06ecc3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category UI/UI Verification_Categories/Precondition</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7f400e6f-ece4-4f85-8e45-c24bb2c77240</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Add 1st Category</testCaseId>
    </testCaseLink>
    <testCaseLink>

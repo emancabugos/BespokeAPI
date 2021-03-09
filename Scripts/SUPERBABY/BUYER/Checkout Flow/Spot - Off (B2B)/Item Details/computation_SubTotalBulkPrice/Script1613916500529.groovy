@@ -48,6 +48,8 @@ DecimalFormat df = new DecimalFormat('#,###.00')
 
 def itemprice = WebUI.getText(findTestObject('SPACETIME API/BUYER/Item Details/textlabelvalue_ItemPrice'))
 
+itempriceTmp.text = itemprice
+
 WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '2')
 
 def qty = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 'value')

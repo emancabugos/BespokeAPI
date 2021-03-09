@@ -15,3 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/BUYER/Homepage/textfield_search'), 0)
+
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Homepage/textfield_search'), 'per Custom 150min 24/7 D')
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Homepage/button_search'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/CONSUMER/Search Result/text_serviceName'), 0)
+
+WebUI.verifyElementText(findTestObject('SPACETIME API/CONSUMER/Search Result/text_serviceName'), 'per Custom 150min 24/7 D')
+

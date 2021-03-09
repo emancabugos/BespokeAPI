@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>15391ae6-9efe-4715-8577-16d96f44bc3c</testSuiteGuid>
    <testCaseLink>
       <guid>c8f13e7b-8163-4fa4-bde1-8cd02191ea54</guid>
@@ -69,5 +70,11 @@
          <value>MandatoryNonMandatory</value>
          <variableId>4a439abe-56b5-41fd-bf64-92a1148ed710</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>04dea9d1-45a5-421b-b346-a78f56f66887</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

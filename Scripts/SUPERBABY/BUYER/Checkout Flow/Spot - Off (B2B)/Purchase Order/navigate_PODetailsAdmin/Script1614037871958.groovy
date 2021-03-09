@@ -15,9 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/menu_Transactions'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_Transactions'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/submenu_PurchaseOrder'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_PurchaseOrder'))
+
+WebUI.delay(2)
+
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order List B2B/textlabelValue_PONo'), 0)
 
 WebUI.click(findTestObject('SUPERBABY/ADMIN/Purchase Order List B2B/textlabelValue_PONo'))
-
-WebUI.waitForElementVisible(findTestObject('SUPERBABY/ADMIN/Purchase Order Details B2B/textlabelValue_PONo'), 0)
 

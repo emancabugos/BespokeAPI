@@ -15,3 +15,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/BUYER/Homepage/textfield_search'), 0)
+
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Homepage/textfield_search'), 'per Custom 150min NOT 24/7 D')
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Homepage/button_search'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/CONSUMER/Search Result/text_serviceName'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/CONSUMER/Search Result/text_serviceName'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/BUYER/Item Details/textfiled_Unit'), 0)
+
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/textfiled_Unit'), '1')
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/button_AddToCart'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/BUYER/Header/icon_cart'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Header/icon_cart'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/CONSUMER/Cart/serviceName'), 0)
+
+WebUI.verifyTextPresent('per Custom 15min NOT 24/7 D', false)
+
+WebUI.click(findTestObject('SPACETIME API/CONSUMER/Cart/icon_delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/CONSUMER/Cart/Delete Popup/btn_Okay'), 0)
+
+WebUI.click(findTestObject('SPACETIME API/CONSUMER/Cart/Delete Popup/btn_Okay'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
