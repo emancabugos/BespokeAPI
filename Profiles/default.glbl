@@ -11,11 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'1214stlivesmoke'</initValue>
-=======
-      <initValue>'0128b2bv'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'0308bespoke4'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -30,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'welcome9'</initValue>
+      <initValue>'welcome8'</initValue>
       <name>CustomPass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -50,29 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-<<<<<<< HEAD
-      <initValue>'1214stlivesmoke.arcadier.io/admin'</initValue>
-=======
-      <initValue>'b2bsinglecty.rachrah.com/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'0308bespoke4.staging.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-<<<<<<< HEAD
-      <initValue>'b2bsinglecty.rachrah.com'</initValue>
-=======
-      <initValue>'http://0128b2cvs.rachrah.com/'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'0308bespoke4.staging.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'adianaseller_01'</initValue>
-=======
-      <initValue>'b2bvar_seller01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'sellerapril02'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -92,11 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'buyerapril01'</initValue>
-=======
-      <initValue>'b2bvar_buyer01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'buyerapril02'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -137,6 +117,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
+      <name>poURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
       <name>subbuyer01</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -148,11 +133,6 @@
       <description></description>
       <initValue>''</initValue>
       <name>subbuyer03</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>poURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

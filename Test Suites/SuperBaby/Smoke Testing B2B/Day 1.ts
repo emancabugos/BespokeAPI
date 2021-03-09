@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>Admin Setup</name>
+   <name>Day 1</name>
    <tag></tag>
    <executionMode>SEQUENTIAL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
@@ -9,29 +9,29 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>URL &amp; Credentials</profileName>
+            <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Admin/Categories/Add Category</testSuiteEntity>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/SuperBaby/Smoke Testing B2B/Admin Day 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>URL &amp; Credentials</profileName>
+            <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Admin/Custom Fields/Add CF</testSuiteEntity>
+         <testSuiteEntity>Test Suites/SuperBaby/Smoke Testing B2B/Buyer Day 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>URL &amp; Credentials</profileName>
+            <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Admin/Delivery 2.0/5_Add_Delivery</testSuiteEntity>
+         <testSuiteEntity>Test Suites/SuperBaby/Smoke Testing B2B/Seller Day 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
