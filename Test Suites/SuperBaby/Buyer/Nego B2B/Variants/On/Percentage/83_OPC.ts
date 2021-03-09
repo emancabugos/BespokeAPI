@@ -9,7 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>09740259-409b-48cf-a1bd-e7cb3e63e57d</testSuiteGuid>
+   <testSuiteGuid>ca0c00c2-3893-4bf2-8347-884fcf958a16</testSuiteGuid>
    <testCaseLink>
       <guid>80b4a1f8-a410-4475-8b1d-6a6452a00a44</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -29,73 +29,61 @@
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Search Result Page/click_SearchedItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2858a965-710d-4f59-aed5-c20ee210f6f4</guid>
+      <guid>52282228-0d84-4566-8916-6ba27f49e10d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Item Details/get_Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f6153ef5-fd49-4e6b-b80b-f1235d879232</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Item Details/click_Negotiate</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6520428d-3ea6-4572-a2df-3022bcf0d0a7</guid>
+      <guid>84f388d7-abfe-46dc-aab0-32bb5ec4ba36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8cd1c473-0649-4468-bac5-55dc602eef4d</guid>
+      <guid>25679b65-54d8-43af-bc0d-7be8ab21dc44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e0d0d79-7c95-4655-b743-0bac124aafb1</guid>
+      <guid>6efec12a-ccde-4c52-b685-7fb1953e7888</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Quotation Details/navigate_Inbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e6968dd-edbc-4f36-b172-5d69d13bb15b</guid>
+      <guid>220569cd-14f9-4733-a86e-0a8adb69211e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Quotation Details/navigate_QoutationDetails</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>20038a7c-0c95-4b6f-90b4-7b4b40d44985</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Chat Details Page/click_CreatQuotation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1d990d37-4df2-45f9-a1a5-73033768efc5</guid>
+      <guid>63557db5-60a4-4fed-99e1-8b805f27e58f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Quotation Details/set_ValidityDate</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>670bf415-7fa2-441b-811a-c0c1d250245a</guid>
+      <guid>00b8c7a5-27b8-4265-9e41-42d99ca76a96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Combi Disc and Char/Percentage/83_OPercentagePC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fad1de45-c424-4db8-a293-691993fcc787</guid>
+      <guid>5b53c981-b51e-4d3d-91df-c91da431b7ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Chat Details Page/computation_Quotation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e6d9e258-4920-4d77-9c46-e32f7df0778b</guid>
+      <guid>b432be00-3f17-416a-b769-f6da16e67da2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego B2B/Chat Details Page/click_SendQuotation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0134fa5d-9624-4a8a-9aab-719ee832d8d7</guid>
+      <guid>aeb5120a-2eb7-426b-a982-43446be34684</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>

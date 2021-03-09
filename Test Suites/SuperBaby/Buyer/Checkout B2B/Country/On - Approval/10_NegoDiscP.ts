@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2d978874-2bf7-4cdf-94b1-4679375951dd</testSuiteGuid>
    <testCaseLink>
       <guid>80b4a1f8-a410-4475-8b1d-6a6452a00a44</guid>
@@ -159,7 +158,7 @@
       <guid>c86f7f1b-9f9a-4971-9d84-a7a85c99a1d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/One Page Requisition/approve_Requisition</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/One Page Requisition/reject_Requisition</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4b06c38a-57d3-443d-b7c5-38233685b4d2</guid>
@@ -198,207 +197,15 @@
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Requisition Page/verify_RequisitionDetailsPagePending</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>67a17acd-4c84-4615-be68-67c32e4c2ca6</guid>
+      <guid>26ad3c05-ed52-4dda-8fcf-3185b775cc9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/One Page Requisition/approve_Requisition</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/One Page Requisition/reject_Requisition</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>79c69976-2ff4-4273-ad0c-192102bf87c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5a81b908-ea4c-474c-8f29-bcc2a9ef91f5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>361b24bd-6d3c-4ec9-8e93-61f2e9f6d581</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Requisition Page/navigate_RequisitionOrder</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f602e3df-add4-4a30-a606-f4e4c44cb469</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Requisition Page/verify_detailsRequisitionListApprove</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7a7031cf-5b37-499d-a31e-e08426d3edb3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Requisition Page/search_RequisitionNo</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ef29ac24-39a4-46e6-a733-93f720b4d8ce</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Requisition Page/navigate_RequisitionDetailsPage</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7f1bf779-fedc-4e26-b725-25dd9ad42472</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Requisition Page/verify_RequisitionDetailsPageApprove</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a805669c-2d20-4a98-b068-e8d058ce97c4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Receiving Notes/navigate_RecevingNotes</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1a06aabc-73d7-48d6-aa72-7d1d5eac4147</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Receiving Notes/create_GoodReceipts</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4a3fec9c-2bc3-4f5b-abb4-30cfd804c002</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3bc0ca93-74d9-4ecd-8126-209393901af4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ce6f85b4-ff97-4f87-a43c-955aa4b7bf02</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Invoice/navigate_Invoice</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>904be1b1-8eeb-454f-ac39-32de1c4b7239</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Invoice/create_Invoice</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e7a3767a-84ec-4d81-b417-7a0585580a7d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ca11b5ad-9987-4b4d-89d3-4b7466e14748</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a89639ec-5f6b-492b-ad34-fc5936534d2f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Invoice/navigate_InvoiceBuyer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c31c0d62-a216-4eae-81e1-b096b75bc6c1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Invoice/verify_InvoiceList</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bacc299d-48de-4d8f-8868-73ab67ffdb0d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Invoice/pay_Invoice</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2f6559fd-23f0-4697-b4ba-ba14ca4d96b9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/verify_PaymentPage</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>84036c85-3d6f-4270-871d-b4d035e7116b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Payment Method/pay_CustomPayment</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>57c6701e-ace8-48e1-849e-276867583112</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Purchase Order List (B2B)/a_NavigateToPOList</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b2b7150b-2e4d-41dc-83eb-77cdb83e2da9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/navigate_PODetailsBuyer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c69bd98e-5cdd-4c68-9fc6-f76030697477</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsBuyer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eae49cc9-bbb5-455a-a379-d5de90a4c2cb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fcfee042-3255-4563-91c0-465d4a64a94b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4d1a5462-6d8d-46ca-93da-5ea295956bc7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/navigate_PODetailsSeller</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a8ad8498-9ed9-4ead-a05d-7db5289931b8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsSeller</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>07701e00-1449-4cc9-8859-aad15d942a52</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>31f300b6-8969-46eb-9511-67b877c3d13b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d5b77d82-3689-4d7c-adb8-4017040bcd18</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/17_clickTransactionsMenuB2B</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4f5c0665-8356-4955-83ef-5f4861354045</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/navigate_PODetailsAdmin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>68935f33-59a1-40b2-a292-235033e23a93</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Purchase Order/verify_PurchaseOrderDetailsAdmin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>55318d29-2012-4403-b6e8-2a390689449d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

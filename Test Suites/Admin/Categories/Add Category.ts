@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ce49cd14-95fa-44ff-b676-6a31b26e13fb</testSuiteGuid>
    <testCaseLink>
       <guid>210497a9-e104-4ea0-b316-3545bb80cadf</guid>
@@ -26,7 +25,7 @@
    <testCaseLink>
       <guid>2e14f925-07c9-45a0-b24c-5624dbfaeffa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Redirection</testCaseId>
    </testCaseLink>
    <testCaseLink>
