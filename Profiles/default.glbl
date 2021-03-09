@@ -111,12 +111,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'marchb2bvar.rachrah.com/merchants/invoice/list'</initValue>
       <name>invoiceURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'marchb2bvar.rachrah.com/merchants/order/history'</initValue>
       <name>poURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
