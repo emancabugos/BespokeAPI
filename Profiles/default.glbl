@@ -11,11 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'0308bespoke3'</initValue>
-=======
-      <initValue>'1214stlivesmoke'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'subadmin01'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -35,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Welcome08!'</initValue>
+      <initValue>'P@s$w0rd_20'</initValue>
       <name>GooglePass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -50,21 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-<<<<<<< HEAD
-      <initValue>'0308bespoke3.staging.arcadier.io/admin'</initValue>
-=======
-      <initValue>'1214stlivesmoke.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'0914rgkth01.staging.arcadier.io//admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'b2bsinglecty.rachrah.com'</initValue>
+      <initValue>'0610sb4.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'adianaseller_01'</initValue>
+      <initValue>'seller001'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -74,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arcadierteam@gmail.com'</initValue>
+      <initValue>'arcqatester04@gmail.com'</initValue>
       <name>GoogleMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -84,11 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'buyerapril05'</initValue>
-=======
-      <initValue>'buyerapril01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'01buyer'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -118,37 +106,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>CHANGE TO: custom, google, facebook</description>
-      <initValue>'custom'</initValue>
+      <initValue>'google'</initValue>
       <name>MerchantAccountType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'b2bsinglecty.rachrah.com/merchants/invoice/list'</initValue>
-      <name>invoiceURL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'b2bsinglecty.rachrah.com/merchants/order/history'</initValue>
-      <name>poURL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>subbuyer01</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>subbuyer02</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>subbuyer03</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>subpass</name>
+      <initValue>'superb04.rachrah.com/merchants/order/history'</initValue>
+      <name>poSeller</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

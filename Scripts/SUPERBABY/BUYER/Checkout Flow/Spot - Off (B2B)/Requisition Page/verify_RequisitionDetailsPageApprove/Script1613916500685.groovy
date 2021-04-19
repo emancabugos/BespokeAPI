@@ -70,46 +70,33 @@ File prnumTmp = tmpDir.resolve('prnum.txt').toFile()
 
 File ponumTmp = tmpDir.resolve('ponum.txt').toFile()
 
-/*WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_BillingAddress'), addressTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_BillingCity'), cityTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_BillingState'), stateTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_BillingCountry'), countryTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_BillingPostalCode'), 
-    postalcodeTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_ShippingAddress'), addressTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_ShippingCity'), cityTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_ShippingState'), stateTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_ShippingCountry'), countryTmp.text)
-
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/a_Address/value_ShippingPostalCode'), 
-    postalcodeTmp.text)*/
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_RequisitionNo'), prnumTmp.text,  FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_RequisitionNo'), prnumTmp.text, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_RequestorStatus'), 'Approved')
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textabelValue_ItemDescription'), itemnameTmp.text, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textabelValue_ItemDescription'), itemnameTmp.text, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_Quantity'), qtyTmp.text,  FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_Quantity'), qtyTmp.text, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_UnitPrice'), itempriceTmp.text,  FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_UnitPrice'), itempriceTmp.text, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_TotalPrice'), fsubtotalTmp.text, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_TotalPrice'), fsubtotalTmp.text, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_ShippingCost'), sfTmp.text,  FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_ShippingCost'), sfTmp.text, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_RequisitionOrderNo'), prnumTmp.text, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_RequisitionOrderNo'), 
+    prnumTmp.text, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_FinalTotalCost'), totalTmp.text, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_FinalTotalCost'), totalTmp.text, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-ponum = WebUI.getText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textabel_PurchaseOrderNo'))
+ponum = WebUI.getText(findTestObject('SUPERBABY/BUYER/Requisition Order Approval/textlabelValue_PurchaseOrderNo'))
 
 ponumTmp.text = ponum
 
