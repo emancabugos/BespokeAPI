@@ -102,6 +102,30 @@
       <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2B/Var/Variants Ctry Level</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>dd08ddce-314c-4bf1-b635-1fd39dc80c8a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2B/Var/ITEM DISABLE ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>176f46c1-d87c-46e5-ae11-1adc722f0450</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2B/Var/ITEM FOR DELETE ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bdf73b5d-b202-480d-b924-0eaf7284bb07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2B/Var/ITEM FOR DELETE SELLER</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21d5bd60-c0d4-4f24-87e3-11d1cdc7a1a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2B/Var/ITEM FOR DISABLE SELLER</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c0c9ff4e-cafb-4be2-a3f2-1efb3cc23f3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
