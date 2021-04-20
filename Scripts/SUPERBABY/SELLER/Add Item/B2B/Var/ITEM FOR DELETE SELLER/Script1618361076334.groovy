@@ -27,7 +27,8 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_V
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), ('Stocks' + ' ') + GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Listing Name'), ('ITEM DELETE SELLER' + 
+    ' ') + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
@@ -44,8 +45,6 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_V
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/tickbox_Negotiate_check-indicator'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.comment('Item Cover Image')
 
 WebUI.delay(2)
@@ -54,7 +53,7 @@ WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/icon_browse'),
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\BespokeAPI\\\\Images\\\\UN Items\\\\item13.jpg')
+WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\BespokeAPI\\\\Images\\\\UN Items\\\\item80.jpg')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0)
 
@@ -64,7 +63,7 @@ WebUI.delay(1)
 
 WebUI.comment('Item Description')
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Item Description'), 'Description13')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Item Description'), 'Description12')
 
 WebUI.comment('Custom Fields')
 
@@ -76,13 +75,13 @@ WebUI.comment('Price')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Price'), 0)
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Price'), '1050.1')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_Price'), '10.2')
 
 WebUI.comment('SKU')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_SKU'), 0)
 
-WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_SKU'), 'SKU013')
+WebUI.setText(findTestObject('MERCHANT_UPDATE/Create New Listing_Variants/textfield_SKU'), 'SKU012')
 
 WebUI.comment('Variants')
 
