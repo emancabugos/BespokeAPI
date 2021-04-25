@@ -72,10 +72,7 @@ WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDel
 
 WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/button_Save'))
 
-WebUI.scrollToElement(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'), 
-    0)
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'))
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
 
