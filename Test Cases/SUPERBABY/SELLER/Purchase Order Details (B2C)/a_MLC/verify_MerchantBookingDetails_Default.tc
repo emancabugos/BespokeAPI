@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_MerchantBookingDetails_Default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32db751d-f52e-4a08-8de3-84b6ee9339ff</testCaseGuid>
+</TestCaseEntity>

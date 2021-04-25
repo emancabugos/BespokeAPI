@@ -21,7 +21,7 @@ WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Quotat
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Edit Modal/textfield_SubTotal'), '50')
+WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Edit Modal/textfield_SubTotal'), '40')
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Quotation/a_Edit Modal/button_Save'))
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_MerchantBookingDetailsDefault</name>
+   <tag></tag>
+   <comment>Computation Transaction Total</comment>
+   <testCaseGuid>44f38adf-2a3d-4271-8e5f-44e701abac18</testCaseGuid>
+</TestCaseEntity>

@@ -6,15 +6,15 @@
    <elementGuidId>56a4ffe4-edb9-4d9c-9e8e-77322ce78c2d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div[1]/div[1]/div/section[3]/div/div/div[3]/table/tbody/tr[1]/td[2]/div/span[3]/span[3]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>/html/body/div[1]/div[2]/div[1]/div[1]/div/section[3]/div/div/div[3]/table/tbody/tr[1]/td[2]/span/span[3]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[10]/following::span[1]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

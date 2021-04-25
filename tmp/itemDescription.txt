@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+DESCRIPTION 01
+=======
 Description05
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git

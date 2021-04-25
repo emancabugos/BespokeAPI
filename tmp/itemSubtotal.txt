@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+10,000.00
+=======
 20.40
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
