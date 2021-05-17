@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[1]/div[2]/div/div/div/section[3]/div/div/div[1]/table/tbody/tr[3]/td/span/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div/div/div/section[3]/div/div/div[1]/table/tbody/tr[3]/td/span/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,25 +24,25 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/purchase/detail/ce37e5d2-d0e8-471a-a848-f9d88fb7ca21</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>PO49198</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box box-order-total&quot;]/div[@class=&quot;sassy-box-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;canon-table&quot;]/tbody[1]/tr[3]/td[1]/span[@class=&quot;highlight-text&quot;]/a[1]</value>
+      <value>//div[2]/div/div/div/section[3]/div/div/div[1]/table/tbody/tr[3]/td/span/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
