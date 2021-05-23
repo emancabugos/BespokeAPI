@@ -4,6 +4,12 @@
    <name>submenu_MailLog</name>
    <tag></tag>
    <elementGuidId>49e716aa-58a1-407a-87c6-422d50931061</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Email Logs' or . = 'Email Logs')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mail Log</value>
+      <value>Email Logs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
