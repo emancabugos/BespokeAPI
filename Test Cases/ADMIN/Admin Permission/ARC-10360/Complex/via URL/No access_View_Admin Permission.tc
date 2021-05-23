@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>No access_View_Admin Permission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db6a1228-521d-424d-b751-ae80e94bb029</testCaseGuid>
+</TestCaseEntity>
