@@ -351,5 +351,5 @@ WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/button_bottomS
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

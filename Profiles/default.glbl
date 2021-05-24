@@ -11,15 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'0308bespoke4'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'0308bespoke3'</initValue>
-=======
-      <initValue>'1214stlivesmoke'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'0407bpth1'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -54,33 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-<<<<<<< HEAD
-      <initValue>'0308bespoke4.staging.arcadier.io/admin'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'0308bespoke3.staging.arcadier.io/admin'</initValue>
-=======
-      <initValue>'1214stlivesmoke.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'arcstaging.rachrah.com/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-<<<<<<< HEAD
-      <initValue>'0308bespoke4.staging.arcadier.io'</initValue>
-=======
-      <initValue>'b2bsinglecty.rachrah.com'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'aprilb2bvar.rachrah.com/'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'sellerapril02'</initValue>
-=======
-      <initValue>'adianaseller_01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'dseller01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -100,15 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'buyerapril02'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'buyerapril05'</initValue>
-=======
-      <initValue>'buyerapril01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'dbuyer01'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -143,30 +111,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'marchb2bvar.rachrah.com/merchants/invoice/list'</initValue>
-=======
-      <initValue>'b2bsinglecty.rachrah.com/merchants/invoice/list'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>invoiceURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'marchb2bvar.rachrah.com/merchants/order/history'</initValue>
-=======
-      <initValue>'b2bsinglecty.rachrah.com/merchants/order/history'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>poURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'subbuyer01'</initValue>
       <name>subbuyer01</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'subbuyer02'</initValue>
       <name>subbuyer02</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -176,7 +136,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'welcome8'</initValue>
       <name>subpass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
