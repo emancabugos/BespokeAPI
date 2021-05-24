@@ -4,7 +4,17 @@
    <name>textlabelvalue_Charge</name>
    <tag></tag>
    <elementGuidId>82e5de3d-bd52-4eaf-8541-b2be8e773557</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '100.00' or . = '100.00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

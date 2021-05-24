@@ -21,5 +21,5 @@ WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Buyer Header/button_
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/icon_Cart'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/button_create Requisition'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Cart/checkbox_seller'), 0)
 

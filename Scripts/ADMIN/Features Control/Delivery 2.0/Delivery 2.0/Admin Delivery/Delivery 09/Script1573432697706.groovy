@@ -25,9 +25,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SUPERBABY/ADMIN/Admin New Sidebar/Simple/29_redirectionFeatureToggle'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/button_featureEdit'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SUPERBABY/ADMIN/Admin New Sidebar/Simple/68_redirectionDelivery'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -209,14 +207,9 @@ WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDel
 
 WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/button_Save'))
 
-WebUI.scrollToElement(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'), 
-    0)
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'))
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
-
-WebUI.click(findTestObject('ADMIN/Admin Delivery Option/a_Save'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/button_Add Delivery Option'), 0)
 

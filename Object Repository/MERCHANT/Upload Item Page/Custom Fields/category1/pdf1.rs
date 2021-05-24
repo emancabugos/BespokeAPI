@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/div[33]/div[1]/input[count(. | //input[@type = 'file']) = count(//input[@type = 'file'])]</value>
+         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/div[34]/div[1]/input[count(. | //input[@type = 'file']) = count(//input[@type = 'file'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -59,6 +59,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/div[33]/div[1]/input</value>
+      <value>/html/body/div[1]/div[2]/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/div[34]/div[1]/input</value>
    </webElementProperties>
 </WebElementEntity>

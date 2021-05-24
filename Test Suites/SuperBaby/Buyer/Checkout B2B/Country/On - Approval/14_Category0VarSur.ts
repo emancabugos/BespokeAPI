@@ -39,7 +39,7 @@
       <guid>52282228-0d84-4566-8916-6ba27f49e10d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Item Details/computation_SubTotalBulkPer</testCaseId>
+      <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot - Off (B2B)/Item Details/computation_SubTotalBulkPer_01</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b954b06f-7d6d-46ff-861e-919d497954d1</guid>

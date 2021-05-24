@@ -4,7 +4,17 @@
    <name>textlabelvalue_ShippingCost</name>
    <tag></tag>
    <elementGuidId>1e569530-45da-4fb1-82e2-5d6efc4cb4b8</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[4]/div/span[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '0.00' or . = '0.00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
