@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Review</name>
+   <tag></tag>
+   <elementGuidId>8f18e164-78e9-4d35-851a-d930144e1a19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-review_black</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-seller page-sidebar page-purchase-order-details&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/section[@class=&quot;sassy-box no-border box-order-items&quot;]/table[@class=&quot;table order-data&quot;]/tbody[1]/tr[1]/td[2]/a[1]/i[@class=&quot;icon icon-review_black&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

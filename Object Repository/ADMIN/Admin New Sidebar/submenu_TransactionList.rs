@@ -4,6 +4,12 @@
    <name>submenu_TransactionList</name>
    <tag></tag>
    <elementGuidId>40a7bce1-b57f-4b04-8d0a-99650058fe34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;transactions&quot;]/ul/li[1]/a/span[count(. | //*[(text() = 'Sales List' or . = 'Sales List')]) = count(//*[(text() = 'Sales List' or . = 'Sales List')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Transaction List</value>
+      <value>Sales List</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transactions&quot;)/ul[@class=&quot;flex-column nav pl-25&quot;]/li[@class=&quot;nav-item&quot;]/a[1]</value>
+      <value>//*[@id=&quot;transactions&quot;]/ul/li[1]/a/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

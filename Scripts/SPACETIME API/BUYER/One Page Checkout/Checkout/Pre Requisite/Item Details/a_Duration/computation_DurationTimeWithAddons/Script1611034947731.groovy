@@ -18,6 +18,37 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DecimalFormat as DecimalFormat
 import org.openqa.selenium.Keys as Keys
 import java.text.NumberFormat as NumberFormat
+import java.text.DecimalFormat as DecimalFormat
+import org.junit.After as After
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.nio.file.Files as Files
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+
+Path projectDir = Paths.get(RunConfiguration.getProjectDir())
+
+Path tmpDir = projectDir.resolve('tmp')
+
+if (!(Files.exists(tmpDir))) {
+	Files.createDirectory(tmpDir)
+}
+
+// Prepare File object
+File itempriceTmp = tmpDir.resolve('itemprice.txt').toFile()
+
+File qtyTmp = tmpDir.resolve('qty.txt').toFile()
+
+File fsubtotalTmp = tmpDir.resolve('fsubtotal.txt').toFile()
+
+File itemnameTmp = tmpDir.resolve('itemname.txt').toFile()
+
+File chargeTmp = tmpDir.resolve('charge.txt').toFile()
+
+File discountTmp = tmpDir.resolve('fsubtotal.txt').toFile()
+
+File totalTmp = tmpDir.resolve('total.txt').toFile()
 
 WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/button_AddOns'))
 
@@ -40,6 +71,8 @@ def addons = 10.01
 def fsubtotal = subtotal + addons
 
 println(df.format(new BigDecimal(fsubtotal)))
+
+fsubtotalTmp.text = fsubtotal
 
 asubtotal = WebUI.getText(findTestObject('SPACETIME API/BUYER/Item Details/textlabevalue_SubTotalPrice'))
 

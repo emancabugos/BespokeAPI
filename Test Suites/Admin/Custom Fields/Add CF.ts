@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>c8f13e7b-8163-4fa4-bde1-8cd02191ea54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7d13c248-a281-4895-9b8c-64519103d2b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUPERBABY/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

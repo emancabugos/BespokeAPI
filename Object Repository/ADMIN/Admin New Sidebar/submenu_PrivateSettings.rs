@@ -4,6 +4,12 @@
    <name>submenu_PrivateSettings</name>
    <tag></tag>
    <elementGuidId>712ed4cd-88f6-4188-87c5-dd58d59fe5e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Private Settings' or . = 'Private Settings')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Private Settings</value>
+      <value>Private Marketplace</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,6 +4,12 @@
    <name>submenu_MerchantSubAccounts</name>
    <tag></tag>
    <elementGuidId>47c34648-061e-4ecd-89db-df3b8349794e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Merchant Sub-Accounts' or . = 'Merchant Sub-Accounts')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

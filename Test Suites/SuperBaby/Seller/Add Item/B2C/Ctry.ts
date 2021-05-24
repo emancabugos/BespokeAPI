@@ -9,12 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>8b4c3f85-03e1-433d-8523-81d036d650b0</testSuiteGuid>
    <testCaseLink>
       <guid>69cd5c72-ae10-43b4-871d-39ead3581079</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -94,6 +93,30 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2C/Ctry/Category 0 Bulk PricingPrice</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bd01a1e-e87c-47c8-aadf-642546e47865</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2C/Ctry/ITEM DISABLE ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e54ae1a7-f570-43b7-98f2-b43d8b5e9064</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2C/Ctry/ITEM FOR DELETE ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68c8fbc5-b922-4061-bbe2-df6a70e3d588</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2C/Ctry/ITEM FOR DELETE SELLER</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>301121f7-64ae-421a-86d4-3a54b876e0f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SUPERBABY/SELLER/Add Item/B2C/Ctry/ITEM FOR DISABLE SELLER</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2b8615a1-841f-47b4-a21b-29d4d3c223c9</guid>

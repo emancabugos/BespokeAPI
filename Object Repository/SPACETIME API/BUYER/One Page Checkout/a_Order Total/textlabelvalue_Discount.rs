@@ -4,7 +4,17 @@
    <name>textlabelvalue_Discount</name>
    <tag></tag>
    <elementGuidId>184004fa-c5c9-4e56-920d-462d21600297</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div[1]/div[1]/div/div[3]/div/div/span[3]/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '100.00' or . = '100.00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

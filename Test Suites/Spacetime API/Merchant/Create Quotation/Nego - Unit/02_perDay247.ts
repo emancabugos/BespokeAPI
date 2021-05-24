@@ -152,6 +152,6 @@
       <guid>bf006113-7a67-4f6a-b4c9-091940b73876</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Payment Method/pay_COD</testCaseId>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Payment Method/pay_Stripe</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
