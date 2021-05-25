@@ -4,6 +4,12 @@
    <name>icon_Plugin</name>
    <tag></tag>
    <elementGuidId>250ea4ad-4a01-42b3-af10-92cb84f58604</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Plug-ins' or . = 'Plug-ins')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,11 +27,18 @@
       <value>icon icon-plugin</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mySidebar&quot;)/div[@class=&quot;setion-wrapper&quot;]/div[@class=&quot;section-sidebar&quot;]/ul[@class=&quot;section-links&quot;]/li[13]/a[1]/i[@class=&quot;icon icon-plugin&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Plug-ins</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

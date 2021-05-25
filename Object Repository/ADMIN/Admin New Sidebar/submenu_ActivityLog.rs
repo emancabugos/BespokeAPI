@@ -4,6 +4,12 @@
    <name>submenu_ActivityLog</name>
    <tag></tag>
    <elementGuidId>9d864875-68de-4148-be0c-d583caba4a59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Activity Logs' or . = 'Activity Logs')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Activity Log</value>
+      <value>Activity Logs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
