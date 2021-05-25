@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "B9446170AFFC768F9BFD1E9C77D604DB",
+  "keywordClasses": [
+    {
+      "name": "excelVerify.writeExcel",
+      "keywordMethods": [
+        {
+          "name": "getValue",
+          "parameters": [
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

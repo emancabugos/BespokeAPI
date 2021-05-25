@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "ACC062E4CBEE194CE4D46AEE66F555B2",
+  "keywordClasses": [
+    {
+      "name": "myPack.WriteToExcel",
+      "keywordMethods": [
+        {
+          "name": "demoKey1",
+          "parameters": [
+            {
+              "name": "itemName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
