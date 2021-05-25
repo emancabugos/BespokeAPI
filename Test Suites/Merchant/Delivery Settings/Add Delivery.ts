@@ -34,7 +34,7 @@
       <variableLink>
          <testDataLinkId>d284af0a-b480-43f6-a08a-cf6f551adc0d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Delivery Name</value>
+         <value>DeliveryName</value>
          <variableId>a3c9b895-104d-4b1f-89b1-b9e47d5663e0</variableId>
       </variableLink>
       <variableLink>

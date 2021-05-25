@@ -4,6 +4,12 @@
    <name>menu_Transactions</name>
    <tag></tag>
    <elementGuidId>518710f8-5419-42d7-99ea-2e4a5469dd76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sales' or . = 'Sales')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Transactions</value>
+      <value>Sales</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

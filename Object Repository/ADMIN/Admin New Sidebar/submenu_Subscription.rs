@@ -4,6 +4,12 @@
    <name>submenu_Subscription</name>
    <tag></tag>
    <elementGuidId>a0d04d2b-3d9f-4d31-9998-548c6333a13f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/subscription/index' and (text() = 'Subscriptions' or . = 'Subscriptions')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Subscription</value>
+      <value>Subscriptions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

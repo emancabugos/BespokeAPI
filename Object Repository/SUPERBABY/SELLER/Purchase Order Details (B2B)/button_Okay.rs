@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@value = 'Okay']</value>
+         <value>//*[@value = 'Okay' and @class = 'my-btn btn-saffron']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,5 +18,12 @@
       <name>value</name>
       <type>Main</type>
       <value>Okay</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-btn btn-saffron</value>
    </webElementProperties>
 </WebElementEntity>

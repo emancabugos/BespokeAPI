@@ -4,6 +4,12 @@
    <name>submenu_PurchaseOrder</name>
    <tag></tag>
    <elementGuidId>d4c204da-4c9f-4f60-9f59-74f91b81d52c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/purchaseorder/' and (text() = 'PO List' or . = 'PO List')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Purchase Order</value>
+      <value>PO List</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
