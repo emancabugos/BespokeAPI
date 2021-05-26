@@ -4,6 +4,12 @@
    <name>submenu_AdminPermission</name>
    <tag></tag>
    <elementGuidId>da71ab03-a735-4b31-8c0a-5d42d6091ec2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Admin Permissions' or . = 'Admin Permissions')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin Permission</value>
+      <value>Admin Permissions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

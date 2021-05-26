@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Creation of User Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe7e48bf-875c-42f1-93e9-d03982585593</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/diana')</defaultValue>
+      <description></description>
+      <id>f6957e90-982b-4aaf-9211-ad156b006083</id>
+      <masked>false</masked>
+      <name>FieldName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/diana')</defaultValue>
+      <description></description>
+      <id>50ff867d-1f80-4e11-8843-395571f27252</id>
+      <masked>false</masked>
+      <name>mandatoryvalue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/diana')</defaultValue>
+      <description></description>
+      <id>66eaea35-8a6c-483c-838e-86ac3da0ccd8</id>
+      <masked>false</masked>
+      <name>UserType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/diana')</defaultValue>
+      <description></description>
+      <id>0bda949f-022b-4d16-bc9b-1d9e498c4ac9</id>
+      <masked>false</masked>
+      <name>availtopub</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/diana')</defaultValue>
+      <description></description>
+      <id>2b41f231-3eea-4a52-a51f-66c4eb621602</id>
+      <masked>false</masked>
+      <name>FieldType</name>
+   </variable>
+</TestCaseEntity>

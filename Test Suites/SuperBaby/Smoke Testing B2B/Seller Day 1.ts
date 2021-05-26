@@ -14,97 +14,97 @@
    <testCaseLink>
       <guid>26bad7d9-f931-4e91-94a4-4b85e829c0f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33496</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a150a78d-c647-4717-a5c9-8d77fb9d374a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33497</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6f066dd0-6bf6-4325-9eb3-0e65c64e6a49</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33498</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ff1ce499-27a3-4639-9273-9213025eff96</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33499</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7c17293f-14d9-42e1-b99e-ca26d5b461a1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33500</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3c1935ea-8c1a-4846-addd-9a678a6eb658</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33501</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e65458f6-3025-400d-8c9d-0eb312ac5718</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33502</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f4ae5762-2806-43a0-b539-5137382064ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33503</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b4e1c355-1280-437b-acb8-d5732a06d9c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33504</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3696e8b4-d7e9-44ab-a0f3-c6b03f358be6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33505</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4334f854-465c-4a52-b268-8c4d8ef75d4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33506</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aba57599-e78b-49bf-9f53-26b08787148a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33507</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1bdb3db8-d83e-4431-8564-f5b80bf70edb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33508</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e3f2274f-0253-404d-9c23-ecc0f26041fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33509</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d7718e19-bc69-46db-a621-32df89a6bf9f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/Merchant Sub Accounts/C33510</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fd82bc0c-bbff-4a29-896e-8d1e5cedb66b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Onboarding/Other Scenario/Onboarding Data Driven</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -188,67 +188,67 @@
    <testCaseLink>
       <guid>3db7f628-a98a-47e6-8490-5981404f2ab4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Add Item Scenario/Add Item New</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb4d67ab-9191-4c09-ab27-df8a5b41dbe2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Add Item Scenario/Basic Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e2c9e14f-d5e0-485a-bcfd-0038aadc1014</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Add Item Scenario/Description</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d44bc3f5-9763-4e8b-8dd5-4d0107577a22</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Add Item Scenario/Pricing and Stock</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>570939be-23ea-4679-87bb-a7df39674b35</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Add Item Scenario/Shipping</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2980581e-2e2b-49bc-9cad-bf86d732a449</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Add Item Scenario/Variants</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8d554869-6648-41f9-8aad-49b815588ebf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Delivery Settings/Other Scenario/Add Delivery_D1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>63385815-e098-4fa4-80b9-eb3f9d46b74e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Delivery Settings/Other Scenario/Add Delivery_D2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>51e601c0-1072-4576-8760-5903f454df38</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Delivery Settings/Other Scenario/Add Delivery_D3</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7ace9bbc-9659-4a42-ad92-de343268d553</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Delivery Settings/Other Scenario/Add Delivery_D4</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9af2e16d-cb47-4012-8942-b8241b25a67f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Delivery Settings/Other Scenario/Add Pickup</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -260,7 +260,7 @@
    <testCaseLink>
       <guid>395a37d9-1a92-4e20-9d70-41f012ef364c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/Edit Item/Edit Item Scenario/Edit Fields</testCaseId>
    </testCaseLink>
    <testCaseLink>

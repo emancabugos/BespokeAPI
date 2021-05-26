@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_magnifying glass</name>
+   <tag></tag>
+   <elementGuidId>afb13b5c-9c96-4036-98d3-bbad289773c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div[3]/div[2]/div/div/div/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.icon-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper pgcommsn-cat-listsec&quot;]/div[@class=&quot;panel-box&quot;]/div[@class=&quot;pgcommsn-content-top&quot;]/div[@class=&quot;pgcommsn-content-topl&quot;]/div[@class=&quot;pgcommsn-search-con&quot;]/a[1]/i[@class=&quot;icon icon-search&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[3]/div[2]/div/div/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

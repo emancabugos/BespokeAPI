@@ -3,6 +3,16 @@
    <description></description>
    <name>Stocks</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Listing Name
+Categories
+Item Service
+Item Cover Image
+Item Description
+Custom Fields
+Price
+SKU
+Variants
+Delivery Method
+Save</comment>
    <testCaseGuid>0508b852-f084-4a06-b35b-f75b7ce88d01</testCaseGuid>
 </TestCaseEntity>

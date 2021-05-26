@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//tbody[@id='tbLanguageRow']/tr[4]/td[4]/a/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[4]/td[4]/a/div[count(. | //*[(text() = 'Settings' or . = 'Settings')]) = count(//*[(text() = 'Settings' or . = 'Settings')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/div[3]/div/div[2]/div/div/table/tbody/tr[4]/td[4]/a/div</value>
+      <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[4]/td[4]/a/div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

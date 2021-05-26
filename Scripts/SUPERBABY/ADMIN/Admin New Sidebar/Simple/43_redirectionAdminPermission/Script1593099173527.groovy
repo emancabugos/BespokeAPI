@@ -23,7 +23,3 @@ WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Admi
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_AdminPermission'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Admin Permission/button_Invite Admin'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Admin Permission/button_Invite Admin'), 0)
-

@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_Transactions'), 0)
 
@@ -21,7 +22,9 @@ WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_Transactions'), Failure
 
 WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_TransactionList'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_TransactionList'), 0)
+WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_FailedTransactions'), 0)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_TransactionList'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_TransactionList'), 0)
 

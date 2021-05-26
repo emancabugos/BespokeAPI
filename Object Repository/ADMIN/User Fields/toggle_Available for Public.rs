@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>toggle_Available for Public</name>
+   <tag></tag>
+   <elementGuidId>11cd6a37-571d-45fa-98b6-13f6ce38adf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='contactForm']/div/div[9]/div[3]/div/label/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;contactForm&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;custom-field-form&quot;]/div[3]/div[@class=&quot;onoffswitch onoffswitch-blue&quot;]/label[@class=&quot;onoffswitch-label&quot;]/span[@class=&quot;onoffswitch-inner&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>onoffswitch-inner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contactForm&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;custom-field-form&quot;]/div[3]/div[@class=&quot;onoffswitch onoffswitch-blue&quot;]/label[@class=&quot;onoffswitch-label&quot;]/span[@class=&quot;onoffswitch-switch&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='contactForm']/div/div[9]/div[3]/div/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/label/span</value>
+   </webElementXpaths>
+</WebElementEntity>

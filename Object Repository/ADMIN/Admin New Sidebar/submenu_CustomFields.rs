@@ -4,6 +4,12 @@
    <name>submenu_CustomFields</name>
    <tag></tag>
    <elementGuidId>089468e3-d30f-42b3-82dd-18900ab1d117</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Custom Fields' or . = 'Custom Fields')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Custom Fields</value>
+      <value>Item Fields</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
