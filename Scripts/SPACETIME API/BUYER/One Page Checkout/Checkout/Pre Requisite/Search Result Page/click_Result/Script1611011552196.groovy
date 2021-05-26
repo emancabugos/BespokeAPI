@@ -19,5 +19,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/result_Search'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), 0)
 

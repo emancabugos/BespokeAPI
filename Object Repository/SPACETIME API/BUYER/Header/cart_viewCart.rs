@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'cart-spacetime.html' and (text() = ' View Cart ' or . = ' View Cart ')]</value>
+         <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/ul/li[4]/div[1]/div[2]/a[count(. | //a[@href = 'cart-spacetime.html' and @class = 'btn-view-cart' and (text() = ' View Cart ' or . = ' View Cart ')]) = count(//a[@href = 'cart-spacetime.html' and @class = 'btn-view-cart' and (text() = ' View Cart ' or . = ' View Cart ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>cart-spacetime.html</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -41,10 +41,10 @@
       <value> View Cart </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-cart cart-variant&quot;]/div[@class=&quot;header mod&quot;]/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-extramenus hide-mobile&quot;]/ul[1]/li[@class=&quot;h-cart&quot;]/div[@class=&quot;h-dd-menu h-cart-menu hide-me&quot;]/div[@class=&quot;h-cart-bot&quot;]/a[@class=&quot;btn-view-cart&quot;]</value>
+      <value>/html/body/div[1]/div[1]/div[1]/div/div/ul/li[1]/ul/li[4]/div[1]/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

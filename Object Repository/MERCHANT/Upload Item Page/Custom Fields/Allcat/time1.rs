@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[1]/div[3]/div[2]/div[2]/div[3]/div/div[32]/div/div[2]/input[count(. | //input[@data-name = 'SP_Date / Time_Off_M1']) = count(//input[@data-name = 'SP_Date / Time_Off_M1'])]</value>
+         <value>//input[@data-name = 'SP_Date / Time_Off_M1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -69,7 +69,7 @@
       <value>datepicker-txt timepicker required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

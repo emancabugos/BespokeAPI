@@ -107,8 +107,8 @@ if (itemVariants == 'yes') {
     def itemQuantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/Variants/textbox_quantity'), 'value')
 
     def price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/Variants/textlabel_itemPrice'))
-	
-	itemPriceTmp.text = price
+
+    itemPriceTmp.text = price
 
     def quantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/Variants/textbox_quantity'), 'value')
 
@@ -125,8 +125,8 @@ if (itemVariants == 'yes') {
     def itemQuantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 'value')
 
     def price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_itemPrice'))
-	
-	itemPriceTmp.text = price
+
+    itemPriceTmp.text = price
 
     def quantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), 'value')
 
@@ -153,7 +153,7 @@ WebUI.click(findTestObject('CONSUMER/Cart/checkbox_seller'))
 
 String subtotalTmp = itemSubtotalTmp.text.trim()
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Cart/textlabel_subtotalValue'), subtotalTmp)
+WebUI.verifyElementText(findTestObject('CONSUMER/Cart/textlabel_subtotalValue'), subtotalTmp, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_CartPayNow'), 0)
 
@@ -169,13 +169,13 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/One Page Requisition/collapse_button
 
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), delMethod, false)
+WebUI.selectOptionByIndex(findTestObject('SUPERBABY/BUYER/One Page Requisition/dropdown_ShippingMethod'), 1, , FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_collasePay'))
 
 WebUI.comment('Get Global Variable')
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'), subtotalTmp)
+WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_SubTotal'), subtotalTmp, FailureHandling.CONTINUE_ON_FAILURE)
 
 def discount = WebUI.getText(findTestObject('SUPERBABY/BUYER/One Page Requisition/textlabelValue_Discount'))
 

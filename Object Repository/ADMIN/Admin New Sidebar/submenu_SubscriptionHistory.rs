@@ -4,6 +4,12 @@
    <name>submenu_SubscriptionHistory</name>
    <tag></tag>
    <elementGuidId>fe8d7913-f683-4be0-83e1-8f20fede303e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Subscription Invoices' or . = 'Subscription Invoices')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Subscription History</value>
+      <value>Subscription Invoices</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

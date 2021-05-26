@@ -15,5 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/textfield_DurationWithTime'), '2')
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/textfield_DurationWithTime'), '1')
 

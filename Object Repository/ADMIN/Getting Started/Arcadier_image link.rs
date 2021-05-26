@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/div[1]/a/img</value>
+      <value>id(&quot;mySidebar&quot;)/div[@class=&quot;main-logo&quot;]/a[1]/img[@class=&quot;full-logo&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

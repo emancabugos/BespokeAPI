@@ -15,7 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Quotation/datepicker_ValidDate'), '22/12/2021 - 23/12/2021')
+=======
+WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Quotation/datepicker_ValidDate'), '22/03/2021 - 23/03/202')
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 
 WebUI.delay(1)
 

@@ -4,7 +4,17 @@
    <name>textlabel_SubTotal_1</name>
    <tag></tag>
    <elementGuidId>07175c7a-5c05-487e-b2c9-f89a50fc142c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div/section[1]/div/div/div[3]/table/tbody/tr[1]/td[2]/div/span[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' SGD $ 50.00' or . = ' SGD $ 50.00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

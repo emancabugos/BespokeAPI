@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='transaction-content']/div/div[3]/section/table/tbody/tr/td[3]/div/span[3]</value>
+         <value>//div[3]/div[2]/div/div[2]/div/div[3]/section/table/tbody/tr/td[3]/div/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

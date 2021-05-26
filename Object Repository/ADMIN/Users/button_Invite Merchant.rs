@@ -4,6 +4,12 @@
    <name>button_Invite Merchant</name>
    <tag></tag>
    <elementGuidId>97d98236-6ed2-4de2-a028-c39c2286f9bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;no-sub-title&quot;]/div[2]/div[3]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>#InviteSellerDemo</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -45,11 +51,11 @@
             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;no-sub-title&quot;)/div[@class=&quot;right-btns&quot;]/div[@class=&quot;btn-demo-seller&quot;]</value>
+      <value>//*[@id=&quot;no-sub-title&quot;]/div[2]/div[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

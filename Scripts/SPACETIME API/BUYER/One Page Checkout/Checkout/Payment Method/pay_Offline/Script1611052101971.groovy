@@ -25,7 +25,8 @@ WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown
 
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), 'Offline', false)
+WebUI.selectOptionByLabel(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), 'Offline Payments', 
+    false)
 
 WebUI.delay(2)
 

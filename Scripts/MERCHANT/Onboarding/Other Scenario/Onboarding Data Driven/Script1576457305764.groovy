@@ -30,10 +30,6 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), 0)
 
-WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'))
-
-WebUI.waitForElementNotVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
-
 WebUI.click(findTestObject('MERCHANT/Landing Page/textlink_be_a_seller'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
@@ -43,8 +39,6 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_usern
 WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), varUsername)
 
 WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), 'welcome8')
-
-WebUI.callTestCase(findTestCase('Utilities/Accept Cookies'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 
@@ -73,6 +67,8 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_first_name'
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_last_name'), varLname)
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), varContact)
+
+WebUI.selectOptionByLabel(findTestObject('MERCHANT/User Settings/Profile/dd_country'), varCountry, false)
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_seller-location'), varSellerLocation)
 

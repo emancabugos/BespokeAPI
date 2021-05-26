@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Category 0 Wsurcharge (3Variant options)</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Item Service
+Item Cover Image
+Item Description
+Custom Fields
+Price
+SKU
+Variants
+Delivery Method
+Save</comment>
+   <testCaseGuid>9299ad22-96fb-4a70-b3a6-3da2a7ff167a</testCaseGuid>
+</TestCaseEntity>

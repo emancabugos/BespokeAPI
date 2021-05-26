@@ -12,6 +12,12 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3d30eb9e-ca47-4502-b02c-1e4e587c44f1</testSuiteGuid>
    <testCaseLink>
+      <guid>c61e9453-cde7-4bef-af05-dafb8bf2c7f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>72b49d32-286a-4bb4-9272-0a339d603cfb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -20,7 +26,7 @@
    <testCaseLink>
       <guid>cc249c98-80ee-4de3-9983-9a22a4f87bc7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/MERCHANT/Delivery Settings/Delivery Settings UI/Redirection</testCaseId>
    </testCaseLink>
    <testCaseLink>

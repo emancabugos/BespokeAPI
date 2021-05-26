@@ -9,12 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>fbd91f59-f0b4-40ef-bf18-d018bf911326</testSuiteGuid>
    <testCaseLink>
       <guid>2c0dad5f-c607-4ec8-87da-28f47e02ae2c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Spot Checkout (B2C Var)/01_checkoutItem</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,7 +64,7 @@
    <testCaseLink>
       <guid>77cb9ca2-a7de-4496-8c5e-35e215cbca26</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUPERBABY/BUYER/Checkout Flow/Nego Checkout (B2C Var)/01_checkoutItemNego</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

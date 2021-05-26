@@ -4,7 +4,17 @@
    <name>textlabel_TotalCostFinal</name>
    <tag></tag>
    <elementGuidId>fcef5c8a-4cea-4900-bb3a-621c3dc2e8ff</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/div[2]/div/div/div/section[1]/div/div/div[3]/table/tfoot/tr[2]/td[2]/div/span[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' SGD $ 55.00' or . = ' SGD $ 55.00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

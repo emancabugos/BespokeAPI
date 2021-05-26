@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Category 1 W blank surcharge (3Variant options)</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Item Service
+Item Cover Image
+Item Description
+Custom Fields
+Price
+SKU
+Variants
+Delivery Method
+Save</comment>
+   <testCaseGuid>997fd912-268f-4181-aaf0-6613d8668153</testCaseGuid>
+</TestCaseEntity>

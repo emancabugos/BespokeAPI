@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='btnItemUpload']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'btnItemUpload' and (text() = 'Add Item' or . = 'Add Item')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

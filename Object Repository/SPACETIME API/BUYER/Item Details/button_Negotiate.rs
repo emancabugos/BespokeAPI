@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>/html/body/div[1]/div[2]/div[1]/div/div[3]/div/div[3]/div[2]</value>
+=======
+         <value>//*[@id = 'negotiate']</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
