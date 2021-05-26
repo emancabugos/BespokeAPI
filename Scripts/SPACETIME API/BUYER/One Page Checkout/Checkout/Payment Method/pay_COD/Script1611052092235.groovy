@@ -25,17 +25,6 @@ WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown
 
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), 'Custom Payment', 
-    false)
-
-WebUI.delay(2)
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), 0)
-
-WebUI.click(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2)
-
 WebUI.selectOptionByLabel(findTestObject('SPACETIME API/BUYER/One Page Checkout/a_Pay/dropdown_Pay'), 'Cash on delivery', 
     false)
 

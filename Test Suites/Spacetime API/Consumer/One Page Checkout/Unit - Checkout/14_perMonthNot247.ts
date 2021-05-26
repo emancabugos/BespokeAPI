@@ -36,6 +36,12 @@
       <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/select_Date</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>8ccec125-ef88-4cca-822c-905ae019d965</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/select_Time</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fe95c778-5208-4cb8-b17c-ebafde82d78a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

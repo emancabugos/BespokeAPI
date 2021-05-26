@@ -18,6 +18,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DecimalFormat as DecimalFormat
 import org.openqa.selenium.Keys as Keys
 import java.text.NumberFormat as NumberFormat
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
@@ -38,4 +39,6 @@ asubtotal = WebUI.getText(findTestObject('SPACETIME API/BUYER/Item Details/textl
 WebUI.verifyEqual(fsubtotal, asubtotal)
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/button_AddToCart'))
 

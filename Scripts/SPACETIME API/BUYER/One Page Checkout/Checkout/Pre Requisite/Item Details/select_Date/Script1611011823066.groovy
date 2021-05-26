@@ -23,7 +23,9 @@ WebUI.clearText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_Sele
 
 WebUI.sendKeys(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), '03/02/2021')
+WebUI.setText(findTestObject('SPACETIME API/BUYER/Item Details/datepicker_SelectDate'), '07/01/2021')
+
+WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/textlabel_SelectDate'))
 
 WebUI.delay(1)
 
