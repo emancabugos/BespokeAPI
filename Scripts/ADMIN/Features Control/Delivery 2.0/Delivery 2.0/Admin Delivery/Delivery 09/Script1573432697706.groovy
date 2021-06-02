@@ -24,6 +24,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 //WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SUPERBABY/ADMIN/Admin New Sidebar/Simple/68_redirectionDelivery'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -212,6 +213,4 @@ WebUI.delay(1)
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/button_Add Delivery Option'), 0)
-
-//WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

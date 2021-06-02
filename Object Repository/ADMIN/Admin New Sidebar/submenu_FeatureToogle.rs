@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Feature toggle' or . = 'Feature toggle')]</value>
+         <value>//span[(text() = 'Feature Toggles' or . = 'Feature Toggles')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Feature toggle</value>
+      <value>Feature Toggles</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

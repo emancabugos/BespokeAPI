@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View ON_Txn Details Page</name>
+   <tag></tag>
+   <comment>search for a transaction</comment>
+   <testCaseGuid>0578c706-e219-478c-80f3-cf4cc170e680</testCaseGuid>
+</TestCaseEntity>
