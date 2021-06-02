@@ -20,9 +20,11 @@ WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_Configur
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_Configuration'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/submenu_Delivery'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/submenu_FeatureToogle'), 0)
 
-WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_FeatureToogle'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/button_Add Delivery Option'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/button_featureEdit'), 0)
+
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/button_featureEdit'), FailureHandling.STOP_ON_FAILURE)
 

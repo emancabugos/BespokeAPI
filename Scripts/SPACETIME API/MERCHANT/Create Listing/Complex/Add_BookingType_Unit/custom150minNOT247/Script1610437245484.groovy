@@ -80,8 +80,6 @@ WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Surc
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_ADD addOns'))
 
-WebUI.comment('Location')
-
 WebUI.comment('Schedule')
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/toggle_247'))
@@ -107,6 +105,8 @@ WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_availablePi
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_availableShipping'))
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_Add Item'))
+
+WebUI.delay(5)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/text_Inventory'), 0)
 

@@ -50,7 +50,7 @@
       <guid>e1c66bcc-81f8-423f-8bff-809cafe67e7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/a_Unit and Duration/computation_UnitDurationNoTimeWithAddons</testCaseId>
+      <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Quotation/Pre Requisite/a_Unit and Duration/computation_UnitDurationNoTimeWithAddons</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>228108d9-10e9-4981-b73d-d1aa638b57ed</guid>

@@ -12,12 +12,12 @@
    <GlobalVariableEntity>
       <description></description>
 <<<<<<< HEAD
-      <initValue>'0308bespoke4'</initValue>
+      <initValue>'0531bespoke3'</initValue>
 =======
 <<<<<<< HEAD
-      <initValue>'0308bespoke3'</initValue>
+      <initValue>'0419bespoke3'</initValue>
 =======
-      <initValue>'1214stlivesmoke'</initValue>
+      <initValue>'0308bespoke4'</initValue>
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminCustom</name>
@@ -55,31 +55,31 @@
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
 <<<<<<< HEAD
-      <initValue>'0308bespoke4.staging.arcadier.io/admin'</initValue>
+      <initValue>'0531bespoke3.staging.arcadier.io/admin'</initValue>
 =======
 <<<<<<< HEAD
-      <initValue>'0308bespoke3.staging.arcadier.io/admin'</initValue>
+      <initValue>'0419bespoke3.staging.arcadier.io/admin'</initValue>
 =======
-      <initValue>'1214stlivesmoke.arcadier.io/admin'</initValue>
+      <initValue>'0308bespoke4.staging.arcadier.io/admin'</initValue>
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-<<<<<<< HEAD
-      <initValue>'0308bespoke4.staging.arcadier.io'</initValue>
-=======
-      <initValue>'b2bsinglecty.rachrah.com'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+      <initValue>'0531bespoke3.staging.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
 <<<<<<< HEAD
-      <initValue>'sellerapril02'</initValue>
+      <initValue>'sellerauto'</initValue>
 =======
-      <initValue>'adianaseller_01'</initValue>
+<<<<<<< HEAD
+      <initValue>'swena2'</initValue>
+=======
+      <initValue>'sellerapril02'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
@@ -101,13 +101,9 @@
    <GlobalVariableEntity>
       <description></description>
 <<<<<<< HEAD
+      <initValue>'bwena1'</initValue>
+=======
       <initValue>'buyerapril02'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'buyerapril05'</initValue>
-=======
-      <initValue>'buyerapril01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
@@ -143,20 +139,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'marchb2bvar.rachrah.com/merchants/invoice/list'</initValue>
-=======
-      <initValue>'b2bsinglecty.rachrah.com/merchants/invoice/list'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>invoiceURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'marchb2bvar.rachrah.com/merchants/order/history'</initValue>
-=======
-      <initValue>'b2bsinglecty.rachrah.com/merchants/order/history'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>poURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -178,5 +166,10 @@
       <description></description>
       <initValue>''</initValue>
       <name>subpass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'subadmin01'</initValue>
+      <name>subadmin</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

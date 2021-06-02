@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.comment('Basic Details')
 
@@ -86,6 +87,8 @@ WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_availablePi
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_availableShipping'))
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_Add Item'))
+
+WebUI.delay(5)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/text_Inventory'), 0)
 
