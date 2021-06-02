@@ -11,7 +11,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'0531bespoke3'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0419bespoke3'</initValue>
+=======
+      <initValue>'0308bespoke4'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +54,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
+<<<<<<< HEAD
       <initValue>'0531bespoke3.staging.arcadier.io/admin'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0419bespoke3.staging.arcadier.io/admin'</initValue>
+=======
+      <initValue>'0308bespoke4.staging.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +72,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'sellerauto'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'swena2'</initValue>
+=======
+      <initValue>'sellerapril02'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +100,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
+      <initValue>'bwena1'</initValue>
+=======
       <initValue>'buyerapril02'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

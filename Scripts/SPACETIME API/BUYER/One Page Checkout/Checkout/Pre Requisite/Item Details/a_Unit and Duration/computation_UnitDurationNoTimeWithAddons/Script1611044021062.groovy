@@ -18,6 +18,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DecimalFormat as DecimalFormat
 import org.openqa.selenium.Keys as Keys
 import java.text.NumberFormat as NumberFormat
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/button_AddOns'))
 
@@ -48,7 +49,6 @@ println(df.format(new BigDecimal(fsubtotal)))
 def addons = 10.01
 
 def fisubtotal = fsubtotal + addons
-
 
 //Convert Subtotal to String
 //String newSub = fsubtotal

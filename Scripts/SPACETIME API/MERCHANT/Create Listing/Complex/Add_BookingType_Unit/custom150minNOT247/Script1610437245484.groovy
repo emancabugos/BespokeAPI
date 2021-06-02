@@ -80,8 +80,6 @@ WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Surc
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_ADD addOns'))
 
-WebUI.comment('Location')
-
 WebUI.comment('Schedule')
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/toggle_247'))

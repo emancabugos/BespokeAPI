@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>cb2af596-0c76-4b6c-af7d-dabdca4599e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Unit/custom150min247</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

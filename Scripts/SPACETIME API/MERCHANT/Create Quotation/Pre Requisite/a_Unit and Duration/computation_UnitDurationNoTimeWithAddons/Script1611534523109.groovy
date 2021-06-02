@@ -49,7 +49,6 @@ def addons = 10.01
 
 def fisubtotal = fsubtotal + addons
 
-
 //Convert Subtotal to String
 //String newSub = fsubtotal
 //def newSubld = newSub.replace(',', '')
@@ -60,6 +59,4 @@ asubtotal = WebUI.getText(findTestObject('SPACETIME API/BUYER/Item Details/textl
 WebUI.verifyEqual(fisubtotal, asubtotal, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
-
-WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/button_AddToCart'))
 

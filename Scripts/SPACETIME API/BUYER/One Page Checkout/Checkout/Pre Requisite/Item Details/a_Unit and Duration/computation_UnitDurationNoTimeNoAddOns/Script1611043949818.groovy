@@ -18,6 +18,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DecimalFormat as DecimalFormat
 import org.openqa.selenium.Keys as Keys
 import java.text.NumberFormat as NumberFormat
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
