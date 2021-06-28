@@ -16,8 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Admin Permission/textlabel_Admin Permission'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Users/dropdown_User Type'), 0)
 
-'- insert POM for Create User New Admin Group'
-WebUI.click(findTestObject('ADMIN/User Group/Button_Create new Group'))
+WebUI.click(findTestObject('ADMIN/Users/dropdown_User Type'))
+
+WebUI.click(findTestObject('ADMIN/Users/Page_0613bpdiana/tickbox_Sub-Merchant'))
+
+WebUI.click(findTestObject('ADMIN/Users/textlabel_Date Joined'))
+
+'Select Date range'
+WebUI.setText(findTestObject(null), '')
+
+WebUI.click(findTestObject('ADMIN/Users/button_Apply'))
 

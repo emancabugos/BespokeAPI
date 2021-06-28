@@ -16,8 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Admin Permission/textlabel_Admin Permission'), 0)
-
-'- insert POM for Create User New Admin Group'
-WebUI.click(findTestObject('ADMIN/User Group/Button_Create new Group'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Users/User Detail Sub Merchant/textlabel_Sub-Merchant'), 0)
 
