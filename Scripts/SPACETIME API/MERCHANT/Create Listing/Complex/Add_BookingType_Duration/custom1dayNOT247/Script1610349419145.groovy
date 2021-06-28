@@ -103,5 +103,7 @@ WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_availableSh
 
 WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_Add Item'))
 
+WebUI.delay(5)
+
 WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/text_Inventory'), 0)
 

@@ -35,7 +35,17 @@
       <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/select_Date</testCaseId>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+      <guid>203c7a6d-4e41-4732-8c62-751477899701</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/a_Duration/input_DurationNoTime</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>228108d9-10e9-4981-b73d-d1aa638b57ed</guid>
+=======
       <guid>37064d61-0427-40e1-abef-10cb531cb4e0</guid>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Item Details/a_Duration/input_DurationNoTime</testCaseId>

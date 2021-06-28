@@ -20,7 +20,7 @@
       <guid>208297b9-7c06-4f7f-97d2-6a70cd651399</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Homepage/Duration/16_searchPer150minutesNot247</testCaseId>
+      <testCaseId>Test Cases/SPACETIME API/BUYER/One Page Checkout/Checkout/Pre Requisite/Homepage/Unit/16_searchPer150minutesNot247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>441bd6f3-1824-4c9d-821f-25fadc2d2d19</guid>

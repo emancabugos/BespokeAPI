@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a25d5f5c-db0c-4169-b7ec-ffa25bd21c19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -34,7 +34,7 @@
       <variableLink>
          <testDataLinkId>d284af0a-b480-43f6-a08a-cf6f551adc0d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DeliveryName</value>
+         <value>Delivery Name</value>
          <variableId>a3c9b895-104d-4b1f-89b1-b9e47d5663e0</variableId>
       </variableLink>
       <variableLink>

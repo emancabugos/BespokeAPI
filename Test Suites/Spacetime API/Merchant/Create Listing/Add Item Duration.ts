@@ -9,18 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>9fef8731-a7ee-4feb-b33c-eb6dc09c3314</testSuiteGuid>
    <testCaseLink>
       <guid>0ea0ec20-245f-4a02-baca-ff99c9d7acf5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a29acaa1-1a74-4b38-8e98-0faeeb03fe8e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom150min247</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -32,49 +31,49 @@
    <testCaseLink>
       <guid>485a2a82-6c6c-4c6f-8184-f903494ba347</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom150minNOT247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0deefccd-3459-495d-af0a-5a04bee75f15</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom15min247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ac639c8a-c0f1-42ad-b1a4-98a4fe401ee8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom15minNOT247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a79fc856-3a58-4b24-9c22-ff3f49ad79dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom1day247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9d95c30e-c7cf-4905-81c5-839b4a2bfadd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom1dayNOT247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b2217fa1-9af0-4e3e-82ec-1f2302869eaf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom1hr247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8fa50e93-6030-4584-8a6d-e5a40011cfd0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom1hrNOT247</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9adbdb52-3359-44d7-9a2c-d4ee4781b729</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Duration/custom1night</testCaseId>
    </testCaseLink>
    <testCaseLink>

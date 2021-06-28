@@ -9,18 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>306e6c72-38ff-4aef-b4bf-52bd44f67ac6</testSuiteGuid>
    <testCaseLink>
       <guid>8c4d66ba-786a-4ee4-bae8-11f94997e087</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cb2af596-0c76-4b6c-af7d-dabdca4599e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SPACETIME API/MERCHANT/Create Listing/Complex/Add_BookingType_Unit/custom150min247</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

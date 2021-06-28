@@ -39,5 +39,3 @@ WebUI.verifyEqual(fsubtotal, asubtotal)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SPACETIME API/BUYER/Item Details/button_AddToCart'))
-
