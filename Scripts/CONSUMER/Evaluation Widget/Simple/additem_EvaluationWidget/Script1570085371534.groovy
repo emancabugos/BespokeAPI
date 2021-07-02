@@ -28,7 +28,7 @@ WebUI.click(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '50')
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Quantity'), '2')
 
 WebUI.delay(2)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_ChatDetails_Decline</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2e83f42-30cd-4cc9-9e9c-62536a1395aa</testCaseGuid>
+</TestCaseEntity>
