@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//select[@id='per-page']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'per-page' and @id = 'per-page' and (text() = '102050100' or . = '102050100')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
