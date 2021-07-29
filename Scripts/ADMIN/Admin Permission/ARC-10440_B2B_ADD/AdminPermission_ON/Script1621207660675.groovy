@@ -19,5 +19,5 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.waitForElementPresent(findTestObject('ADMIN/Admin Permission/textlabel_Admin Permission'), 0)
 
 '- insert POM for Create User New Admin Group'
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('ADMIN/User Group/Button_Create new Group'))
 

@@ -70,7 +70,7 @@
       <variableLink>
          <testDataLinkId>d732fe50-ee84-4167-962d-0bc600afa529</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>SellerLocation</value>
+         <value>Seller Location</value>
          <variableId>5e8242da-3d15-49ce-b191-dc9c259877bd</variableId>
       </variableLink>
       <variableLink>

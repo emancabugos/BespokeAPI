@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[2]/div/div[2]/div/div/table/thead/tr/th[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Approver(s) *compulsory / veto approver is highlighted' or . = 'Approver(s) *compulsory / veto approver is highlighted')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

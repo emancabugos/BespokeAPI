@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>/html/body/div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[4]/span/a[count(. | //a[(text() = 'Save' or . = 'Save')]) = count(//a[(text() = 'Save' or . = 'Save')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[4]/span/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

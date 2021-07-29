@@ -15,5 +15,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/Approval Workflow/sidemenu_Workflow'))
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdown_menu'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdown_menu'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabel_PurchaseOrderHistory'), 
+    0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/menu_Approval'))
+
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/submenu_Workflow'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/submenu_Workflow'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Approval Workflow/text_Approval Workflow'), 0)
 

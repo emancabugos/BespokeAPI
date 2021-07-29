@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div/div/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'approver_users']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <value>Users Selected</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -46,6 +50,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main-content footer_fixed&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;sassy-box no-border&quot;]/div[@class=&quot;sassy-box-content border&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;group-add-workflow active&quot;]/div[@class=&quot;add-workflow&quot;]/div[@class=&quot;add-workflow-wrapper&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;link-group&quot;]/div[@class=&quot;form-group field-merchant selectbox l-i-i&quot;]/div[@class=&quot;advanced-select sassy-control&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>approver_users</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

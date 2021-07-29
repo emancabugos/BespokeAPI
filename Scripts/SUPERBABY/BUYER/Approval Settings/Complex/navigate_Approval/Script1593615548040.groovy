@@ -26,5 +26,11 @@ WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), F
 WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Purchase Order List (B2B)/textlabel_PurchaseOrderHistory'), 
     0)
 
-WebUI.click(findTestObject('SUPERBABY/BUYER/Approval Workflow/sidemenu_Approval'))
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/menu_Approval'))
+
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/submenu_Settings'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/submenu_Settings'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/Approval Setting/text_Approval Settings'), 0)
 

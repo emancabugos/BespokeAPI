@@ -17,9 +17,19 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('SUPERBABY/BUYER/Account List/textbox_search'), 'buyerwena')
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdown_menu'), 0)
 
-WebUI.sendKeys(findTestObject('SUPERBABY/BUYER/Account List/icon_search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Header/dropdown_menu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SUPERBABY/BUYER/Account List/row1_loginID'), 'buyerwena')
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Header/linktext_BuyerDocs'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_SubAccount'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_AccountList'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_AccountList'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 

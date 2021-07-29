@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[2]/div/div[3]/div/div[2]/a[count(. | //*[@class = 'black-bg-btn edit-area' and (text() = 'Edit' or . = 'Edit')]) = count(//*[@class = 'black-bg-btn edit-area' and (text() = 'Edit' or . = 'Edit')])]</value>
+         <value>//*[@class = 'black-bg-btn edit-area' and (text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div[2]/div/div[2]/span/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

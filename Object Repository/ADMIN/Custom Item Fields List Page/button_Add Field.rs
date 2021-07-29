@@ -7,20 +7,24 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>//a[(text() = 'Add Field' or . = 'Add Field')]</value>
+=======
+         <value>//*[@class = 'blue-btn']</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>/admin/listing/add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
