@@ -24,5 +24,9 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/submenu_Deli
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/button_edit'), 0)
+
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/button_edit'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/button_Add Delivery Option'), 0)
 

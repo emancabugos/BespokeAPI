@@ -4,6 +4,12 @@
    <name>textlabel_Delivery Rate Name (Buye</name>
    <tag></tag>
    <elementGuidId>d4e4d496-92a1-48c9-bb12-6b60bb184c5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Shipping Rate Name (Buyers will not see this)' or . = 'Shipping Rate Name (Buyers will not see this)')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delivery Rate Name (Buyers will not see this)</value>
+      <value>Shipping Rate Name (Buyers will not see this)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -27,7 +27,7 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/DeliveryO
 
 WebUI.click(findTestObject('MERCHANT/Delivery Settings/DeliveryOptions/button_Add Delivery Option'))
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/textfield_delivery option name'), 'Delivery 3')
+WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/textfield_delivery option name'), 'Merchant Delivery 3')
 
 WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/dropdown_delivers to'))
 

@@ -77,7 +77,7 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_last_name')
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), varContact)
 
-WebUI.scrollToElement(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), 0)
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Settings/dropdown_Country'), varCountry, false)
 
 WebUI.delay(1)
 

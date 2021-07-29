@@ -6,14 +6,18 @@
    <elementGuidId>ddaba2d9-a81d-41aa-b27f-921bd215dceb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Listing Name*' or . = 'Listing Name*')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='basic_tab']/div[2]/div/div/div/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
