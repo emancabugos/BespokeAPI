@@ -35,3 +35,7 @@ WebUI.verifyElementPresent(findTestObject('CONSUMER/Cart/button_Delete'), 0)
 
 WebUI.verifyElementClickable(findTestObject('CONSUMER/Cart/button_Delete'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('CONSUMER/Cart/button_Delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

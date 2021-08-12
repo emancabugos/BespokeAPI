@@ -33,3 +33,13 @@ WebUI.mouseOver(findTestObject('CONSUMER/Evaluation Table/linktext_ClearAll'), F
 
 WebUI.verifyTextPresent('You need permission to perform this action', false)
 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/button_Delete'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Table/button_Delete'), 0)
+
+WebUI.verifyElementNotClickable(findTestObject('CONSUMER/Evaluation Table/button_Delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('CONSUMER/Evaluation Table/button_Delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('You need permission to perform this action', false)
+

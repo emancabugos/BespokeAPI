@@ -25,3 +25,7 @@ WebUI.verifyElementPresent(findTestObject('SUPERBABY/BUYER/Account List/button_d
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/Account List/button_delete sub'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/Account List/button_delete sub'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

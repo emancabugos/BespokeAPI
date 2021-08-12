@@ -27,3 +27,7 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/link_AddDeliveryAd
 
 WebUI.verifyElementClickable(findTestObject('CONSUMER/Settings/link_AddDeliveryAddress'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('CONSUMER/Settings/link_AddDeliveryAddress'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

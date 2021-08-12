@@ -23,3 +23,7 @@ WebUI.verifyElementVisible(findTestObject('SUPERBABY/BUYER/Purchase Order Detail
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/Purchase Order Details (B2C)/icon_LeaveFeedback'))
 
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/Purchase Order Details (B2C)/icon_LeaveFeedback'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

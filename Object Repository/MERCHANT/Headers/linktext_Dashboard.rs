@@ -4,6 +4,12 @@
    <name>linktext_Dashboard</name>
    <tag></tag>
    <elementGuidId>ca1cd355-ec92-42e5-8c08-4c0dd36e251d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@href = '/user/marketplace/dashboard' and (text() = 'Dashboard' or . = 'Dashboard')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

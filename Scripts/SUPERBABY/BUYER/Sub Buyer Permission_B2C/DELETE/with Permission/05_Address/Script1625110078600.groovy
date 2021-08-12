@@ -29,3 +29,7 @@ WebUI.verifyElementPresent(findTestObject('CONSUMER/Settings/button_delete'), 0)
 
 WebUI.verifyElementClickable(findTestObject('CONSUMER/Settings/button_delete'))
 
+WebUI.mouseOver(findTestObject('CONSUMER/Settings/button_delete'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

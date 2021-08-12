@@ -17,7 +17,45 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('CONSUMER/Settings/Simple/navigateTo_SettingsPage'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Settings/button_Change'))
 
 WebUI.verifyElementClickable(findTestObject('CONSUMER/Settings/button_Change'))
+
+WebUI.mouseOver(findTestObject('CONSUMER/Settings/button_Change'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/User Custom Fields/upload_Admin_Image_Consum_No'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/User Custom Fields/upload_Admin_Image_Consum_No'))
+
+WebUI.mouseOver(findTestObject('CONSUMER/User Custom Fields/upload_Admin_Image_Consum_No'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/User Custom Fields/upload_Admin_Image_Consum_Yes'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/User Custom Fields/upload_Admin_Image_Consum_Yes'))
+
+WebUI.mouseOver(findTestObject('CONSUMER/User Custom Fields/upload_Admin_Image_Consum_Yes'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/User Custom Fields/upload_Admin_PDF_Consum_No'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/User Custom Fields/upload_Admin_PDF_Consum_No'))
+
+WebUI.mouseOver(findTestObject('CONSUMER/User Custom Fields/upload_Admin_PDF_Consum_No'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/User Custom Fields/upload_Admin_PDF_Consum_Yes'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/User Custom Fields/upload_Admin_PDF_Consum_Yes'))
+
+WebUI.mouseOver(findTestObject('CONSUMER/User Custom Fields/upload_Admin_PDF_Consum_Yes'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
 

@@ -41,9 +41,17 @@ WebUI.verifyElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewAddress'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewAddress'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+
 WebUI.waitForElementVisible(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewBillingAddress'), 0)
 
 WebUI.verifyElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewBillingAddress'), 0)
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewBillingAddress'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_AddNewBillingAddress'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
 

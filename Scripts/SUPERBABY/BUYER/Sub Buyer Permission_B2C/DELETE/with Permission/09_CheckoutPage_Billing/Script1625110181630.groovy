@@ -70,3 +70,7 @@ WebUI.verifyElementPresent(findTestObject('SUPERBABY/BUYER/One Page Requisition/
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_DeleteAddress'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/One Page Requisition/button_DeleteAddress'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

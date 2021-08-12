@@ -23,3 +23,7 @@ WebUI.verifyElementPresent(findTestObject('SUPERBABY/BUYER/One Requisition Page 
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_ORPPayNow'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/One Requisition Page (B2C)/button_ORPPayNow'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

@@ -15,3 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/SELLER/Seller Header/icon_Seller'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/SELLER/Seller Header/icon_Seller'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/SELLER/Seller Sidebar/icon_Documents'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_SubAccount'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_AccountList'), 0)
+
+WebUI.click(findTestObject('SUPERBABY/BUYER/Buyer Sidebar/linktext_AccountList'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+

@@ -28,3 +28,7 @@ WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/button_Com
 
 WebUI.verifyElementClickable(findTestObject('CONSUMER/Item Details Page/button_Compare'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('CONSUMER/Item Details Page/button_Compare'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

@@ -23,3 +23,7 @@ WebUI.waitForElementPresent(findTestObject('SUPERBABY/BUYER/Account List/textlin
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/Account List/textlink_Invite Buyer Sub-Account'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/Account List/textlink_Invite Buyer Sub-Account'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'mayb2cctry.rachrah.com'</initValue>
+      <initValue>'0721spacetime1.staging.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -21,3 +21,7 @@ WebUI.verifyElementVisible(findTestObject('SUPERBABY/BUYER/Quotation Details/but
 
 WebUI.verifyElementClickable(findTestObject('SUPERBABY/BUYER/Quotation Details/button_accept'))
 
+WebUI.mouseOver(findTestObject('SUPERBABY/BUYER/Quotation Details/button_accept'))
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

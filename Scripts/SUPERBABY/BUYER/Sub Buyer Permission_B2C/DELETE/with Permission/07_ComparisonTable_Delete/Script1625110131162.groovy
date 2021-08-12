@@ -29,3 +29,7 @@ WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Table/button_Dele
 
 WebUI.verifyElementClickable(findTestObject('CONSUMER/Evaluation Table/button_Delete'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.mouseOver(findTestObject('CONSUMER/Evaluation Table/button_Delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
+

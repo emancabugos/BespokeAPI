@@ -25,5 +25,7 @@ WebUI.click(findTestObject('CONSUMER/Settings/linktext_Address'), FailureHandlin
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/button_Add'), 0)
 
-WebUI.verifyElementClickable(findTestObject('CONSUMER/Settings/button_Add'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('CONSUMER/Settings/button_Add'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextNotPresent('You need permission to perform this action', false)
 
