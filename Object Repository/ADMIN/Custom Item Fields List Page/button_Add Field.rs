@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
+         <value>//a[(text() = 'Add Field' or . = 'Add Field')]</value>
+=======
          <value>//*[@class = 'blue-btn']</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

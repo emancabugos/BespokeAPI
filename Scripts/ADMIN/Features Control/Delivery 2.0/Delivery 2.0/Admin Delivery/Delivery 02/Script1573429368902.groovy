@@ -315,23 +315,7 @@ WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDel
 
 WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/button_Save'))
 
-WebUI.waitForElementNotVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryRateName'), 
-    0)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'), 
-    0)
-
-WebUI.scrollToElement(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'), 
-    0)
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryRateName'), 
-    0)
-
 WebUI.delay(1)
-
-WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'), 0)
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
 

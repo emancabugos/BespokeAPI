@@ -10,8 +10,13 @@
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
+      <description></description>
+      <initValue>'0419bespoke3'</initValue>
+=======
       <description></description>
       <initValue>'0531bespoke3'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -45,8 +50,13 @@
       <name>AdminEmailNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
+      <description>change URL/ Remove &quot;https://&quot;</description>
+      <initValue>'0419bespoke3.staging.arcadier.io/admin'</initValue>
+=======
       <description>change URL/ Remove &quot;https://&quot;</description>
       <initValue>'0531bespoke3.staging.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -55,8 +65,13 @@
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
+      <description></description>
+      <initValue>'swena2'</initValue>
+=======
       <description></description>
       <initValue>'01seller'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,8 +90,13 @@
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
+      <description></description>
+      <initValue>'bwena1'</initValue>
+=======
       <description></description>
       <initValue>'buyerapril02'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/BespokeAPI.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

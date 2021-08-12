@@ -4,6 +4,12 @@
    <name>button_Add Delivery Option</name>
    <tag></tag>
    <elementGuidId>ee3567d9-0279-4ffc-ab50-2244d977117a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Add Shipping Option' or . = 'Add Shipping Option')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add Delivery Option</value>
+      <value>Add Shipping Option</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

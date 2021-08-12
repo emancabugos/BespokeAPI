@@ -22,8 +22,6 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/a_Delivery'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/a_Delivery'))
-
 WebUI.setText(findTestObject('MERCHANT/Delivery Settings/DeliveryOptions/textbox_pickup name'), 'Pickup 1')
 
 WebUI.delay(1)
